@@ -9,27 +9,133 @@
     "File:A new saw used in the cutting of steel; interior view. Wood Wellcome V0023647.jpg",
     "File:LatheCarbideTippedTool.jpg"
   ],
-  "_exclude_words": ["locomotive", "forstner", "uganda", "bentonite", "sculpture", "missile", "carbide", "insert", "cnc", "garage"],
-  "forge": ["blacksmith forge 19th century", "blacksmith forging iron anvil", "smithy forge Victorian"],
-  "mushet": ["Robert Forester Mushet", "Mushet steel", "Robert Mushet ironmaster"],
-  "toolbit": ["lathe tool bit high speed steel", "lathe cutting tool bit", "lathe tool post tool"],
-  "lathe": ["engine lathe antique", "metal lathe 19th century", "lathe machine shop 1900s"],
-  "chips": ["metal chips lathe swarf", "steel turning chips", "swarf metal lathe"],
-  "shop": ["machine shop 19th century engraving", "machine shop interior 1890s", "machine shop line shaft belts"],
-  "quench": ["quenching steel water", "heat treatment quenching", "blacksmith quench tub"],
-  "darkhill": ["Darkhill Ironworks", "Darkhill Ironworks Forest of Dean"],
-  "forest": ["Forest of Dean", "Coleford Gloucestershire", "Forest of Dean ironworks"],
-  "bessemer": ["Henry Bessemer", "Henry Bessemer portrait"],
-  "converter": ["Bessemer converter", "Bessemer converter blowing", "Bessemer process steel"],
-  "spiegel": ["spiegeleisen", "ferromanganese", "manganese ore"],
-  "rails": ["steel rails 19th century", "Derby Midland station", "rail rolling mill 19th century"],
-  "tungsten": ["wolframite", "tungsten ore", "scheelite mineral"],
-  "taylor": ["Frederick Winslow Taylor", "Frederick W. Taylor portrait"],
-  "sheffield": ["Sheffield steel works 19th century", "Sheffield crucible steel", "Sheffield cutlery steel works"],
-  "crucible": ["crucible steel furnace", "Abbeydale crucible furnace", "crucible steel melting"],
-  "bethlehem": ["Bethlehem Steel works", "Bethlehem Steel 1890s", "Bethlehem Iron Company"],
-  "paris": ["Exposition Universelle 1900 Paris", "Paris Exposition 1900 machinery hall"],
-  "hss": ["high speed steel drill bit", "HSS twist drill", "high-speed steel tool"],
-  "drill": ["twist drill bits set", "twist drill bit", "drill bit metal"],
-  "tap": ["thread tap tool", "taps and dies", "reamer tool"]
+  "_exclude_words": [
+    "locomotive",
+    "forstner",
+    "uganda",
+    "bentonite",
+    "sculpture",
+    "missile",
+    "carbide",
+    "insert",
+    "cnc",
+    "garage",
+    "khalili",
+    "damascened",
+    "tobacconist",
+    "statelibqld",
+    "chemical set",
+    "teldec",
+    "arnold mills",
+    "wyandotte",
+    "duquesne",
+    "emporium",
+    "toronto rolling"
+  ],
+  "forge": [
+    "blacksmith forge 19th century",
+    "blacksmith forging iron anvil",
+    "smithy forge Victorian"
+  ],
+  "mushet": [
+    "Robert Forester Mushet",
+    "Mushet steel",
+    "Robert Mushet ironmaster"
+  ],
+  "toolbit": [
+    "lathe tool bit high speed steel",
+    "lathe cutting tool bit",
+    "lathe tool post tool"
+  ],
+  "lathe": [
+    "lathe 1900s machine shop",
+    "engine lathe antique",
+    "metal lathe historic photograph"
+  ],
+  "chips": [
+    "lathe turning steel",
+    "Lathe Center Drilling",
+    "metal turning lathe chips"
+  ],
+  "shop": [
+    "machine shop workers lathes 1910s",
+    "machine shop interior early 20th century photograph",
+    "factory lathes belts line shaft photograph"
+  ],
+  "quench": [
+    "blacksmith quenching",
+    "quenching hot steel",
+    "Steel 035 water quenched"
+  ],
+  "darkhill": [
+    "Darkhill Ironworks",
+    "Darkhill Ironworks Forest of Dean"
+  ],
+  "forest": [
+    "Forest of Dean",
+    "Coleford Gloucestershire",
+    "Forest of Dean ironworks"
+  ],
+  "bessemer": [
+    "Henry Bessemer",
+    "Henry Bessemer portrait"
+  ],
+  "converter": [
+    "Bessemer converter",
+    "Bessemer converter blowing",
+    "Bessemer process steel"
+  ],
+  "spiegel": [
+    "spiegeleisen",
+    "ferromanganese",
+    "manganese ore"
+  ],
+  "rails": [
+    "Bessemer steel rail",
+    "railway track 19th century photograph",
+    "Midland Railway Derby station"
+  ],
+  "tungsten": [
+    "wolframite",
+    "tungsten ore",
+    "scheelite mineral"
+  ],
+  "taylor": [
+    "Frederick Winslow Taylor",
+    "Frederick W. Taylor portrait"
+  ],
+  "sheffield": [
+    "Sheffield steel works 19th century",
+    "Sheffield crucible steel",
+    "Sheffield cutlery steel works"
+  ],
+  "crucible": [
+    "crucible steel furnace",
+    "Abbeydale crucible furnace",
+    "crucible steel melting"
+  ],
+  "bethlehem": [
+    "Bethlehem Steel works",
+    "Bethlehem Steel 1890s",
+    "Bethlehem Iron Company"
+  ],
+  "paris": [
+    "Exposition Universelle 1900 Paris",
+    "Paris Exposition 1900 machinery hall"
+  ],
+  "hss": [
+    "high speed steel drill bit",
+    "HSS twist drill",
+    "high-speed steel tool"
+  ],
+  "drill": [
+    "twist drill bits set",
+    "twist drill bit",
+    "drill bit metal"
+  ],
+  "tap": [
+    "thread tap tool",
+    "taps and dies",
+    "reamer tool"
+  ]
 }
