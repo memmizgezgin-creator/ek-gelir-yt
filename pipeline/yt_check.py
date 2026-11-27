@@ -14,6 +14,9 @@ def main():
     ch = requests.get(f"{API}/channels", params={"part": "snippet,status", "mine": "true"}, headers=h, timeout=30).json()
     for c in ch.get("items", []):
         log(f"channel {c['id']} {c['snippet']['title']} longUploads={c.get('status', {}).get('longUploadsStatus')}")
+    sr = requests.get(f"{API}/search", params={"part": "snippet", "forMine": "true", "type": "video",
+                                               "maxResults": 10}, headers=h, timeout=30).json()
+    log(f"my videos: {[(i['id']['videoId'], i['snippet']['title'][:40]) for i in sr.get('items', [])]} {sr.get('error', '')}")
     for vid in sys.argv[1:]:
         up = load_json(OUT / vid / "upload.json")
         if not up:
@@ -22,7 +25,7 @@ def main():
         r = requests.get(f"{API}/videos", params={"part": "snippet,status,contentDetails,processingDetails",
                                                    "id": up["video_id"]}, headers=h, timeout=30).json()
         if not r.get("items"):
-            log(f"{vid}: {up['video_id']} NOT FOUND on YouTube")
+            log(f"{vid}: {up['video_id']} NOT FOUND on YouTube: {str(r)[:300]}")
             continue
         v = r["items"][0]
         thumbs = v["snippet"].get("thumbnails", {})
