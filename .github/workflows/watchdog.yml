@@ -1,0 +1,39 @@
+name: watchdog
+
+# Catches the silent failure: a scheduled run that never started
+# (GitHub outage, disabled schedule, expired token). Runs daily.
+on:
+  schedule:
+    - cron: "30 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Last successful produce run
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          last=$(gh api "repos/$REPO/actions/workflows/produce.yml/runs?status=success&per_page=1" --jq '.workflow_runs[0].created_at // empty')
+          now=$(date -u +%s)
+          if [ -z "$last" ]; then
+            age_days=999
+          else
+            age_days=$(( (now - $(date -u -d "$last" +%s)) / 86400 ))
+          fi
+          echo "last success: ${last:-never}, $age_days days ago"
+          if [ "$age_days" -ge 4 ]; then
+            title="Pipeline silent: no successful video for $age_days days"
+            open=$(gh issue list -R "$REPO" --state open --label pipeline-silent --json number --jq 'length')
+            if [ "$open" = "0" ]; then
+              gh label create pipeline-silent -R "$REPO" --color D93F0B 2>/dev/null || true
+              gh issue create -R "$REPO" --label pipeline-silent --title "$title" \
+                --body "Expected 3 videos a week. Last successful produce run: ${last:-never}. Check the Actions tab."
+            fi
+          fi

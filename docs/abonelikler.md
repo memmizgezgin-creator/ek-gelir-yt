@@ -5,9 +5,8 @@ Rule: no paid service beyond the Claude Max subscription. Remaining credits may 
 | Service | Used for | Cost to this project | Status |
 |---|---|---|---|
 | Claude Max (existing) | Script writing and fact check in GitHub Actions via `CLAUDE_CODE_OAUTH_TOKEN` | Included in Max | Active once the token secret is set |
-| Hetzner server (existing) | Runs the pipeline by cron: images, TTS, render, upload | Already paid for other work, no extra cost if there is room (2 vCPU, 2 GB RAM, about 3 GB disk) | Production |
-| GitHub (existing account) | Private repo, issues as failure alerts | Free. Actions not used (account billing lock on private repos) | Active |
-| healthchecks.io | Dead-man switch: email if no successful run for 4 days | Free plan (20 checks) | Needs one-time signup |
+| GitHub (existing account) | Public repo, Actions runs, issues as failure alerts | Free: Actions minutes are unlimited on public repos | Production |
+| Hetzner server (existing) | Not used: IPv6-only, cannot reach github.com; IPv4 would cost about 0.50 EUR/month | 0 | Off |
 | Kokoro TTS | Narration | Free, open source (Apache-2.0), runs on the Actions runner | Active |
 | Wikimedia Commons API | Images with license records | Free | Active |
 | YouTube Data API v3 | Upload, thumbnail, captions | Free quota (10,000 units a day, one upload is about 1,600 + 50 + 400) | Needs one-time OAuth |
