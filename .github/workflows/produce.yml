@@ -109,6 +109,7 @@ jobs:
             out/${{ steps.topic.outputs.id }}/credits.txt
             out/${{ steps.topic.outputs.id }}/gate.json
             out/${{ steps.topic.outputs.id }}/*.srt
+            out/${{ steps.topic.outputs.id }}/preview.jpg
 
       - name: Upload to YouTube
         id: upload
@@ -131,7 +132,10 @@ jobs:
           python pipeline/next.py done ${{ steps.topic.outputs.id }} "${{ steps.upload.outputs.url }}"
           git config user.name "ek-gelir-yt bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add topics.json scripts out/${{ steps.topic.outputs.id }}/credits.* out/${{ steps.topic.outputs.id }}/gate.json out/${{ steps.topic.outputs.id }}/*.srt out/${{ steps.topic.outputs.id }}/timeline.json out/${{ steps.topic.outputs.id }}/upload.json 2>/dev/null || true
+          d=out/${{ steps.topic.outputs.id }}
+          for f in topics.json scripts $d/credits.txt $d/credits.json $d/gate.json $d/*.srt $d/timeline.json $d/preview.jpg $d/thumbnail.jpg $d/upload.json; do
+            [ -e "$f" ] && git add "$f"
+          done
           git commit -m "video ${{ steps.topic.outputs.id }} ${{ steps.topic.outputs.slug }}: produced" || echo "nothing to commit"
           git push
 

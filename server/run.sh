@@ -59,7 +59,7 @@ fi
 
 STEP=commit
 python3 pipeline/next.py done "$id" "$URL"
-git add topics.json scripts out/$id/credits.* out/$id/gate.json out/$id/*.srt out/$id/timeline.json out/$id/upload.json 2>/dev/null || true
+for f in topics.json scripts out/$id/credits.txt out/$id/credits.json out/$id/gate.json out/$id/*.srt out/$id/timeline.json out/$id/preview.jpg out/$id/thumbnail.jpg out/$id/upload.json; do [ -e "$f" ] && git add "$f"; done
 git commit -qm "video $id $slug: produced" || true
 git push -q
 

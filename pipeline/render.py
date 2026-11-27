@@ -103,6 +103,19 @@ def ken_burns_clip(frame: Path, seconds: float, variant: int, dst: Path) -> None
          "-r", str(FPS), str(dst)])
 
 
+def contact_sheet(paths: list[Path], dst: Path, cols: int = 6, tw: int = 320) -> None:
+    """Small grid of every slide, committed with the run so a human can review picks."""
+    if not paths:
+        return
+    th = tw * 9 // 16
+    rows = (len(paths) + cols - 1) // cols
+    sheet = Image.new("RGB", (cols * tw, rows * th), (0, 0, 0))
+    for i, p in enumerate(paths):
+        im = Image.open(p).resize((tw, th), Image.LANCZOS)
+        sheet.paste(im, ((i % cols) * tw, (i // cols) * th))
+    sheet.save(dst, quality=80)
+
+
 def run(cmd: list[str]) -> None:
     r = subprocess.run(cmd, capture_output=True, text=True)
     if r.returncode != 0:
@@ -163,6 +176,7 @@ def main() -> None:
             clip_list.append(c)
         log(f"render section {sec['index']}: {len(slide_frames)} slides, {dur:.1f}s")
 
+    contact_sheet(sorted(frames.glob("s*.jpg")), work / "preview.jpg")
     sources = [s.strip() for s in script.meta.get("sources", "").split("|") if s.strip()]
     ec = frames / "end-card.jpg"
     end_card(credits, sources, ec)
