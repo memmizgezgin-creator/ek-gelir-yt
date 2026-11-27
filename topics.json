@@ -355,6 +355,30 @@
       "group": "E",
       "title": "What Happened to Pneumatic Tube Networks? The Air Mail Under City Streets",
       "status": "todo"
+    },
+    {
+      "id": "051",
+      "slug": "widia-carbide",
+      "group": "R",
+      "title": "The Carbide That Cost More Than Gold and Cut Steel Five Times Faster",
+      "status": "proposed",
+      "why": "Consequence-first material story like Dustrialize 'The Invention That Turned Iron Into an Empire' (18.3x), applied to Krupp's Widia tungsten carbide."
+    },
+    {
+      "id": "052",
+      "slug": "maudslay-screw-cutting-lathe",
+      "group": "R",
+      "title": "The Lathe That Made Every Other Machine Possible",
+      "status": "proposed",
+      "why": "Machine tool as root of everything, like Machine Thinking 'The 1751 Machine that Made Everything' (9.7x) and 'Origins of Precision' (3M search views)."
+    },
+    {
+      "id": "053",
+      "slug": "wilkinson-boring-machine",
+      "group": "R",
+      "title": "Why Cannon Makers Built the Machine That Saved the Steam Engine",
+      "status": "proposed",
+      "why": "Odd-process-with-a-surprising-reason pattern like Dustrialize 'Why America Made Bullets by Dropping Molten Lead 200 Feet Down a Tower' (11.8x)."
     }
   ]
 }

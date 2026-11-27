@@ -1,0 +1,373 @@
+{
+  "date": "2026-11-27",
+  "channels": [
+    "Dustrialize (median 19,924 views over 48 long videos)",
+    "Primal Space (median 1,750,234 views over 12 long videos)",
+    "Real Engineering (median 1,112,135 views over 25 long videos)",
+    "Asianometry (median 223,834 views over 37 long videos)",
+    "Curious Droid (median 208,421 views over 49 long videos)",
+    "Practical Engineering (median 1,299,336 views over 50 long videos)",
+    "The History Guy: History Deserves to Be Remembered (median 58,423 views over 50 long videos)",
+    "Machine Thinking (median 629,358 views over 21 long videos)"
+  ],
+  "rows": [
+    {
+      "channel": "Dustrialize",
+      "title": "The Invention That Turned Iron Into an Empire — The Bessemer Converter",
+      "views": 365518,
+      "ratio": 18.3,
+      "age_days": 122,
+      "url": "https://youtu.be/ZP7jTDAHryQ"
+    },
+    {
+      "channel": "Curious Droid",
+      "title": "What Is a Neutron Bomb?",
+      "views": 3479886,
+      "ratio": 16.7,
+      "age_days": 272,
+      "url": "https://youtu.be/4Y1s9PhH7PI"
+    },
+    {
+      "channel": "Curious Droid",
+      "title": "What Happens to You 6ft from an Exploding Atomic Bomb?",
+      "views": 2791205,
+      "ratio": 13.4,
+      "age_days": 90,
+      "url": "https://youtu.be/Q77sBy-RmbI"
+    },
+    {
+      "channel": "Dustrialize",
+      "title": "Why America Made Bullets by Dropping Molten Lead 200 Feet Down a Tower — Shot Towers",
+      "views": 235159,
+      "ratio": 11.8,
+      "age_days": 75,
+      "url": "https://youtu.be/DCYj33y1xkY"
+    },
+    {
+      "channel": "The History Guy: History Deserves to Be Remembered",
+      "title": "The B-32 \"Dominator.\"",
+      "views": 578775,
+      "ratio": 9.9,
+      "age_days": 81,
+      "url": "https://youtu.be/jIaoJduStEU"
+    },
+    {
+      "channel": "Machine Thinking",
+      "title": "The 1751 Machine that Made Everything",
+      "views": 6081109,
+      "ratio": 9.7,
+      "age_days": 3179,
+      "url": "https://youtu.be/djB9oK6pkbA"
+    },
+    {
+      "channel": "Dustrialize",
+      "title": "The Floating Machines That Ate Entire Valleys — Gold Dredges",
+      "views": 143731,
+      "ratio": 7.2,
+      "age_days": 96,
+      "url": "https://youtu.be/l0s0Boh_RMQ"
+    },
+    {
+      "channel": "Curious Droid",
+      "title": "Why Does SpaceX Use 33 Engines While NASA Used Just 5?",
+      "views": 1369938,
+      "ratio": 6.6,
+      "age_days": 892,
+      "url": "https://youtu.be/okK7oSTe2EQ"
+    },
+    {
+      "channel": "Practical Engineering",
+      "title": "Why Are Beach Holes So Deadly?",
+      "views": 7218405,
+      "ratio": 5.6,
+      "age_days": 605,
+      "url": "https://youtu.be/0kQXOTcEB_E"
+    },
+    {
+      "channel": "Curious Droid",
+      "title": "How Small Can You Make a Nuclear Weapon?",
+      "views": 1168258,
+      "ratio": 5.6,
+      "age_days": 441,
+      "url": "https://youtu.be/88c-0ZI-vXU"
+    },
+    {
+      "channel": "The History Guy: History Deserves to Be Remembered",
+      "title": "A Very Odd Gangster: Monk Eastman",
+      "views": 325555,
+      "ratio": 5.6,
+      "age_days": 86,
+      "url": "https://youtu.be/gq0f4WGkEmc"
+    },
+    {
+      "channel": "HISTORY",
+      "title": "Forged in Fire: 4 EPIC Blades That WOULDN'T KEAL | History",
+      "views": 38332886,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/U38i32CpYow",
+      "search": "history of steel making"
+    },
+    {
+      "channel": "Quantum Makers",
+      "title": "This Is How The World's Strongest Anchor Chains Are Made | by @Satisfyingtech116",
+      "views": 33437789,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/AYbMOjFxPSo",
+      "search": "history of steel making"
+    },
+    {
+      "channel": "Veritasium",
+      "title": "How Japanese Masters Turn Sand Into Swords",
+      "views": 22885120,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/Tt6WQYtefXA",
+      "search": "history of steel making"
+    },
+    {
+      "channel": "Mighty Builds",
+      "title": "100 Most Dangerous And Most Powerful Machines | Ingenious Tools And Equipment EVER BUILT",
+      "views": 9107514,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/RglPFY6xh6c",
+      "search": "history of machine tools documentary"
+    },
+    {
+      "channel": "Free Documentary - Engineering",
+      "title": "Caterpillar Manufacturing: Inside the Factories Building Behemoths | FD Engineering",
+      "views": 6058602,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/6I6D3TT5Vmk",
+      "search": "history of machine tools documentary"
+    },
+    {
+      "channel": "Universe Inside You",
+      "title": "Pre-Egyptian Technology Left By an Advanced Civilization That Disappeared",
+      "views": 5581168,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/K3uiMsqptOs",
+      "search": "history of machine tools documentary"
+    },
+    {
+      "channel": "Machine Thinking",
+      "title": "Origins of Precision",
+      "views": 3045571,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/gNRnrn5DE58",
+      "search": "history of machine tools documentary"
+    },
+    {
+      "channel": "HISTORY",
+      "title": "How Steel Forged a US Empire | The Men Who Built America (S1, E3) | Full Episode | History",
+      "views": 3006819,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/EI_4QDByiW4",
+      "search": "history of steel making"
+    },
+    {
+      "channel": "Free Documentary - History",
+      "title": "War Factories | Episode 4: General Motors | Free Documentary History",
+      "views": 2431510,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/vrclztGCg6M",
+      "search": "history of machine tools documentary"
+    },
+    {
+      "channel": "HISTORY",
+      "title": "Modern Marvels: How Aluminum Built the Modern World (S13, E26) | Full Episode | History",
+      "views": 2372049,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/OU3Go05_Kxg",
+      "search": "history of steel making"
+    },
+    {
+      "channel": "History of Katana 【HOK】",
+      "title": "Forging a Katana by a Japanese Swordsmith - Full Process Unveiled",
+      "views": 2258917,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/-ECO5fkxGMs",
+      "search": "history of steel making"
+    },
+    {
+      "channel": "Lehigh Valley Public Media | PBS39",
+      "title": "Bethlehem Steel, The People Who Built America",
+      "views": 1951311,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/2QTGiHOZZFU",
+      "search": "history of steel making"
+    },
+    {
+      "channel": "Loades Of History ",
+      "title": "The Secrets of Wootz Damascus Steel",
+      "views": 1858893,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/OP8PCkcBZU4",
+      "search": "history of steel making"
+    },
+    {
+      "channel": "HISTORY",
+      "title": "Modern Marvels: The World's BIGGEST Machines (S9, E18) | Full Episode | History",
+      "views": 1776833,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/ngJGDXTiX34",
+      "search": "history of machine tools documentary"
+    },
+    {
+      "channel": "HISTORY",
+      "title": "Modern Marvels: Harvesting Technology Feeds the World (S11, E49) | Full Episode | History",
+      "views": 1776224,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/KebnHpNXV0k",
+      "search": "history of machine tools documentary"
+    },
+    {
+      "channel": "Alec Steele",
+      "title": "Forging Barrels Like It's 1718",
+      "views": 1429881,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/-nUbfJO1nW8",
+      "search": "history of steel making"
+    },
+    {
+      "channel": "cultuuramersfoort",
+      "title": "Medieval Iron Production in Holland Thijs van de Manakker - smelting ore",
+      "views": 1253763,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/F3rjjpuhCLI",
+      "search": "history of steel making"
+    },
+    {
+      "channel": "PBS Documentaries",
+      "title": "Ghost in the Machine | Full Documentary",
+      "views": 1143523,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/dLQzVLtvdv8",
+      "search": "history of machine tools documentary"
+    },
+    {
+      "channel": "Business Casual",
+      "title": "America's Forgotten Titan: George Westinghouse",
+      "views": 916120,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/8tuXdlGBbcg",
+      "search": "forgotten industrial invention"
+    },
+    {
+      "channel": "Shell",
+      "title": "Mastering Metal Machining | Shell Historical Film Archive",
+      "views": 346900,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/YinS03voTwc",
+      "search": "history of machine tools documentary"
+    },
+    {
+      "channel": "IntroBooks Education",
+      "title": "History of Industrial Revolution Documentary",
+      "views": 319858,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/pl67IhTFH9g",
+      "search": "history of machine tools documentary"
+    },
+    {
+      "channel": "Design Docs",
+      "title": "The Forgotten Movement That Invented Modern Design",
+      "views": 88129,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/8viO9Ey8EOU",
+      "search": "forgotten industrial invention"
+    },
+    {
+      "channel": "Decodificación Del Detective",
+      "title": "10 Inventions Olvidadas Del Siglo XIX Que Fueron Demasiado Avanzadas",
+      "views": 9150,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/NNNKhZS-Cl4",
+      "search": "forgotten industrial invention"
+    },
+    {
+      "channel": "uskaStudio",
+      "title": "1.5 Hours of Banned & Forgotten Inventions",
+      "views": 5763,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/1HVmZcLr5sQ",
+      "search": "forgotten industrial invention"
+    },
+    {
+      "channel": "Industrial Case Files",
+      "title": "10 Forgotten Tesla Inventions That Could’ve Changed Everything",
+      "views": 4755,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/A--QcGb3jKQ",
+      "search": "forgotten industrial invention"
+    },
+    {
+      "channel": "Dumb Historical Inventions",
+      "title": "51 Ridiculous Steam Age Industrial Inventions Rival Manufacturers Sabotaged Each Other With",
+      "views": 1900,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/pKGJZjsRLEw",
+      "search": "forgotten industrial invention"
+    },
+    {
+      "channel": "The Lustre Archive",
+      "title": "10 Lost Inventions That Would Have Changed the World Forever",
+      "views": 1894,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/D3X_nNjfuOs",
+      "search": "forgotten industrial invention"
+    },
+    {
+      "channel": "Real Story Hub\n\n",
+      "title": "The Forgotten Invention That Built America’s WWII Ships",
+      "views": 939,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/BfNuobeyLo0",
+      "search": "forgotten industrial invention"
+    },
+    {
+      "channel": "Trenches & Tears",
+      "title": "Big Industry BANNED These 15 Victorian Inventions (They're 10x Better Than Modern Machines)",
+      "views": 693,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/9jZruIB1zC4",
+      "search": "forgotten industrial invention"
+    },
+    {
+      "channel": "Vintage Technology ",
+      "title": "These 15 Forgotten Inventions Built Everything We Use Today !",
+      "views": 352,
+      "ratio": null,
+      "age_days": null,
+      "url": "https://youtu.be/dQ9KwYmX9sg",
+      "search": "forgotten industrial invention"
+    }
+  ]
+}
