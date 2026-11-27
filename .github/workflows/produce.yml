@@ -25,7 +25,7 @@ concurrency:
 jobs:
   video:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 180
     env:
       FORCE_ID: ${{ github.event.inputs.id }}
     steps:
@@ -98,13 +98,94 @@ jobs:
           git push
 
       - name: Images (Wikimedia Commons, licensed only)
-        run: python pipeline/images.py ${{ steps.topic.outputs.id }}
+        run: |
+          python pipeline/images.py ${{ steps.topic.outputs.id }}
+          python pipeline/preview_assets.py ${{ steps.topic.outputs.id }}
 
       - name: Narration (Kokoro)
-        run: python pipeline/tts.py ${{ steps.topic.outputs.id }}
+        run: |
+          python pipeline/tts.py ${{ steps.topic.outputs.id }}
+          cd pipeline && python shots.py ${{ steps.topic.outputs.id }} sentences
 
-      - name: Render
-        run: python pipeline/render.py ${{ steps.topic.outputs.id }}
+      - name: Prompts for the picture editor and the visual check
+        id: vprompts
+        run: |
+          id=${{ steps.topic.outputs.id }}
+          [ -f scripts/$id.shots.json ] && echo "shots=yes" >> "$GITHUB_OUTPUT" || echo "shots=no" >> "$GITHUB_OUTPUT"
+          for name in shots-gen shots-qa; do
+            {
+              echo "${name//-/_}<<EOP"
+              sed -e "s/{{ID}}/$id/g" prompts/$name.md
+              echo 'EOP'
+            } >> "$GITHUB_OUTPUT"
+          done
+
+      - name: Shot list (Claude, Max subscription)
+        if: steps.vprompts.outputs.shots == 'no'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: ${{ steps.vprompts.outputs.shots_gen }}
+          claude_args: >-
+            --model sonnet
+            --max-turns 80
+            --allowedTools "Read,Write,Edit,Glob,Grep"
+
+      - name: Music bed
+        run: |
+          python pipeline/music.py fetch
+          python pipeline/music.py pick ${{ steps.topic.outputs.id }}
+
+      - name: Frames (pass 1)
+        env:
+          DEEPINFRA_API_KEY: ${{ secrets.DEEPINFRA_API_KEY }}
+        run: cd pipeline && python shots.py ${{ steps.topic.outputs.id }} frames ../scripts/${{ steps.topic.outputs.id }}.shots.json
+
+      - name: Visual check (pass 1, Claude)
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: ${{ steps.vprompts.outputs.shots_qa }}
+          claude_args: >-
+            --model sonnet
+            --max-turns 80
+            --allowedTools "Read,Write,Edit,Glob,Grep"
+
+      - name: Frames (pass 2, only changed shots cost credit)
+        env:
+          DEEPINFRA_API_KEY: ${{ secrets.DEEPINFRA_API_KEY }}
+        run: cd pipeline && python shots.py ${{ steps.topic.outputs.id }} frames ../scripts/${{ steps.topic.outputs.id }}.shots.json
+
+      - name: Visual check (pass 2, Claude, final score)
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: ${{ steps.vprompts.outputs.shots_qa }}
+          claude_args: >-
+            --model sonnet
+            --max-turns 80
+            --allowedTools "Read,Write,Edit,Glob,Grep"
+
+      - name: Save shot list and visual check right away
+        run: |
+          git config --local --unset-all http.https://github.com/.extraheader || true
+          git remote set-url origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          git config user.name "ek-gelir-yt bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          id=${{ steps.topic.outputs.id }}
+          git add scripts/$id.shots.json out/$id/qa.json out/$id/shots-report.json out/$id/shots-preview.jpg 2>/dev/null || true
+          [ -f docs/learnings.md ] && git add docs/learnings.md
+          git commit -m "shots $id: shot list and visual check" || true
+          git pull --rebase -q origin main
+          git push
+
+      - name: Render (v2 shots, music, captions)
+        env:
+          DEEPINFRA_API_KEY: ${{ secrets.DEEPINFRA_API_KEY }}
+        run: |
+          id=${{ steps.topic.outputs.id }}
+          f=$(ls scripts/$id-*.md | grep -v -- '-check.md' | head -1)
+          cd pipeline && python shots.py $id render ../scripts/$id.shots.json --out ../out/$(basename "$f" .md).mp4
 
       - name: Thumbnail
         env:
@@ -153,7 +234,7 @@ jobs:
           git config user.name "ek-gelir-yt bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           d=out/${{ steps.topic.outputs.id }}
-          for f in topics.json scripts $d/credits.txt $d/credits.json $d/gate.json $d/*.srt $d/timeline.json $d/preview.jpg $d/thumbnail.jpg $d/thumb-variants $d/costs.json $d/upload.json; do
+          for f in topics.json scripts docs/learnings.md $d/music.json $d/shots-report.json $d/shots-preview.jpg $d/qa.json $d/credits.txt $d/credits.json $d/gate.json $d/*.srt $d/timeline.json $d/preview.jpg $d/thumbnail.jpg $d/thumb-variants $d/costs.json $d/upload.json; do
             [ -e "$f" ] && git add "$f"
           done
           git commit -m "video ${{ steps.topic.outputs.id }} ${{ steps.topic.outputs.slug }}: produced" || echo "nothing to commit"

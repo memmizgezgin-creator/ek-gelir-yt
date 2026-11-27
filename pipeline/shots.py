@@ -8,7 +8,12 @@ Shot types (from <script>.shots.json):
   title    illustration background with a big title
 Motion: Ken Burns on every still, 0.5 s cross-dissolves, burned-in captions.
 
-Usage: shots.py <id> <shots.json> [--out file.mp4] [--height 1080]
+Usage:
+  shots.py <id> sentences                 write out/<id>/sentences.txt for the shot director
+  shots.py <id> frames  <shots.json>      stills + numbered review sheets in out/<id>/qa/ (no encoding)
+  shots.py <id> render  <shots.json> [--out file.mp4] [--height 1080]
+A shot starts on sentence index "s" (or the sentence starting with "at") and lasts until the next shot.
+Photo shots name an exact asset "file" (or a "key", cycling its images).
 """
 from __future__ import annotations
 
@@ -42,6 +47,11 @@ def run(cmd: list[str]) -> None:
     r = subprocess.run(cmd, capture_output=True, text=True)
     if r.returncode != 0:
         fail(f"{' '.join(cmd[:6])}...: {r.stderr[-1200:]}")
+
+
+def illus_path(vid: str, prompt: str, seed: int) -> Path:
+    import hashlib
+    return ASSETS / vid / "illus" / f"{hashlib.sha1(f'{prompt}|{seed}'.encode()).hexdigest()[:12]}.jpg"
 
 
 def illustration(prompt: str, style: str, path: Path, seed: int, costs: list) -> Image.Image:
@@ -170,123 +180,240 @@ def clip(frame: Path, seconds: float, move: str, dst: Path) -> None:
          "-frames:v", str(n), "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-r", str(FPS), str(dst)])
 
 
-def main() -> None:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("vid")
-    ap.add_argument("shots")
-    ap.add_argument("--out", default="")
-    ap.add_argument("--height", type=int, default=1080)
-    args = ap.parse_args()
-    vid = args.vid
-    spec = load_json(Path(args.shots))
+MAX_SHOT_SECONDS = 9.5      # pace rule: no visual stays longer (cards may hold up to 12 s)
+MAX_CARD_SECONDS = 12.0
+MAX_FILE_REUSE = 2
+SEGMENT = 15                # clips cross-dissolved per segment, segments are joined with a cut
+
+
+def timing(spec: dict, sents: list[dict], duration: float) -> tuple[list[float], list[float]]:
+    starts, si = [], 0
+    for i, s in enumerate(spec["shots"]):
+        if "s" in s:
+            si = int(s["s"])
+            if si >= len(sents):
+                fail(f"shot {i + 1}: sentence {si} does not exist")
+        else:
+            while si < len(sents) and not sents[si]["text"].startswith(s["at"]):
+                si += 1
+            if si == len(sents):
+                fail(f"shot {i + 1}: no sentence starts with '{s['at']}'")
+        starts.append(0.0 if i == 0 else sents[si]["start"])
+    for k in range(1, len(starts)):
+        if starts[k] <= starts[k - 1]:
+            fail(f"shot {k + 1} does not start after shot {k} (check sentence order)")
+    return starts, starts[1:] + [duration]
+
+
+def frames_for(vid: str, i: int, s: dict, spec: dict, used: dict, costs: list) -> list[Image.Image]:
+    t = s["type"]
+    seed = int(s.get("seed", 2000 + i))
+    if t in ("illus", "title"):
+        img = illustration(s["prompt"], spec["style"], illus_path(vid, s["prompt"], seed), seed, costs)
+        frames = [cover(img)] if t == "illus" else [title_frame(img, s["text"])]
+    elif t == "photo":
+        if s.get("file"):
+            f = ASSETS / vid / s["file"]
+            if not f.exists():
+                fail(f"shot {i + 1}: asset {s['file']} missing")
+        else:
+            files = sorted((ASSETS / vid).glob(f"{s['key']}-*"))
+            if not files:
+                fail(f"shot {i + 1}: no images for key {s['key']}")
+            f = files[used.get(s["key"], 0) % len(files)]
+            used[s["key"]] = used.get(s["key"], 0) + 1
+        frames = [photo_frame(f)]
+        s["_file"] = f.name
+    elif t == "words":
+        frames = words_frames(s["lines"])
+    elif t == "compare":
+        frames = [compare_frame(s["title"], s["left"], s["right"])]
+    else:
+        fail(f"shot {i + 1}: unknown shot type {t}")
+    if s.get("label"):
+        frames = [label(f, s["label"]) for f in frames]
+    return frames
+
+
+def review_sheets(vid: str, items: list[tuple[int, Path, str, str]]) -> None:
+    """Numbered tiles (shot number, type, narration) for the visual QA pass."""
+    qa = OUT / vid / "qa"
+    qa.mkdir(parents=True, exist_ok=True)
+    for old in qa.glob("sheet-*.jpg"):
+        old.unlink()
+    tw, th, cols, per = 480, 270, 3, 12
+    f1, f2 = ImageFont.truetype(BOLD, 26), ImageFont.truetype(BOLD, 15)
+    for n in range(0, len(items), per):
+        chunk = items[n:n + per]
+        rows = (len(chunk) + cols - 1) // cols
+        sheet = Image.new("RGB", (cols * tw, rows * (th + 70)), (12, 12, 12))
+        d = ImageDraw.Draw(sheet)
+        for k, (idx, path, typ, text) in enumerate(chunk):
+            x, y = (k % cols) * tw, (k // cols) * (th + 70)
+            sheet.paste(Image.open(path).resize((tw - 6, th - 6)), (x + 3, y + 3))
+            d.rectangle([x + 3, y + 3, x + 110, y + 40], fill=(0, 0, 0))
+            d.text((x + 10, y + 8), f"#{idx} {typ[:5]}", font=f1, fill=(255, 210, 60))
+            words = text if len(text) < 120 else text[:117] + "..."
+            d.text((x + 6, y + th + 2), "\n".join([words[j:j + 58] for j in range(0, len(words), 58)][:3]),
+                   font=f2, fill=(220, 220, 220))
+        sheet.save(qa / f"sheet-{n // per + 1:02d}.jpg", quality=80)
+
+
+def report(vid: str, spec: dict, starts: list[float], ends: list[float]) -> dict:
+    long_shots = [i + 1 for i, (s, a, b) in enumerate(zip(spec["shots"], starts, ends))
+                  if b - a > (MAX_CARD_SECONDS if s["type"] in ("words", "compare", "title") else MAX_SHOT_SECONDS)]
+    files: dict[str, int] = {}
+    for s in spec["shots"]:
+        if s.get("_file"):
+            files[s["_file"]] = files.get(s["_file"], 0) + 1
+    reused = {f: c for f, c in files.items() if c > MAX_FILE_REUSE}
+    types: dict[str, int] = {}
+    for s in spec["shots"]:
+        types[s["type"]] = types.get(s["type"], 0) + 1
+    rep = {"shots": len(starts), "average_seconds": round((ends[-1] - starts[0]) / len(starts), 2),
+           "longest_seconds": round(max(b - a for a, b in zip(starts, ends)), 2),
+           "too_long": long_shots, "reused_too_often": reused, "types": types}
+    save_json(OUT / vid / "shots-report.json", rep)
+    log(f"shots: {rep['shots']}, average {rep['average_seconds']}s, longest {rep['longest_seconds']}s, "
+        f"too long {long_shots or 'none'}, overused {reused or 'none'}, types {types}")
+    return rep
+
+
+def write_sentences(vid: str) -> None:
+    tl = load_json(OUT / vid / "timeline.json")
+    lines = [f"{i}\t{s['start']:.1f}s\t{s['end'] - s['start']:.1f}s\tsection {s['section']}\t{s['text']}"
+             for i, s in enumerate(tl["sentences"])]
+    (OUT / vid / "sentences.txt").write_text("index\tstart\tlength\tsection\ttext\n" + "\n".join(lines) + "\n")
+    log(f"{len(lines)} sentences, {tl['duration'] / 60:.1f} min -> out/{vid}/sentences.txt")
+
+
+def build(vid: str, spec_path: Path, encode: bool, out: Path | None, height: int) -> None:
+    spec = load_json(spec_path)
     tl = load_json(OUT / vid / "timeline.json")
     sents = tl.get("sentences") or fail("timeline has no sentence timings (rerun tts.py)")
     duration = tl["duration"]
+    starts, ends = timing(spec, sents, duration)
     work = OUT / vid / "shots"
     work.mkdir(parents=True, exist_ok=True)
     costs_file = OUT / vid / "costs.json"
     costs = load_json(costs_file, {"items": []})
-
-    # 1. time every shot from the sentence it starts on
-    starts, si = [], 0
-    for i, s in enumerate(spec["shots"]):
-        while si < len(sents) and not sents[si]["text"].startswith(s["at"]):
-            si += 1
-        if si == len(sents):
-            fail(f"shot {i + 1}: no sentence starts with '{s['at']}'")
-        starts.append(0.0 if i == 0 else sents[si]["start"])
-    ends = starts[1:] + [duration]
-
-    # 2. one still per shot (or several for 'words'), then a moving clip
     used: dict[str, int] = {}
-    clips: list[Path] = []
-    sheet: list[Path] = []
+    review: list[tuple[int, Path, str, str]] = []
+    sent_at = {round(x["start"], 3): x["text"] for x in sents}
+    plan = []
     for i, (s, a, b) in enumerate(zip(spec["shots"], starts, ends)):
-        length = b - a + (XF if i < len(starts) - 1 else 0)
-        t = s["type"]
-        frames: list[Image.Image]
-        if t == "illus":
-            frames = [cover(illustration(s["prompt"], spec["style"], ASSETS / vid / f"illus-{i + 1:02d}.jpg", 2000 + i, costs["items"]))]
-        elif t == "title":
-            frames = [title_frame(illustration(s["prompt"], spec["style"], ASSETS / vid / f"illus-{i + 1:02d}.jpg", 2000 + i, costs["items"]), s["text"])]
-        elif t == "photo":
-            files = sorted((ASSETS / vid).glob(f"{s['key']}-*"))
-            if not files:
-                fail(f"shot {i + 1}: no images for key {s['key']}")
-            k = used.get(s["key"], 0)
-            used[s["key"]] = k + 1
-            frames = [photo_frame(files[k % len(files)])]
-        elif t == "words":
-            frames = words_frames(s["lines"])
-        elif t == "compare":
-            frames = [compare_frame(s["title"], s["left"], s["right"])]
-        else:
-            fail(f"unknown shot type {t}")
-        if s.get("label"):
-            frames = [label(f, s["label"]) for f in frames]
-        parts = []
+        frames = frames_for(vid, i, s, spec, used, costs["items"])
+        paths = []
         for j, fr in enumerate(frames):
-            p = work / f"f{i + 1:02d}-{j}.jpg"
+            p = work / f"f{i + 1:03d}-{j}.jpg"
             fr.save(p, quality=92)
-            sheet.append(p)
-            seg = length / len(frames)
-            c = work / f"c{i + 1:02d}-{j}.mp4"
-            clip(p, seg, "still" if t in ("words", "compare") else s.get("move", "in"), c)
-            parts.append(c)
-        if len(parts) > 1:
-            lst = work / f"c{i + 1:02d}.txt"
-            lst.write_text("".join(f"file '{p.name}'\n" for p in parts))
-            c = work / f"c{i + 1:02d}.mp4"
-            run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(c)])
-            parts = [c]
-        clips.append(parts[0])
-        log(f"shot {i + 1:02d} {t:8s} {a:6.1f}s-{b:6.1f}s ({b - a:.1f}s)")
+            paths.append(p)
+        review.append((i + 1, paths[-1], s["type"], sent_at.get(round(a, 3), sents[0]["text"] if i == 0 else "")))
+        plan.append((s, a, b, paths))
+    costs["total_usd_estimate"] = round(sum(c["usd_estimate"] for c in costs["items"]), 3)
+    save_json(costs_file, costs)
+    review_sheets(vid, review)
+    report(vid, spec, starts, ends)
+    tw, th, cols = 320, 180, 8
+    rows = (len(review) + cols - 1) // cols
+    cs = Image.new("RGB", (cols * tw, rows * th))
+    for k, (_, p, _, _) in enumerate(review):
+        cs.paste(Image.open(p).resize((tw, th)), ((k % cols) * tw, (k // cols) * th))
+    cs.save(OUT / vid / "shots-preview.jpg", quality=80)
+    if not encode:
+        log(f"frames ready: {len(plan)} shots, review sheets in out/{vid}/qa/, illustrations ${costs['total_usd_estimate']}")
+        return
 
-    # 3. cross-dissolve chain, narration, burned captions
-    inputs, filt, last = [], [], "0:v"
-    for c in clips:
-        inputs += ["-i", str(c)]
-    for k in range(1, len(clips)):
-        out = f"v{k}"
-        filt.append(f"[{last}][{k}:v]xfade=transition=fade:duration={XF}:offset={starts[k]:.3f}[{out}]")
-        last = out
+    # clips: inside a segment each clip carries a 0.5 s tail for the cross-dissolve, the last one does not
+    segs: list[Path] = []
+    for g in range(0, len(plan), SEGMENT):
+        group = plan[g:g + SEGMENT]
+        clips, offs = [], []
+        g0 = group[0][1]
+        for k, (s, a, b, paths) in enumerate(group):
+            tail = XF if k < len(group) - 1 else 0
+            length = b - a + tail
+            parts = []
+            for j, p in enumerate(paths):
+                c = work / f"c{g + k + 1:03d}-{j}.mp4"
+                move = "still" if s["type"] in ("words", "compare") else s.get("move", ["in", "right", "out", "left"][(g + k) % 4])
+                clip(p, length / len(paths), move, c)
+                parts.append(c)
+            if len(parts) > 1:
+                lst = work / f"c{g + k + 1:03d}.txt"
+                lst.write_text("".join(f"file '{x.name}'\n" for x in parts))
+                c = work / f"c{g + k + 1:03d}.mp4"
+                run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(c)])
+                parts = [c]
+            clips.append(parts[0])
+            offs.append(a - g0)
+        seg = work / f"seg{g // SEGMENT + 1:03d}.mp4"
+        if len(clips) == 1:
+            run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(clips[0]), "-c", "copy", str(seg)])
+        else:
+            inputs, filt, last = [], [], "0:v"
+            for c in clips:
+                inputs += ["-i", str(c)]
+            for k in range(1, len(clips)):
+                filt.append(f"[{last}][{k}:v]xfade=transition=fade:duration={XF}:offset={offs[k]:.3f}[x{k}]")
+                last = f"x{k}"
+            run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(filt),
+                 "-map", f"[{last}]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-r", str(FPS), str(seg)])
+        segs.append(seg)
+        log(f"segment {g // SEGMENT + 1}: shots {g + 1}-{g + len(group)}")
+    lst = work / "segments.txt"
+    lst.write_text("".join(f"file '{x.name}'\n" for x in segs))
+    joined = work / "joined.mp4"
+    run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(joined)])
+
     srt = OUT / vid / f"{vid}.srt"
     style = ("FontName=DejaVu Sans,Bold=1,FontSize=17,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,"
              "BackColour=&H80000000,BorderStyle=4,Outline=1,Shadow=0,MarginV=38")
-    filt.append(f"[{last}]subtitles={srt}:force_style='{style}',scale=-2:{args.height}[vout]")
-    out = Path(args.out) if args.out else OUT / f"{vid}-v2.mp4"
-    n = len(clips)
+    filt = [f"[0:v]subtitles={srt}:force_style='{style}'" + (f",scale=-2:{height}" if height != H else "") + "[vout]"]
     audio_in = ["-i", str(OUT / vid / "narration.wav")]
-    amap = f"{n}:a"
+    amap = "1:a"
     music = load_json(OUT / vid / "music.json", {})
     if music and Path(music["file"]).exists():
-        # quiet bed under the voice: loops, fades, ducks further while someone is speaking
         audio_in += ["-stream_loop", "-1", "-i", music["file"]]
-        filt.append(f"[{n + 1}:a]atrim=0:{duration:.2f},afade=t=in:d=4,afade=t=out:st={max(0, duration - 6):.2f}:d=6,"
+        filt.append(f"[2:a]atrim=0:{duration:.2f},afade=t=in:d=4,afade=t=out:st={max(0, duration - 6):.2f}:d=6,"
                     f"aresample=48000,aformat=channel_layouts=mono,loudnorm=I={VOICE_LUFS}:TP=-2:LRA=11,"
                     f"volume={MUSIC_UNDER_VOICE_DB}dB[m]")
-        filt.append(f"[{n}:a]aresample=48000,aformat=channel_layouts=mono,loudnorm=I={VOICE_LUFS}:TP=-2:LRA=11,asplit[n1][n2]")
+        filt.append(f"[1:a]aresample=48000,aformat=channel_layouts=mono,loudnorm=I={VOICE_LUFS}:TP=-2:LRA=11,asplit[n1][n2]")
         filt.append(f"[m][n2]sidechaincompress=threshold=0.05:ratio={DUCK_RATIO}:attack=60:release=900[md]")
         filt.append(f"[n1][md]amix=inputs=2:duration=first:normalize=0,loudnorm=I={MASTER_LUFS}:TP={MASTER_TP}:LRA=11,"
                     f"aresample=48000[aout]")
         amap = "[aout]"
         log(f"music bed: {music['title']}")
-    run(["ffmpeg", "-y", "-loglevel", "error", *inputs, *audio_in,
-         "-filter_complex", ";".join(filt), "-map", "[vout]", "-map", amap,
-         "-c:v", "libx264", "-preset", "medium", "-crf", "23", "-c:a", "aac", "-b:a", "160k",
-         "-shortest", "-movflags", "+faststart", str(out)])
-    costs["total_usd_estimate"] = round(sum(c["usd_estimate"] for c in costs["items"]), 3)
-    save_json(costs_file, costs)
-    # contact sheet of the shots for review
-    tw, th, cols = 320, 180, 6
-    rows = (len(sheet) + cols - 1) // cols
-    cs = Image.new("RGB", (cols * tw, rows * th))
-    for i, p in enumerate(sheet):
-        cs.paste(Image.open(p).resize((tw, th)), ((i % cols) * tw, (i // cols) * th))
-    cs.save(OUT / vid / "shots-preview.jpg", quality=82)
-    avg = duration / len(clips)
-    log(f"v2 render {out.name}: {len(clips)} shots, average {avg:.1f}s per visual, "
-        f"illustrations cost ${costs['total_usd_estimate']}")
+    else:
+        filt.append(f"[1:a]loudnorm=I={MASTER_LUFS}:TP={MASTER_TP}:LRA=11,aresample=48000[aout]")
+        amap = "[aout]"
+    out = out or OUT / f"{vid}-v2.mp4"
+    extra, smap = [], []
+    if height == H and srt.exists():          # also keep soft subtitles (YouTube gets the .srt separately too)
+        extra = ["-i", str(srt)]
+        smap = ["-map", f"{1 + len(audio_in) // 2}:s", "-c:s", "mov_text", "-metadata:s:s:0", "language=eng"]
+    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(joined), *audio_in, *extra,
+           "-filter_complex", ";".join(filt), "-map", "[vout]", "-map", amap, *smap,
+           "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-c:a", "aac", "-b:a", "192k",
+           "-t", f"{duration:.3f}", "-movflags", "+faststart", str(out)]
+    run(cmd)
+    log(f"v2 render {out.name}: {len(plan)} shots, illustrations ${costs['total_usd_estimate']}")
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("vid")
+    ap.add_argument("mode", choices=["sentences", "frames", "render"])
+    ap.add_argument("shots", nargs="?")
+    ap.add_argument("--out", default="")
+    ap.add_argument("--height", type=int, default=1080)
+    a = ap.parse_args()
+    if a.mode == "sentences":
+        write_sentences(a.vid)
+    else:
+        if not a.shots:
+            fail("shots file required")
+        build(a.vid, Path(a.shots), a.mode == "render", Path(a.out) if a.out else None, a.height)
 
 
 if __name__ == "__main__":
