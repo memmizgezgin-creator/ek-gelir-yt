@@ -31,7 +31,7 @@ jobs:
         env:
           DEEPINFRA_API_KEY: ${{ secrets.DEEPINFRA_API_KEY }}
           FAL_KEY: ${{ secrets.FAL_KEY }}
-          THUMB_REGEN: "1"
+          THUMB_REGEN: ${{ github.event.inputs.set_on_youtube == 'true' && '' || '1' }}
         run: python pipeline/thumbnail.py ${{ github.event.inputs.id }}
       - name: Set on YouTube
         if: github.event.inputs.set_on_youtube == 'true'
