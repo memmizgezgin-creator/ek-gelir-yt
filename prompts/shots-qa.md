@@ -2,13 +2,15 @@ You are the visual quality check for episode {{ID}} of a documentary channel abo
 
 Look at every image in out/{{ID}}/qa/sheet-*.jpg. Each tile shows the shot number, its type and the first narration sentence it plays under. The shot list is scripts/{{ID}}.shots.json (shot #1 is the first entry). The available photos are in out/{{ID}}/assets.txt and out/{{ID}}/assets/page-*.jpg. Also read out/{{ID}}/shots-report.json.
 
+Generic or meaningless pictures also fail: an empty shed exterior, a statue or building that has nothing to do with the sentence, a small tall scan floating in blur. Replace them with an illustration of what the sentence describes.
+
 For every shot that fails, fix it in scripts/{{ID}}.shots.json:
 - off-topic, misleading or the wrong machine or era for what is being said
 - an illustration with garbled text or letters, extra fingers, melted machinery, a modern object in a historic scene
 - a photo that is tiny, blurry, mostly white page or a document scan nobody can read
 - the same picture appearing close together
 - a card with a fact that is not in the narration
-Fix by switching to a better photo file, rewriting the illustration prompt (a changed prompt makes a new picture; add "seed": <new number> to retry the same prompt), or turning it into a words card. Keep the "s" values unchanged. At most 15 new illustrations in this pass, and no more than 55 illustrations in the whole list.
+Fix by switching to a better photo file, rewriting the illustration prompt (a changed prompt makes a new picture; add "seed": <new number> to retry the same prompt), or turning it into a words card. Keep the "s" values unchanged. At most 15 new illustrations in this pass, and no more than 58 illustrations in the whole list.
 
 Also enforce the mix from shots-report.json: if "card_share" is above 0.20, turn words cards into photos (a photo may be used twice in the episode, not within 30 shots) or illustrations until it is at or below 0.20. Keep only the cards that carry a real number, date or punchline.
 
