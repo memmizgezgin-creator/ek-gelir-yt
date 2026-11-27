@@ -21,8 +21,8 @@
   },
   {
    "s": 4,
-   "type": "photo",
-   "file": "chips-7.jpg",
+   "type": "illus",
+   "prompt": "A long 1880s machine shop with a row of belt-driven lathes receding into the distance, overhead line shafts and leather belts, workers in aprons at each machine, dusty window light",
    "move": "in"
   },
   {
@@ -54,8 +54,8 @@
   },
   {
    "s": 10,
-   "type": "photo",
-   "file": "forge-8.jpg",
+   "type": "illus",
+   "prompt": "Close-up of a blacksmith's gloved hands lifting a glowing red tool from a wooden water trough with iron tongs, hissing steam billowing, 1860s smithy lit by forge glow",
    "move": "left"
   },
   {
@@ -69,14 +69,14 @@
   },
   {
    "s": 14,
-   "type": "photo",
-   "file": "drill-4.jpg",
+   "type": "illus",
+   "prompt": "A glowing bar of freshly forged tool steel cooling untouched on an iron anvil in a quiet 1860s smithy, no water trough in use, faint heat shimmer, a smith watching from behind",
    "move": "in"
   },
   {
    "s": 16,
-   "type": "photo",
-   "file": "darkhill-5.jpg",
+   "type": "illus",
+   "prompt": "An ordinary Victorian man in a plain coat walking unnoticed through a crowd of ironworkers at a gate, smoking furnace chimneys behind, dusk, oil lamps",
    "move": "out"
   },
   {
@@ -131,8 +131,8 @@
   },
   {
    "s": 25,
-   "type": "photo",
-   "file": "shop-6.jpg",
+   "type": "illus",
+   "prompt": "A tired machinist in an apron stepping back from a belt-driven lathe, the tool pulled away from the work, wiping his brow, a worn tool bit on the lathe bed, 1870s workshop, seen from the side",
    "move": "right"
   },
   {
@@ -155,8 +155,8 @@
   },
   {
    "s": 33,
-   "type": "photo",
-   "file": "lathe-6.jpg",
+   "type": "illus",
+   "prompt": "A machinist standing beside an idle belt-driven lathe while a blunt tool bit is taken out to be reground, grindstone in the corner, 1870s workshop, warm dusty light",
    "move": "right"
   },
   {
@@ -173,9 +173,8 @@
   },
   {
    "s": 40,
-   "type": "photo",
-   "file": "forest-3.jpg",
-   "label": "Coleford, 1811",
+   "type": "illus",
+   "prompt": "A modest stone cottage street in Coleford in the Forest of Dean in 1811, a woman carrying a baby in a shawl at a doorway, wooded hills behind, early evening",
    "move": "in"
   },
   {
@@ -193,8 +192,8 @@
   },
   {
    "s": 44,
-   "type": "photo",
-   "file": "darkhill-3.jpg",
+   "type": "illus",
+   "prompt": "1845 ironworks manager's office with a large wooden desk, rolled plans and a heavy ledger, a man in a frock coat looking out a window over a small furnace yard, candlelight",
    "move": "left"
   },
   {
@@ -214,8 +213,8 @@
   },
   {
    "s": 48,
-   "type": "photo",
-   "file": "forest-2.jpg",
+   "type": "illus",
+   "prompt": "A plain stone-walled ironworks yard with crucible pots, clay and iron bars, a man in a rough work coat and apron examining a small steel sample, no laboratory glassware, overcast daylight",
    "move": "right"
   },
   {
@@ -233,7 +232,7 @@
   {
    "s": 52,
    "type": "photo",
-   "file": "converter-5.jpg",
+   "file": "converter-7.jpg",
    "move": "left"
   },
   {
@@ -251,8 +250,8 @@
   },
   {
    "s": 55,
-   "type": "photo",
-   "file": "bessemer-8.jpg",
+   "type": "illus",
+   "prompt": "A Victorian inventor in a frock coat standing before an attentive audience in a lecture hall, pointing to a large chalkboard sketch of a pear-shaped steel converter, gas lamps, no letters on the board",
    "move": "in"
   },
   {
@@ -282,20 +281,20 @@
   },
   {
    "s": 63,
-   "type": "photo",
-   "file": "spiegel-3.jpg",
+   "type": "illus",
+   "prompt": "A small pile of shiny faceted metallic lumps of spiegeleisen catching light like tiny mirrors on a dark workbench, next to an old hand mirror, warm lamplight",
    "move": "left"
   },
   {
    "s": 65,
-   "type": "photo",
-   "file": "spiegel-1.jpg",
+   "type": "illus",
+   "prompt": "A ladle of molten spiegeleisen being poured into a tilted Bessemer converter, bright sparks, workers on a platform, a Victorian steelworks interior",
    "move": "in"
   },
   {
    "s": 66,
    "type": "illus",
-   "prompt": "A worried Victorian inventor seen from behind at a desk, a letter from the patent office and a few coins on the blotter, grey light from a window",
+   "prompt": "A Victorian inventor in a frock coat at a desk writing in a ledger by a brass oil lamp with a glass chimney, a few coins and a stack of papers, dim 1860s room",
    "move": "left"
   },
   {
@@ -314,7 +313,7 @@
    "s": 70,
    "type": "photo",
    "file": "bessemer-1.jpg",
-   "label": "Pension: £300 a year",
+   "label": "Pension: \u00a3300 a year",
    "move": "in"
   },
   {
@@ -377,8 +376,8 @@
   },
   {
    "s": 83,
-   "type": "photo",
-   "file": "tungsten-7.jpg",
+   "type": "illus",
+   "prompt": "A bright sample of molten alloy steel being poured into a crucible while a metallurgist adds a pinch of grey powder, brass scales on the bench, Victorian laboratory",
    "move": "in"
   },
   {
@@ -431,8 +430,8 @@
   },
   {
    "s": 96,
-   "type": "photo",
-   "file": "lathe-5.jpg",
+   "type": "illus",
+   "prompt": "A large wheel lathe in a big 1890s railway machine shop, a heavy steel tyre turning, workers in caps, overhead belts and cranes, dim daylight",
    "move": "in"
   },
   {
@@ -470,14 +469,14 @@
   },
   {
    "s": 106,
-   "type": "photo",
-   "file": "forge-8.jpg",
+   "type": "illus",
+   "prompt": "A finished steel tool bar resting on an iron rack in a 1860s smithy, fading from dull orange to grey as it cools in the open air, a smith standing back with arms folded, candle and forge light",
    "move": "in"
   },
   {
    "s": 108,
-   "type": "photo",
-   "file": "forge-2.jpg",
+   "type": "illus",
+   "prompt": "A craftsman in an apron filing a steel tool on a workbench in a 1860s workshop lit by an oil lantern hanging from a beam, a small anvil beside him",
    "move": "right"
   },
   {
@@ -489,7 +488,7 @@
   {
    "s": 112,
    "type": "illus",
-   "prompt": "A magnet held over a steel tool bar and failing to attach, the bar lying next to ordinary iron nails that cling to the magnet, workbench, warm light",
+   "prompt": "A hand holding a thick steel tool bar being tested with a small file on a wooden bench, shavings of metal, a plain iron nail beside it, warm light, no text",
    "move": "in"
   },
   {
@@ -501,7 +500,7 @@
   {
    "s": 116,
    "type": "illus",
-   "prompt": "An 1890s engineer with a stopwatch standing beside a lathe, seen from behind, a bar turning while a chip flies, factory floor timing a cut",
+   "prompt": "A man in a waistcoat and flat cap standing before an 1890s engine lathe in a machine shop, measuring the cut with a brass caliper, daylight from tall windows and a gas lamp on the wall",
    "move": "right"
   },
   {
@@ -540,8 +539,8 @@
   },
   {
    "s": 123,
-   "type": "photo",
-   "file": "lathe-6.jpg",
+   "type": "illus",
+   "prompt": "A single belt-driven lathe in a 1890s workshop with a worker watching a steel bar turn and a bright chip curling away, the same old machine, soft window light",
    "move": "left"
   },
   {
@@ -586,14 +585,14 @@
   },
   {
    "s": 134,
-   "type": "photo",
-   "file": "bessemer-4.jpg",
+   "type": "illus",
+   "prompt": "A Victorian historian seen from behind reading a single old bound ledger under an oil lamp in a library, a pair of spectacles beside it, only one book on the desk",
    "move": "in"
   },
   {
    "s": 135,
-   "type": "photo",
-   "file": "sheffield-1.jpg",
+   "type": "illus",
+   "prompt": "An 1890s engineer at a desk beside a window comparing two steel samples, a map of a steelworks pinned on the wall, thoughtful, seen from behind, warm afternoon light",
    "move": "right"
   },
   {
@@ -605,8 +604,8 @@
   },
   {
    "s": 138,
-   "type": "photo",
-   "file": "darkhill-6.jpg",
+   "type": "illus",
+   "prompt": "An elderly Victorian man with white whiskers seated in a modest room, holding a gold medal in both hands, soft lamplight on his face, threadbare coat",
    "move": "in"
   },
   {
@@ -640,15 +639,14 @@
   },
   {
    "s": 144,
-   "type": "photo",
-   "file": "forest-2.jpg",
-   "label": "Aged 79",
+   "type": "illus",
+   "prompt": "An elderly man of seventy-nine in a Victorian armchair beside a window in a Cheltenham house in the winter of 1891, a blanket over his knees, seen from behind and the side, soft grey light",
    "move": "left"
   },
   {
    "s": 146,
-   "type": "photo",
-   "file": "taylor-8.jpg",
+   "type": "illus",
+   "prompt": "A worn old tool steel bar lying beside a newer bright cutting tool on a workbench, a hand reaching toward the new one, Victorian machine shop, oil lamp light",
    "move": "in"
   },
   {
@@ -672,8 +670,8 @@
   },
   {
    "s": 150,
-   "type": "photo",
-   "file": "crucible-1.jpg",
+   "type": "illus",
+   "prompt": "A cherry-red steel bar glowing at a much higher heat inside a test furnace, a steelworks engineer in a bowler hat watching from the side, 1899 Bethlehem works",
    "move": "in"
   },
   {
@@ -740,25 +738,25 @@
   {
    "s": 163,
    "type": "illus",
-   "prompt": "A patent document being struck through with a red pen on a clerk's desk in an American office around 1900, seen from over the shoulder",
+   "prompt": "A hand holding a quill above a stack of sealed legal papers with a red wax seal, a stamp and a brass inkwell on a wooden desk, papers seen from a low angle with no legible writing",
    "move": "in"
   },
   {
    "s": 164,
-   "type": "photo",
-   "file": "shop-6.jpg",
+   "type": "illus",
+   "prompt": "A patent clerk's office in 1900, wooden filing cabinets and a tall desk, a clerk stamping papers, no readable writing, afternoon light",
    "move": "right"
   },
   {
    "s": 165,
-   "type": "photo",
-   "file": "shop-1.jpg",
+   "type": "illus",
+   "prompt": "A man in a long coat in a Victorian steelworks laboratory with benches of crucibles and bar samples, an oil lamp on the bench, windows at dusk, a few details missing in shadow",
    "move": "left"
   },
   {
    "s": 166,
-   "type": "photo",
-   "file": "lathe-2.jpg",
+   "type": "illus",
+   "prompt": "A historian's desk with an old steel bar sample, a magnifying glass, loose papers seen from the side and a paraffin oil lamp, late-afternoon light, no readable writing",
    "move": "in"
   },
   {
@@ -815,8 +813,8 @@
   },
   {
    "s": 179,
-   "type": "photo",
-   "file": "shop-7.jpg",
+   "type": "illus",
+   "prompt": "Rows of old lathe tool bits set out on a wooden bench in a deserted workshop, dust in the light, a single lathe in the dark beyond, nostalgic mood",
    "move": "in"
   },
   {
@@ -899,7 +897,7 @@
   {
    "s": 195,
    "type": "photo",
-   "file": "converter-4.jpg",
+   "file": "converter-3.jpg",
    "move": "right"
   },
   {
@@ -940,8 +938,8 @@
   },
   {
    "s": 203,
-   "type": "photo",
-   "file": "darkhill-2.jpg",
+   "type": "illus",
+   "prompt": "A closed heavy iron strongbox with a brass padlock on a dim wooden table beside an unlit candle stub, a shabby workman's coat draped over a chair, 1870s, no text",
    "move": "left"
   },
   {
@@ -952,9 +950,11 @@
   },
   {
    "s": 205,
-   "type": "photo",
-   "file": "darkhill-4.jpg",
-   "move": "right"
+   "type": "words",
+   "lines": [
+    "NO EASY LESSON",
+    "ABOUT PATENTS"
+   ]
   },
   {
    "s": 206,

@@ -1,0 +1,28 @@
+{
+ "score": 7,
+ "fixed": [
+  9,
+  12,
+  31,
+  34,
+  40,
+  45,
+  47,
+  73,
+  74,
+  78,
+  93,
+  99,
+  112,
+  114,
+  115,
+  142
+ ],
+ "notes": "Replaced tall scans floating in blur (Pat Lyon painting twice, Bessemer print), repeated Darkhill ruin photos, a coal-on-paper photo for spiegeleisen, and a vague filler photo. Removed electric-looking lamps from 1860s scenes and a patent illustration with garbled text. Card share is 0.16, OK. Remaining weak spots: several thin strip photos of drills/taps, repeated Taylor portraits, and a few B&W lathe scans with white borders.",
+ "lessons": [
+  "Same painting or portrait used twice reads as lazy; check file names across the whole list.",
+  "Tall portrait scans on blurred backgrounds look cheap; prefer illustrations unless the person is named.",
+  "Ask for oil lamps or candles explicitly in pre-1900 prompts; avoid paper with printed headings in illustrations.",
+  "Wide thin tool photos (taps, drills) become small strips; avoid them or crop."
+ ]
+}

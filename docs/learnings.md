@@ -35,3 +35,12 @@
 - Dental or medical photos belong only on the medical line, never as a stand-in for the alloy's other properties.
 - Check a photo's label against the picture (a 1902 car is not a 1925 death).
 - Use real period photos first (e.g. the 1894 Haynes car) and keep the illustration budget for lines with no photo.
+- Pre-1900 scenes need period lighting words (oil lamp, candle); image models add electric gooseneck lamps.
+- Do not fill vague transition lines ("the direction is clear") with a random photo; use an illustration or a short card.
+- Near-identical photos from one set (e.g. ruins) two shots apart read as a repeat; pick different sets.
+- Book pages and document scans are unreadable full-screen; illustrate the idea instead.
+- Product photos of modern drills on a historic "first steel" line mislead; illustrate the period object.
+- Same painting or portrait used twice reads as lazy; check file names across the whole list.
+- Tall portrait scans on blurred backgrounds look cheap; prefer illustrations unless the person is named.
+- Avoid paper with printed headings in illustration prompts (garbled text); describe sealed papers with no writing.
+- Wide thin tool photos (taps, drills) turn into small strips; avoid them or use illustrations.
