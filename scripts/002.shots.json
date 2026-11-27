@@ -1,0 +1,1018 @@
+{
+ "style": "Detailed graphic novel illustration, cinematic lighting, muted warm palette of rust, brass and deep teal, fine ink linework, painterly texture, historically accurate Victorian era details, 16:9 wide shot. No text, letters, numbers or logos, no signatures.",
+ "shots": [
+  {
+   "s": 0,
+   "type": "illus",
+   "prompt": "Extreme close-up of a metal lathe cutting tool pressed against a spinning steel bar, a curling blue-grey chip peeling off, the tool tip glowing dull orange, dark workshop background",
+   "move": "in"
+  },
+  {
+   "s": 1,
+   "type": "illus",
+   "prompt": "A Victorian ironmaster in a long frock coat seen from behind, standing at a window of a steelworks at dusk, furnace glow on the glass, a closed ledger on the desk beside him",
+   "move": "right"
+  },
+  {
+   "s": 2,
+   "type": "illus",
+   "prompt": "A dim 1860s warehouse with wooden barrels and sacks, a man in a bowler hat handing a sealed sack to another man at a lantern-lit doorway, both seen in silhouette from the side",
+   "move": "left"
+  },
+  {
+   "s": 4,
+   "type": "photo",
+   "file": "chips-7.jpg",
+   "move": "in"
+  },
+  {
+   "s": 5,
+   "type": "words",
+   "lines": [
+    "ROBERT FORESTER",
+    "MUSHET"
+   ]
+  },
+  {
+   "s": 6,
+   "type": "photo",
+   "file": "forest-1.jpg",
+   "label": "1868, Forest of Dean",
+   "move": "right"
+  },
+  {
+   "s": 7,
+   "type": "photo",
+   "file": "forge-7.jpg",
+   "move": "in"
+  },
+  {
+   "s": 9,
+   "type": "illus",
+   "prompt": "A blacksmith in a leather apron plunging a glowing red-hot steel tool into a wooden water trough, a huge cloud of steam rising, forge fire behind him, 1860s smithy",
+   "move": "in"
+  },
+  {
+   "s": 10,
+   "type": "photo",
+   "file": "forge-8.jpg",
+   "move": "left"
+  },
+  {
+   "s": 12,
+   "type": "words",
+   "lines": [
+    "FORGE IT",
+    "COOL IN PLAIN AIR",
+    "IT COMES OUT HARD"
+   ]
+  },
+  {
+   "s": 14,
+   "type": "photo",
+   "file": "drill-4.jpg",
+   "move": "in"
+  },
+  {
+   "s": 16,
+   "type": "photo",
+   "file": "darkhill-5.jpg",
+   "move": "out"
+  },
+  {
+   "s": 17,
+   "type": "title",
+   "text": "WHAT HAPPENED TO MUSHET STEEL?",
+   "prompt": "A lone steel tool bar glowing orange-hot on an anvil in a dark Victorian steelworks, silhouettes of chimneys and furnace sparks behind it, dramatic wide composition with empty space for a title"
+  },
+  {
+   "s": 18,
+   "type": "illus",
+   "prompt": "Cutaway view of a lathe cutting tool biting into a steel bar, the layer of metal shearing away as a curled chip, glowing heat at the tip, technical but painterly, dark background",
+   "move": "in"
+  },
+  {
+   "s": 19,
+   "type": "photo",
+   "file": "lathe-7.jpg",
+   "move": "right"
+  },
+  {
+   "s": 20,
+   "type": "illus",
+   "prompt": "Close side view of a steel cutting tool pushing into a rotating bar, a ribbon of metal shearing off as a chip, sparks and fine metal dust in the air",
+   "move": "left"
+  },
+  {
+   "s": 21,
+   "type": "illus",
+   "prompt": "A curled metal chip sliding across the polished face of a lathe tool under pressure, extreme close-up, warm light glinting on the steel",
+   "move": "in"
+  },
+  {
+   "s": 22,
+   "type": "illus",
+   "prompt": "The tip of a lathe tool glowing red and orange from friction heat, a chip turning blue as it leaves the cut, dark smoky background",
+   "move": "out"
+  },
+  {
+   "s": 23,
+   "type": "words",
+   "lines": [
+    "HEAT GATHERS",
+    "AT THE EDGE"
+   ]
+  },
+  {
+   "s": 24,
+   "type": "photo",
+   "file": "lathe-2.jpg",
+   "move": "in"
+  },
+  {
+   "s": 25,
+   "type": "photo",
+   "file": "shop-6.jpg",
+   "move": "right"
+  },
+  {
+   "s": 27,
+   "type": "illus",
+   "prompt": "A cutting edge of a carbon steel tool softening, the glowing tip slumping and blunt, a worried machinist leaning in from the side, smoky 1870s workshop",
+   "move": "in"
+  },
+  {
+   "s": 29,
+   "type": "photo",
+   "file": "lathe-3.jpg",
+   "move": "left"
+  },
+  {
+   "s": 30,
+   "type": "illus",
+   "prompt": "A patient machinist in an apron, seen from behind, taking a slow light cut on a belt-driven lathe, a small oil can by his hand, overhead line shafts and leather belts, 1880s shop",
+   "move": "in"
+  },
+  {
+   "s": 33,
+   "type": "photo",
+   "file": "lathe-6.jpg",
+   "move": "right"
+  },
+  {
+   "s": 36,
+   "type": "illus",
+   "prompt": "A long steel shaft turning in a big lathe while beside it a huge cylinder is bored on a boring mill, a busy 1880s engineering works with workers in caps and aprons",
+   "move": "right"
+  },
+  {
+   "s": 37,
+   "type": "illus",
+   "prompt": "A lone ironmaster seen from behind pouring bright molten steel from a crucible at night in a small steelworks, sparks, a hopeful glow",
+   "move": "in"
+  },
+  {
+   "s": 40,
+   "type": "photo",
+   "file": "forest-3.jpg",
+   "label": "Coleford, 1811",
+   "move": "in"
+  },
+  {
+   "s": 41,
+   "type": "illus",
+   "prompt": "A Scottish ironmaster in an early 1800s coat standing with his young son, both seen from behind, looking over a small ironworks in a wooded valley at dusk",
+   "move": "right"
+  },
+  {
+   "s": 43,
+   "type": "photo",
+   "file": "darkhill-1.jpg",
+   "label": "Darkhill Ironworks",
+   "move": "in"
+  },
+  {
+   "s": 44,
+   "type": "photo",
+   "file": "darkhill-3.jpg",
+   "move": "left"
+  },
+  {
+   "s": 45,
+   "type": "illus",
+   "prompt": "A small steelworks in a wooded Forest of Dean valley in 1848, a squat brick furnace house with a tall chimney, smoke drifting, workers carrying crucibles",
+   "move": "out"
+  },
+  {
+   "s": 46,
+   "type": "words",
+   "lines": [
+    "MORE THAN 10,000",
+    "EXPERIMENTS",
+    "IN TEN YEARS"
+   ]
+  },
+  {
+   "s": 48,
+   "type": "photo",
+   "file": "forest-2.jpg",
+   "move": "right"
+  },
+  {
+   "s": 49,
+   "type": "illus",
+   "prompt": "A working ironmaster at a bench in a rural steelworks, melting a small batch in a crucible, a notebook open beside him, rows of small test bars on shelves, valley seen through a window",
+   "move": "in"
+  },
+  {
+   "s": 50,
+   "type": "photo",
+   "file": "crucible-7.jpg",
+   "move": "in"
+  },
+  {
+   "s": 52,
+   "type": "photo",
+   "file": "converter-5.jpg",
+   "move": "left"
+  },
+  {
+   "s": 53,
+   "type": "photo",
+   "file": "converter-1.jpg",
+   "move": "in"
+  },
+  {
+   "s": 54,
+   "type": "photo",
+   "file": "bessemer-2.jpg",
+   "label": "Henry Bessemer, 1856",
+   "move": "right"
+  },
+  {
+   "s": 55,
+   "type": "photo",
+   "file": "bessemer-8.jpg",
+   "move": "in"
+  },
+  {
+   "s": 56,
+   "type": "illus",
+   "prompt": "A Bessemer converter tilted upright, a roaring column of white and orange flame and sparks shooting from its mouth as air is blown through molten iron, small figures of workers on a platform",
+   "move": "in"
+  },
+  {
+   "s": 57,
+   "type": "photo",
+   "file": "converter-4.jpg",
+   "move": "in"
+  },
+  {
+   "s": 60,
+   "type": "illus",
+   "prompt": "A Bessemer converter blow ending, the flame dying to a pale glow, a foreman watching from the platform, orange light on brick walls",
+   "move": "right"
+  },
+  {
+   "s": 62,
+   "type": "photo",
+   "file": "spiegel-2.jpg",
+   "label": "Spiegeleisen",
+   "move": "in"
+  },
+  {
+   "s": 63,
+   "type": "photo",
+   "file": "spiegel-3.jpg",
+   "move": "left"
+  },
+  {
+   "s": 65,
+   "type": "photo",
+   "file": "spiegel-1.jpg",
+   "move": "in"
+  },
+  {
+   "s": 66,
+   "type": "illus",
+   "prompt": "A worried Victorian inventor seen from behind at a desk, a letter from the patent office and a few coins on the blotter, grey light from a window",
+   "move": "left"
+  },
+  {
+   "s": 68,
+   "type": "illus",
+   "prompt": "A thin ill man wrapped in a blanket by a cold fireplace in a modest 1866 cottage room, seen from behind, a single candle",
+   "move": "in"
+  },
+  {
+   "s": 69,
+   "type": "illus",
+   "prompt": "A sixteen-year-old girl in a plain Victorian dress and bonnet, seen from behind, standing before a large desk in a London office where a gentleman sits with his face turned away, determined posture, coach outside the window",
+   "move": "right"
+  },
+  {
+   "s": 70,
+   "type": "photo",
+   "file": "bessemer-1.jpg",
+   "label": "Pension: £300 a year",
+   "move": "in"
+  },
+  {
+   "s": 72,
+   "type": "illus",
+   "prompt": "A Victorian solicitor's office, a lawyer's papers tied with ribbon and a leather purse on the desk, grey daylight, two men seen from behind",
+   "move": "left"
+  },
+  {
+   "s": 73,
+   "type": "illus",
+   "prompt": "A close view of a new steel railway rail on sleepers in 1857, a steam locomotive wheel rolling over it, sunlit track",
+   "move": "in"
+  },
+  {
+   "s": 74,
+   "type": "illus",
+   "prompt": "A busy Victorian railway station in 1863 with steam locomotives crossing a junction, a platform worker examining the polished top of a rail, trains one after another",
+   "move": "right"
+  },
+  {
+   "s": 75,
+   "type": "photo",
+   "file": "darkhill-7.jpg",
+   "label": "1868",
+   "move": "in"
+  },
+  {
+   "s": 76,
+   "type": "illus",
+   "prompt": "A Glasgow manufacturer in a top hat and frock coat speaking to a steel maker in a smoky 1868 foundry yard, both seen from behind, chimneys behind them",
+   "move": "in"
+  },
+  {
+   "s": 77,
+   "type": "illus",
+   "prompt": "A cast steel bar snapping in two under a hammer blow on an anvil, bright fragments flying, a steelmaker looking down at the broken pieces in a Victorian workshop",
+   "move": "right"
+  },
+  {
+   "s": 79,
+   "type": "photo",
+   "file": "tungsten-2.jpg",
+   "label": "Tungsten steel",
+   "move": "in"
+  },
+  {
+   "s": 81,
+   "type": "words",
+   "lines": [
+    "TUNGSTEN",
+    "4 TO 12 PERCENT"
+   ]
+  },
+  {
+   "s": 82,
+   "type": "illus",
+   "prompt": "A Victorian metallurgist weighing grey metal powders on a brass balance at a laboratory bench, jars of ores along the shelves, notes beside him",
+   "move": "left"
+  },
+  {
+   "s": 83,
+   "type": "photo",
+   "file": "tungsten-7.jpg",
+   "move": "in"
+  },
+  {
+   "s": 84,
+   "type": "compare",
+   "title": "A typical sample vs plain carbon steel",
+   "left": [
+    "CARBON STEEL",
+    "MOSTLY IRON AND CARBON"
+   ],
+   "right": [
+    "MUSHET STEEL",
+    "ABOUT 9% TUNGSTEN"
+   ]
+  },
+  {
+   "s": 86,
+   "type": "illus",
+   "prompt": "A glowing ingot of alloy steel held in long tongs over an anvil, a smith's hands gripping them, sparks, dark forge",
+   "move": "in"
+  },
+  {
+   "s": 88,
+   "type": "photo",
+   "file": "sheffield-3.jpg",
+   "move": "right"
+  },
+  {
+   "s": 91,
+   "type": "illus",
+   "prompt": "A small Forest of Dean steelworks yard where men mix grey powders and fill wooden barrels, rolled-up sleeves, a cart waiting, hills in the background",
+   "move": "in"
+  },
+  {
+   "s": 92,
+   "type": "photo",
+   "file": "sheffield-5.jpg",
+   "label": "Samuel Osborn and Company, Sheffield",
+   "move": "left"
+  },
+  {
+   "s": 93,
+   "type": "words",
+   "lines": [
+    "MUSHET'S",
+    "SPECIAL STEEL",
+    "SELF-HARDENING",
+    "AIR-HARDENING"
+   ]
+  },
+  {
+   "s": 96,
+   "type": "photo",
+   "file": "lathe-5.jpg",
+   "move": "in"
+  },
+  {
+   "s": 97,
+   "type": "illus",
+   "prompt": "A toolmaker heating a steel bar in a coal forge until it glows bright cherry red, bellows and tongs, close and warm",
+   "move": "in"
+  },
+  {
+   "s": 99,
+   "type": "photo",
+   "file": "forge-7.jpg",
+   "move": "right"
+  },
+  {
+   "s": 100,
+   "type": "words",
+   "lines": [
+    "WATER DOES.",
+    "OIL DOES.",
+    "AIR DOES NOT."
+   ]
+  },
+  {
+   "s": 103,
+   "type": "illus",
+   "prompt": "A dull dark steel tool bar left to cool on an anvil in still air, a file skating off it leaving a bright scratch, soft light",
+   "move": "in"
+  },
+  {
+   "s": 105,
+   "type": "illus",
+   "prompt": "A forged tool bit resting on an anvil, cooling in ordinary air in a quiet workshop, heat shimmer, the colour fading from orange to grey, the smith watching from behind",
+   "move": "left"
+  },
+  {
+   "s": 106,
+   "type": "photo",
+   "file": "forge-8.jpg",
+   "move": "in"
+  },
+  {
+   "s": 108,
+   "type": "photo",
+   "file": "forge-2.jpg",
+   "move": "right"
+  },
+  {
+   "s": 110,
+   "type": "photo",
+   "file": "tap-5.jpg",
+   "move": "in"
+  },
+  {
+   "s": 112,
+   "type": "illus",
+   "prompt": "A magnet held over a steel tool bar and failing to attach, the bar lying next to ordinary iron nails that cling to the magnet, workbench, warm light",
+   "move": "in"
+  },
+  {
+   "s": 114,
+   "type": "photo",
+   "file": "lathe-1.png",
+   "move": "in"
+  },
+  {
+   "s": 116,
+   "type": "illus",
+   "prompt": "An 1890s engineer with a stopwatch standing beside a lathe, seen from behind, a bar turning while a chip flies, factory floor timing a cut",
+   "move": "right"
+  },
+  {
+   "s": 117,
+   "type": "photo",
+   "file": "taylor-2.png",
+   "label": "Frederick Winslow Taylor, 1894",
+   "move": "in"
+  },
+  {
+   "s": 118,
+   "type": "compare",
+   "title": "Taylor's 1894 tests",
+   "left": [
+    "HARD TIRE-STEEL",
+    "41-47% FASTER"
+   ],
+   "right": [
+    "MILD STEELS",
+    "ABOUT 90% FASTER"
+   ]
+  },
+  {
+   "s": 120,
+   "type": "illus",
+   "prompt": "A stream of water pouring onto the tip of a lathe cutting tool as a long chip curls off a steel bar, steam, glittering droplets, 1890s workshop",
+   "move": "in"
+  },
+  {
+   "s": 121,
+   "type": "words",
+   "lines": [
+    "A TEN-HOUR JOB",
+    "NOW TAKES FIVE"
+   ]
+  },
+  {
+   "s": 123,
+   "type": "photo",
+   "file": "lathe-6.jpg",
+   "move": "left"
+  },
+  {
+   "s": 125,
+   "type": "illus",
+   "prompt": "Extreme close-up of the tip of a cutting tool glowing but holding its edge as steel peels away, sharp focus, dark background",
+   "move": "in"
+  },
+  {
+   "s": 126,
+   "type": "photo",
+   "file": "taylor-5.jpg",
+   "move": "in"
+  },
+  {
+   "s": 129,
+   "type": "illus",
+   "prompt": "A Sheffield skyline in the 1870s, rows of smoking chimneys and cone furnaces over a river valley, grimy warm light",
+   "move": "in"
+  },
+  {
+   "s": 130,
+   "type": "illus",
+   "prompt": "Craftsmen cutting files by hand in a Sheffield workshop in 1851, rows of benches, hammers and chisels, steel blanks in trays",
+   "move": "right"
+  },
+  {
+   "s": 131,
+   "type": "photo",
+   "file": "crucible-7.jpg",
+   "label": "1870: exclusive producer",
+   "move": "left"
+  },
+  {
+   "s": 132,
+   "type": "words",
+   "lines": [
+    "AT ITS PEAK",
+    "VIRTUALLY MONOPOLISED",
+    "TOOL STEEL"
+   ]
+  },
+  {
+   "s": 134,
+   "type": "photo",
+   "file": "bessemer-4.jpg",
+   "move": "in"
+  },
+  {
+   "s": 135,
+   "type": "photo",
+   "file": "sheffield-1.jpg",
+   "move": "right"
+  },
+  {
+   "s": 137,
+   "type": "photo",
+   "file": "bessemer-8.jpg",
+   "label": "Bessemer Gold Medal, 1876",
+   "move": "in"
+  },
+  {
+   "s": 138,
+   "type": "photo",
+   "file": "darkhill-6.jpg",
+   "move": "in"
+  },
+  {
+   "s": 139,
+   "type": "words",
+   "lines": [
+    "FROM 1861:",
+    "THE DOZZLE"
+   ]
+  },
+  {
+   "s": 141,
+   "type": "illus",
+   "prompt": "Cutaway of an ingot mould with a clay cone set in its top, molten steel inside, the cone keeping the top glowing hot, Victorian steelworks floor",
+   "move": "right"
+  },
+  {
+   "s": 142,
+   "type": "words",
+   "lines": [
+    "TODAY:",
+    "A HOT TOP",
+    "OR FEEDER HEAD"
+   ]
+  },
+  {
+   "s": 143,
+   "type": "illus",
+   "prompt": "Cheltenham Regency terraced houses on a winter evening in 1891, a single lit window and gas lamp, light snow",
+   "move": "in"
+  },
+  {
+   "s": 144,
+   "type": "photo",
+   "file": "forest-2.jpg",
+   "label": "Aged 79",
+   "move": "left"
+  },
+  {
+   "s": 146,
+   "type": "photo",
+   "file": "taylor-8.jpg",
+   "move": "in"
+  },
+  {
+   "s": 147,
+   "type": "photo",
+   "file": "bethlehem-1.jpg",
+   "label": "Bethlehem Steel, Pennsylvania, 1898",
+   "move": "in"
+  },
+  {
+   "s": 148,
+   "type": "illus",
+   "prompt": "Two engineers in bowler hats and dark suits seen from behind, watching tool steel cut a big forged shaft in a large test shop at Bethlehem, ledgers and stopwatches, 1899",
+   "move": "right"
+  },
+  {
+   "s": 149,
+   "type": "photo",
+   "file": "chips-7.jpg",
+   "move": "left"
+  },
+  {
+   "s": 150,
+   "type": "photo",
+   "file": "crucible-1.jpg",
+   "move": "in"
+  },
+  {
+   "s": 151,
+   "type": "illus",
+   "prompt": "Molten steel in a crucible as a worker adds a measured scoop of metallic chromium and tungsten powder, a bright white glow, 1899 steelworks",
+   "move": "in"
+  },
+  {
+   "s": 152,
+   "type": "compare",
+   "title": "Cutting speed",
+   "left": [
+    "BEFORE",
+    "30 SURFACE FT/MIN"
+   ],
+   "right": [
+    "AFTER",
+    "90 SURFACE FT/MIN"
+   ]
+  },
+  {
+   "s": 155,
+   "type": "photo",
+   "file": "paris-3.jpg",
+   "label": "Paris Exposition, 1900",
+   "move": "in"
+  },
+  {
+   "s": 156,
+   "type": "words",
+   "lines": [
+    "THE START OF",
+    "HIGH-SPEED STEEL"
+   ]
+  },
+  {
+   "s": 158,
+   "type": "illus",
+   "prompt": "A dark steel bar cooling untouched in the open air beside a quench trough that stands unused, a single bar, quiet smithy",
+   "move": "in"
+  },
+  {
+   "s": 159,
+   "type": "photo",
+   "file": "taylor-4.jpg",
+   "move": "in"
+  },
+  {
+   "s": 160,
+   "type": "photo",
+   "file": "bethlehem-6.jpg",
+   "move": "right"
+  },
+  {
+   "s": 162,
+   "type": "words",
+   "lines": [
+    "$100,000",
+    "FOR THE ENGLISH",
+    "PATENTS ALONE"
+   ]
+  },
+  {
+   "s": 163,
+   "type": "illus",
+   "prompt": "A patent document being struck through with a red pen on a clerk's desk in an American office around 1900, seen from over the shoulder",
+   "move": "in"
+  },
+  {
+   "s": 164,
+   "type": "photo",
+   "file": "shop-6.jpg",
+   "move": "right"
+  },
+  {
+   "s": 165,
+   "type": "photo",
+   "file": "shop-1.jpg",
+   "move": "left"
+  },
+  {
+   "s": 166,
+   "type": "photo",
+   "file": "lathe-2.jpg",
+   "move": "in"
+  },
+  {
+   "s": 168,
+   "type": "photo",
+   "file": "lathe-7.jpg",
+   "move": "in"
+  },
+  {
+   "s": 169,
+   "type": "photo",
+   "file": "hss-1.jpg",
+   "move": "in"
+  },
+  {
+   "s": 170,
+   "type": "photo",
+   "file": "drill-4.jpg",
+   "label": "T1: 1910",
+   "move": "right"
+  },
+  {
+   "s": 171,
+   "type": "photo",
+   "file": "hss-6.jpg",
+   "move": "in"
+  },
+  {
+   "s": 173,
+   "type": "photo",
+   "file": "tap-4.jpg",
+   "move": "in"
+  },
+  {
+   "s": 174,
+   "type": "illus",
+   "prompt": "A Victorian study at night with a heavy iron strongbox locked on a table, a candle, a rolled sheet of notes inside a drawer, a man seen from behind",
+   "move": "in"
+  },
+  {
+   "s": 176,
+   "type": "photo",
+   "file": "sheffield-3.jpg",
+   "move": "left"
+  },
+  {
+   "s": 177,
+   "type": "words",
+   "lines": [
+    "NOT FAILURE:",
+    "A GOOD IDEA",
+    "PASSED ON"
+   ]
+  },
+  {
+   "s": 179,
+   "type": "photo",
+   "file": "shop-7.jpg",
+   "move": "in"
+  },
+  {
+   "s": 181,
+   "type": "photo",
+   "file": "hss-3.jpg",
+   "move": "right"
+  },
+  {
+   "s": 182,
+   "type": "photo",
+   "file": "tap-3.jpg",
+   "move": "in"
+  },
+  {
+   "s": 183,
+   "type": "photo",
+   "file": "drill-1.jpg",
+   "move": "left"
+  },
+  {
+   "s": 184,
+   "type": "words",
+   "lines": [
+    "THE NAME",
+    "LASTED TOO"
+   ]
+  },
+  {
+   "s": 185,
+   "type": "illus",
+   "prompt": "A 1900s Sheffield works loading crates of steel bars onto a horse-drawn wagon, workers in caps, brick warehouse, grey morning light",
+   "move": "in"
+  },
+  {
+   "s": 186,
+   "type": "words",
+   "lines": [
+    "DOUBLE MUSHET ND",
+    "MATCHES T1",
+    "TRIPLE MUSHET GZ",
+    "MATCHES T4"
+   ]
+  },
+  {
+   "s": 188,
+   "type": "photo",
+   "file": "tap-1.jpg",
+   "label": "Mushet MKK matches M2",
+   "move": "in"
+  },
+  {
+   "s": 189,
+   "type": "photo",
+   "file": "hss-4.jpg",
+   "label": "Mushet Special VG matches M15",
+   "move": "left"
+  },
+  {
+   "s": 190,
+   "type": "photo",
+   "file": "lathe-1.png",
+   "move": "right"
+  },
+  {
+   "s": 191,
+   "type": "words",
+   "lines": [
+    "A DIFFERENT STEEL",
+    "BUT IT CARRIED",
+    "HIS NAME"
+   ]
+  },
+  {
+   "s": 193,
+   "type": "photo",
+   "file": "converter-7.jpg",
+   "move": "in"
+  },
+  {
+   "s": 195,
+   "type": "photo",
+   "file": "converter-4.jpg",
+   "move": "right"
+  },
+  {
+   "s": 196,
+   "type": "photo",
+   "file": "chips-2.jpg",
+   "move": "in"
+  },
+  {
+   "s": 197,
+   "type": "words",
+   "lines": [
+    "THE GREAT STEP",
+    "IS OFTEN",
+    "THE FIRST ONE"
+   ]
+  },
+  {
+   "s": 199,
+   "type": "photo",
+   "file": "hss-2.jpg",
+   "move": "in"
+  },
+  {
+   "s": 200,
+   "type": "photo",
+   "file": "taylor-1.jpg",
+   "move": "in"
+  },
+  {
+   "s": 202,
+   "type": "words",
+   "lines": [
+    "A SECRET IS",
+    "A POOR WAY TO",
+    "PROTECT AN IDEA"
+   ]
+  },
+  {
+   "s": 203,
+   "type": "photo",
+   "file": "darkhill-2.jpg",
+   "move": "left"
+  },
+  {
+   "s": 204,
+   "type": "photo",
+   "file": "taylor-7.jpg",
+   "move": "in"
+  },
+  {
+   "s": 205,
+   "type": "photo",
+   "file": "darkhill-4.jpg",
+   "move": "right"
+  },
+  {
+   "s": 206,
+   "type": "illus",
+   "prompt": "A tired inventor in a worn coat seen from behind on a riverbank, looking across the water at a large prosperous factory with many chimneys, evening",
+   "move": "in"
+  },
+  {
+   "s": 207,
+   "type": "illus",
+   "prompt": "Extreme close-up of a glowing red cutting edge with an orange chip curling away, tiny and fierce, dark background",
+   "move": "in"
+  },
+  {
+   "s": 209,
+   "type": "photo",
+   "file": "lathe-3.jpg",
+   "move": "in"
+  },
+  {
+   "s": 210,
+   "type": "photo",
+   "file": "forest-1.jpg",
+   "label": "Forest of Dean",
+   "move": "right"
+  },
+  {
+   "s": 211,
+   "type": "photo",
+   "file": "converter-1.jpg",
+   "move": "in"
+  },
+  {
+   "s": 212,
+   "type": "photo",
+   "file": "drill-2.jpg",
+   "move": "left"
+  },
+  {
+   "s": 214,
+   "type": "words",
+   "lines": [
+    "WHAT HAPPENED TO",
+    "MUSHET STEEL?"
+   ]
+  },
+  {
+   "s": 215,
+   "type": "photo",
+   "file": "paris-2.jpg",
+   "label": "Paris, 1900",
+   "move": "in"
+  },
+  {
+   "s": 216,
+   "type": "illus",
+   "prompt": "A row of old lathe tool bits and a worn forged tool laid on a wooden workbench in warm low light, a quiet closing scene",
+   "move": "in"
+  }
+ ]
+}
