@@ -7,7 +7,7 @@ tags: Mushet steel, Robert Forester Mushet, self-hardening steel, air hardening 
 thumb_key: lathe
 thumb_text: HE NEVER|PATENTED IT
 thumb_prompt: A Victorian ironmaster with grey mutton chop sideburns and a waistcoat holds one finger to his lips in a sly secretive shh gesture, winking. In his other hand, held with tongs, a glowing orange steel tool bar cools by itself in the air. Behind him a confused blacksmith stares at an empty water quench bucket. Dim stone forge with wooden barrels. The ironmaster's face and the glowing bar are large and centered.
-thumb_pick: 1
+thumb_pick: 2
 ---
 
 Front matter only. The full script of 002 was lost before it was committed (the run failed at upload).
