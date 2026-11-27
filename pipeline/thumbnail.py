@@ -132,7 +132,12 @@ def main() -> None:
     words = script.meta.get("thumb_text") or script.meta.get("slug", "").replace("-", " ")
     scene = script.meta.get("thumb_prompt", "")
     costs = load_json(out / "costs.json", {"items": []})
-    made: list[Path] = []
+    made: list[Path] = sorted(var_dir.glob("v*.jpg"))
+    if made and not os.environ.get("THUMB_REGEN"):
+        log(f"thumbnail: reusing {len(made)} existing variants (set THUMB_REGEN=1 to make new ones)")
+        scene = ""
+    else:
+        made = []
     if scene:
         for i in range(VARIANTS):
             prompt = f"{scene} {STYLE}"

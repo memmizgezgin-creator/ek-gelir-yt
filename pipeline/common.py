@@ -54,6 +54,10 @@ def find_script(vid: str) -> Path:
     hits = sorted(SCRIPTS.glob(f"{vid}-*.md"))
     hits = [h for h in hits if not h.name.endswith("-check.md")]
     if not hits:
+        # video rendered earlier whose script was lost: front matter only record
+        meta = OUT / vid / "meta.md"
+        if meta.exists():
+            return meta
         fail(f"no script for id {vid} in {SCRIPTS}")
     return hits[0]
 

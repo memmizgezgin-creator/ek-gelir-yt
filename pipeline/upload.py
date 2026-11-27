@@ -38,14 +38,19 @@ def access_token() -> str:
 
 def description(script, credits: list[dict]) -> str:
     srcs = [s.strip() for s in script.meta.get("sources", "").split("|") if s.strip()]
-    lines = [script.meta.get("summary", ""), "", "Chapters"]
+    lines = [script.meta.get("summary", "")]
     tl = load_json(OUT / script.vid / "timeline.json", {"sections": []})
+    if tl["sections"]:
+        lines += ["", "Chapters"]
     for i, s in enumerate(tl["sections"]):
         t = 0 if i == 0 else int(s["start"])
         lines.append(f"{t // 60:02d}:{t % 60:02d} {s['title']}")
     lines += ["", "Sources"] + [f"- {s}" for s in srcs]
     lines += ["", "Image credits (Wikimedia Commons)"]
     lines += [f"- {c['title'].removeprefix('File:')}: {c['artist']}, {c['license']}, {c['source']}" for c in credits]
+    txt = OUT / script.vid / "credits.txt"
+    if not credits and txt.exists():
+        lines += [txt.read_text(encoding="utf-8").strip()]
     lines += ["", "Narration is synthetic (text-to-speech). Script researched and fact-checked by the channel."]
     text = "\n".join(x for x in lines if x is not None).strip()
     return text[:4900]
@@ -91,7 +96,10 @@ def main() -> None:
         "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": False,
                    "containsSyntheticMedia": True},
     }
-    vid_id = resumable_upload(token, OUT / f"{script_path.stem}.mp4", meta)
+    mp4 = OUT / f"{script_path.stem}.mp4"
+    if not mp4.exists():
+        mp4 = next(OUT.glob(f"{args.vid}-*.mp4"))
+    vid_id = resumable_upload(token, mp4, meta)
     log(f"uploaded {vid_id} as {privacy}")
     auth = {"Authorization": f"Bearer {token}"}
     thumb = OUT / args.vid / "thumbnail.jpg"

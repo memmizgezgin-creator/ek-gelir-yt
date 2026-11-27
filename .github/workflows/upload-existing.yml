@@ -1,0 +1,80 @@
+name: upload-existing
+
+# Upload a video that was already rendered (kept as an Actions artifact) without rendering it again.
+# upload=false only fetches the small files (srt, credits, gate, preview) into the repo for review.
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: "Video id, e.g. 002"
+        required: true
+      run_id:
+        description: "produce run id that holds the video-<id> artifact"
+        required: true
+      upload:
+        description: "Upload to YouTube"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  actions: read
+  issues: write
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow requests numpy
+      - uses: actions/download-artifact@v4
+        with:
+          name: video-${{ github.event.inputs.id }}
+          run-id: ${{ github.event.inputs.run_id }}
+          github-token: ${{ github.token }}
+          path: /tmp/art
+      - name: Place files
+        run: |
+          id=${{ github.event.inputs.id }}
+          find /tmp/art -type f | sed 's|^|artifact: |'
+          mkdir -p out/$id
+          cp /tmp/art/*.mp4 out/ 2>/dev/null || cp /tmp/art/out/*.mp4 out/
+          src=$(dirname "$(find /tmp/art -path "*$id/gate.json" | head -1)")
+          for f in "$src"/*; do
+            b=$(basename "$f")
+            [ -e "out/$id/$b" ] || cp "$f" "out/$id/$b"
+          done
+          ls -la out out/$id
+      - name: Upload to YouTube
+        if: github.event.inputs.upload == 'true'
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PRIVACY: ${{ vars.YT_PRIVACY || 'private' }}
+        run: |
+          python pipeline/upload.py ${{ github.event.inputs.id }}
+          url=$(python -c "import json;print(json.load(open('out/${{ github.event.inputs.id }}/upload.json'))['url'])")
+          python pipeline/next.py done ${{ github.event.inputs.id }} "$url"
+      - name: Commit
+        run: |
+          d=out/${{ github.event.inputs.id }}
+          git config user.name "ek-gelir-yt bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for f in topics.json $d/*.srt $d/credits.txt $d/gate.json $d/preview.jpg $d/upload.json; do
+            [ -e "$f" ] && git add "$f"
+          done
+          git commit -m "video ${{ github.event.inputs.id }}: existing render ${{ github.event.inputs.upload == 'true' && 'uploaded' || 'fetched' }}" || true
+          git pull --rebase -q origin main
+          git push
+      - name: Report failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --label pipeline-failure --title "Upload of existing video ${{ github.event.inputs.id }} failed" \
+            --body "Log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

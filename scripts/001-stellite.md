@@ -9,6 +9,7 @@ summary: Stellite was a cobalt-chromium-tungsten alloy that stayed hard while re
 thumb_key: lathe
 thumb_text: RED HOT|STILL|CUTTING
 thumb_prompt: A 1910s machinist with a big mustache, flat cap and leather apron leans back in total shock, huge eyes, jaw dropped, hands up. In front of him an old cast iron metal lathe turns a thick steel bar. The small cutting tool pressed against the bar glows bright orange-red like a hot coal, yet a long curling blue steel chip keeps peeling off, with sparks. Close-up, the glowing tool tip and the chip are the focal point.
+thumb_pick: 3
 tags: stellite, cutting tools, machining history, cobalt alloy, elwood haynes, carbide, high speed steel, metallurgy, industrial history
 ---
 
