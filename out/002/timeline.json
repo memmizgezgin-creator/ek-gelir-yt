@@ -144,6 +144,1310 @@
       "end": 1119.873
     }
   ],
+  "sentences": [
+    {
+      "section": 1,
+      "start": 1.0,
+      "end": 5.267,
+      "text": "Here is a strange fact about the history of cutting tools."
+    },
+    {
+      "section": 1,
+      "start": 5.617,
+      "end": 11.675,
+      "text": "The man who started the modern tool steel revolution never patented his invention."
+    },
+    {
+      "section": 1,
+      "start": 12.025,
+      "end": 13.54,
+      "text": "He kept it secret."
+    },
+    {
+      "section": 1,
+      "start": 13.89,
+      "end": 18.199,
+      "text": "He bought his ingredients through middlemen and gave them code names."
+    },
+    {
+      "section": 1,
+      "start": 18.549,
+      "end": 23.797,
+      "text": "And the steel he made still shaped how metal is cut for generations after him."
+    },
+    {
+      "section": 1,
+      "start": 24.947,
+      "end": 27.849,
+      "text": "His name was Robert Forester Mushet."
+    },
+    {
+      "section": 1,
+      "start": 28.199,
+      "end": 36.775,
+      "text": "In 1868, in the Forest of Dean, he made a steel that did something no steel had done before."
+    },
+    {
+      "section": 1,
+      "start": 37.125,
+      "end": 39.023,
+      "text": "It hardened by itself."
+    },
+    {
+      "section": 1,
+      "start": 39.373,
+      "end": 42.893,
+      "text": "Every blacksmith and toolmaker knew the old way."
+    },
+    {
+      "section": 1,
+      "start": 43.243,
+      "end": 47.958,
+      "text": "You heated the tool red hot, then plunged it into water or oil."
+    },
+    {
+      "section": 1,
+      "start": 49.108,
+      "end": 52.009,
+      "text": "The sudden chill locked in the hardness."
+    },
+    {
+      "section": 1,
+      "start": 52.359,
+      "end": 56.967,
+      "text": "It was an abrupt and risky step, and it was the heart of the craft."
+    },
+    {
+      "section": 1,
+      "start": 57.317,
+      "end": 59.216,
+      "text": "Mushet's steel skipped it."
+    },
+    {
+      "section": 1,
+      "start": 59.566,
+      "end": 64.302,
+      "text": "You forged the tool, you let it cool in plain air, and it came out hard."
+    },
+    {
+      "section": 1,
+      "start": 64.652,
+      "end": 67.276,
+      "text": "It was the first steel of its kind."
+    },
+    {
+      "section": 1,
+      "start": 68.426,
+      "end": 73.61,
+      "text": "Later it was overtaken by a steel built on the very same idea."
+    },
+    {
+      "section": 1,
+      "start": 73.96,
+      "end": 78.141,
+      "text": "Today few people outside the metal trades know his name."
+    },
+    {
+      "section": 1,
+      "start": 78.491,
+      "end": 81.03,
+      "text": "So what happened to Mushet steel?"
+    },
+    {
+      "section": 2,
+      "start": 82.98,
+      "end": 88.42,
+      "text": "To see why this mattered, we need to look at what happens at the tip of a cutting tool."
+    },
+    {
+      "section": 2,
+      "start": 88.77,
+      "end": 93.549,
+      "text": "A lathe tool does not slice metal the way a knife slices bread."
+    },
+    {
+      "section": 2,
+      "start": 93.899,
+      "end": 99.403,
+      "text": "It pushes into the work and forces a layer of metal to shear away as a chip."
+    },
+    {
+      "section": 2,
+      "start": 99.753,
+      "end": 103.827,
+      "text": "That chip slides over the face of the tool under great pressure."
+    },
+    {
+      "section": 2,
+      "start": 104.177,
+      "end": 109.127,
+      "text": "The friction and the bending of the metal turn much of that effort into heat."
+    },
+    {
+      "section": 2,
+      "start": 110.277,
+      "end": 114.373,
+      "text": "And much of that heat collects in a small patch right at the edge."
+    },
+    {
+      "section": 3,
+      "start": 116.323,
+      "end": 121.293,
+      "text": "For most of the nineteenth century, tools were made of plain carbon steel."
+    },
+    {
+      "section": 3,
+      "start": 121.643,
+      "end": 126.038,
+      "text": "Carbon steel can be made very hard by heating and quenching."
+    },
+    {
+      "section": 3,
+      "start": 126.388,
+      "end": 128.863,
+      "text": "But that hardness has a weakness."
+    },
+    {
+      "section": 3,
+      "start": 129.213,
+      "end": 132.007,
+      "text": "Heat the tool again, and it can soften."
+    },
+    {
+      "section": 3,
+      "start": 132.357,
+      "end": 137.221,
+      "text": "So a cutting edge in a carbon steel tool is always fighting itself."
+    },
+    {
+      "section": 3,
+      "start": 138.371,
+      "end": 143.619,
+      "text": "The harder you push the cut, the hotter the edge gets, and the faster it softens."
+    },
+    {
+      "section": 3,
+      "start": 143.969,
+      "end": 146.615,
+      "text": "The machinist's answer was patience."
+    },
+    {
+      "section": 3,
+      "start": 146.965,
+      "end": 148.351,
+      "text": "Take light cuts."
+    },
+    {
+      "section": 3,
+      "start": 148.701,
+      "end": 150.045,
+      "text": "Run slowly."
+    },
+    {
+      "section": 3,
+      "start": 150.395,
+      "end": 151.697,
+      "text": "Stop often."
+    },
+    {
+      "section": 3,
+      "start": 152.847,
+      "end": 157.476,
+      "text": "Keep the tool cool and sharp, and never let the edge change color."
+    },
+    {
+      "section": 3,
+      "start": 157.826,
+      "end": 160.642,
+      "text": "That habit set the pace of the shop floor."
+    },
+    {
+      "section": 3,
+      "start": 160.992,
+      "end": 169.589,
+      "text": "It limited how fast a shaft could be turned, how fast a cylinder could be bored, and how many parts a shop could finish in a day."
+    },
+    {
+      "section": 3,
+      "start": 169.939,
+      "end": 173.353,
+      "text": "A steel that could cut faster would be valuable."
+    },
+    {
+      "section": 3,
+      "start": 173.703,
+      "end": 175.196,
+      "text": "Mushet found one."
+    },
+    {
+      "section": 3,
+      "start": 176.346,
+      "end": 178.991,
+      "text": "He just never collected the fortune."
+    },
+    {
+      "section": 4,
+      "start": 180.941,
+      "end": 191.053,
+      "text": "Robert Forester Mushet was born on the eighth of April, 1811, in Coleford, in the Forest of Dean in Gloucestershire."
+    },
+    {
+      "section": 4,
+      "start": 191.403,
+      "end": 194.262,
+      "text": "He was the youngest son of Scottish parents."
+    },
+    {
+      "section": 4,
+      "start": 194.612,
+      "end": 200.265,
+      "text": "His father, David Mushet, was an ironmaster, and the family business was iron."
+    },
+    {
+      "section": 4,
+      "start": 200.615,
+      "end": 208.807,
+      "text": "David built the Darkhill Ironworks around 1818 or 1819."
+    },
+    {
+      "section": 4,
+      "start": 209.157,
+      "end": 214.427,
+      "text": "Robert took over its management in 1845."
+    },
+    {
+      "section": 4,
+      "start": 215.577,
+      "end": 220.995,
+      "text": "In 1848 he moved to the Forest Steel Works."
+    },
+    {
+      "section": 4,
+      "start": 221.345,
+      "end": 226.657,
+      "text": "There, by one account, he ran more than ten thousand experiments in ten years."
+    },
+    {
+      "section": 4,
+      "start": 227.007,
+      "end": 228.949,
+      "text": "Think about what that means."
+    },
+    {
+      "section": 4,
+      "start": 229.299,
+      "end": 233.331,
+      "text": "He was not a university professor with a laboratory budget."
+    },
+    {
+      "section": 4,
+      "start": 233.681,
+      "end": 242.598,
+      "text": "He was a working ironmaster in a rural valley, melting small batches, testing them, writing down the results, and doing it again."
+    },
+    {
+      "section": 4,
+      "start": 243.748,
+      "end": 246.564,
+      "text": "Ten thousand tests, by that account."
+    },
+    {
+      "section": 4,
+      "start": 246.914,
+      "end": 251.799,
+      "text": "It was the kind of patient, practical work that built the nineteenth century."
+    },
+    {
+      "section": 4,
+      "start": 252.149,
+      "end": 257.333,
+      "text": "And it led him first to a problem that had nothing to do with cutting tools at all."
+    },
+    {
+      "section": 4,
+      "start": 257.683,
+      "end": 261.545,
+      "text": "It was the problem that was holding back the age of steel."
+    },
+    {
+      "section": 5,
+      "start": 263.495,
+      "end": 274.673,
+      "text": "In 1856, Henry Bessemer described his new steelmaking process to the British Association, at a meeting in Cheltenham."
+    },
+    {
+      "section": 5,
+      "start": 275.023,
+      "end": 277.05,
+      "text": "The idea was bold."
+    },
+    {
+      "section": 5,
+      "start": 277.4,
+      "end": 284.739,
+      "text": "Blow air through molten pig iron, and the oxygen burns out the silicon, the manganese and the carbon."
+    },
+    {
+      "section": 5,
+      "start": 285.089,
+      "end": 289.441,
+      "text": "Bessemer was after cheap steel, and this was a way to get it."
+    },
+    {
+      "section": 5,
+      "start": 289.791,
+      "end": 291.241,
+      "text": "But there was a catch."
+    },
+    {
+      "section": 5,
+      "start": 292.391,
+      "end": 295.25,
+      "text": "The metal that came out was often poor."
+    },
+    {
+      "section": 5,
+      "start": 295.6,
+      "end": 297.2,
+      "text": "Mushet had a fix."
+    },
+    {
+      "section": 5,
+      "start": 297.55,
+      "end": 302.414,
+      "text": "He showed that you could blow the iron until nearly all the carbon was gone."
+    },
+    {
+      "section": 5,
+      "start": 302.764,
+      "end": 307.692,
+      "text": "Then you added back a measured amount of a material called spiegeleisen."
+    },
+    {
+      "section": 5,
+      "start": 308.842,
+      "end": 312.17,
+      "text": "The name is German for looking-glass iron."
+    },
+    {
+      "section": 5,
+      "start": 312.52,
+      "end": 316.744,
+      "text": "It is an alloy of iron and manganese, with a little carbon."
+    },
+    {
+      "section": 5,
+      "start": 317.094,
+      "end": 323.515,
+      "text": "The addition restored the carbon in a controlled way, and the manganese made the steel workable."
+    },
+    {
+      "section": 5,
+      "start": 323.865,
+      "end": 328.58,
+      "text": "Mushet's patent on the method lapsed, because he could not pay the fees."
+    },
+    {
+      "section": 5,
+      "start": 329.73,
+      "end": 331.629,
+      "text": "Bessemer took it over."
+    },
+    {
+      "section": 5,
+      "start": 331.979,
+      "end": 338.037,
+      "text": "By 1866, Mushet was destitute and in poor health."
+    },
+    {
+      "section": 5,
+      "start": 338.387,
+      "end": 348.755,
+      "text": "That year, his sixteen-year-old daughter Mary travelled to London alone and confronted Bessemer, arguing that his success rested on her father's work."
+    },
+    {
+      "section": 5,
+      "start": 349.105,
+      "end": 354.417,
+      "text": "Bessemer then agreed to pay Mushet a pension of three hundred pounds a year."
+    },
+    {
+      "section": 5,
+      "start": 354.767,
+      "end": 357.221,
+      "text": "That was a very considerable sum."
+    },
+    {
+      "section": 5,
+      "start": 358.371,
+      "end": 363.043,
+      "text": "He paid it for more than twenty years, possibly to head off legal action."
+    },
+    {
+      "section": 6,
+      "start": 364.993,
+      "end": 372.118,
+      "text": "In 1857, Mushet also made some of the first durable steel rails."
+    },
+    {
+      "section": 6,
+      "start": 372.468,
+      "end": 384.692,
+      "text": "One rail at Derby Midland station was still in good condition in 1863, even though about seven hundred trains passed over it every day."
+    },
+    {
+      "section": 6,
+      "start": 385.042,
+      "end": 392.722,
+      "text": "In 1868, Mushet came back to the experiment that mattered most for our story."
+    },
+    {
+      "section": 6,
+      "start": 393.072,
+      "end": 398.149,
+      "text": "A manufacturer in Glasgow had asked him to produce a new cast steel."
+    },
+    {
+      "section": 6,
+      "start": 398.499,
+      "end": 402.169,
+      "text": "The steel he made was too brittle for cutting tools."
+    },
+    {
+      "section": 6,
+      "start": 403.319,
+      "end": 406.711,
+      "text": "So Mushet kept experimenting with other alloys."
+    },
+    {
+      "section": 6,
+      "start": 407.061,
+      "end": 409.642,
+      "text": "One of them was a tungsten steel."
+    },
+    {
+      "section": 6,
+      "start": 409.992,
+      "end": 414.664,
+      "text": "And, unexpectedly, it hardened when it cooled in air after forging."
+    },
+    {
+      "section": 6,
+      "start": 415.014,
+      "end": 420.603,
+      "text": "Tungsten was the main alloying element, somewhere between four and twelve percent."
+    },
+    {
+      "section": 6,
+      "start": 421.753,
+      "end": 429.049,
+      "text": "Manganese ran from about two to four percent, and carbon from about one and a half to two and a half percent."
+    },
+    {
+      "section": 6,
+      "start": 429.399,
+      "end": 438.061,
+      "text": "A typical sample held about nine percent tungsten, two and a half percent manganese and one and eight tenths percent carbon."
+    },
+    {
+      "section": 6,
+      "start": 438.411,
+      "end": 442.016,
+      "text": "Compare that with the carbon steel in a normal shop."
+    },
+    {
+      "section": 6,
+      "start": 442.366,
+      "end": 447.422,
+      "text": "It was mostly iron and carbon, with only small amounts of anything else."
+    },
+    {
+      "section": 6,
+      "start": 447.772,
+      "end": 450.972,
+      "text": "Mushet's steel was a different kind of material."
+    },
+    {
+      "section": 6,
+      "start": 452.122,
+      "end": 454.362,
+      "text": "It was a true alloy steel."
+    },
+    {
+      "section": 6,
+      "start": 454.712,
+      "end": 457.421,
+      "text": "And he told no one how to make it."
+    },
+    {
+      "section": 6,
+      "start": 457.771,
+      "end": 459.371,
+      "text": "He did not patent it."
+    },
+    {
+      "section": 6,
+      "start": 459.721,
+      "end": 464.393,
+      "text": "Ingredients were bought through intermediaries and called by code words."
+    },
+    {
+      "section": 6,
+      "start": 464.743,
+      "end": 468.69,
+      "text": "Mixing was done at his steelworks in the Forest of Dean."
+    },
+    {
+      "section": 6,
+      "start": 469.84,
+      "end": 476.475,
+      "text": "The mixed batches were shipped in barrels to Samuel Osborn and Company in Sheffield, where they were melted."
+    },
+    {
+      "section": 6,
+      "start": 476.825,
+      "end": 480.238,
+      "text": "It was sold as Robert Mushet's Special Steel."
+    },
+    {
+      "section": 6,
+      "start": 480.588,
+      "end": 483.191,
+      "text": "Some called it self-hardening steel."
+    },
+    {
+      "section": 6,
+      "start": 483.541,
+      "end": 486.143,
+      "text": "Others called it air-hardening steel."
+    },
+    {
+      "section": 7,
+      "start": 488.093,
+      "end": 493.704,
+      "text": "Now let us look at the engineering, because this is where the idea is easy to miss."
+    },
+    {
+      "section": 7,
+      "start": 494.054,
+      "end": 498.47,
+      "text": "In a plain carbon steel, hardness is something you have to trap."
+    },
+    {
+      "section": 7,
+      "start": 498.82,
+      "end": 502.127,
+      "text": "You heat the steel until its structure changes."
+    },
+    {
+      "section": 7,
+      "start": 502.477,
+      "end": 508.237,
+      "text": "Then you cool it so fast that the structure has no time to settle into its soft form."
+    },
+    {
+      "section": 7,
+      "start": 508.587,
+      "end": 510.144,
+      "text": "Water does that."
+    },
+    {
+      "section": 7,
+      "start": 511.294,
+      "end": 512.638,
+      "text": "Oil does that."
+    },
+    {
+      "section": 7,
+      "start": 512.988,
+      "end": 514.353,
+      "text": "Air does not."
+    },
+    {
+      "section": 7,
+      "start": 514.703,
+      "end": 519.887,
+      "text": "Air is far too slow, so carbon steel left to cool in air stays soft."
+    },
+    {
+      "section": 7,
+      "start": 520.237,
+      "end": 522.925,
+      "text": "Mushet's steel behaved differently."
+    },
+    {
+      "section": 7,
+      "start": 523.275,
+      "end": 532.534,
+      "text": "Its alloying elements, mainly tungsten and manganese, changed how it responded to cooling, so that ordinary air was enough to harden it."
+    },
+    {
+      "section": 7,
+      "start": 533.684,
+      "end": 536.863,
+      "text": "The tool hardened as it cooled off the forge."
+    },
+    {
+      "section": 7,
+      "start": 537.213,
+      "end": 539.431,
+      "text": "That mattered in two ways."
+    },
+    {
+      "section": 7,
+      "start": 539.781,
+      "end": 542.427,
+      "text": "First, it made the tool easier to make."
+    },
+    {
+      "section": 7,
+      "start": 542.777,
+      "end": 547.598,
+      "text": "A toolmaker could forge the shape and let it cool, without a water quench."
+    },
+    {
+      "section": 7,
+      "start": 547.948,
+      "end": 550.465,
+      "text": "Mushet's steel removed that step."
+    },
+    {
+      "section": 7,
+      "start": 551.615,
+      "end": 555.946,
+      "text": "Second, and more important, it made the tool better at its work."
+    },
+    {
+      "section": 7,
+      "start": 556.296,
+      "end": 561.203,
+      "text": "One modern account says it was harder than ordinary water-quenched steel."
+    },
+    {
+      "section": 7,
+      "start": 561.553,
+      "end": 563.793,
+      "text": "It was also non-magnetic."
+    },
+    {
+      "section": 7,
+      "start": 564.143,
+      "end": 567.087,
+      "text": "The steel came to the shop already hard."
+    },
+    {
+      "section": 7,
+      "start": 567.437,
+      "end": 570.978,
+      "text": "It was made for one job, and that job was cutting."
+    },
+    {
+      "section": 8,
+      "start": 572.928,
+      "end": 576.192,
+      "text": "We know how good it was because someone measured it."
+    },
+    {
+      "section": 8,
+      "start": 576.542,
+      "end": 586.803,
+      "text": "In 1894, the American engineer Frederick Winslow Taylor tested Mushet steel against high-carbon tool steel."
+    },
+    {
+      "section": 8,
+      "start": 587.153,
+      "end": 592.849,
+      "text": "On hard tire-steel forgings, it cut forty-one to forty-seven percent faster."
+    },
+    {
+      "section": 8,
+      "start": 593.199,
+      "end": 597.103,
+      "text": "On mild steels, it cut about ninety percent faster."
+    },
+    {
+      "section": 8,
+      "start": 597.453,
+      "end": 604.301,
+      "text": "And when a stream of water was used as a cutting fluid, the speed could go up by another thirty percent."
+    },
+    {
+      "section": 8,
+      "start": 605.451,
+      "end": 608.289,
+      "text": "Think about a change of ninety percent."
+    },
+    {
+      "section": 8,
+      "start": 608.639,
+      "end": 612.095,
+      "text": "A job that took ten hours now took about five."
+    },
+    {
+      "section": 8,
+      "start": 612.445,
+      "end": 614.962,
+      "text": "No new machine had been built."
+    },
+    {
+      "section": 8,
+      "start": 615.312,
+      "end": 617.936,
+      "text": "No new motor had been installed."
+    },
+    {
+      "section": 8,
+      "start": 618.286,
+      "end": 621.038,
+      "text": "Only the steel at the tip had changed."
+    },
+    {
+      "section": 8,
+      "start": 622.188,
+      "end": 626.348,
+      "text": "Taylor became a famous name in the story of cutting speed."
+    },
+    {
+      "section": 8,
+      "start": 626.698,
+      "end": 628.81,
+      "text": "But he was not starting from nothing."
+    },
+    {
+      "section": 8,
+      "start": 629.16,
+      "end": 630.995,
+      "text": "He started from Mushet."
+    },
+    {
+      "section": 9,
+      "start": 632.945,
+      "end": 638.961,
+      "text": "Mushet steel needed someone to make it at scale, and that someone was a Sheffield firm."
+    },
+    {
+      "section": 9,
+      "start": 639.311,
+      "end": 648.207,
+      "text": "Samuel Osborn had set up his company in 1851 at the Clyde Works in Sheffield, making files."
+    },
+    {
+      "section": 9,
+      "start": 648.557,
+      "end": 658.562,
+      "text": "In 1870, according to the Science Museum Group, Osborn became the exclusive producer of Mushet's special steel."
+    },
+    {
+      "section": 9,
+      "start": 658.912,
+      "end": 660.277,
+      "text": "The firm grew."
+    },
+    {
+      "section": 9,
+      "start": 660.627,
+      "end": 667.945,
+      "text": "At its peak, according to the same source, it virtually monopolised the world's manufacture of tool steel."
+    },
+    {
+      "section": 9,
+      "start": 669.095,
+      "end": 674.343,
+      "text": "That is a big claim, and it comes from a single source, so treat it with care."
+    },
+    {
+      "section": 9,
+      "start": 674.693,
+      "end": 676.89,
+      "text": "But the direction is clear."
+    },
+    {
+      "section": 9,
+      "start": 677.24,
+      "end": 679.971,
+      "text": "Osborn tied its name to Mushet's steel."
+    },
+    {
+      "section": 9,
+      "start": 681.121,
+      "end": 689.505,
+      "text": "In 1876, the Iron and Steel Institute awarded Mushet the Bessemer Gold Medal."
+    },
+    {
+      "section": 9,
+      "start": 689.855,
+      "end": 694.783,
+      "text": "It was a late recognition for a man who had once been left destitute."
+    },
+    {
+      "section": 9,
+      "start": 695.133,
+      "end": 701.533,
+      "text": "Another of his ideas, from 1861, is still around today."
+    },
+    {
+      "section": 9,
+      "start": 701.883,
+      "end": 703.675,
+      "text": "It is called the dozzle."
+    },
+    {
+      "section": 9,
+      "start": 704.025,
+      "end": 710.787,
+      "text": "It is a clay cone set in the top of an ingot mould, and it is the forerunner of today's hot top."
+    },
+    {
+      "section": 9,
+      "start": 711.937,
+      "end": 715.82,
+      "text": "Today the idea is called a hot top, or a feeder head."
+    },
+    {
+      "section": 9,
+      "start": 716.17,
+      "end": 723.317,
+      "text": "Mushet died in Cheltenham on the twenty-ninth of January, 1891."
+    },
+    {
+      "section": 9,
+      "start": 723.667,
+      "end": 725.779,
+      "text": "He was seventy-nine years old."
+    },
+    {
+      "section": 10,
+      "start": 727.729,
+      "end": 730.801,
+      "text": "Mushet did not live to see what came next."
+    },
+    {
+      "section": 10,
+      "start": 731.151,
+      "end": 735.14,
+      "text": "And what came next was built directly on Mushet steel."
+    },
+    {
+      "section": 10,
+      "start": 735.49,
+      "end": 744.087,
+      "text": "In 1898, Frederick Winslow Taylor joined the Bethlehem Steel Company in Pennsylvania."
+    },
+    {
+      "section": 10,
+      "start": 744.437,
+      "end": 755.381,
+      "text": "Between 1898 and 1900, he and a colleague, Maunsel White, ran a huge program of tests on tungsten tool steels."
+    },
+    {
+      "section": 10,
+      "start": 756.531,
+      "end": 760.606,
+      "text": "They worked on Mushet steel and other self-hardening steels."
+    },
+    {
+      "section": 10,
+      "start": 760.956,
+      "end": 768.465,
+      "text": "They found that heating the steel to a much higher temperature than the industry thought desirable gave better results."
+    },
+    {
+      "section": 10,
+      "start": 768.815,
+      "end": 778.373,
+      "text": "One history of the steel says the key change was adding about three point eight percent chromium to a steel with about eight percent tungsten."
+    },
+    {
+      "section": 10,
+      "start": 778.723,
+      "end": 780.749,
+      "text": "The effect was dramatic."
+    },
+    {
+      "section": 10,
+      "start": 781.899,
+      "end": 787.403,
+      "text": "Cutting speed rose from about thirty surface feet per minute to about ninety."
+    },
+    {
+      "section": 10,
+      "start": 787.753,
+      "end": 789.951,
+      "text": "That is three times faster."
+    },
+    {
+      "section": 10,
+      "start": 790.301,
+      "end": 798.685,
+      "text": "At the Paris Exposition of 1900, a demonstration of cutting tools made from the new steel caused a sensation."
+    },
+    {
+      "section": 10,
+      "start": 799.035,
+      "end": 802.64,
+      "text": "This was the start of what we call high-speed steel."
+    },
+    {
+      "section": 10,
+      "start": 802.99,
+      "end": 804.803,
+      "text": "Notice what happened."
+    },
+    {
+      "section": 10,
+      "start": 805.953,
+      "end": 809.921,
+      "text": "Mushet had made the first steel that hardened without a quench."
+    },
+    {
+      "section": 10,
+      "start": 810.271,
+      "end": 818.25,
+      "text": "Taylor and White took that kind of steel, changed the alloy, and heat treated it at a much higher temperature than was usual."
+    },
+    {
+      "section": 10,
+      "start": 818.6,
+      "end": 822.76,
+      "text": "The same idea, pushed further, cut three times as fast."
+    },
+    {
+      "section": 10,
+      "start": 823.11,
+      "end": 826.182,
+      "text": "For Taylor and White, it was also a business."
+    },
+    {
+      "section": 10,
+      "start": 826.532,
+      "end": 831.993,
+      "text": "The two men received one hundred thousand dollars for the English patents alone."
+    },
+    {
+      "section": 10,
+      "start": 833.143,
+      "end": 836.578,
+      "text": "The American patent was eventually nullified."
+    },
+    {
+      "section": 11,
+      "start": 838.528,
+      "end": 842.24,
+      "text": "So why did Mushet steel disappear from the lathe?"
+    },
+    {
+      "section": 11,
+      "start": 842.59,
+      "end": 848.265,
+      "text": "The honest answer is that the sources give us the shape of it, but not every detail."
+    },
+    {
+      "section": 11,
+      "start": 848.615,
+      "end": 850.641,
+      "text": "Here is what we can say."
+    },
+    {
+      "section": 11,
+      "start": 850.991,
+      "end": 853.274,
+      "text": "First, the better steel arrived."
+    },
+    {
+      "section": 11,
+      "start": 853.624,
+      "end": 861.603,
+      "text": "Once Taylor and White's method was known, a tool that cut about three times as fast made the older steel look slow."
+    },
+    {
+      "section": 11,
+      "start": 862.753,
+      "end": 865.291,
+      "text": "Second, the idea kept improving."
+    },
+    {
+      "section": 11,
+      "start": 865.641,
+      "end": 874.025,
+      "text": "A steel called T1, a tungsten grade, was formally classified as high-speed steel in 1910."
+    },
+    {
+      "section": 11,
+      "start": 874.375,
+      "end": 878.941,
+      "text": "It was patented by the Crucible Steel Company of New Jersey."
+    },
+    {
+      "section": 11,
+      "start": 879.291,
+      "end": 882.96,
+      "text": "Later, M2 became the most widely used grade."
+    },
+    {
+      "section": 11,
+      "start": 883.31,
+      "end": 889.219,
+      "text": "Cobalt was added to it to give steels like M35 and M42."
+    },
+    {
+      "section": 11,
+      "start": 890.369,
+      "end": 893.932,
+      "text": "Third, Mushet had chosen not to patent his steel."
+    },
+    {
+      "section": 11,
+      "start": 894.282,
+      "end": 897.909,
+      "text": "He relied on secrecy, and it did not make him rich."
+    },
+    {
+      "section": 11,
+      "start": 898.259,
+      "end": 906.856,
+      "text": "The composition of his steel has since been analyzed, although the exact production process is still said to be unknown."
+    },
+    {
+      "section": 11,
+      "start": 907.206,
+      "end": 909.979,
+      "text": "None of this is a story of failure."
+    },
+    {
+      "section": 11,
+      "start": 910.329,
+      "end": 915.556,
+      "text": "It is a story of a good idea being passed on until it became ordinary."
+    },
+    {
+      "section": 12,
+      "start": 917.506,
+      "end": 921.282,
+      "text": "Mushet steel itself is long gone from the shop floor."
+    },
+    {
+      "section": 12,
+      "start": 921.632,
+      "end": 924.064,
+      "text": "But its descendants are everywhere."
+    },
+    {
+      "section": 12,
+      "start": 924.414,
+      "end": 929.619,
+      "text": "High-speed steel is still one of the most common tool materials in the world."
+    },
+    {
+      "section": 12,
+      "start": 929.969,
+      "end": 934.215,
+      "text": "The grade M2 is used for drill bits, taps and reamers."
+    },
+    {
+      "section": 12,
+      "start": 934.565,
+      "end": 942.778,
+      "text": "Many of the drills in a modern toolbox are made from a steel that traces back to Taylor and White, and through them to Mushet."
+    },
+    {
+      "section": 12,
+      "start": 943.928,
+      "end": 946.467,
+      "text": "The name itself lasted too."
+    },
+    {
+      "section": 12,
+      "start": 946.817,
+      "end": 953.963,
+      "text": "Samuel Osborn and Company of Sheffield sold a range of high-speed steels under the Mushet name."
+    },
+    {
+      "section": 12,
+      "start": 954.313,
+      "end": 959.497,
+      "text": "There was Double Mushet ND, which matches the American grade T1."
+    },
+    {
+      "section": 12,
+      "start": 959.847,
+      "end": 963.943,
+      "text": "There was Triple Mushet GZ, which matches T4."
+    },
+    {
+      "section": 12,
+      "start": 964.293,
+      "end": 968.176,
+      "text": "There was Mushet MKK, which matches M2."
+    },
+    {
+      "section": 12,
+      "start": 969.326,
+      "end": 973.763,
+      "text": "And there was Mushet Special VG, which matches M15."
+    },
+    {
+      "section": 12,
+      "start": 974.113,
+      "end": 982.263,
+      "text": "So even after the original secret steel was gone, a customer could still buy a high-speed steel with Mushet's name on it."
+    },
+    {
+      "section": 12,
+      "start": 982.613,
+      "end": 984.362,
+      "text": "It was a different steel."
+    },
+    {
+      "section": 12,
+      "start": 984.712,
+      "end": 986.461,
+      "text": "But it carried his name."
+    },
+    {
+      "section": 12,
+      "start": 986.811,
+      "end": 989.819,
+      "text": "His other work is still in use as well."
+    },
+    {
+      "section": 12,
+      "start": 990.969,
+      "end": 996.303,
+      "text": "The hot top on a steel ingot mould is a direct descendant of the dozzle."
+    },
+    {
+      "section": 12,
+      "start": 996.653,
+      "end": 1002.519,
+      "text": "And his spiegeleisen step improved the quality of Bessemer steel in the first place."
+    },
+    {
+      "section": 13,
+      "start": 1004.469,
+      "end": 1011.061,
+      "text": "Mushet steel teaches a few things that every machinist and every engineer should keep in mind."
+    },
+    {
+      "section": 13,
+      "start": 1011.411,
+      "end": 1015.465,
+      "text": "The first is that the great step is often the first one."
+    },
+    {
+      "section": 13,
+      "start": 1015.815,
+      "end": 1018.609,
+      "text": "Mushet did not make the fastest steel."
+    },
+    {
+      "section": 13,
+      "start": 1018.959,
+      "end": 1024.762,
+      "text": "He made the first steel that hardened by itself, and everything that followed grew from that."
+    },
+    {
+      "section": 13,
+      "start": 1025.112,
+      "end": 1027.715,
+      "text": "Taylor and White improved on it."
+    },
+    {
+      "section": 13,
+      "start": 1028.865,
+      "end": 1030.785,
+      "text": "They did not invent it."
+    },
+    {
+      "section": 13,
+      "start": 1031.135,
+      "end": 1035.935,
+      "text": "The second is that a secret is a poor way to protect an idea."
+    },
+    {
+      "section": 13,
+      "start": 1036.285,
+      "end": 1040.573,
+      "text": "Mushet kept the recipe locked away, and it did not make him rich."
+    },
+    {
+      "section": 13,
+      "start": 1040.923,
+      "end": 1048.368,
+      "text": "Taylor and White were paid one hundred thousand dollars for their English patents, and still lost the American one."
+    },
+    {
+      "section": 13,
+      "start": 1048.718,
+      "end": 1052.046,
+      "text": "There is no easy lesson about patents here."
+    },
+    {
+      "section": 13,
+      "start": 1053.196,
+      "end": 1059.788,
+      "text": "But it is a reminder that the person who makes the breakthrough is rarely the person who gets paid for it."
+    },
+    {
+      "section": 13,
+      "start": 1060.138,
+      "end": 1062.293,
+      "text": "The third is the simplest."
+    },
+    {
+      "section": 13,
+      "start": 1062.643,
+      "end": 1066.376,
+      "text": "A cutting edge is a hot, small, unforgiving place."
+    },
+    {
+      "section": 13,
+      "start": 1066.726,
+      "end": 1071.505,
+      "text": "Every material that works there has to stay hard when the heat arrives."
+    },
+    {
+      "section": 13,
+      "start": 1071.855,
+      "end": 1079.023,
+      "text": "Robert Mushet reportedly ran more than ten thousand experiments in a Forest of Dean steelworks."
+    },
+    {
+      "section": 13,
+      "start": 1080.173,
+      "end": 1088.813,
+      "text": "He solved a key quality problem in the Bessemer process, and by 1866 he was destitute."
+    },
+    {
+      "section": 13,
+      "start": 1089.163,
+      "end": 1092.875,
+      "text": "Then he made the first tool steel that hardened in air."
+    },
+    {
+      "section": 13,
+      "start": 1093.225,
+      "end": 1096.937,
+      "text": "The steel in a modern drill bit owes him a debt."
+    },
+    {
+      "section": 13,
+      "start": 1097.287,
+      "end": 1100.017,
+      "text": "That is what happened to Mushet steel."
+    },
+    {
+      "section": 13,
+      "start": 1100.367,
+      "end": 1111.887,
+      "text": "If you want to see what came after it, how the Taylor and White heat treatment really worked, and why Paris in 1900 stunned the engineers who saw it, stay with this channel."
+    },
+    {
+      "section": 13,
+      "start": 1113.037,
+      "end": 1117.923,
+      "text": "And tell us in the comments which forgotten tool we should open up next."
+    }
+  ],
   "sample_rate": 24000,
   "duration": 1119.873
 }
