@@ -25,10 +25,11 @@ from common import ASSETS, OUT, find_script, load_json, log, parse_script, save_
 TW, TH = 1280, 720
 BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 STYLE = ("Bold clean cartoon illustration, thick black outlines, flat warm saturated colors, "
-         "expressive characters with big readable emotions, storybook editorial style, strong "
-         "contrast, dramatic warm lighting, simple uncluttered background. Keep the left third of "
-         "the frame calm and dark for a title. Absolutely no text, letters, numbers or logos.")
-VARIANTS = 2
+         "exaggerated facial expression with huge eyes and open mouth, storybook editorial style, "
+         "strong contrast, dramatic warm lighting, simple dark uncluttered background, square "
+         "composition with the character and the object both large and centered. "
+         "Absolutely no text, letters, numbers or logos.")
+VARIANTS = 3
 COST_PER_IMAGE = {"deepinfra": 0.009, "fal": 0.025}   # USD, approximate list prices
 
 
@@ -38,7 +39,7 @@ def gen_deepinfra(prompt: str, seed: int) -> Image.Image | None:
         return None
     r = requests.post("https://api.deepinfra.com/v1/inference/black-forest-labs/FLUX-1-dev",
                       headers={"Authorization": f"Bearer {key}"},
-                      json={"prompt": prompt, "width": 1280, "height": 720, "num_inference_steps": 28,
+                      json={"prompt": prompt, "width": 1024, "height": 1024, "num_inference_steps": 28,
                             "seed": seed}, timeout=180)
     if not r.ok:
         log(f"deepinfra {r.status_code}: {r.text[:200]}")
@@ -54,7 +55,7 @@ def gen_fal(prompt: str, seed: int) -> Image.Image | None:
     if not key:
         return None
     r = requests.post("https://fal.run/fal-ai/flux/dev", headers={"Authorization": f"Key {key}"},
-                      json={"prompt": prompt, "image_size": "landscape_16_9", "seed": seed,
+                      json={"prompt": prompt, "image_size": "square_hd", "seed": seed,
                             "num_images": 1}, timeout=180)
     if not r.ok:
         log(f"fal {r.status_code}: {r.text[:200]}")
@@ -80,24 +81,34 @@ def archive_base(vid: str, script) -> Image.Image:
 
 
 def overlay_text(base: Image.Image, words: str) -> Image.Image:
-    img = ImageOps.fit(base, (TW, TH), Image.LANCZOS)
-    # darken the left side so the words pop
-    shade = Image.new("L", (TW, TH), 0)
-    ds = ImageDraw.Draw(shade)
-    for x in range(int(TW * 0.62)):
-        ds.line([(x, 0), (x, TH)], fill=int(170 * (1 - x / (TW * 0.62))))
-    img = Image.composite(Image.new("RGB", (TW, TH), (0, 0, 0)), img, shade)
+    """Scene on the right, solid title panel on the left: text never covers the picture."""
+    img = Image.new("RGB", (TW, TH), (16, 12, 10))
+    if base.width / base.height > 1.4:      # archive fallback is already a 16:9 layout
+        img = ImageOps.fit(base, (TW, TH), Image.LANCZOS)
+        scene_x = int(TW * 0.4)
+    else:
+        scene = ImageOps.fit(base, (TH, TH), Image.LANCZOS)
+        scene_x = TW - TH
+        img.paste(scene, (scene_x, 0))
+        # soft blend of the scene's left edge into the panel
+        fade = Image.new("L", (TW, TH), 0)
+        df = ImageDraw.Draw(fade)
+        for x in range(160):
+            df.line([(scene_x + x, 0), (scene_x + x, TH)], fill=int(255 * (1 - x / 160)))
+        img = Image.composite(Image.new("RGB", (TW, TH), (16, 12, 10)), img, fade)
     d = ImageDraw.Draw(img)
     lines = words.upper().split("|") if "|" in words else _split(words.upper())
     colors = [(255, 255, 255), (255, 200, 40), (255, 255, 255), (255, 200, 40)]
-    size = 150
-    while size > 60 and max(d.textlength(l, font=ImageFont.truetype(BOLD, size)) for l in lines) > TW * 0.56:
+    max_w = scene_x + 60 - 70
+    size = 170
+    while size > 50 and (max(d.textlength(l, font=ImageFont.truetype(BOLD, size)) for l in lines) > max_w
+                         or len(lines) * size * 1.08 > TH * 0.86):
         size -= 6
     f = ImageFont.truetype(BOLD, size)
     total = len(lines) * int(size * 1.08)
     y = (TH - total) // 2
     for i, ln in enumerate(lines):
-        d.text((46, y), ln, font=f, fill=colors[i % 4], stroke_width=max(6, size // 14), stroke_fill=(0, 0, 0))
+        d.text((44, y), ln, font=f, fill=colors[i % 4], stroke_width=max(6, size // 14), stroke_fill=(0, 0, 0))
         y += int(size * 1.08)
     return img
 
