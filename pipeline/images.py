@@ -91,6 +91,8 @@ def main() -> None:
     queries = load_json(qfile)
     if not queries:
         fail(f"missing {qfile.name}")
+    excluded = set(queries.pop("_exclude", []))
+    bad_words = BAD_WORDS + tuple(w.lower() for w in queries.pop("_exclude_words", []))
 
     session = requests.Session()
     session.headers["User-Agent"] = UA
@@ -108,7 +110,7 @@ def main() -> None:
                 if got >= PER_KEY:
                     break
                 title = page.get("title", "")
-                if title in used_titles or any(b in title.lower() for b in BAD_WORDS):
+                if title in used_titles or title in excluded or any(b in title.lower() for b in bad_words):
                     continue
                 info = (page.get("imageinfo") or [{}])[0]
                 if info.get("mime") not in ("image/jpeg", "image/png", "image/tiff"):
@@ -134,7 +136,7 @@ def main() -> None:
                     "key": key, "file": fname, "title": title,
                     "license": lic,
                     "license_url": strip_html(meta.get("LicenseUrl", {}).get("value", "")),
-                    "artist": strip_html(meta.get("Artist", {}).get("value", "")) or "Unknown author",
+                    "artist": (strip_html(meta.get("Artist", {}).get("value", "")).splitlines() or ["Unknown author"])[0][:120].replace("Unknown authorUnknown author", "Unknown author") or "Unknown author",
                     "credit": strip_html(meta.get("Credit", {}).get("value", "")),
                     "source": info.get("descriptionurl", ""),
                 })

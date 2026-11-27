@@ -1,20 +1,106 @@
 {
-  "stellite": ["Stellite", "cobalt chromium alloy", "hardfacing weld"],
-  "lathe": ["lathe 1900s machine shop", "engine lathe antique", "metal lathe historic photograph"],
-  "shop": ["machine shop 1910s workers", "factory machine shop interior early 20th century", "Library of Congress machine shop"],
-  "toolbit": ["lathe tool bit", "single point cutting tool lathe", "lathe cutting tool"],
-  "mushet": ["Robert Forester Mushet", "Mushet steel", "Sheffield steel works 19th century"],
-  "taylor": ["Frederick Winslow Taylor", "Bethlehem Steel works", "Bethlehem Steel 1900s"],
-  "paris": ["Exposition Universelle 1900 Paris", "Paris Exposition 1900 machinery"],
-  "haynes": ["Elwood Haynes", "Elwood Haynes portrait"],
-  "pioneer": ["Haynes Pioneer automobile", "Elwood Haynes automobile 1894", "Haynes automobile"],
-  "kokomo": ["Kokomo Indiana", "Kokomo Indiana history", "Howard County Indiana courthouse"],
-  "patent": ["Elwood Haynes patent", "metal alloy patent 1913", "US patent drawing tool 1910s"],
-  "munitions": ["shell factory World War I", "munitions factory 1917 shells lathe", "shell manufacturing 1918 machine"],
-  "valve": ["poppet valve", "engine valve seat", "Wright Whirlwind J-5 engine"],
-  "spirit": ["Spirit of St. Louis", "Charles Lindbergh 1927 Spirit of St. Louis"],
-  "krupp": ["Krupp Essen works", "Krupp factory 1920s", "Leipzig trade fair 1920s"],
-  "carbide": ["tungsten carbide", "cemented carbide", "carbide tipped tool"],
-  "insert": ["indexable insert", "carbide insert turning", "CNC turning insert"],
-  "saw": ["sawmill saw teeth", "band saw blade sawmill", "circular saw blade sawmill"]
+  "_exclude": [
+    "File:Stellite 1914 6435554719.jpg",
+    "File:Stellite 1914 6435556907.jpg",
+    "File:L Relief, Árpád Straße 67, 2024 Újpest.jpg",
+    "File:Jaulas, Kokomo, Indiana, Estados Unidos, 2012-10-20, DD 01.jpg",
+    "File:Image from page 419 of \"Official proceedings\" (1901).jpg",
+    "File:Thyssen-Krupp-Quartier-Essen-Q1-2013.jpg",
+    "File:Essen, Lokomotiv- und Waggonbaufabrik Krupp, M2 Abriss.jpg",
+    "File:Elwood P. Haynes, age four (4).jpg"
+  ],
+  "_exclude_words": [
+    "missile",
+    "v-1",
+    "forstner",
+    "relief",
+    "skyline",
+    "1914 6435"
+  ],
+  "lathe": [
+    "lathe 1900s machine shop",
+    "engine lathe antique",
+    "metal lathe historic photograph"
+  ],
+  "shop": [
+    "machine shop workers lathes 1910s",
+    "machine shop interior early 20th century photograph",
+    "factory lathes belts line shaft photograph"
+  ],
+  "toolbit": [
+    "lathe tool bit",
+    "lathe cutting tool high speed steel",
+    "lathe tool post cutting"
+  ],
+  "mushet": [
+    "Robert Forester Mushet",
+    "Sheffield steel works 19th century",
+    "crucible steel furnace Sheffield"
+  ],
+  "taylor": [
+    "Frederick Winslow Taylor",
+    "Bethlehem Steel works",
+    "Bethlehem Steel 1900s"
+  ],
+  "paris": [
+    "Exposition Universelle 1900 Paris",
+    "Paris Exposition 1900 machinery"
+  ],
+  "haynes": [
+    "Elwood Haynes",
+    "Elwood Haynes portrait"
+  ],
+  "pioneer": [
+    "Haynes Pioneer automobile",
+    "Haynes-Apperson automobile",
+    "Haynes automobile"
+  ],
+  "kokomo": [
+    "Kokomo Indiana courthouse",
+    "Kokomo Indiana historic",
+    "Howard County Indiana"
+  ],
+  "munitions": [
+    "shell factory World War I",
+    "munitions factory 1917 shells lathe",
+    "shell manufacturing 1918 machine"
+  ],
+  "valve": [
+    "poppet valve",
+    "engine valve seat",
+    "Wright Whirlwind J-5 engine"
+  ],
+  "spirit": [
+    "Spirit of St. Louis",
+    "Charles Lindbergh 1927 Spirit of St. Louis"
+  ],
+  "krupp": [
+    "Krupp Gussstahlfabrik Essen",
+    "Krupp works Essen historical",
+    "Krupp Essen 1900"
+  ],
+  "carbide": [
+    "tungsten carbide",
+    "cemented carbide",
+    "carbide tipped tool"
+  ],
+  "insert": [
+    "indexable insert",
+    "carbide insert turning",
+    "CNC turning insert"
+  ],
+  "hardfacing": [
+    "hardfacing weld",
+    "hard facing welding",
+    "Stellite hardfacing"
+  ],
+  "dental": [
+    "cobalt chromium dental prosthesis",
+    "Teilprothese Modellguss"
+  ],
+  "saw": [
+    "sawmill saw teeth",
+    "band saw blade sawmill",
+    "circular saw blade sawmill"
+  ]
 }

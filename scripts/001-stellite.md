@@ -6,13 +6,13 @@ voice: bm_george
 speed: 0.92
 sources: en.wikipedia.org/wiki/Stellite | en.wikipedia.org/wiki/Elwood_Haynes | haynesintl.com company history | Haynes Stellite Co. v. Chesterfield, 22 F.2d 635 (6th Cir. 1927) | Google Patents US873746A | en.wikipedia.org/wiki/Cemented_carbide | en.wikipedia.org/wiki/High-speed_steel | Cutting Tool Engineering, "Celebrating a century of cemented carbide"
 summary: Stellite was a cobalt-chromium-tungsten alloy that stayed hard while red hot. Invented by Elwood Haynes in Kokomo, Indiana, it cut steel faster than high-speed steel, fed the factories of the First World War, and then lost the cutting edge to cemented carbide. This is the story of where it came from, why it lost, and where it still works today.
-thumb_key: stellite
+thumb_key: lathe
 thumb_text: STELLITE
 tags: stellite, cutting tools, machining history, cobalt alloy, elwood haynes, carbide, high speed steel, metallurgy, industrial history
 ---
 
 ## The tool that cut faster than steel
-images: stellite, lathe, shop
+images: lathe, shop, toolbit
 
 At the start of the twentieth century, every machine shop in the world had the same problem. Steel was getting harder. Machines were getting stronger. Electric motors and heavier lathes could push a cutting tool faster than ever before. But the tool itself kept failing. Push it too fast and the edge began to glow, then it softened, and within minutes it was gone. The machinist stopped the lathe, walked to the grinder, and started again.
 
@@ -60,7 +60,7 @@ What he found was remarkable. An alloy of cobalt and chromium, with no iron to s
 He chose a name from the Latin word stella, meaning star, because of the bright, lasting shine of the metal's surface. He called it Stellite.
 
 ## Adding tungsten
-images: patent, stellite, toolbit
+images: toolbit, lathe, haynes
 
 At first Haynes thought of Stellite as a material for table knives, surgical and dental instruments and spark plug parts. But he kept experimenting. He added tungsten to the cobalt and chromium, and the alloy changed character. It became much harder, hard enough to cut other metals.
 
@@ -93,7 +93,7 @@ The company received lucrative wartime contracts. By 1916, Elwood Haynes was a m
 In 1920 Haynes sold the company to Union Carbide, which was building a large business in alloys and industrial gases. Haynes himself died in Kokomo in 1925, at the age of sixty-seven. He is also remembered as one of the independent discoverers of stainless steel, an alloy he worked out around the same time as the English metallurgist Harry Brearley. It is a striking record for one man in one small town: an early car, a family of cobalt alloys, and a share in stainless steel.
 
 ## Hardfacing and the Atlantic crossing
-images: valve, spirit, stellite
+images: hardfacing, valve, spirit
 
 Under Union Carbide, Stellite found a second career that would outlast the first.
 
@@ -130,7 +130,7 @@ There was also the question of cost. Cobalt is expensive, and a solid cast tool 
 By the second half of the twentieth century, cast cobalt alloys had largely disappeared from the lathe. As cutting tools, they had become a footnote.
 
 ## Where Stellite survives today
-images: saw, valve, stellite
+images: saw, hardfacing, dental
 
 And yet Stellite did not disappear. It moved to places where wear, heat and corrosion all attack at once, and where toughness matters as much as hardness.
 
@@ -141,7 +141,7 @@ It even found its way into medicine. The cage of the Starr-Edwards heart valve, 
 The business changed hands many times. Union Carbide sold the company to the Cabot Corporation in 1970. In 1985 Cabot sold the Stellite hardfacing business, and the rest of the Kokomo operation became Haynes International, a maker of high-performance nickel and cobalt alloys. The Stellite trademark itself was acquired by Kennametal in 2012, a company that grew up making, of all things, carbide cutting tools.
 
 ## What it teaches
-images: stellite, toolbit, shop
+images: toolbit, shop, lathe
 
 Stellite lost the race it became famous for, but it never lost its edge.
 
