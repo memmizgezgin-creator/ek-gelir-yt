@@ -32,7 +32,7 @@ def fetch() -> None:
             try:
                 r = requests.get(BASE + quote(t["title"]) + ".mp3", timeout=60,
                                  headers={"User-Agent": "ek-gelir-yt (github.com/memmizgezgin-creator/ek-gelir-yt)"})
-                if r.ok and r.headers.get("content-type", "").startswith("audio") and len(r.content) > 100_000:
+                if r.ok and len(r.content) > 100_000 and (r.content[:3] == b"ID3" or r.content[:2] in (b"\xff\xfb", b"\xff\xf3", b"\xff\xf2")):
                     dst.write_bytes(r.content)
                     ok += 1
                     break
