@@ -45,14 +45,13 @@ def clean(img: Image.Image) -> Image.Image:
     """Scanned sheet -> line art: the paper tone becomes transparent, the lines become ink."""
     g = ImageOps.grayscale(img)
     hist = g.histogram()
-    total, acc, lo, hi = sum(hist), 0, 0, 255
-    for v, n in enumerate(hist):
+    total, acc, paper = sum(hist), 0, 255
+    for v, n in enumerate(hist):        # median grey = the paper tone
         acc += n
-        if acc <= total * 0.03:
-            lo = v
-        if acc <= total * 0.55:
-            hi = v
-    hi = max(hi - 18, lo + 30)          # paper sits around the median; everything lighter is paper
+        if acc >= total * 0.5:
+            paper = v
+            break
+    hi, lo = paper - 22, max(0, paper - 115)   # lighter than hi: paper; darker than lo: full ink
     alpha = g.point(lambda v: 255 if v <= lo else 0 if v >= hi else int(255 * (hi - v) / (hi - lo)))
     box = alpha.point(lambda a: 255 if a > 90 else 0).getbbox()
     if box:
