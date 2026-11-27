@@ -3,11 +3,11 @@
   "checks": {
     "duration": {
       "ok": true,
-      "detail": "19.70 min"
+      "detail": "18.63 min"
     },
     "sync": {
       "ok": true,
-      "detail": "video 1181.64s, audio 1181.74s"
+      "detail": "video 1117.92s, audio 1117.91s"
     },
     "resolution": {
       "ok": true,
@@ -15,11 +15,11 @@
     },
     "images": {
       "ok": true,
-      "detail": "38 licensed images (minimum 10, text cards alone do not pass)"
+      "detail": "63 licensed images (minimum 10, text cards alone do not pass)"
     },
     "licenses": {
       "ok": true,
-      "detail": "38 images, missing records: none"
+      "detail": "63 images, missing records: none"
     },
     "fact_check": {
       "ok": true,

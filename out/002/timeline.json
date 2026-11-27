@@ -1,0 +1,149 @@
+{
+  "sections": [
+    {
+      "index": 1,
+      "title": "The Steel That Was Never Patented",
+      "images": [
+        "forge",
+        "mushet",
+        "toolbit"
+      ],
+      "start": 1.0,
+      "end": 82.98
+    },
+    {
+      "index": 2,
+      "title": "Heat at the Cutting Edge",
+      "images": [
+        "lathe",
+        "chips",
+        "toolbit"
+      ],
+      "start": 82.98,
+      "end": 116.323
+    },
+    {
+      "index": 3,
+      "title": "The Limit of Carbon Steel",
+      "images": [
+        "shop",
+        "lathe",
+        "quench"
+      ],
+      "start": 116.323,
+      "end": 180.941
+    },
+    {
+      "index": 4,
+      "title": "The Ironmaster of the Forest of Dean",
+      "images": [
+        "mushet",
+        "darkhill",
+        "forest"
+      ],
+      "start": 180.941,
+      "end": 263.495
+    },
+    {
+      "index": 5,
+      "title": "Fixing the Bessemer Process",
+      "images": [
+        "bessemer",
+        "converter",
+        "spiegel"
+      ],
+      "start": 263.495,
+      "end": 364.993
+    },
+    {
+      "index": 6,
+      "title": "Rails, and a Steel That Hardened Itself",
+      "images": [
+        "rails",
+        "tungsten",
+        "forge"
+      ],
+      "start": 364.993,
+      "end": 488.093
+    },
+    {
+      "index": 7,
+      "title": "Why It Hardened in Air",
+      "images": [
+        "forge",
+        "quench",
+        "toolbit"
+      ],
+      "start": 488.093,
+      "end": 572.928
+    },
+    {
+      "index": 8,
+      "title": "Taylor Measures the Difference",
+      "images": [
+        "taylor",
+        "lathe",
+        "chips"
+      ],
+      "start": 572.928,
+      "end": 632.945
+    },
+    {
+      "index": 9,
+      "title": "Sheffield and Samuel Osborn",
+      "images": [
+        "sheffield",
+        "crucible",
+        "mushet"
+      ],
+      "start": 632.945,
+      "end": 727.729
+    },
+    {
+      "index": 10,
+      "title": "From Mushet Steel to High-Speed Steel",
+      "images": [
+        "bethlehem",
+        "taylor",
+        "paris"
+      ],
+      "start": 727.729,
+      "end": 838.528
+    },
+    {
+      "index": 11,
+      "title": "Why Mushet Steel Disappeared",
+      "images": [
+        "hss",
+        "drill",
+        "lathe"
+      ],
+      "start": 838.528,
+      "end": 917.506
+    },
+    {
+      "index": 12,
+      "title": "Where It Survives Today",
+      "images": [
+        "drill",
+        "tap",
+        "hss"
+      ],
+      "start": 917.506,
+      "end": 1004.469
+    },
+    {
+      "index": 13,
+      "title": "What It Teaches",
+      "images": [
+        "mushet",
+        "toolbit",
+        "shop"
+      ],
+      "start": 1004.469,
+      "end": 1119.873
+    }
+  ],
+  "sample_rate": 24000,
+  "duration": 1119.873
+}

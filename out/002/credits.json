@@ -1,0 +1,632 @@
+[
+  {
+    "key": "forge",
+    "file": "forge-1.jpg",
+    "title": "File:Weeks Edwin Lord Blacksmith Shop at Tangiers.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Edwin Lord Weeks",
+    "credit": "http://www.filestube.com/6Gveb6baIsdLxqLvPb4QJo/105-Old-India-in-Paintings-Wallpapers-Collection-zip.html",
+    "source": "https://commons.wikimedia.org/wiki/File:Weeks_Edwin_Lord_Blacksmith_Shop_at_Tangiers.jpg"
+  },
+  {
+    "key": "forge",
+    "file": "forge-2.jpg",
+    "title": "File:Army blacksmith and forge, Antietam, Maryland, 09-1862 - NARA - 559270.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author or not provided",
+    "credit": "U.S. National Archives and Records Administration",
+    "source": "https://commons.wikimedia.org/wiki/File:Army_blacksmith_and_forge,_Antietam,_Maryland,_09-1862_-_NARA_-_559270.jpg"
+  },
+  {
+    "key": "forge",
+    "file": "forge-3.jpg",
+    "title": "File:Chain Bridge Forge Museum - geograph.org.uk - 6228292.jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Jonathan Thacker",
+    "credit": "Geograph Britain and Ireland",
+    "source": "https://commons.wikimedia.org/wiki/File:Chain_Bridge_Forge_Museum_-_geograph.org.uk_-_6228292.jpg"
+  },
+  {
+    "key": "toolbit",
+    "file": "toolbit-1.jpg",
+    "title": "File:FishTailGauges.jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "The original uploader was Graibeard at English Wikipedia.",
+    "credit": "Transferred from en.wikipedia to Commons by IngerAlHaosului using CommonsHelper.",
+    "source": "https://commons.wikimedia.org/wiki/File:FishTailGauges.jpg"
+  },
+  {
+    "key": "toolbit",
+    "file": "toolbit-2.jpg",
+    "title": "File:Fishtail Gauge for Foot Lathe Used by William Beattie of Beattie Manufacturing Company, St. Louis - DPLA - c88e9365415fdd441b968592725a6564 (page 1).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Darling, Brown & Sharpe (Firm)",
+    "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America, via its partner Heartland Hub.\nRecord in source catalog\nDPLA identifier: c88e9365415fdd441b968592725a6564\nMissouri Historical Society identifier: 2021-014-0042",
+    "source": "https://commons.wikimedia.org/wiki/File:Fishtail_Gauge_for_Foot_Lathe_Used_by_William_Beattie_of_Beattie_Manufacturing_Company,_St._Louis_-_DPLA_-_c88e9365415fdd441b968592725a6564_(page_1).jpg"
+  },
+  {
+    "key": "toolbit",
+    "file": "toolbit-3.jpg",
+    "title": "File:Fishtail Gauge for Foot Lathe Used by William Beattie of Beattie Manufacturing Company, St. Louis - DPLA - c88e9365415fdd441b968592725a6564 (page 2).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Darling, Brown & Sharpe (Firm)",
+    "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America, via its partner Heartland Hub.\nRecord in source catalog\nDPLA identifier: c88e9365415fdd441b968592725a6564\nMissouri Historical Society identifier: 2021-014-0042",
+    "source": "https://commons.wikimedia.org/wiki/File:Fishtail_Gauge_for_Foot_Lathe_Used_by_William_Beattie_of_Beattie_Manufacturing_Company,_St._Louis_-_DPLA_-_c88e9365415fdd441b968592725a6564_(page_2).jpg"
+  },
+  {
+    "key": "lathe",
+    "file": "lathe-1.jpg",
+    "title": "File:Khalili Collection Spanish Damascened Metalwork ZUL097.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Khalili Foundation",
+    "credit": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Khalili_Collection_Spanish_Damascened_Metalwork_ZUL097.jpg"
+  },
+  {
+    "key": "lathe",
+    "file": "lathe-2.jpg",
+    "title": "File:Khalili Collection Spanish Damascened Metalwork ZUL103.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Khalili Foundation",
+    "credit": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Khalili_Collection_Spanish_Damascened_Metalwork_ZUL103.jpg"
+  },
+  {
+    "key": "lathe",
+    "file": "lathe-3.jpg",
+    "title": "File:Khalili Collection Spanish Damascened Metalwork ZUL093.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Khalili Foundation",
+    "credit": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Khalili_Collection_Spanish_Damascened_Metalwork_ZUL093.jpg"
+  },
+  {
+    "key": "chips",
+    "file": "chips-1.jpg",
+    "title": "File:Neumann TELDEC-DMM Kupferfolien-Schneidemaschine.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "32bitmaschine",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Neumann_TELDEC-DMM_Kupferfolien-Schneidemaschine.jpg"
+  },
+  {
+    "key": "chips",
+    "file": "chips-2.jpg",
+    "title": "File:The 'BGL' Chemical Set - DPLA - 6bfcf89b17f7c2634c292fe12f4f54fd.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "British Games Limited",
+    "credit": "This file was contributed to Wikimedia Commons by Science History Institute as part of a cooperation project. The donation was facilitated by the Digital Public Library of America, via its partner PA Digital.\nRecord in source catalog\nDPLA identifier: 6bfcf89b17f7c2634c292fe12f4f54fd\nScience History Institute identifier: padig:SHI-pg15bf367",
+    "source": "https://commons.wikimedia.org/wiki/File:The_%27BGL%27_Chemical_Set_-_DPLA_-_6bfcf89b17f7c2634c292fe12f4f54fd.jpg"
+  },
+  {
+    "key": "chips",
+    "file": "chips-3.jpg",
+    "title": "File:Lathe Center Drilling.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "David English",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Lathe_Center_Drilling.jpg"
+  },
+  {
+    "key": "shop",
+    "file": "shop-1.jpg",
+    "title": "File:A London street scene, mid-19th century, with a tobacconist' Wellcome V0019132.jpg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "Unknown author",
+    "credit": "https://wellcomeimages.org/indexplus/obf_images/1e/cc/5b9033e0f69b90d6b10d9a702a0b.jpg\n\nGallery: https://wellcomeimages.org/indexplus/image/V0019132.html\nWellcome Collection gallery (2018-03-22): https://wellcomecollection.org/works/bpq3w2ce CC-BY-4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:A_London_street_scene,_mid-19th_century,_with_a_tobacconist%27_Wellcome_V0019132.jpg"
+  },
+  {
+    "key": "shop",
+    "file": "shop-2.jpg",
+    "title": "File:StateLibQld 1 152247 House and shop at the jetty end of Herbert Street, Bowen, ca. 1873.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "Item is held by John Oxley Library, State Library of Queensland.",
+    "source": "https://commons.wikimedia.org/wiki/File:StateLibQld_1_152247_House_and_shop_at_the_jetty_end_of_Herbert_Street,_Bowen,_ca._1873.jpg"
+  },
+  {
+    "key": "shop",
+    "file": "shop-3.jpg",
+    "title": "File:StateLibQld 1 109352 Warwick Emporium and shops in Palmerin Street, Warwick, ca. 1890.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "Item is held by John Oxley Library, State Library of Queensland.",
+    "source": "https://commons.wikimedia.org/wiki/File:StateLibQld_1_109352_Warwick_Emporium_and_shops_in_Palmerin_Street,_Warwick,_ca._1890.jpg"
+  },
+  {
+    "key": "quench",
+    "file": "quench-1.jpg",
+    "title": "File:TWO GAS QUENCHER WATER PUMPS IN THE GAS WASHER PUMP HOUSE LOOKING SOUTH. - U.S. Steel Duquesne Works, Basic Oxygen Steelmaking Plant, Along Monongahela River, Duquesne, Allegheny HAER PA,2-DUQU,3B-37.tif",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Stupich, Martin, creator",
+    "credit": "https://www.loc.gov/pictures/item/pa3340.photos.359306p",
+    "source": "https://commons.wikimedia.org/wiki/File:TWO_GAS_QUENCHER_WATER_PUMPS_IN_THE_GAS_WASHER_PUMP_HOUSE_LOOKING_SOUTH._-_U.S._Steel_Duquesne_Works,_Basic_Oxygen_Steelmaking_Plant,_Along_Monongahela_River,_Duquesne,_Allegheny_HAER_PA,2-DUQU,3B-37.tif"
+  },
+  {
+    "key": "quench",
+    "file": "quench-2.png",
+    "title": "File:Steel 035 water quenched.png",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unbound at English Wikipedia",
+    "credit": "Transferred from en.wikipedia to Commons. Transfer was stated to be made by User:Metallos.",
+    "source": "https://commons.wikimedia.org/wiki/File:Steel_035_water_quenched.png"
+  },
+  {
+    "key": "quench",
+    "file": "quench-3.jpg",
+    "title": "File:QUENCHING MECHANISM FOR THE CONTINUOUS ELECTRIC FURNACE HEAT TREATING LINE AT THE HEAT TREATMENT PLANT OF THE DUQUESNE WORKS. - U.S. Steel Duquesne Works, Heat Treatment Plant, HAER PA,2-DUQU,3H-8.tif",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Stupich, Martin, creator",
+    "credit": "https://www.loc.gov/pictures/item/pa3513.photos.360627p",
+    "source": "https://commons.wikimedia.org/wiki/File:QUENCHING_MECHANISM_FOR_THE_CONTINUOUS_ELECTRIC_FURNACE_HEAT_TREATING_LINE_AT_THE_HEAT_TREATMENT_PLANT_OF_THE_DUQUESNE_WORKS._-_U.S._Steel_Duquesne_Works,_Heat_Treatment_Plant,_HAER_PA,2-DUQU,3H-8.tif"
+  },
+  {
+    "key": "darkhill",
+    "file": "darkhill-1.jpg",
+    "title": "File:Darkhill Ironworks.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Obscurasky",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Darkhill_Ironworks.jpg"
+  },
+  {
+    "key": "darkhill",
+    "file": "darkhill-2.jpg",
+    "title": "File:Darkhill Ironworks - geograph.org.uk - 6906700.jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Philip Halling",
+    "credit": "Geograph Britain and Ireland",
+    "source": "https://commons.wikimedia.org/wiki/File:Darkhill_Ironworks_-_geograph.org.uk_-_6906700.jpg"
+  },
+  {
+    "key": "darkhill",
+    "file": "darkhill-3.jpg",
+    "title": "File:Darkhill Ironworks - geograph.org.uk - 7142889.jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "David Martin",
+    "credit": "Geograph Britain and Ireland",
+    "source": "https://commons.wikimedia.org/wiki/File:Darkhill_Ironworks_-_geograph.org.uk_-_7142889.jpg"
+  },
+  {
+    "key": "forest",
+    "file": "forest-1.jpg",
+    "title": "File:Symonds Yat Rock View.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artist": "The original uploader was Lemoncurd at English Wikipedia.",
+    "credit": "Transferred from en.wikipedia to Commons.",
+    "source": "https://commons.wikimedia.org/wiki/File:Symonds_Yat_Rock_View.JPG"
+  },
+  {
+    "key": "forest",
+    "file": "forest-2.jpg",
+    "title": "File:November morning, Forest of Dean, 4.jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Jonathan Billinger",
+    "credit": "From geograph.org.uk",
+    "source": "https://commons.wikimedia.org/wiki/File:November_morning,_Forest_of_Dean,_4.jpg"
+  },
+  {
+    "key": "forest",
+    "file": "forest-3.jpg",
+    "title": "File:Spotlight in the Forest of Dean.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Krolusk",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Spotlight_in_the_Forest_of_Dean.jpg"
+  },
+  {
+    "key": "bessemer",
+    "file": "bessemer-1.jpg",
+    "title": "File:Henry Bessemer 1890s.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown (Mondadori Publishers)",
+    "credit": "http://www.gettyimages.co.uk/detail/news-photo/portrait-of-the-english-engineer-henry-bessemer-who-news-photo/141551119",
+    "source": "https://commons.wikimedia.org/wiki/File:Henry_Bessemer_1890s.jpg"
+  },
+  {
+    "key": "bessemer",
+    "file": "bessemer-2.jpg",
+    "title": "File:Henry Bessemer (1813-1898).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "scan from literature: Otto Johannsen (im Auftrag des Vereins Deutscher Eisenhüttenleute): Geschichte des Eisens. 3 Auflage. Verlag Stahleisen mbH, Düsseldorf 1953. S. 376",
+    "source": "https://commons.wikimedia.org/wiki/File:Henry_Bessemer_(1813-1898).jpg"
+  },
+  {
+    "key": "bessemer",
+    "file": "bessemer-3.jpg",
+    "title": "File:Portrait of Mr. Henry Bessemer (4671261).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "This image is available from the National Library of Wales You can view this image in its original context on the NLW Catalogue",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Mr._Henry_Bessemer_(4671261).jpg"
+  },
+  {
+    "key": "converter",
+    "file": "converter-1.jpg",
+    "title": "File:Bessemer process DMK.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "scanned by Ed1984",
+    "source": "https://commons.wikimedia.org/wiki/File:Bessemer_process_DMK.jpg"
+  },
+  {
+    "key": "converter",
+    "file": "converter-2.jpg",
+    "title": "File:Bessemer converter Blowing.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Borvan53",
+    "credit": "The principles and practice of iron and steel manufacture p. 76",
+    "source": "https://commons.wikimedia.org/wiki/File:Bessemer_converter_Blowing.jpg"
+  },
+  {
+    "key": "converter",
+    "file": "converter-3.jpg",
+    "title": "File:Bessemer converter Långshyttan.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Calle Eklund/V-wolf",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Bessemer_converter_L%C3%A5ngshyttan.jpg"
+  },
+  {
+    "key": "spiegel",
+    "file": "spiegel-1.jpg",
+    "title": "File:Ferromanganèse métal.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Borvan53",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferromangan%C3%A8se_m%C3%A9tal.jpg"
+  },
+  {
+    "key": "spiegel",
+    "file": "spiegel-2.jpg",
+    "title": "File:Spiegeleisen.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Andrew Silver",
+    "credit": "https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/thumbnails/image/Spiegeleisen.jpg?itok=CI6caX-p(photo gallery at the bottom of the USGS site)",
+    "source": "https://commons.wikimedia.org/wiki/File:Spiegeleisen.jpg"
+  },
+  {
+    "key": "spiegel",
+    "file": "spiegel-3.jpg",
+    "title": "File:Ferromanganèse affiné.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Borvan53",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferromangan%C3%A8se_affin%C3%A9.jpg"
+  },
+  {
+    "key": "rails",
+    "file": "rails-1.jpg",
+    "title": "File:Toronto Rolling Mills.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "William Armstrong",
+    "credit": "This image is available from the Toronto Public Library under the reference number JRR 1059",
+    "source": "https://commons.wikimedia.org/wiki/File:Toronto_Rolling_Mills.jpg"
+  },
+  {
+    "key": "rails",
+    "file": "rails-2.jpg",
+    "title": "File:Arnold Mills Bridge.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "ScOtT",
+    "credit": "https://www.flickr.com/photos/7422037@N06/55514427169/",
+    "source": "https://commons.wikimedia.org/wiki/File:Arnold_Mills_Bridge.jpg"
+  },
+  {
+    "key": "rails",
+    "file": "rails-3.jpg",
+    "title": "File:Wyandotte, Michigan (21514681098).jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Ken Lund from Reno, Nevada, USA",
+    "credit": "Wyandotte, Michigan",
+    "source": "https://commons.wikimedia.org/wiki/File:Wyandotte,_Michigan_(21514681098).jpg"
+  },
+  {
+    "key": "tungsten",
+    "file": "tungsten-1.jpg",
+    "title": "File:Wolframit-beryll.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Kaethe17",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Wolframit-beryll.jpg"
+  },
+  {
+    "key": "tungsten",
+    "file": "tungsten-2.jpg",
+    "title": "File:Wolframite (GeoDIL number - 193).jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Darla Sondrol",
+    "credit": "https://geodil.dperkins.org/h/193.html",
+    "source": "https://commons.wikimedia.org/wiki/File:Wolframite_(GeoDIL_number_-_193).jpg"
+  },
+  {
+    "key": "tungsten",
+    "file": "tungsten-3.jpg",
+    "title": "File:Wolframiteportugal2.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Didier Descouens",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Wolframiteportugal2.jpg"
+  },
+  {
+    "key": "taylor",
+    "file": "taylor-1.jpg",
+    "title": "File:Frederick Taylor 1911.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Rumely Company",
+    "credit": "The World's Work 21",
+    "source": "https://commons.wikimedia.org/wiki/File:Frederick_Taylor_1911.jpg"
+  },
+  {
+    "key": "taylor",
+    "file": "taylor-2.png",
+    "title": "File:Fredrick Winslow Taylor c1907 retouched.png",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Gessford (New York) [1]",
+    "credit": "Samuel C. Williams Library, Stevens Institute of Technology Frederick Winslow Taylor Collection (SCW.SC.001), ID 3119",
+    "source": "https://commons.wikimedia.org/wiki/File:Fredrick_Winslow_Taylor_c1907_retouched.png"
+  },
+  {
+    "key": "taylor",
+    "file": "taylor-3.jpg",
+    "title": "File:Fredrick Winslow Taylor c1907 original.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Gessford (New York) [1]",
+    "credit": "Samuel C. Williams Library, Stevens Institute of Technology Frederick Winslow Taylor Collection (SCW.SC.001), ID 3119",
+    "source": "https://commons.wikimedia.org/wiki/File:Fredrick_Winslow_Taylor_c1907_original.jpg"
+  },
+  {
+    "key": "sheffield",
+    "file": "sheffield-1.jpg",
+    "title": "File:Crucible Steel near to Beauchief, Sheffield, Great Britain.jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Ashley Dace",
+    "credit": "From www.geograph.org.uk",
+    "source": "https://commons.wikimedia.org/wiki/File:Crucible_Steel_near_to_Beauchief,_Sheffield,_Great_Britain.jpg"
+  },
+  {
+    "key": "sheffield",
+    "file": "sheffield-2.jpg",
+    "title": "File:GENERAL VIEW FROM THE SOUTHWEST, SHOWING THE -2 CASTING SHED IN THE FOREGROUND WITH THE STOVES AND TOP WORKS OF THE -1 FURNACE IN THE BACKGROUND. - Sloss-Sheffield Steel and HAER ALA,37-BIRM,4-16.tif",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Boucher, Jack E.",
+    "credit": "https://www.loc.gov/pictures/item/al0249.photos.002877p",
+    "source": "https://commons.wikimedia.org/wiki/File:GENERAL_VIEW_FROM_THE_SOUTHWEST,_SHOWING_THE_-2_CASTING_SHED_IN_THE_FOREGROUND_WITH_THE_STOVES_AND_TOP_WORKS_OF_THE_-1_FURNACE_IN_THE_BACKGROUND._-_Sloss-Sheffield_Steel_and_HAER_ALA,37-BIRM,4-16.tif"
+  },
+  {
+    "key": "sheffield",
+    "file": "sheffield-3.jpg",
+    "title": "File:The Top Secret Room near to Beauchief, Sheffield, Great Britain.jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Ashley Dace",
+    "credit": "From www.geograph.org.uk",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Top_Secret_Room_near_to_Beauchief,_Sheffield,_Great_Britain.jpg"
+  },
+  {
+    "key": "crucible",
+    "file": "crucible-1.jpg",
+    "title": "File:General view of blast furnace \"A\"; looking southeast; The building to the right is the crucible steel building - Bethlehem Steel Corporation, South Bethlehem Works, Blast Furnace HAER PA,48-BETH,19D-2.tif",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Lowe, Jet, creator",
+    "credit": "https://www.loc.gov/pictures/item/pa3390.photos.359755p",
+    "source": "https://commons.wikimedia.org/wiki/File:General_view_of_blast_furnace_%22A%22;_looking_southeast;_The_building_to_the_right_is_the_crucible_steel_building_-_Bethlehem_Steel_Corporation,_South_Bethlehem_Works,_Blast_Furnace_HAER_PA,48-BETH,19D-2.tif"
+  },
+  {
+    "key": "crucible",
+    "file": "crucible-2.jpg",
+    "title": "File:Steel melting house Sheffield.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Walter Macfarlane",
+    "credit": "The principles and practice of iron and steel manufacture p. 43",
+    "source": "https://commons.wikimedia.org/wiki/File:Steel_melting_house_Sheffield.jpg"
+  },
+  {
+    "key": "crucible",
+    "file": "crucible-3.jpg",
+    "title": "File:Lake Oswego Iron & Steel Crucible.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Esprqii",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Oswego_Iron_%26_Steel_Crucible.jpg"
+  },
+  {
+    "key": "bethlehem",
+    "file": "bethlehem-1.jpg",
+    "title": "File:Bethlehem Steel Pennellb.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Joseph Pennell",
+    "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID cph.3g05734.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+    "source": "https://commons.wikimedia.org/wiki/File:Bethlehem_Steel_Pennellb.jpg"
+  },
+  {
+    "key": "bethlehem",
+    "file": "bethlehem-2.jpg",
+    "title": "File:SteelStacks 4.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Konosina333",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:SteelStacks_4.jpg"
+  },
+  {
+    "key": "bethlehem",
+    "file": "bethlehem-3.jpg",
+    "title": "File:Bethlehem Steel Works LCCN97517130.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Pennell, Joseph, 1857-1926, artist",
+    "credit": "Library of Congress\n\nCatalog: https://lccn.loc.gov/97517130\nImage download: https://cdn.loc.gov/service/pnp/cph/3g00000/3g05000/3g05700/3g05734v.jpg\nOriginal url: https://www.loc.gov/pictures/item/97517130/",
+    "source": "https://commons.wikimedia.org/wiki/File:Bethlehem_Steel_Works_LCCN97517130.jpg"
+  },
+  {
+    "key": "paris",
+    "file": "paris-1.jpg",
+    "title": "File:Exposition universelle de Paris, 1900.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "GTC",
+    "credit": "https://www.raremaps.com/gallery/detail/76548",
+    "source": "https://commons.wikimedia.org/wiki/File:Exposition_universelle_de_Paris,_1900.jpg"
+  },
+  {
+    "key": "paris",
+    "file": "paris-2.jpg",
+    "title": "File:Vue panoramique de l'exposition universelle de 1900.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Lucien Baylac  (1851–1913)",
+    "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID ppmsca.15645.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+    "source": "https://commons.wikimedia.org/wiki/File:Vue_panoramique_de_l%27exposition_universelle_de_1900.jpg"
+  },
+  {
+    "key": "paris",
+    "file": "paris-3.jpg",
+    "title": "File:Grand entrance, Exposition Universal, 1900, Paris, France.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Detroit Publishing Company",
+    "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID ppmsc.05229.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+    "source": "https://commons.wikimedia.org/wiki/File:Grand_entrance,_Exposition_Universal,_1900,_Paris,_France.jpg"
+  },
+  {
+    "key": "hss",
+    "file": "hss-1.jpg",
+    "title": "File:1940s Wedevaag Tools 3 mm HSS twist drill bit Vedevaag Sweden.jpg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "R. Henrik Nilsson",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:1940s_Wedevaag_Tools_3_mm_HSS_twist_drill_bit_Vedevaag_Sweden.jpg"
+  },
+  {
+    "key": "hss",
+    "file": "hss-2.jpg",
+    "title": "File:HSS Twist Drill into Aluminium with Lubricant.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:HSS_Twist_Drill_into_Aluminium_with_Lubricant.jpg"
+  },
+  {
+    "key": "hss",
+    "file": "hss-3.jpg",
+    "title": "File:Broca mandril.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Taku89",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Broca_mandril.JPG"
+  },
+  {
+    "key": "drill",
+    "file": "drill-1.jpg",
+    "title": "File:Twist Drill Bit (6954956907).jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "andersen_mrjh",
+    "credit": "Twist Drill Bit",
+    "source": "https://commons.wikimedia.org/wiki/File:Twist_Drill_Bit_(6954956907).jpg"
+  },
+  {
+    "key": "drill",
+    "file": "drill-2.jpg",
+    "title": "File:Twist Drill Bit (6954963717).jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "andersen_mrjh",
+    "credit": "Twist Drill Bit",
+    "source": "https://commons.wikimedia.org/wiki/File:Twist_Drill_Bit_(6954963717).jpg"
+  },
+  {
+    "key": "drill",
+    "file": "drill-3.jpg",
+    "title": "File:Ca 1970 HSS twist drill bit diameter 6 5 mm by AB Malcus Holmquist Halmstad Sweden.jpg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "R. Henrik Nilsson",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Ca_1970_HSS_twist_drill_bit_diameter_6_5_mm_by_AB_Malcus_Holmquist_Halmstad_Sweden.jpg"
+  },
+  {
+    "key": "tap",
+    "file": "tap-1.jpg",
+    "title": "File:Pre 1970 1 8 inch 40 TPI thread tap by Skandinaviska Verktygsfabriken AB SVA Tools Tyringe Sweden.jpg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "R. Henrik Nilsson",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Pre_1970_1_8_inch_40_TPI_thread_tap_by_Skandinaviska_Verktygsfabriken_AB_SVA_Tools_Tyringe_Sweden.jpg"
+  },
+  {
+    "key": "tap",
+    "file": "tap-2.jpg",
+    "title": "File:Ca 2000 precision tap set DIN 352 HSS for M2 threads by LUX Werkzeuge Wermelskirchen Germany.jpg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "R. Henrik Nilsson",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Ca_2000_precision_tap_set_DIN_352_HSS_for_M2_threads_by_LUX_Werkzeuge_Wermelskirchen_Germany.jpg"
+  },
+  {
+    "key": "tap",
+    "file": "tap-3.jpg",
+    "title": "File:1982 Presto Tools Sheffield England HSGT machine second tap G1 8 inch BSP 4-flute series 60600.jpg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "R. Henrik Nilsson",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:1982_Presto_Tools_Sheffield_England_HSGT_machine_second_tap_G1_8_inch_BSP_4-flute_series_60600.jpg"
+  }
+]

@@ -27,1235 +27,1181 @@ metal is cut for generations after him.
 His name was Robert Forester Mushet.
 
 7
-00:00:28,199 --> 00:00:35,048
-In 1868, in a small ironworks in the
-Forest of Dean, he made a steel that did
+00:00:28,199 --> 00:00:36,115
+In 1868, in the Forest of Dean, he made a
+steel that did something no steel had done
 
 8
-00:00:35,048 --> 00:00:38,161
-something no steel had done before.
+00:00:36,115 --> 00:00:36,775
+before.
 
 9
-00:00:38,511 --> 00:00:40,410
+00:00:37,125 --> 00:00:39,023
 It hardened by itself.
 
 10
-00:00:41,560 --> 00:00:45,080
+00:00:39,373 --> 00:00:42,893
 Every blacksmith and toolmaker knew the
 old way.
 
 11
-00:00:45,430 --> 00:00:50,145
+00:00:43,243 --> 00:00:47,958
 You heated the tool red hot, then plunged
 it into water or oil.
 
 12
-00:00:50,495 --> 00:00:53,396
+00:00:49,108 --> 00:00:52,009
 The sudden chill locked in the hardness.
 
 13
-00:00:53,746 --> 00:00:58,375
-It was a violent and risky step, and it
+00:00:52,359 --> 00:00:56,967
+It was an abrupt and risky step, and it
 was the heart of the craft.
 
 14
-00:00:58,725 --> 00:01:00,624
+00:00:57,317 --> 00:00:59,216
 Mushet's steel skipped it.
 
 15
-00:01:00,974 --> 00:01:05,710
+00:00:59,566 --> 00:01:04,302
 You forged the tool, you let it cool in
 plain air, and it came out hard.
 
 16
-00:01:06,860 --> 00:01:11,020
-For a generation, this was the best
-cutting steel in the world.
+00:01:04,652 --> 00:01:07,276
+It was the first steel of its kind.
 
 17
-00:01:11,370 --> 00:01:16,789
-Then it was overtaken by a steel that was
-built on the very same idea.
+00:01:08,426 --> 00:01:13,610
+Later it was overtaken by a steel built on
+the very same idea.
 
 18
-00:01:17,139 --> 00:01:21,939
-Today almost nobody outside the metal
-trades knows his name.
+00:01:13,960 --> 00:01:18,141
+Today few people outside the metal trades
+know his name.
 
 19
-00:01:22,289 --> 00:01:24,827
+00:01:18,491 --> 00:01:21,030
 So what happened to Mushet steel?
 
 20
-00:01:26,777 --> 00:01:31,901
+00:01:22,980 --> 00:01:28,104
 To see why this mattered, we need to look
 at what happens at the tip of a cutting
 
 21
-00:01:31,901 --> 00:01:32,217
+00:01:28,104 --> 00:01:28,420
 tool.
 
 22
-00:01:33,367 --> 00:01:38,146
+00:01:28,770 --> 00:01:33,549
 A lathe tool does not slice metal the way
 a knife slices bread.
 
 23
-00:01:38,496 --> 00:01:44,000
+00:01:33,899 --> 00:01:39,403
 It pushes into the work and forces a layer
 of metal to shear away as a chip.
 
 24
-00:01:44,350 --> 00:01:48,595
+00:01:39,753 --> 00:01:43,827
 That chip slides over the face of the tool
-under huge pressure.
+under great pressure.
 
 25
-00:01:48,945 --> 00:01:54,151
+00:01:44,177 --> 00:01:49,127
 The friction and the bending of the metal
-turn nearly all of that effort into heat.
+turn much of that effort into heat.
 
 26
-00:01:54,501 --> 00:01:59,087
-And almost all of that heat collects in a
-tiny patch right at the edge.
+00:01:50,277 --> 00:01:54,373
+And much of that heat collects in a small
+patch right at the edge.
 
 27
-00:02:00,237 --> 00:02:05,208
+00:01:56,323 --> 00:02:01,293
 For most of the nineteenth century, tools
 were made of plain carbon steel.
 
 28
-00:02:05,558 --> 00:02:09,953
+00:02:01,643 --> 00:02:06,038
 Carbon steel can be made very hard by
 heating and quenching.
 
 29
-00:02:10,303 --> 00:02:12,777
+00:02:06,388 --> 00:02:08,863
 But that hardness has a weakness.
 
 30
-00:02:13,127 --> 00:02:16,583
-Heat the tool again, and the hardness
-drains away.
+00:02:09,213 --> 00:02:12,007
+Heat the tool again, and it can soften.
 
 31
-00:02:16,933 --> 00:02:21,797
+00:02:12,357 --> 00:02:17,221
 So a cutting edge in a carbon steel tool
 is always fighting itself.
 
 32
-00:02:22,147 --> 00:02:27,395
+00:02:18,371 --> 00:02:23,619
 The harder you push the cut, the hotter
 the edge gets, and the faster it softens.
 
 33
-00:02:28,545 --> 00:02:31,191
+00:02:23,969 --> 00:02:26,615
 The machinist's answer was patience.
 
 34
-00:02:31,541 --> 00:02:32,927
+00:02:26,965 --> 00:02:28,351
 Take light cuts.
 
 35
-00:02:33,277 --> 00:02:34,621
+00:02:28,701 --> 00:02:30,045
 Run slowly.
 
 36
-00:02:34,971 --> 00:02:36,273
+00:02:30,395 --> 00:02:31,697
 Stop often.
 
 37
-00:02:36,623 --> 00:02:41,252
+00:02:32,847 --> 00:02:37,476
 Keep the tool cool and sharp, and never
 let the edge change color.
 
 38
-00:02:42,402 --> 00:02:46,477
-That habit set the pace of the entire
-industrial world.
+00:02:37,826 --> 00:02:40,642
+That habit set the pace of the shop floor.
 
 39
-00:02:46,827 --> 00:02:51,730
+00:02:40,992 --> 00:02:45,895
 It limited how fast a shaft could be
 turned, how fast a cylinder could be
 
 40
-00:02:51,730 --> 00:02:55,424
+00:02:45,895 --> 00:02:49,589
 bored, and how many parts a shop could
 finish in a day.
 
 41
-00:02:55,774 --> 00:02:59,657
-Any steel that could cut faster would be
-worth a fortune.
+00:02:49,939 --> 00:02:53,353
+A steel that could cut faster would be
+valuable.
 
 42
-00:03:00,007 --> 00:03:01,500
+00:02:53,703 --> 00:02:55,196
 Mushet found one.
 
 43
-00:03:01,850 --> 00:03:04,495
+00:02:56,346 --> 00:02:58,991
 He just never collected the fortune.
 
 44
-00:03:06,445 --> 00:03:13,568
+00:03:00,941 --> 00:03:08,064
 Robert Forester Mushet was born on the
 eighth of April, 1811, in Coleford, in the
 
 45
-00:03:13,568 --> 00:03:16,557
+00:03:08,064 --> 00:03:11,053
 Forest of Dean in Gloucestershire.
 
 46
-00:03:16,907 --> 00:03:19,766
+00:03:11,403 --> 00:03:14,262
 He was the youngest son of Scottish
 parents.
 
 47
-00:03:20,116 --> 00:03:25,402
+00:03:14,612 --> 00:03:19,898
 His father, David Mushet, was an
 ironmaster, and the family business was
 
 48
-00:03:25,402 --> 00:03:25,769
+00:03:19,898 --> 00:03:20,265
 iron.
 
 49
-00:03:26,919 --> 00:03:35,111
+00:03:20,615 --> 00:03:28,807
 David built the Darkhill Ironworks around
 1818 or 1819.
 
 50
-00:03:35,461 --> 00:03:40,731
+00:03:29,157 --> 00:03:34,427
 Robert took over its management in 1845.
 
 51
-00:03:41,081 --> 00:03:46,499
+00:03:35,577 --> 00:03:40,995
 In 1848 he moved to the Forest Steel
 Works.
 
 52
-00:03:46,849 --> 00:03:52,161
+00:03:41,345 --> 00:03:46,657
 There, by one account, he ran more than
 ten thousand experiments in ten years.
 
 53
-00:03:53,311 --> 00:03:55,253
+00:03:47,007 --> 00:03:48,949
 Think about what that means.
 
 54
-00:03:55,603 --> 00:03:59,635
+00:03:49,299 --> 00:03:53,331
 He was not a university professor with a
 laboratory budget.
 
 55
-00:03:59,985 --> 00:04:05,349
+00:03:53,681 --> 00:03:59,045
 He was a working ironmaster in a rural
 valley, melting small batches, testing
 
 56
-00:04:05,349 --> 00:04:08,902
+00:03:59,045 --> 00:04:02,598
 them, writing down the results, and doing
 it again.
 
 57
-00:04:09,252 --> 00:04:11,044
-Ten thousand times.
+00:04:03,748 --> 00:04:06,564
+Ten thousand tests, by that account.
 
 58
-00:04:12,194 --> 00:04:17,079
+00:04:06,914 --> 00:04:11,799
 It was the kind of patient, practical work
 that built the nineteenth century.
 
 59
-00:04:17,429 --> 00:04:22,613
+00:04:12,149 --> 00:04:17,333
 And it led him first to a problem that had
 nothing to do with cutting tools at all.
 
 60
-00:04:22,963 --> 00:04:26,825
+00:04:17,683 --> 00:04:21,545
 It was the problem that was holding back
 the age of steel.
 
 61
-00:04:28,775 --> 00:04:36,099
+00:04:23,495 --> 00:04:30,819
 In 1856, Henry Bessemer described his new
 steelmaking process to the British
 
 62
-00:04:36,099 --> 00:04:39,953
+00:04:30,819 --> 00:04:34,673
 Association, at a meeting in Cheltenham.
 
 63
-00:04:40,303 --> 00:04:42,330
+00:04:35,023 --> 00:04:37,050
 The idea was bold.
 
 64
-00:04:42,680 --> 00:04:48,184
+00:04:37,400 --> 00:04:42,904
 Blow air through molten pig iron, and the
 oxygen burns out the silicon, the
 
 65
-00:04:48,184 --> 00:04:50,019
+00:04:42,904 --> 00:04:44,739
 manganese and the carbon.
 
 66
-00:04:50,369 --> 00:04:54,721
+00:04:45,089 --> 00:04:49,441
 Bessemer was after cheap steel, and this
 was a way to get it.
 
 67
-00:04:55,871 --> 00:04:57,321
+00:04:49,791 --> 00:04:51,241
 But there was a catch.
 
 68
-00:04:57,671 --> 00:05:00,530
+00:04:52,391 --> 00:04:55,250
 The metal that came out was often poor.
 
 69
-00:05:00,880 --> 00:05:03,184
-It could not be worked well when hot.
-
-70
-00:05:04,334 --> 00:05:05,934
+00:04:55,600 --> 00:04:57,200
 Mushet had a fix.
 
-71
-00:05:06,284 --> 00:05:11,148
+70
+00:04:57,550 --> 00:05:02,414
 He showed that you could blow the iron
 until nearly all the carbon was gone.
 
-72
-00:05:11,498 --> 00:05:16,426
+71
+00:05:02,764 --> 00:05:07,692
 Then you added back a measured amount of a
 material called spiegeleisen.
 
-73
-00:05:16,776 --> 00:05:20,104
+72
+00:05:08,842 --> 00:05:12,170
 The name is German for looking-glass iron.
 
-74
-00:05:20,454 --> 00:05:24,678
+73
+00:05:12,520 --> 00:05:16,744
 It is an alloy of iron and manganese, with
 a little carbon.
 
-75
-00:05:25,028 --> 00:05:30,435
+74
+00:05:17,094 --> 00:05:22,501
 The addition restored the carbon in a
 controlled way, and the manganese made the
 
-76
-00:05:30,435 --> 00:05:31,449
+75
+00:05:22,501 --> 00:05:23,515
 steel workable.
 
-77
-00:05:32,599 --> 00:05:36,589
-Bessemer had not solved this quality
-problem himself.
-
-78
-00:05:37,739 --> 00:05:42,453
+76
+00:05:23,865 --> 00:05:28,580
 Mushet's patent on the method lapsed,
 because he could not pay the fees.
 
-79
-00:05:42,803 --> 00:05:44,702
+77
+00:05:29,730 --> 00:05:31,629
 Bessemer took it over.
 
-80
-00:05:45,052 --> 00:05:51,111
+78
+00:05:31,979 --> 00:05:38,037
 By 1866, Mushet was destitute and in poor
 health.
 
-81
-00:05:51,461 --> 00:05:56,679
+79
+00:05:38,387 --> 00:05:43,606
 That year, his sixteen-year-old daughter
 Mary travelled to London alone and
 
-82
-00:05:56,679 --> 00:06:01,829
+80
+00:05:43,606 --> 00:05:48,755
 confronted Bessemer, arguing that his
 success rested on her father's work.
 
-83
-00:06:02,979 --> 00:06:08,291
+81
+00:05:49,105 --> 00:05:54,417
 Bessemer then agreed to pay Mushet a
 pension of three hundred pounds a year.
 
-84
-00:06:08,641 --> 00:06:11,094
+82
+00:05:54,767 --> 00:05:57,221
 That was a very considerable sum.
 
-85
-00:06:11,444 --> 00:06:16,116
+83
+00:05:58,371 --> 00:06:03,043
 He paid it for more than twenty years,
 possibly to head off legal action.
 
-86
-00:06:17,266 --> 00:06:24,391
+84
+00:06:04,993 --> 00:06:12,118
 In 1857, Mushet also made some of the
 first durable steel rails.
 
-87
-00:06:24,741 --> 00:06:31,583
+85
+00:06:12,468 --> 00:06:19,310
 One rail at Derby Midland station was
 still in good condition in 1863, even
 
-88
-00:06:31,583 --> 00:06:36,965
+86
+00:06:19,310 --> 00:06:24,692
 though about seven hundred trains passed
 over it every day.
 
-89
-00:06:38,915 --> 00:06:44,145
-Two years later, Mushet came back to the
+87
+00:06:25,042 --> 00:06:32,116
+In 1868, Mushet came back to the
 experiment that mattered most for our
 
-90
-00:06:44,145 --> 00:06:44,547
+88
+00:06:32,116 --> 00:06:32,722
 story.
 
-91
-00:06:45,697 --> 00:06:50,775
+89
+00:06:33,072 --> 00:06:38,149
 A manufacturer in Glasgow had asked him to
 produce a new cast steel.
 
-92
-00:06:51,125 --> 00:06:54,794
+90
+00:06:38,499 --> 00:06:42,169
 The steel he made was too brittle for
 cutting tools.
 
-93
-00:06:55,144 --> 00:06:58,536
+91
+00:06:43,319 --> 00:06:46,711
 So Mushet kept experimenting with other
 alloys.
 
-94
-00:06:58,886 --> 00:07:03,622
-One of them was made from tungsten ore and
-manganese-rich iron ore.
+92
+00:06:47,061 --> 00:06:49,642
+One of them was a tungsten steel.
 
-95
-00:07:03,972 --> 00:07:07,364
-It held an edge better than any carbon
-steel.
-
-96
-00:07:07,714 --> 00:07:12,386
+93
+00:06:49,992 --> 00:06:54,664
 And, unexpectedly, it hardened when it
 cooled in air after forging.
 
-97
-00:07:13,536 --> 00:07:19,125
+94
+00:06:55,014 --> 00:07:00,603
 Tungsten was the main alloying element,
 somewhere between four and twelve percent.
 
-98
-00:07:19,475 --> 00:07:24,677
+95
+00:07:01,753 --> 00:07:06,955
 Manganese ran from about two to four
 percent, and carbon from about one and a
 
-99
-00:07:24,677 --> 00:07:26,771
+96
+00:07:06,955 --> 00:07:09,049
 half to two and a half percent.
 
-100
-00:07:27,121 --> 00:07:32,966
+97
+00:07:09,399 --> 00:07:15,244
 A typical sample held about nine percent
 tungsten, two and a half percent manganese
 
-101
-00:07:32,966 --> 00:07:35,783
+98
+00:07:15,244 --> 00:07:18,061
 and one and eight tenths percent carbon.
 
-102
-00:07:36,933 --> 00:07:40,538
+99
+00:07:18,411 --> 00:07:22,016
 Compare that with the carbon steel in a
 normal shop.
 
-103
-00:07:40,888 --> 00:07:45,944
+100
+00:07:22,366 --> 00:07:27,422
 It was mostly iron and carbon, with only
 small amounts of anything else.
 
-104
-00:07:46,294 --> 00:07:49,494
+101
+00:07:27,772 --> 00:07:30,972
 Mushet's steel was a different kind of
 material.
 
-105
-00:07:49,844 --> 00:07:52,084
+102
+00:07:32,122 --> 00:07:34,362
 It was a true alloy steel.
 
-106
-00:07:53,234 --> 00:07:55,943
+103
+00:07:34,712 --> 00:07:37,421
 And he told no one how to make it.
 
-107
-00:07:56,293 --> 00:07:57,893
+104
+00:07:37,771 --> 00:07:39,371
 He did not patent it.
 
-108
-00:07:58,243 --> 00:08:02,915
+105
+00:07:39,721 --> 00:07:44,393
 Ingredients were bought through
 intermediaries and called by code words.
 
-109
-00:08:03,265 --> 00:08:07,212
+106
+00:07:44,743 --> 00:07:48,690
 Mixing was done at his steelworks in the
 Forest of Dean.
 
-110
-00:08:07,562 --> 00:08:12,771
+107
+00:07:49,840 --> 00:07:55,049
 The mixed batches were shipped in barrels
 to Samuel Osborn and Company in Sheffield,
 
-111
-00:08:12,771 --> 00:08:14,197
+108
+00:07:55,049 --> 00:07:56,475
 where they were melted.
 
-112
-00:08:15,347 --> 00:08:18,760
+109
+00:07:56,825 --> 00:08:00,238
 It was sold as Robert Mushet's Special
 Steel.
 
-113
-00:08:19,110 --> 00:08:21,713
+110
+00:08:00,588 --> 00:08:03,191
 Some called it self-hardening steel.
 
-114
-00:08:22,063 --> 00:08:24,665
+111
+00:08:03,541 --> 00:08:06,143
 Others called it air-hardening steel.
 
-115
-00:08:26,615 --> 00:08:31,884
+112
+00:08:08,093 --> 00:08:13,362
 Now let us look at the engineering,
 because this is where the idea is easy to
 
-116
-00:08:31,884 --> 00:08:32,226
+113
+00:08:13,362 --> 00:08:13,704
 miss.
 
-117
-00:08:33,376 --> 00:08:37,792
+114
+00:08:14,054 --> 00:08:18,470
 In a plain carbon steel, hardness is
 something you have to trap.
 
-118
-00:08:38,142 --> 00:08:41,449
+115
+00:08:18,820 --> 00:08:22,127
 You heat the steel until its structure
 changes.
 
-119
-00:08:41,799 --> 00:08:46,873
+116
+00:08:22,477 --> 00:08:27,551
 Then you cool it so fast that the
 structure has no time to settle into its
 
-120
-00:08:46,873 --> 00:08:47,559
+117
+00:08:27,551 --> 00:08:28,237
 soft form.
 
-121
-00:08:47,909 --> 00:08:49,466
+118
+00:08:28,587 --> 00:08:30,144
 Water does that.
 
-122
-00:08:49,816 --> 00:08:51,160
+119
+00:08:31,294 --> 00:08:32,638
 Oil does that.
 
-123
-00:08:51,510 --> 00:08:52,875
+120
+00:08:32,988 --> 00:08:34,353
 Air does not.
 
-124
-00:08:53,225 --> 00:08:58,409
+121
+00:08:34,703 --> 00:08:39,887
 Air is far too slow, so carbon steel left
 to cool in air stays soft.
 
-125
-00:08:59,559 --> 00:09:02,247
+122
+00:08:40,237 --> 00:08:42,925
 Mushet's steel behaved differently.
 
-126
-00:09:02,597 --> 00:09:07,541
-Its large amounts of tungsten and
-manganese changed how it responded to
+123
+00:08:43,275 --> 00:08:48,831
+Its alloying elements, mainly tungsten and
+manganese, changed how it responded to
 
-127
-00:09:07,541 --> 00:09:11,301
+124
+00:08:48,831 --> 00:08:52,534
 cooling, so that ordinary air was enough
 to harden it.
 
-128
-00:09:11,651 --> 00:09:14,830
+125
+00:08:53,684 --> 00:08:56,863
 The tool hardened as it cooled off the
 forge.
 
-129
-00:09:15,980 --> 00:09:18,199
+126
+00:08:57,213 --> 00:08:59,431
 That mattered in two ways.
 
-130
-00:09:19,349 --> 00:09:21,994
+127
+00:08:59,781 --> 00:09:02,427
 First, it made the tool easier to make.
 
-131
-00:09:22,344 --> 00:09:27,165
+128
+00:09:02,777 --> 00:09:07,598
 A toolmaker could forge the shape and let
 it cool, without a water quench.
 
-132
-00:09:27,515 --> 00:09:30,033
+129
+00:09:07,948 --> 00:09:10,465
 Mushet's steel removed that step.
 
-133
-00:09:31,183 --> 00:09:35,513
+130
+00:09:11,615 --> 00:09:15,946
 Second, and more important, it made the
 tool better at its work.
 
-134
-00:09:35,863 --> 00:09:40,770
+131
+00:09:16,296 --> 00:09:21,203
 One modern account says it was harder than
 ordinary water-quenched steel.
 
-135
-00:09:41,120 --> 00:09:43,360
+132
+00:09:21,553 --> 00:09:23,793
 It was also non-magnetic.
 
-136
-00:09:44,510 --> 00:09:47,454
+133
+00:09:24,143 --> 00:09:27,087
 The steel came to the shop already hard.
 
-137
-00:09:47,804 --> 00:09:51,345
+134
+00:09:27,437 --> 00:09:30,978
 It was made for one job, and that job was
 cutting.
 
-138
-00:09:53,295 --> 00:09:56,559
+135
+00:09:32,928 --> 00:09:36,192
 We know how good it was because someone
 measured it.
 
-139
-00:09:57,709 --> 00:10:05,744
+136
+00:09:36,542 --> 00:09:44,577
 In 1894, the American engineer Frederick
 Winslow Taylor tested Mushet steel against
 
-140
-00:10:05,744 --> 00:10:07,971
+137
+00:09:44,577 --> 00:09:46,803
 high-carbon tool steel.
 
-141
-00:10:08,321 --> 00:10:14,017
+138
+00:09:47,153 --> 00:09:52,849
 On hard tire-steel forgings, it cut
 forty-one to forty-seven percent faster.
 
-142
-00:10:14,367 --> 00:10:18,271
+139
+00:09:53,199 --> 00:09:57,103
 On mild steels, it cut about ninety
 percent faster.
 
-143
-00:10:18,621 --> 00:10:23,940
+140
+00:09:57,453 --> 00:10:02,772
 And when a stream of water was used as a
 cutting fluid, the speed could go up by
 
-144
-00:10:23,940 --> 00:10:25,469
+141
+00:10:02,772 --> 00:10:04,301
 another thirty percent.
 
-145
-00:10:26,619 --> 00:10:29,456
+142
+00:10:05,451 --> 00:10:08,289
 Think about a change of ninety percent.
 
-146
-00:10:29,806 --> 00:10:33,262
+143
+00:10:08,639 --> 00:10:12,095
 A job that took ten hours now took about
 five.
 
-147
-00:10:33,612 --> 00:10:36,129
+144
+00:10:12,445 --> 00:10:14,962
 No new machine had been built.
 
-148
-00:10:36,479 --> 00:10:39,103
+145
+00:10:15,312 --> 00:10:17,936
 No new motor had been installed.
 
-149
-00:10:39,453 --> 00:10:42,205
+146
+00:10:18,286 --> 00:10:21,038
 Only the steel at the tip had changed.
 
-150
-00:10:43,355 --> 00:10:48,134
-Taylor would become the most famous name
-in the story of cutting speed.
+147
+00:10:22,188 --> 00:10:26,348
+Taylor became a famous name in the story
+of cutting speed.
 
-151
-00:10:48,484 --> 00:10:50,596
+148
+00:10:26,698 --> 00:10:28,810
 But he was not starting from nothing.
 
-152
-00:10:50,946 --> 00:10:52,781
+149
+00:10:29,160 --> 00:10:30,995
 He started from Mushet.
 
-153
-00:10:54,731 --> 00:11:00,397
+150
+00:10:32,945 --> 00:10:38,611
 Mushet steel needed someone to make it at
 scale, and that someone was a Sheffield
 
-154
-00:11:00,397 --> 00:11:00,747
+151
+00:10:38,611 --> 00:10:38,961
 firm.
 
-155
-00:11:01,897 --> 00:11:09,508
+152
+00:10:39,311 --> 00:10:46,922
 Samuel Osborn had set up his company in
 1851 at the Clyde Works in Sheffield,
 
-156
-00:11:09,508 --> 00:11:10,793
+153
+00:10:46,922 --> 00:10:48,207
 making files.
 
-157
-00:11:11,143 --> 00:11:17,964
+154
+00:10:48,557 --> 00:10:55,378
 In 1870, according to the Science Museum
 Group, Osborn became the exclusive
 
-158
-00:11:17,964 --> 00:11:21,148
+155
+00:10:55,378 --> 00:10:58,562
 producer of Mushet's special steel.
 
-159
-00:11:22,298 --> 00:11:23,663
+156
+00:10:58,912 --> 00:11:00,277
 The firm grew.
 
-160
-00:11:24,013 --> 00:11:29,496
-One account says it virtually monopolised
-the world's manufacture of tool steel.
+157
+00:11:00,627 --> 00:11:06,133
+At its peak, according to the same source,
+it virtually monopolised the world's
 
-161
-00:11:29,846 --> 00:11:35,731
+158
+00:11:06,133 --> 00:11:07,945
+manufacture of tool steel.
+
+159
+00:11:09,095 --> 00:11:14,343
 That is a big claim, and it comes from a
-single company history, so treat it as a
+single source, so treat it with care.
 
-162
-00:11:35,731 --> 00:11:37,185
-company's own pride.
-
-163
-00:11:37,535 --> 00:11:39,732
+160
+00:11:14,693 --> 00:11:16,890
 But the direction is clear.
 
-164
-00:11:40,082 --> 00:11:42,813
+161
+00:11:17,240 --> 00:11:19,971
 Osborn tied its name to Mushet's steel.
 
-165
-00:11:43,963 --> 00:11:47,184
-From Sheffield it went out to the tool
-trade.
+162
+00:11:21,121 --> 00:11:29,505
+In 1876, the Iron and Steel Institute
+awarded Mushet the Bessemer Gold Medal.
 
-166
-00:11:47,534 --> 00:11:54,105
-It was the steel Taylor himself put to the
-test in 1894.
-
-167
-00:11:55,255 --> 00:12:03,369
-In 1876, the Iron and Steel Institute gave
-Mushet its highest honor, the Bessemer
-
-168
-00:12:03,369 --> 00:12:04,471
-Gold Medal.
-
-169
-00:12:04,821 --> 00:12:09,749
+163
+00:11:29,855 --> 00:11:34,783
 It was a late recognition for a man who
 had once been left destitute.
 
-170
-00:12:10,899 --> 00:12:17,299
+164
+00:11:35,133 --> 00:11:41,533
 Another of his ideas, from 1861, is still
 around today.
 
-171
-00:12:17,649 --> 00:12:19,441
+165
+00:11:41,883 --> 00:11:43,675
 It is called the dozzle.
 
-172
-00:12:19,791 --> 00:12:25,870
-It is a heated clay cone placed on top of
-an ingot mould, so that molten steel can
+166
+00:11:44,025 --> 00:11:49,648
+It is a clay cone set in the top of an
+ingot mould, and it is the forerunner of
 
-173
-00:12:25,870 --> 00:12:28,687
-feed the shrinkage as the ingot cools.
+167
+00:11:49,648 --> 00:11:50,787
+today's hot top.
 
-174
-00:12:29,037 --> 00:12:32,919
+168
+00:11:51,937 --> 00:11:55,820
 Today the idea is called a hot top, or a
 feeder head.
 
-175
-00:12:34,069 --> 00:12:41,216
+169
+00:11:56,170 --> 00:12:03,317
 Mushet died in Cheltenham on the
 twenty-ninth of January, 1891.
 
-176
-00:12:41,566 --> 00:12:43,678
+170
+00:12:03,667 --> 00:12:05,779
 He was seventy-nine years old.
 
-177
-00:12:45,628 --> 00:12:48,700
+171
+00:12:07,729 --> 00:12:10,801
 Mushet did not live to see what came next.
 
-178
-00:12:49,050 --> 00:12:52,805
-And what came next was not a different
-material at all.
+172
+00:12:11,151 --> 00:12:15,140
+And what came next was built directly on
+Mushet steel.
 
-179
-00:12:53,155 --> 00:12:56,141
-It was Mushet steel, treated differently.
-
-180
-00:12:57,291 --> 00:13:04,558
+173
+00:12:15,490 --> 00:12:22,757
 In 1898, Frederick Winslow Taylor joined
 the Bethlehem Steel Company in
 
-181
-00:13:04,558 --> 00:13:05,889
+174
+00:12:22,757 --> 00:12:24,087
 Pennsylvania.
 
-182
-00:13:06,239 --> 00:13:14,773
+175
+00:12:24,437 --> 00:12:32,972
 Between 1898 and 1900, he and a colleague,
 Maunsel White, ran a huge program of tests
 
-183
-00:13:14,773 --> 00:13:17,183
+176
+00:12:32,972 --> 00:12:35,381
 on tungsten tool steels.
 
-184
-00:13:17,533 --> 00:13:21,607
+177
+00:12:36,531 --> 00:12:40,606
 They worked on Mushet steel and other
 self-hardening steels.
 
-185
-00:13:22,757 --> 00:13:28,375
-They found that if you heated the steel to
-a temperature close to its melting point,
+178
+00:12:40,956 --> 00:12:46,047
+They found that heating the steel to a
+much higher temperature than the industry
 
-186
-00:13:28,375 --> 00:13:33,659
-far above what the industry normally used,
-the result was a more durable metal.
+179
+00:12:46,047 --> 00:12:48,465
+thought desirable gave better results.
 
-187
-00:13:34,009 --> 00:13:36,718
-It kept its hardness up to red heat.
-
-188
-00:13:37,068 --> 00:13:42,423
+180
+00:12:48,815 --> 00:12:54,170
 One history of the steel says the key
 change was adding about three point eight
 
-189
-00:13:42,423 --> 00:13:46,625
+181
+00:12:54,170 --> 00:12:58,373
 percent chromium to a steel with about
 eight percent tungsten.
 
-190
-00:13:47,775 --> 00:13:49,802
+182
+00:12:58,723 --> 00:13:00,749
 The effect was dramatic.
 
-191
-00:13:50,152 --> 00:13:55,656
+183
+00:13:01,899 --> 00:13:07,403
 Cutting speed rose from about thirty
 surface feet per minute to about ninety.
 
-192
-00:13:56,006 --> 00:13:58,203
+184
+00:13:07,753 --> 00:13:09,951
 That is three times faster.
 
-193
-00:13:59,353 --> 00:14:05,176
+185
+00:13:10,301 --> 00:13:16,123
 At the Paris Exposition of 1900, a
 demonstration of cutting tools made from
 
-194
-00:14:05,176 --> 00:14:07,737
+186
+00:13:16,123 --> 00:13:18,685
 the new steel caused a sensation.
 
-195
-00:14:08,087 --> 00:14:11,693
+187
+00:13:19,035 --> 00:13:22,640
 This was the start of what we call
 high-speed steel.
 
-196
-00:14:12,843 --> 00:14:14,656
+188
+00:13:22,990 --> 00:13:24,803
 Notice what happened.
 
-197
-00:14:15,006 --> 00:14:18,974
+189
+00:13:25,953 --> 00:13:29,921
 Mushet had made the first steel that
 hardened without a quench.
 
-198
-00:14:19,324 --> 00:14:24,665
+190
+00:13:30,271 --> 00:13:35,612
 Taylor and White took that kind of steel,
 changed the alloy, and heat treated it at
 
-199
-00:14:24,665 --> 00:14:27,303
+191
+00:13:35,612 --> 00:13:38,250
 a much higher temperature than was usual.
 
-200
-00:14:27,653 --> 00:14:31,813
+192
+00:13:38,600 --> 00:13:42,760
 The same idea, pushed further, cut three
 times as fast.
 
-201
-00:14:32,963 --> 00:14:36,035
+193
+00:13:43,110 --> 00:13:46,182
 For Taylor and White, it was also a
 business.
 
-202
-00:14:36,385 --> 00:14:41,846
+194
+00:13:46,532 --> 00:13:51,993
 The two men received one hundred thousand
 dollars for the English patents alone.
 
-203
-00:14:42,196 --> 00:14:45,631
+195
+00:13:53,143 --> 00:13:56,578
 The American patent was eventually
 nullified.
 
-204
-00:14:47,581 --> 00:14:51,293
+196
+00:13:58,528 --> 00:14:02,240
 So why did Mushet steel disappear from the
 lathe?
 
-205
-00:14:52,443 --> 00:14:58,117
+197
+00:14:02,590 --> 00:14:08,265
 The honest answer is that the sources give
 us the shape of it, but not every detail.
 
-206
-00:14:58,467 --> 00:15:00,494
+198
+00:14:08,615 --> 00:14:10,641
 Here is what we can say.
 
-207
-00:15:01,644 --> 00:15:03,927
+199
+00:14:10,991 --> 00:14:13,274
 First, the better steel arrived.
 
-208
-00:15:04,277 --> 00:15:09,900
+200
+00:14:13,624 --> 00:14:19,433
 Once Taylor and White's method was known,
-a tool that held its hardness to red heat
+a tool that cut about three times as fast
 
-209
-00:15:09,900 --> 00:15:14,303
-and cut about three times as fast made the
-older steel look slow.
+201
+00:14:19,433 --> 00:14:21,603
+made the older steel look slow.
 
-210
-00:15:15,453 --> 00:15:17,992
+202
+00:14:22,753 --> 00:14:25,291
 Second, the idea kept improving.
 
-211
-00:15:18,342 --> 00:15:24,776
-In 1910, a steel called T1, a tungsten
-grade, was made as one of the first
+203
+00:14:25,641 --> 00:14:33,549
+A steel called T1, a tungsten grade, was
+formally classified as high-speed steel in
 
-212
-00:15:24,776 --> 00:15:27,558
-mass-produced high-speed steels.
+204
+00:14:33,549 --> 00:14:34,025
+1910.
 
-213
-00:15:27,908 --> 00:15:32,452
+205
+00:14:34,375 --> 00:14:38,941
 It was patented by the Crucible Steel
-Company in New Jersey.
+Company of New Jersey.
 
-214
-00:15:32,802 --> 00:15:38,878
-Later, molybdenum was substituted for
-tungsten, and a steel called M2 took over
+206
+00:14:39,291 --> 00:14:42,960
+Later, M2 became the most widely used
+grade.
 
-215
-00:15:38,878 --> 00:15:41,186
-as the most widely used grade.
+207
+00:14:43,310 --> 00:14:49,219
+Cobalt was added to it to give steels like
+M35 and M42.
 
-216
-00:15:41,536 --> 00:15:48,856
-Cobalt was added to some grades for more
-heat resistance, to give steels like M35
-
-217
-00:15:48,856 --> 00:15:49,579
-and M42.
-
-218
-00:15:50,729 --> 00:15:54,291
+208
+00:14:50,369 --> 00:14:53,932
 Third, Mushet had chosen not to patent his
 steel.
 
-219
-00:15:54,641 --> 00:15:58,524
-He relied on secrecy, and secrecy does not
-last.
+209
+00:14:54,282 --> 00:14:57,909
+He relied on secrecy, and it did not make
+him rich.
 
-220
-00:15:58,874 --> 00:16:04,076
+210
+00:14:58,259 --> 00:15:03,460
 The composition of his steel has since
 been analyzed, although the exact
 
-221
-00:16:04,076 --> 00:16:07,471
+211
+00:15:03,460 --> 00:15:06,856
 production process is still said to be
 unknown.
 
-222
-00:16:08,621 --> 00:16:11,395
+212
+00:15:07,206 --> 00:15:09,979
 None of this is a story of failure.
 
-223
-00:16:11,745 --> 00:16:16,971
+213
+00:15:10,329 --> 00:15:15,556
 It is a story of a good idea being passed
 on until it became ordinary.
 
-224
-00:16:18,921 --> 00:16:22,697
+214
+00:15:17,506 --> 00:15:21,282
 Mushet steel itself is long gone from the
 shop floor.
 
-225
-00:16:23,047 --> 00:16:25,479
+215
+00:15:21,632 --> 00:15:24,064
 But its descendants are everywhere.
 
-226
-00:16:26,629 --> 00:16:31,835
+216
+00:15:24,414 --> 00:15:29,619
 High-speed steel is still one of the most
 common tool materials in the world.
 
-227
-00:16:32,185 --> 00:16:36,430
+217
+00:15:29,969 --> 00:15:34,215
 The grade M2 is used for drill bits, taps
 and reamers.
 
-228
-00:16:36,780 --> 00:16:42,037
+218
+00:15:34,565 --> 00:15:39,821
 Many of the drills in a modern toolbox are
 made from a steel that traces back to
 
-229
-00:16:42,037 --> 00:16:44,993
+219
+00:15:39,821 --> 00:15:42,778
 Taylor and White, and through them to
 Mushet.
 
-230
-00:16:46,143 --> 00:16:48,682
+220
+00:15:43,928 --> 00:15:46,467
 The name itself lasted too.
 
-231
-00:16:49,032 --> 00:16:54,962
+221
+00:15:46,817 --> 00:15:52,747
 Samuel Osborn and Company of Sheffield
 sold a range of high-speed steels under
 
-232
-00:16:54,962 --> 00:16:56,179
+222
+00:15:52,747 --> 00:15:53,963
 the Mushet name.
 
-233
-00:16:56,529 --> 00:17:01,713
+223
+00:15:54,313 --> 00:15:59,497
 There was Double Mushet ND, which matches
 the American grade T1.
 
-234
-00:17:02,063 --> 00:17:06,159
+224
+00:15:59,847 --> 00:16:03,943
 There was Triple Mushet GZ, which matches
 T4.
 
-235
-00:17:06,509 --> 00:17:10,391
+225
+00:16:04,293 --> 00:16:08,176
 There was Mushet MKK, which matches M2.
 
-236
-00:17:10,741 --> 00:17:15,179
+226
+00:16:09,326 --> 00:16:13,763
 And there was Mushet Special VG, which
 matches M15.
 
-237
-00:17:16,329 --> 00:17:21,626
+227
+00:16:14,113 --> 00:16:19,410
 So even after the original secret steel
 was gone, a customer could still buy a
 
-238
-00:17:21,626 --> 00:17:24,478
+228
+00:16:19,410 --> 00:16:22,263
 high-speed steel with Mushet's name on it.
 
-239
-00:17:24,828 --> 00:17:26,577
+229
+00:16:22,613 --> 00:16:24,362
 It was a different steel.
 
-240
-00:17:26,927 --> 00:17:28,677
+230
+00:16:24,712 --> 00:16:26,461
 But it carried his name.
 
-241
-00:17:29,827 --> 00:17:32,835
+231
+00:16:26,811 --> 00:16:29,819
 His other work is still in use as well.
 
-242
-00:17:33,185 --> 00:17:38,518
+232
+00:16:30,969 --> 00:16:36,303
 The hot top on a steel ingot mould is a
 direct descendant of the dozzle.
 
-243
-00:17:38,868 --> 00:17:44,311
+233
+00:16:36,653 --> 00:16:42,095
 And his spiegeleisen step improved the
 quality of Bessemer steel in the first
 
-244
-00:17:44,311 --> 00:17:44,735
+234
+00:16:42,095 --> 00:16:42,519
 place.
 
-245
-00:17:46,685 --> 00:17:52,355
+235
+00:16:44,469 --> 00:16:50,140
 Mushet steel teaches a few things that
 every machinist and every engineer should
 
-246
-00:17:52,355 --> 00:17:53,277
+236
+00:16:50,140 --> 00:16:51,061
 keep in mind.
 
-247
-00:17:54,427 --> 00:17:58,480
+237
+00:16:51,411 --> 00:16:55,465
 The first is that the great step is often
 the first one.
 
-248
-00:17:58,830 --> 00:18:01,625
+238
+00:16:55,815 --> 00:16:58,609
 Mushet did not make the fastest steel.
 
-249
-00:18:01,975 --> 00:18:07,147
+239
+00:16:58,959 --> 00:17:04,131
 He made the first steel that hardened by
 itself, and everything that followed grew
 
-250
-00:18:07,147 --> 00:18:07,777
+240
+00:17:04,131 --> 00:17:04,762
 from that.
 
-251
-00:18:08,127 --> 00:18:10,730
+241
+00:17:05,112 --> 00:17:07,715
 Taylor and White improved on it.
 
-252
-00:18:11,080 --> 00:18:13,000
+242
+00:17:08,865 --> 00:17:10,785
 They did not invent it.
 
-253
-00:18:14,150 --> 00:18:18,950
+243
+00:17:11,135 --> 00:17:15,935
 The second is that a secret is a poor way
 to protect an idea.
 
-254
-00:18:19,300 --> 00:18:23,588
+244
+00:17:16,285 --> 00:17:20,573
 Mushet kept the recipe locked away, and it
 did not make him rich.
 
-255
-00:18:23,938 --> 00:18:28,706
+245
+00:17:20,923 --> 00:17:25,690
 Taylor and White were paid one hundred
 thousand dollars for their English
 
-256
-00:18:28,706 --> 00:18:31,383
+246
+00:17:25,690 --> 00:17:28,368
 patents, and still lost the American one.
 
-257
-00:18:31,733 --> 00:18:35,061
+247
+00:17:28,718 --> 00:17:32,046
 There is no easy lesson about patents
 here.
 
-258
-00:18:35,411 --> 00:18:40,245
+248
+00:17:33,196 --> 00:17:38,030
 But it is a reminder that the person who
 makes the breakthrough is rarely the
 
-259
-00:18:40,245 --> 00:18:42,003
+249
+00:17:38,030 --> 00:17:39,788
 person who gets paid for it.
 
-260
-00:18:43,153 --> 00:18:45,308
+250
+00:17:40,138 --> 00:17:42,293
 The third is the simplest.
 
-261
-00:18:45,658 --> 00:18:49,391
+251
+00:17:42,643 --> 00:17:46,376
 A cutting edge is a hot, small,
 unforgiving place.
 
-262
-00:18:49,741 --> 00:18:54,855
-Every material that has ever worked there
-has won by staying hard when the heat
+252
+00:17:46,726 --> 00:17:51,505
+Every material that works there has to
+stay hard when the heat arrives.
 
-263
-00:18:54,855 --> 00:18:55,373
-arrived.
+253
+00:17:51,855 --> 00:17:58,184
+Robert Mushet reportedly ran more than ten
+thousand experiments in a Forest of Dean
 
-264
-00:18:56,523 --> 00:19:02,020
-Robert Mushet ran more than ten thousand
-experiments in a Forest of Dean
-
-265
-00:19:02,020 --> 00:19:02,859
+254
+00:17:58,184 --> 00:17:59,023
 steelworks.
 
-266
-00:19:03,209 --> 00:19:10,833
+255
+00:18:00,173 --> 00:18:07,796
 He solved a key quality problem in the
 Bessemer process, and by 1866 he was
 
-267
-00:19:10,833 --> 00:19:11,849
+256
+00:18:07,796 --> 00:18:08,813
 destitute.
 
-268
-00:19:12,199 --> 00:19:15,911
+257
+00:18:09,163 --> 00:18:12,875
 Then he made the first tool steel that
 hardened in air.
 
-269
-00:19:16,261 --> 00:19:19,973
+258
+00:18:13,225 --> 00:18:16,937
 The steel in a modern drill bit owes him a
 debt.
 
-270
-00:19:21,123 --> 00:19:23,854
+259
+00:18:17,287 --> 00:18:20,017
 That is what happened to Mushet steel.
 
-271
-00:19:25,004 --> 00:19:30,730
+260
+00:18:20,367 --> 00:18:26,094
 If you want to see what came after it, how
 the Taylor and White heat treatment really
 
-272
-00:19:30,730 --> 00:19:35,985
+261
+00:18:26,094 --> 00:18:31,348
 worked, and why Paris in 1900 stunned the
 engineers who saw it, stay with this
 
-273
-00:19:35,985 --> 00:19:36,524
+262
+00:18:31,348 --> 00:18:31,887
 channel.
 
-274
-00:19:36,874 --> 00:19:41,759
+263
+00:18:33,037 --> 00:18:37,923
 And tell us in the comments which
 forgotten tool we should open up next.
 
