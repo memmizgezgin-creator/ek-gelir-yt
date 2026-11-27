@@ -1,0 +1,57 @@
+name: posters
+
+# Patent drawing posters (public domain) for print on demand. Attached to the GitHub release "posters".
+on:
+  workflow_dispatch:
+    inputs:
+      refind:
+        description: "Let Claude find new drawings even if posters/list.json exists"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  posters:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get install -y -qq fonts-dejavu-core
+      - run: pip install pillow requests numpy
+      - name: Prompt
+        id: p
+        run: |
+          { echo 'text<<EOP'; cat prompts/posters.md; echo 'EOP'; } >> "$GITHUB_OUTPUT"
+          [ -f posters/list.json ] && echo "have=yes" >> "$GITHUB_OUTPUT" || echo "have=no" >> "$GITHUB_OUTPUT"
+      - name: Find drawings (Claude, Max subscription)
+        if: steps.p.outputs.have == 'no' || github.event.inputs.refind == 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: ${{ steps.p.outputs.text }}
+          claude_args: >-
+            --model sonnet
+            --max-turns 60
+            --allowedTools "Read,Write,Edit,Glob,Grep,WebFetch,WebSearch"
+      - name: Render
+        run: cd pipeline && python poster.py
+      - name: Commit list and previews, attach full posters to release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config --local --unset-all http.https://github.com/.extraheader || true
+          git remote set-url origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          git config user.name "ek-gelir-yt bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add posters/list.json posters/out/*-preview.jpg
+          git commit -m "posters: list and previews" || true
+          git pull --rebase --autostash -q origin main
+          git push
+          gh release view posters >/dev/null 2>&1 || gh release create posters --title "Patent posters" --notes "18x24 inch, 300 dpi, public domain patent drawings."
+          gh release upload posters posters/out/*-18x24.png --clobber
