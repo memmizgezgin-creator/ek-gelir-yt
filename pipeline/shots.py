@@ -214,8 +214,11 @@ def frames_for(vid: str, i: int, s: dict, spec: dict, used: dict, costs: list) -
     elif t == "photo":
         if s.get("file"):
             f = ASSETS / vid / s["file"]
-            if not f.exists():
-                fail(f"shot {i + 1}: asset {s['file']} missing")
+            if not f.exists():   # tolerate a wrong extension (lathe-1.jpg vs lathe-1.png)
+                alt = sorted((ASSETS / vid).glob(f"{Path(s['file']).stem}.*"))
+                if not alt:
+                    fail(f"shot {i + 1}: asset {s['file']} missing")
+                f = alt[0]
         else:
             files = sorted((ASSETS / vid).glob(f"{s['key']}-*"))
             if not files:
