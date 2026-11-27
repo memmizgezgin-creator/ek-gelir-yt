@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": {
+    "duration": {
+      "ok": true,
+      "detail": "19.70 min"
+    },
+    "sync": {
+      "ok": true,
+      "detail": "video 1181.64s, audio 1181.74s"
+    },
+    "resolution": {
+      "ok": true,
+      "detail": "1920x1080"
+    },
+    "images": {
+      "ok": true,
+      "detail": "38 licensed images (minimum 10, text cards alone do not pass)"
+    },
+    "licenses": {
+      "ok": true,
+      "detail": "38 images, missing records: none"
+    },
+    "fact_check": {
+      "ok": true,
+      "detail": "0 unverified claims"
+    }
+  }
+}
