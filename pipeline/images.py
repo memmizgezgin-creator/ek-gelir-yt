@@ -23,7 +23,7 @@ UA = "ek-gelir-yt/1.0 (https://github.com/memmizgezgin-creator/ek-gelir-yt; arch
 THUMB_WIDTH = 1280      # a standard Wikimedia thumbnail step; odd sizes and originals get rate limited
 API_PAUSE = 1.5
 DL_PAUSE = 2.0
-PER_KEY = 5
+PER_KEY = 9
 MIN_WIDTH = 800
 BAD_WORDS = ("logo", "icon", "map of", "flag of", "coat of arms", "signature")
 

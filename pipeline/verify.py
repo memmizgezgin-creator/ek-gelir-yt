@@ -20,7 +20,7 @@ MIN_MINUTES = 12.0
 MIN_IMAGES = 10
 MAX_AVERAGE_SECONDS = 8.0
 MIN_VISUAL_SCORE = 7
-MAX_ILLUSTRATIONS = 60      # credit guard, about 55 cents per episode
+MAX_ILLUSTRATIONS = 82      # credit guard, about 0.75 USD per episode at most
 MAX_CARD_SHARE = 0.25       # text cards are a spice, not the meal
 
 

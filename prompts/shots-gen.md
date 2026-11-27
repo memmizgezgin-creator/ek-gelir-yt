@@ -22,7 +22,7 @@ Optional on any still: "move": "in" | "out" | "left" | "right".
 
 Rules:
 1. Pace: a new shot every 5 to 8 seconds. Sum the sentence lengths: no shot may run longer than 9 seconds (cards up to 12). The first shot has "s": 0 and the "s" values strictly increase.
-2. Mix: about 55 percent photos, 30 percent illustrations, at most 15 percent cards (words and compare together; the quality gate fails above 25 percent). Never two cards in a row. Between 25 and 40 illustrations in total (they cost credit). Words-card lines stay under 22 characters.
+2. Mix: about 55 percent photos, 30 percent illustrations, at most 15 percent cards (words and compare together; the quality gate fails above 25 percent). Never two cards in a row. Between 30 and 55 illustrations in total (they cost credit; leave room for the visual check to add more). Words-card lines stay under 22 characters.
    A long sentence is fine: the renderer adds punch-in reframes inside any photo or illustration that runs longer than 9.5 seconds.
 3. A photo file may be used at most twice in the whole episode, never twice in a row.
 4. Illustrations show what the archive cannot: people at work, the moment of a discovery, what happens at the cutting edge, a factory at its peak. Be concrete about machines (for a lathe say "a metal lathe with a long bed, a chuck holding a spinning steel bar, the tool post and cutting tool", not just "machine"). No famous real person's face in an illustration; show them from behind or at a distance, and use their real photo when the narration names them.

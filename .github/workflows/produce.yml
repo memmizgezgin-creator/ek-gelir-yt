@@ -205,6 +205,27 @@ jobs:
           DEEPINFRA_API_KEY: ${{ secrets.DEEPINFRA_API_KEY }}
         run: cd pipeline && python shots.py ${{ steps.topic.outputs.id }} frames ../scripts/${{ steps.topic.outputs.id }}.shots.json
 
+      - name: Score after pass 3
+        id: score3
+        run: echo "score=$(python -c "import json;print(json.load(open('out/${{ steps.topic.outputs.id }}/qa.json')).get('score',0))" 2>/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
+
+      - name: Visual check (pass 4, Claude, sees the pass 3 pictures)
+        if: steps.score3.outputs.score < 7
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: ${{ steps.vprompts.outputs.shots_qa }}
+          claude_args: >-
+            --model sonnet
+            --max-turns 80
+            --allowedTools "Read,Write,Edit,Glob,Grep"
+
+      - name: Frames (after pass 4)
+        if: steps.score3.outputs.score < 7
+        env:
+          DEEPINFRA_API_KEY: ${{ secrets.DEEPINFRA_API_KEY }}
+        run: cd pipeline && python shots.py ${{ steps.topic.outputs.id }} frames ../scripts/${{ steps.topic.outputs.id }}.shots.json
+
       - name: Save shot list and visual check right away
         run: |
           git config --local --unset-all http.https://github.com/.extraheader || true

@@ -10,7 +10,7 @@ For every shot that fails, fix it in scripts/{{ID}}.shots.json:
 - a photo that is tiny, blurry, mostly white page or a document scan nobody can read
 - the same picture appearing close together
 - a card with a fact that is not in the narration
-Fix by switching to a better photo file, rewriting the illustration prompt (a changed prompt makes a new picture; add "seed": <new number> to retry the same prompt), or turning it into a words card. Keep the "s" values unchanged. At most 15 new illustrations in this pass, and no more than 58 illustrations in the whole list.
+Fix by switching to a better photo file, rewriting the illustration prompt (a changed prompt makes a new picture; add "seed": <new number> to retry the same prompt), or turning it into a words card. Keep the "s" values unchanged. At most 20 new illustrations in this pass, and no more than 80 illustrations in the whole list. Use the new photos in out/{{ID}}/assets first; they are free.
 
 Also enforce the mix from shots-report.json: if "card_share" is above 0.20, turn words cards into photos (a photo may be used twice in the episode, not within 30 shots) or illustrations until it is at or below 0.20. Keep only the cards that carry a real number, date or punchline.
 
