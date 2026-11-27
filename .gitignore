@@ -9,3 +9,5 @@ assets/
 __pycache__/
 .env
 client_secret*.json
+server/.env
+logs/

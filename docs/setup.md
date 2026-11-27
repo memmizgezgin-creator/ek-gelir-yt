@@ -17,7 +17,12 @@ python3 pipeline/oauth_once.py <CLIENT_ID> <CLIENT_SECRET>
 ```
 A browser opens, pick the channel, allow. The script prints the refresh token.
 
-## 4. GitHub secrets (repo Settings, Secrets and variables, Actions)
+## 4. Server secrets (server/.env on the Hetzner box, chmod 600)
+Same values as below go in `server/.env` (template: `server/env.example`). Add `GH_TOKEN`: a fine-grained GitHub token for this repo only, Contents read/write and Issues read/write. Add `HC_URL`: create a free check on healthchecks.io with period 3 days, grace 1 day, and paste its ping URL.
+
+The list below is the same set as GitHub Actions secrets, only needed if the manual Actions fallback is used.
+
+## 4b. GitHub secrets (optional fallback)
 - `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN` from steps 2 and 3
 - `CLAUDE_CODE_OAUTH_TOKEN`: run `claude setup-token` on the Mac (uses the Max subscription)
 - Variable `YT_PRIVACY` = `private` until the API audit is approved, then `public`

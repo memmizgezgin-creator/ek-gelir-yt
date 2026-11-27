@@ -1,8 +1,8 @@
 name: produce
 
+# Production runs on the Hetzner server (server/run.sh). This workflow is a
+# manual fallback only, for when the repo is public or Actions billing is fixed.
 on:
-  schedule:
-    - cron: "0 5 * * 1,3,5"   # Mon, Wed, Fri 05:00 UTC (06:00 Amsterdam in winter)
   workflow_dispatch:
     inputs:
       id:
