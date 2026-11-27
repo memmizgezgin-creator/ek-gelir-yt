@@ -1,0 +1,8 @@
+{
+  "note": "Reference channels for the weekly topic radar. Handles that are not found are skipped and logged.",
+  "handles": ["@Dustrialize", "@PrimalSpace", "@RealEngineering", "@Asianometry", "@CuriousDroid",
+              "@PracticalEngineeringChannel", "@LostMotionArchive", "@TheHistoryGuyChannel", "@Machinethinking"],
+  "searches": ["history of machine tools documentary", "forgotten industrial invention", "history of steel making"],
+  "outlier_ratio": 5,
+  "min_age_days": 10
+}

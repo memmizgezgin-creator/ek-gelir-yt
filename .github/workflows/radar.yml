@@ -1,0 +1,57 @@
+name: radar
+
+# Weekly topic radar: outlier videos of reference channels, plus 3 proposed topics (status "proposed").
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Outliers
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: cd pipeline && python radar.py
+      - name: Proposal prompt
+        id: p
+        run: |
+          { echo 'text<<EOP'; cat prompts/radar-topics.md; echo 'EOP'; } >> "$GITHUB_OUTPUT"
+      - name: Proposals (Claude, Max subscription)
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: ${{ steps.p.outputs.text }}
+          claude_args: >-
+            --model sonnet
+            --max-turns 30
+            --allowedTools "Read,Write,Edit,Glob,Grep"
+      - name: Commit
+        run: |
+          git config --local --unset-all http.https://github.com/.extraheader || true
+          git remote set-url origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          git config user.name "ek-gelir-yt bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/topic-radar.md radar/latest.json topics.json
+          git commit -m "radar: weekly outliers and proposals" || true
+          git pull --rebase --autostash -q origin main
+          git push
+      - name: Report failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --title "radar failed $(date +%F)" --body "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
