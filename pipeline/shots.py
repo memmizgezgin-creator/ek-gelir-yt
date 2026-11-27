@@ -30,7 +30,12 @@ XF = 0.5
 BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 SERIF_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
 COST_PER_IMAGE = 0.009
-MUSIC_VOLUME = 0.12   # about -18 dB under the narration before ducking
+# Audio standard (docs/audio.md). Every video uses these, nothing is set by hand:
+VOICE_LUFS = -16          # narration normalised to -16 LUFS before mixing
+MUSIC_UNDER_VOICE_DB = -10  # music bed sits 10 dB below the voice (same loudness scale)
+DUCK_RATIO = 2.5          # gentle extra dip (about 3 to 4 dB) while the narrator speaks, back up in pauses
+MASTER_LUFS = -14         # YouTube plays everything at about -14 LUFS, so we deliver there
+MASTER_TP = -1.5          # true peak ceiling
 
 
 def run(cmd: list[str]) -> None:
@@ -258,10 +263,12 @@ def main() -> None:
         # quiet bed under the voice: loops, fades, ducks further while someone is speaking
         audio_in += ["-stream_loop", "-1", "-i", music["file"]]
         filt.append(f"[{n + 1}:a]atrim=0:{duration:.2f},afade=t=in:d=4,afade=t=out:st={max(0, duration - 6):.2f}:d=6,"
-                    f"volume={MUSIC_VOLUME},aresample=48000,aformat=channel_layouts=mono[m]")
-        filt.append(f"[{n}:a]aresample=48000,aformat=channel_layouts=mono,asplit[n1][n2]")
-        filt.append("[m][n2]sidechaincompress=threshold=0.02:ratio=6:attack=30:release=600[md]")
-        filt.append("[n1][md]amix=inputs=2:duration=first:normalize=0[aout]")
+                    f"aresample=48000,aformat=channel_layouts=mono,loudnorm=I={VOICE_LUFS}:TP=-2:LRA=11,"
+                    f"volume={MUSIC_UNDER_VOICE_DB}dB[m]")
+        filt.append(f"[{n}:a]aresample=48000,aformat=channel_layouts=mono,loudnorm=I={VOICE_LUFS}:TP=-2:LRA=11,asplit[n1][n2]")
+        filt.append(f"[m][n2]sidechaincompress=threshold=0.05:ratio={DUCK_RATIO}:attack=60:release=900[md]")
+        filt.append(f"[n1][md]amix=inputs=2:duration=first:normalize=0,loudnorm=I={MASTER_LUFS}:TP={MASTER_TP}:LRA=11,"
+                    f"aresample=48000[aout]")
         amap = "[aout]"
         log(f"music bed: {music['title']}")
     run(["ffmpeg", "-y", "-loglevel", "error", *inputs, *audio_in,
