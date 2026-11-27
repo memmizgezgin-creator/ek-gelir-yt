@@ -4,8 +4,13 @@ slug: mushet-steel
 voice: bm_george
 speed: 0.92
 sources: https://en.wikipedia.org/wiki/Robert_Forester_Mushet | https://en.wikipedia.org/wiki/Mushet_steel | https://en.wikipedia.org/wiki/High-speed_steel | https://en.wikipedia.org/wiki/Bessemer_process | https://en.wikipedia.org/wiki/Henry_Bessemer | https://en.wikipedia.org/wiki/Frederick_Winslow_Taylor | https://en.wikipedia.org/wiki/Spiegeleisen | https://en.wikipedia.org/wiki/Samuel_Osborn_%26_Company | https://collection.sciencemuseumgroup.org.uk/people/cp119855/s-osborn-co-ltd | https://westyorkssteel.com/blog/a-history-of-high-speed-steel
-title: What Happened to Mushet Steel? The Self-Hardening Steel That Started the Tool Revolution
+title: "The Secret Steel That Led to High-Speed Steel: Mushet"
 summary: In 1868 Robert Forester Mushet made a tool steel that hardened by itself in plain air. He never patented it, kept the recipe secret, and Frederick Taylor later measured it cutting up to ninety percent faster than carbon steel. This is how the first self-hardening steel led straight to high-speed steel, and why its maker never got the fortune.
+thumb_text_2: UP TO|90% FASTER
+thumb_prompt_2: An 1890s American machinist in shirt sleeves and suspenders holds a big brass stopwatch up to his face in total shock, eyes huge, while beside him a heavy belt-driven lathe throws a long fast stream of blue steel chips from a small dark tool bit. Sparks and motion lines. The stopwatch and the flying chips are the focal point.
+thumb_text_3: NO FORTUNE|FOR HIM
+thumb_prompt_3: A thin Victorian inventor with grey mutton chop sideburns stands in a cold stone workshop holding a plain steel tool bar, looking sadly through a window at a crowded busy steelworks with tall smoking chimneys and wagons full of steel bars rolling away. His empty open coin purse hangs from his belt. His face and the window view are the focal point.
+skeleton: cold-open-crisis
 tags: Mushet steel, Robert Forester Mushet, self-hardening steel, air hardening steel, tool steel history, high speed steel, Frederick Winslow Taylor, Taylor White, Samuel Osborn, Sheffield steel, machining history, cutting tools, lathe, metallurgy, Bessemer process
 thumb_key: lathe
 thumb_text: HE NEVER|PATENTED IT

@@ -121,6 +121,31 @@ def _split(text: str) -> list[str]:
     return [" ".join(w[:half]), " ".join(w[half:])]
 
 
+def ab_set(script, out: Path, words: str, costs: dict) -> None:
+    """Three different ideas for YouTube Studio Test & Compare, in out/<id>/test-compare/.
+    1 is the current thumbnail, 2 and 3 come from thumb_prompt_2/thumb_text_2 and _3."""
+    ab = out / "test-compare"
+    ab.mkdir(parents=True, exist_ok=True)
+    Image.open(out / "thumbnail.jpg").save(ab / "1.jpg", quality=90)
+    for n in (2, 3):
+        scene = script.meta.get(f"thumb_prompt_{n}")
+        if not scene:
+            log(f"thumbnail A/B: no thumb_prompt_{n}, skipped")
+            continue
+        prompt = f"{scene} {STYLE}"
+        img, src = gen_deepinfra(prompt, 2000 + n), "deepinfra"
+        if img is None:
+            img, src = gen_fal(prompt, 2000 + n), "fal"
+        if img is None:
+            continue
+        costs["items"].append({"what": f"test-compare thumbnail {n}", "service": src,
+                               "usd_estimate": COST_PER_IMAGE[src]})
+        overlay_text(img, script.meta.get(f"thumb_text_{n}") or words).save(ab / f"{n}.jpg", quality=90)
+        log(f"thumbnail A/B {n} from {src}")
+    costs["total_usd_estimate"] = round(sum(c["usd_estimate"] for c in costs["items"]), 3)
+    save_json(out / "costs.json", costs)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("vid")
@@ -132,6 +157,9 @@ def main() -> None:
     words = script.meta.get("thumb_text") or script.meta.get("slug", "").replace("-", " ")
     scene = script.meta.get("thumb_prompt", "")
     costs = load_json(out / "costs.json", {"items": []})
+    if os.environ.get("THUMB_AB"):
+        ab_set(script, out, words, costs)
+        return
     made: list[Path] = sorted(var_dir.glob("v*.jpg"))
     if made and not os.environ.get("THUMB_REGEN"):
         log(f"thumbnail: reusing {len(made)} existing variants (set THUMB_REGEN=1 to make new ones)")
@@ -140,7 +168,11 @@ def main() -> None:
         made = []
     if scene:
         for i in range(VARIANTS):
-            prompt = f"{scene} {STYLE}"
+            # Test & Compare: variant 2 and 3 may carry their own idea (thumb_prompt_2, thumb_text_2, ...)
+            sfx = "" if i == 0 else f"_{i + 1}"
+            v_scene = script.meta.get(f"thumb_prompt{sfx}") or scene
+            v_words = script.meta.get(f"thumb_text{sfx}") or words
+            prompt = f"{v_scene} {STYLE}"
             img, src = gen_deepinfra(prompt, 1000 + i), "deepinfra"
             if img is None:
                 img, src = gen_fal(prompt, 1000 + i), "fal"
@@ -149,7 +181,7 @@ def main() -> None:
             costs["items"].append({"what": f"thumbnail variant {i + 1}", "service": src,
                                    "usd_estimate": COST_PER_IMAGE[src]})
             p = var_dir / f"v{i + 1}.jpg"
-            overlay_text(img, words).save(p, quality=90)
+            overlay_text(img, v_words).save(p, quality=90)
             made.append(p)
             log(f"thumbnail variant {i + 1} from {src}")
     if not made:

@@ -1,7 +1,7 @@
 ---
 id: "001"
 slug: stellite
-title: "What Happened to Stellite? The Cobalt Alloy That Cut Steel Before Carbide"
+title: "The Metal That Kept Cutting While Red Hot: Stellite"
 voice: bm_george
 speed: 0.92
 sources: en.wikipedia.org/wiki/Stellite | en.wikipedia.org/wiki/Elwood_Haynes | haynesintl.com company history | Haynes Stellite Co. v. Chesterfield, 22 F.2d 635 (6th Cir. 1927) | Google Patents US873746A | en.wikipedia.org/wiki/Cemented_carbide | en.wikipedia.org/wiki/High-speed_steel | Cutting Tool Engineering, "Celebrating a century of cemented carbide"
@@ -10,6 +10,11 @@ thumb_key: lathe
 thumb_text: RED HOT|STILL|CUTTING
 thumb_prompt: A 1910s machinist with a big mustache, flat cap and leather apron leans back in total shock, huge eyes, jaw dropped, hands up. In front of him an old cast iron metal lathe turns a thick steel bar. The small cutting tool pressed against the bar glows bright orange-red like a hot coal, yet a long curling blue steel chip keeps peeling off, with sparks. Close-up, the glowing tool tip and the chip are the focal point.
 thumb_pick: 3
+thumb_text_2: THE WAR|METAL
+thumb_prompt_2: A 1916 munitions factory floor with long rows of belt-driven lathes. A foreman in a waistcoat and flat cap stares open-mouthed at a towering pile of freshly turned brass and steel artillery shells beside one lathe, whose small cutting tool glows orange-red as a curling chip flies off. Warm factory light through high windows, the shell pile and the glowing tool are the focal point.
+thumb_text_3: THEN CAME|CARBIDE
+thumb_prompt_3: A 1920s machinist in overalls holds up a tiny dark grey cemented carbide tool tip between two fingers, eyes wide with disbelief. On the workbench in front of him an older long cobalt alloy tool bit lies forgotten in the shadow. Behind him a metal lathe spits out a bright blue chip. The tiny carbide tip is the focal point, large in the frame.
+skeleton: cold-open-crisis
 tags: stellite, cutting tools, machining history, cobalt alloy, elwood haynes, carbide, high speed steel, metallurgy, industrial history
 ---
 
