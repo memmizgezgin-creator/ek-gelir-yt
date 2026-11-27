@@ -1,0 +1,20 @@
+{
+  "stellite": ["Stellite", "cobalt chromium alloy", "hardfacing weld"],
+  "lathe": ["lathe 1900s machine shop", "engine lathe antique", "metal lathe historic photograph"],
+  "shop": ["machine shop 1910s workers", "factory machine shop interior early 20th century", "Library of Congress machine shop"],
+  "toolbit": ["lathe tool bit", "single point cutting tool lathe", "lathe cutting tool"],
+  "mushet": ["Robert Forester Mushet", "Mushet steel", "Sheffield steel works 19th century"],
+  "taylor": ["Frederick Winslow Taylor", "Bethlehem Steel works", "Bethlehem Steel 1900s"],
+  "paris": ["Exposition Universelle 1900 Paris", "Paris Exposition 1900 machinery"],
+  "haynes": ["Elwood Haynes", "Elwood Haynes portrait"],
+  "pioneer": ["Haynes Pioneer automobile", "Elwood Haynes automobile 1894", "Haynes automobile"],
+  "kokomo": ["Kokomo Indiana", "Kokomo Indiana history", "Howard County Indiana courthouse"],
+  "patent": ["Elwood Haynes patent", "metal alloy patent 1913", "US patent drawing tool 1910s"],
+  "munitions": ["shell factory World War I", "munitions factory 1917 shells lathe", "shell manufacturing 1918 machine"],
+  "valve": ["poppet valve", "engine valve seat", "Wright Whirlwind J-5 engine"],
+  "spirit": ["Spirit of St. Louis", "Charles Lindbergh 1927 Spirit of St. Louis"],
+  "krupp": ["Krupp Essen works", "Krupp factory 1920s", "Leipzig trade fair 1920s"],
+  "carbide": ["tungsten carbide", "cemented carbide", "carbide tipped tool"],
+  "insert": ["indexable insert", "carbide insert turning", "CNC turning insert"],
+  "saw": ["sawmill saw teeth", "band saw blade sawmill", "circular saw blade sawmill"]
+}

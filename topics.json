@@ -1,0 +1,355 @@
+{
+  "rules": "Pick the next todo in order. First 10 videos come from group A.",
+  "topics": [
+    {
+      "id": "001",
+      "slug": "stellite",
+      "group": "A",
+      "title": "What Happened to Stellite? The Cobalt Alloy That Cut Steel Before Carbide",
+      "status": "todo"
+    },
+    {
+      "id": "002",
+      "slug": "mushet-steel",
+      "group": "A",
+      "title": "What Happened to Mushet Steel? The Self-Hardening Steel That Started the Tool Revolution",
+      "status": "todo"
+    },
+    {
+      "id": "003",
+      "slug": "taylor-white-process",
+      "group": "A",
+      "title": "What Happened to the Taylor-White Process? The Heat Treatment That Stunned the 1900 Paris Exposition",
+      "status": "todo"
+    },
+    {
+      "id": "004",
+      "slug": "carbon-tool-steel",
+      "group": "A",
+      "title": "What Happened to Carbon Tool Steel? The Blades That Built the Industrial Age",
+      "status": "todo"
+    },
+    {
+      "id": "005",
+      "slug": "brazed-carbide-tools",
+      "group": "A",
+      "title": "What Happened to Brazed Carbide Tools? The Tips Every Machinist Ground by Hand",
+      "status": "todo"
+    },
+    {
+      "id": "006",
+      "slug": "hand-ground-lathe-bits",
+      "group": "A",
+      "title": "What Happened to Hand-Ground Lathe Bits? The Skill Every Apprentice Had to Master",
+      "status": "todo"
+    },
+    {
+      "id": "007",
+      "slug": "lantern-tool-posts",
+      "group": "A",
+      "title": "What Happened to Lantern Tool Posts? The Simple Clamp on Every Old Lathe",
+      "status": "todo"
+    },
+    {
+      "id": "008",
+      "slug": "natural-grindstones",
+      "group": "A",
+      "title": "What Happened to Natural Grindstones? The Sandstone Wheels That Killed Sheffield's Grinders",
+      "status": "todo"
+    },
+    {
+      "id": "009",
+      "slug": "metal-shapers",
+      "group": "A",
+      "title": "What Happened to Metal Shapers? The Machine That Planed Steel One Stroke at a Time",
+      "status": "todo"
+    },
+    {
+      "id": "010",
+      "slug": "giant-planers",
+      "group": "A",
+      "title": "What Happened to Giant Planers? The Machines That Cut Battleship Armor",
+      "status": "todo"
+    },
+    {
+      "id": "011",
+      "slug": "turret-lathes",
+      "group": "A",
+      "title": "What Happened to Turret Lathes? The Machines That Mass-Produced the Second World War",
+      "status": "todo"
+    },
+    {
+      "id": "012",
+      "slug": "cam-automatics",
+      "group": "A",
+      "title": "What Happened to Cam Automatics? The Screw Machines Programmed in Steel",
+      "status": "todo"
+    },
+    {
+      "id": "013",
+      "slug": "jig-borers",
+      "group": "A",
+      "title": "What Happened to Jig Borers? The Machines That Made Precision Possible",
+      "status": "todo"
+    },
+    {
+      "id": "014",
+      "slug": "tracer-milling",
+      "group": "A",
+      "title": "What Happened to Tracer Milling? The Machines That Copied Shapes With a Stylus",
+      "status": "todo"
+    },
+    {
+      "id": "015",
+      "slug": "pantograph-engravers",
+      "group": "A",
+      "title": "What Happened to Pantograph Engravers? The Arms That Scaled Letters Into Steel",
+      "status": "todo"
+    },
+    {
+      "id": "016",
+      "slug": "paper-tape-nc",
+      "group": "A",
+      "title": "What Happened to Paper Tape NC? The Punched Ribbons That Ran the First CNC Machines",
+      "status": "todo"
+    },
+    {
+      "id": "017",
+      "slug": "line-shafts",
+      "group": "A",
+      "title": "What Happened to Line Shafts? The Belts and Pulleys That Powered Every Factory",
+      "status": "todo"
+    },
+    {
+      "id": "018",
+      "slug": "leather-belts",
+      "group": "A",
+      "title": "What Happened to Leather Belts? The Straps That Carried Factory Power",
+      "status": "todo"
+    },
+    {
+      "id": "019",
+      "slug": "rope-drives",
+      "group": "A",
+      "title": "What Happened to Rope Drives? The Cotton Ropes That Spun the Mills",
+      "status": "todo"
+    },
+    {
+      "id": "020",
+      "slug": "rose-engine-lathes",
+      "group": "A",
+      "title": "What Happened to Rose Engine Lathes? The Machines Behind Guilloché Watches",
+      "status": "todo"
+    },
+    {
+      "id": "021",
+      "slug": "whitworth-threads",
+      "group": "A",
+      "title": "What Happened to Whitworth Threads? The First Standard Screw Thread",
+      "status": "todo"
+    },
+    {
+      "id": "022",
+      "slug": "optical-comparators",
+      "group": "A",
+      "title": "What Happened to Optical Comparators? The Shadow Machines of Quality Control",
+      "status": "todo"
+    },
+    {
+      "id": "023",
+      "slug": "wrought-iron",
+      "group": "B",
+      "title": "What Happened to Wrought Iron? The Metal of the Eiffel Tower",
+      "status": "todo"
+    },
+    {
+      "id": "024",
+      "slug": "puddling-furnaces",
+      "group": "B",
+      "title": "What Happened to Puddling Furnaces? The Brutal Job That Made Wrought Iron",
+      "status": "todo"
+    },
+    {
+      "id": "025",
+      "slug": "bessemer-converter",
+      "group": "B",
+      "title": "What Happened to the Bessemer Converter? The Fire-Breathing Vessel That Made Cheap Steel",
+      "status": "todo"
+    },
+    {
+      "id": "026",
+      "slug": "crucible-steel",
+      "group": "B",
+      "title": "What Happened to Crucible Steel? Huntsman's Secret in Sheffield",
+      "status": "todo"
+    },
+    {
+      "id": "027",
+      "slug": "steam-hammers",
+      "group": "B",
+      "title": "What Happened to Steam Hammers? Nasmyth's Giant That Could Crack an Egg",
+      "status": "todo"
+    },
+    {
+      "id": "028",
+      "slug": "cupola-furnaces",
+      "group": "B",
+      "title": "What Happened to Cupola Furnaces? The Iron Towers Behind Every Foundry",
+      "status": "todo"
+    },
+    {
+      "id": "029",
+      "slug": "fly-presses",
+      "group": "B",
+      "title": "What Happened to Fly Presses? The Spinning Weights That Stamped Metal",
+      "status": "todo"
+    },
+    {
+      "id": "030",
+      "slug": "sleeve-valve-engines",
+      "group": "C",
+      "title": "What Happened to Sleeve Valve Engines? The Engines With No Poppet Valves",
+      "status": "todo"
+    },
+    {
+      "id": "031",
+      "slug": "napier-deltic",
+      "group": "C",
+      "title": "What Happened to the Napier Deltic? The Triangle Diesel That Powered Express Trains",
+      "status": "todo"
+    },
+    {
+      "id": "032",
+      "slug": "hot-bulb-engines",
+      "group": "C",
+      "title": "What Happened to Hot Bulb Engines? The Engines Started With a Blowtorch",
+      "status": "todo"
+    },
+    {
+      "id": "033",
+      "slug": "rotary-aircraft-engines",
+      "group": "C",
+      "title": "What Happened to Rotary Aircraft Engines? The Engines That Spun With the Propeller",
+      "status": "todo"
+    },
+    {
+      "id": "034",
+      "slug": "chrysler-turbine-car",
+      "group": "C",
+      "title": "What Happened to the Chrysler Turbine Car? The Jet Engine for the Road",
+      "status": "todo"
+    },
+    {
+      "id": "035",
+      "slug": "magnetos",
+      "group": "C",
+      "title": "What Happened to Magnetos? The Spark Makers Before Batteries",
+      "status": "todo"
+    },
+    {
+      "id": "036",
+      "slug": "carburetors",
+      "group": "C",
+      "title": "What Happened to Carburetors? The Brass Devices That Fed Every Engine",
+      "status": "todo"
+    },
+    {
+      "id": "037",
+      "slug": "mechanical-governors",
+      "group": "C",
+      "title": "What Happened to Mechanical Governors? The Spinning Balls That Controlled Engines",
+      "status": "todo"
+    },
+    {
+      "id": "038",
+      "slug": "steam-cars",
+      "group": "C",
+      "title": "What Happened to Steam Cars? The Stanley That Held the Land Speed Record",
+      "status": "todo"
+    },
+    {
+      "id": "039",
+      "slug": "factory-water-wheels",
+      "group": "C",
+      "title": "What Happened to Factory Water Wheels? The Power Before Steam",
+      "status": "todo"
+    },
+    {
+      "id": "040",
+      "slug": "ward-leonard-drive",
+      "group": "D",
+      "title": "What Happened to the Ward Leonard Drive? The Motor Control Before Electronics",
+      "status": "todo"
+    },
+    {
+      "id": "041",
+      "slug": "amplidynes",
+      "group": "D",
+      "title": "What Happened to Amplidynes? The Machines That Aimed Battleship Guns",
+      "status": "todo"
+    },
+    {
+      "id": "042",
+      "slug": "selsyn-motors",
+      "group": "D",
+      "title": "What Happened to Selsyn Motors? The Motors That Copied Each Other's Position",
+      "status": "todo"
+    },
+    {
+      "id": "043",
+      "slug": "mercury-arc-rectifiers",
+      "group": "D",
+      "title": "What Happened to Mercury Arc Rectifiers? The Glowing Glass Bulbs That Powered Trams",
+      "status": "todo"
+    },
+    {
+      "id": "044",
+      "slug": "differential-analyzers",
+      "group": "D",
+      "title": "What Happened to Differential Analyzers? The Mechanical Computers of the 1930s",
+      "status": "todo"
+    },
+    {
+      "id": "045",
+      "slug": "magnetic-drum-memory",
+      "group": "D",
+      "title": "What Happened to Magnetic Drum Memory? The Spinning Cylinders Inside Early Computers",
+      "status": "todo"
+    },
+    {
+      "id": "046",
+      "slug": "slide-rules",
+      "group": "D",
+      "title": "What Happened to Slide Rules? The Pocket Tool That Went to the Moon",
+      "status": "todo"
+    },
+    {
+      "id": "047",
+      "slug": "hydraulic-power-networks",
+      "group": "E",
+      "title": "What Happened to Hydraulic Power Networks? The Pressurized Water That Ran London",
+      "status": "todo"
+    },
+    {
+      "id": "048",
+      "slug": "atmospheric-railway",
+      "group": "E",
+      "title": "What Happened to the Atmospheric Railway? Brunel's Train Pushed by Air",
+      "status": "todo"
+    },
+    {
+      "id": "049",
+      "slug": "cable-car-drives",
+      "group": "E",
+      "title": "What Happened to Cable Car Drives? The Underground Cables That Pulled Streetcars",
+      "status": "todo"
+    },
+    {
+      "id": "050",
+      "slug": "pneumatic-tube-networks",
+      "group": "E",
+      "title": "What Happened to Pneumatic Tube Networks? The Air Mail Under City Streets",
+      "status": "todo"
+    }
+  ]
+}

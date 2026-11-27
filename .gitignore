@@ -1,0 +1,11 @@
+models/*.onnx
+models/*.bin
+out/*.mp4
+out/*/frames/
+out/*/clips/
+out/*/narration.wav
+out/*/concat.txt
+assets/
+__pycache__/
+.env
+client_secret*.json

@@ -1,0 +1,169 @@
+name: produce
+
+on:
+  schedule:
+    - cron: "0 5 * * 1,3,5"   # Mon, Wed, Fri 05:00 UTC (06:00 Amsterdam in winter)
+  workflow_dispatch:
+    inputs:
+      id:
+        description: "Topic id to (re)build, e.g. 001. Empty = next todo."
+        required: false
+
+permissions:
+  contents: write
+  issues: write
+  id-token: write
+
+concurrency:
+  group: produce
+  cancel-in-progress: false
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      FORCE_ID: ${{ github.event.inputs.id }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: System packages
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+
+      - run: pip install -r requirements.txt
+
+      - name: Cache Kokoro models
+        uses: actions/cache@v4
+        with:
+          path: models
+          key: kokoro-v1.0
+
+      - run: pipeline/get_models.sh
+
+      - name: Pick topic
+        id: topic
+        run: python pipeline/next.py pick
+
+      - name: Check for script
+        id: has
+        run: |
+          if ls scripts/${{ steps.topic.outputs.id }}-*.md 2>/dev/null | grep -qv -- '-check.md'; then
+            echo "script=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "script=no" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Prepare script prompt
+        if: steps.has.outputs.script == 'no'
+        id: prompt
+        run: |
+          {
+            echo 'text<<EOP'
+            sed -e "s/{{ID}}/${{ steps.topic.outputs.id }}/g" \
+                -e "s/{{SLUG}}/${{ steps.topic.outputs.slug }}/g" \
+                -e "s|{{TITLE}}|${{ steps.topic.outputs.title }}|g" prompts/script-gen.md
+            echo 'EOP'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Write and fact-check script (Claude, Max subscription)
+        if: steps.has.outputs.script == 'no'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: ${{ steps.prompt.outputs.text }}
+          claude_args: >-
+            --model sonnet
+            --max-turns 60
+            --allowedTools "Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
+
+      - name: Images (Wikimedia Commons, licensed only)
+        run: python pipeline/images.py ${{ steps.topic.outputs.id }}
+
+      - name: Narration (Kokoro)
+        run: python pipeline/tts.py ${{ steps.topic.outputs.id }}
+
+      - name: Render
+        run: python pipeline/render.py ${{ steps.topic.outputs.id }}
+
+      - name: Thumbnail
+        run: python pipeline/thumbnail.py ${{ steps.topic.outputs.id }}
+
+      - name: Quality gate
+        run: python pipeline/verify.py ${{ steps.topic.outputs.id }}
+
+      - name: Keep video as artifact (14 days)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ steps.topic.outputs.id }}
+          retention-days: 14
+          if-no-files-found: ignore
+          path: |
+            out/*.mp4
+            out/${{ steps.topic.outputs.id }}/thumbnail.jpg
+            out/${{ steps.topic.outputs.id }}/credits.txt
+            out/${{ steps.topic.outputs.id }}/gate.json
+            out/${{ steps.topic.outputs.id }}/*.srt
+
+      - name: Upload to YouTube
+        id: upload
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PRIVACY: ${{ vars.YT_PRIVACY || 'private' }}
+        run: |
+          if [ -z "$YT_REFRESH_TOKEN" ]; then
+            echo "::warning::YouTube not connected yet (one-time OAuth step). Video kept as artifact, not uploaded."
+            echo "url=" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          python pipeline/upload.py ${{ steps.topic.outputs.id }}
+          echo "url=$(python -c "import json;print(json.load(open('out/${{ steps.topic.outputs.id }}/upload.json'))['url'])")" >> "$GITHUB_OUTPUT"
+
+      - name: Record and commit
+        run: |
+          python pipeline/next.py done ${{ steps.topic.outputs.id }} "${{ steps.upload.outputs.url }}"
+          git config user.name "ek-gelir-yt bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add topics.json scripts out/${{ steps.topic.outputs.id }}/credits.* out/${{ steps.topic.outputs.id }}/gate.json out/${{ steps.topic.outputs.id }}/*.srt out/${{ steps.topic.outputs.id }}/timeline.json out/${{ steps.topic.outputs.id }}/upload.json 2>/dev/null || true
+          git commit -m "video ${{ steps.topic.outputs.id }} ${{ steps.topic.outputs.slug }}: produced" || echo "nothing to commit"
+          git push
+
+      - name: Report failure (issue + email)
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh label create pipeline-failure --color B60205 2>/dev/null || true
+          gh issue create --label pipeline-failure \
+            --title "Pipeline failed: video ${{ steps.topic.outputs.id || '?' }} ($(date -u +%F))" \
+            --body "The produce run failed. Log: $RUN_URL
+
+          Gate report (if it got that far):
+          \`\`\`
+          $(cat out/${{ steps.topic.outputs.id }}/gate.json 2>/dev/null || echo 'no gate report')
+          \`\`\`
+          GitHub emails the repo owner about this issue. Close it after a green run."
+
+      - name: Extra email (optional, Gmail app password)
+        if: failure() && env.MAIL_USERNAME != ''
+        env:
+          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_APP_PASSWORD }}
+          to: ${{ secrets.MAIL_USERNAME }}
+          from: ek-gelir-yt
+          subject: "ek-gelir-yt pipeline failed"
+          body: "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
