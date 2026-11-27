@@ -449,7 +449,17 @@
       "what": "illustration 8e0349208097.jpg",
       "service": "deepinfra",
       "usd_estimate": 0.009
+    },
+    {
+      "what": "test-compare thumbnail 2",
+      "service": "deepinfra",
+      "usd_estimate": 0.009
+    },
+    {
+      "what": "test-compare thumbnail 3",
+      "service": "deepinfra",
+      "usd_estimate": 0.009
     }
   ],
-  "total_usd_estimate": 0.81
+  "total_usd_estimate": 0.828
 }
