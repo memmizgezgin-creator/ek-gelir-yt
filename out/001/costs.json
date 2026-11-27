@@ -9,7 +9,22 @@
       "what": "thumbnail variant 2",
       "service": "deepinfra",
       "usd_estimate": 0.009
+    },
+    {
+      "what": "thumbnail variant 1",
+      "service": "deepinfra",
+      "usd_estimate": 0.009
+    },
+    {
+      "what": "thumbnail variant 2",
+      "service": "deepinfra",
+      "usd_estimate": 0.009
+    },
+    {
+      "what": "thumbnail variant 3",
+      "service": "deepinfra",
+      "usd_estimate": 0.009
     }
   ],
-  "total_usd_estimate": 0.018
+  "total_usd_estimate": 0.045
 }
