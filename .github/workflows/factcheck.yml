@@ -38,6 +38,8 @@ jobs:
             --allowedTools "Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
       - name: Commit
         run: |
+          git config --local --unset-all http.https://github.com/.extraheader || true
+          git remote set-url origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
           git config user.name "ek-gelir-yt bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add scripts
