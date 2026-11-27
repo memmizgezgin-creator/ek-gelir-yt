@@ -16,7 +16,7 @@ def main():
         log(f"channel {c['id']} {c['snippet']['title']} longUploads={c.get('status', {}).get('longUploadsStatus')}")
     sr = requests.get(f"{API}/search", params={"part": "snippet", "forMine": "true", "type": "video",
                                                "maxResults": 10}, headers=h, timeout=30).json()
-    log(f"my videos: {[(i['id']['videoId'], i['snippet']['title'][:40]) for i in sr.get('items', [])]} {sr.get('error', '')}")
+    log(f"my videos: {[i.get('id') for i in sr.get('items', [])]} {sr.get('error', '')}")
     for vid in sys.argv[1:]:
         up = load_json(OUT / vid / "upload.json")
         if not up:
