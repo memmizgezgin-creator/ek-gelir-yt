@@ -140,7 +140,10 @@ def compare_frame(title: str, left: list[str], right: list[str]) -> Image.Image:
 def title_frame(bg: Image.Image, text: str) -> Image.Image:
     img = vignette(ImageEnhance.Brightness(cover(bg)).enhance(0.6), 0.5)
     d = ImageDraw.Draw(img)
-    centered(d, H // 2 - 80, text, ImageFont.truetype(SERIF_BOLD, 110), (255, 255, 255))
+    size = 110
+    while size > 50 and d.textlength(text, font=ImageFont.truetype(SERIF_BOLD, size)) > W - 160:
+        size -= 6
+    centered(d, H // 2 - size // 2, text, ImageFont.truetype(SERIF_BOLD, size), (255, 255, 255))
     return img
 
 
