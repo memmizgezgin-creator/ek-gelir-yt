@@ -1,0 +1,9 @@
+- Keep words-card lines under about 22 characters; long lines overflow the frame.
+- Avoid white diagram or catalogue-scan photos as full-screen pictures; use an illustration instead.
+- Check every photo for stray marks, signatures or symbols before using it.
+- Do not use a photo of a different machine (locomotives, cars) to illustrate tools; use an illustration.
+- Do not reuse the same photo within about 30 shots.
+- Modern photos (people in modern clothes, painted road lines, 1950s buildings) break a historic scene; use an illustration.
+- Do not use stereo pairs or doubled scans, or the same photo more than twice in an episode.
+- Use a words card instead of a microscope or crystal-diagram photo; the viewer cannot read them.
+- Check illustrations for stray signatures in the corner; retry with a new seed.

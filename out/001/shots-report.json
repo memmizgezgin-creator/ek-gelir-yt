@@ -1,0 +1,35 @@
+{
+  "shots": 163,
+  "average_seconds": 7.21,
+  "longest_seconds": 17.22,
+  "too_long": [
+    4,
+    35,
+    38,
+    47,
+    49,
+    52,
+    70,
+    74,
+    95,
+    98,
+    100,
+    108,
+    111,
+    117,
+    134,
+    142,
+    144,
+    147,
+    148,
+    160
+  ],
+  "reused_too_often": {},
+  "types": {
+    "illus": 44,
+    "words": 54,
+    "photo": 59,
+    "compare": 5,
+    "title": 1
+  }
+}

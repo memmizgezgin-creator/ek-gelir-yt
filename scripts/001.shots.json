@@ -11,8 +11,8 @@
    "s": 1,
    "type": "words",
    "lines": [
-    "STEEL WAS GETTING HARDER",
-    "MACHINES WERE GETTING STRONGER"
+    "HARDER STEEL",
+    "STRONGER MACHINES"
    ]
   },
   {
@@ -71,8 +71,8 @@
   },
   {
    "s": 13,
-   "type": "photo",
-   "file": "lathe-1.png",
+   "type": "illus",
+   "prompt": "Interior of a large 1915 steel works machine shop, heavy lathes turning long steel shafts, glowing hot tools, workers in caps and aprons, smoky shafts of light",
    "move": "right"
   },
   {
@@ -91,7 +91,7 @@
   {
    "s": 16,
    "type": "photo",
-   "file": "carbide-1.jpg",
+   "file": "carbide-2.jpg",
    "move": "in"
   },
   {
@@ -127,8 +127,8 @@
   },
   {
    "s": 23,
-   "type": "photo",
-   "file": "toolbit-1.png",
+   "type": "illus",
+   "prompt": "Close-up cutaway of a sharp wedge-shaped lathe tool pushing into a steel bar and a thin curl of metal shearing away as a chip, dark background, glowing contact point",
    "move": "out"
   },
   {
@@ -141,15 +141,15 @@
    "s": 25,
    "type": "words",
    "lines": [
-    "FRICTION AND DEFORMATION",
+    "FRICTION",
     "BECOME HEAT",
-    "RIGHT AT THE CUTTING EDGE"
+    "AT THE CUTTING EDGE"
    ]
   },
   {
    "s": 26,
-   "type": "photo",
-   "file": "lathe-3.jpg",
+   "type": "illus",
+   "prompt": "A 19th century blacksmith shop with hand-forged chisels, files and tool bits hanging on a wall beside a glowing forge, a smith in leather apron hammering, warm light",
    "move": "in"
   },
   {
@@ -169,8 +169,9 @@
   {
    "s": 29,
    "type": "illus",
-   "prompt": "Close-up of a steel tool bit on an anvil whose edge turns straw-yellow then blue as it heats, faint heat haze, warm light",
-   "move": "out"
+   "prompt": "A steel tool bit held in tongs over an anvil, the metal tip fading from red to straw yellow, a faint heat shimmer, workshop background, no sparks",
+   "move": "out",
+   "seed": 7
   },
   {
    "s": 30,
@@ -216,7 +217,7 @@
    "lines": [
     "1868",
     "ROBERT FORESTER MUSHET",
-    "TUNGSTEN AND MANGANESE"
+    "TUNGSTEN, MANGANESE"
    ]
   },
   {
@@ -231,7 +232,7 @@
    "lines": [
     "EXPENSIVE",
     "BRITTLE",
-    "ONLY FOR THE HARDEST JOBS"
+    "HARDEST JOBS ONLY"
    ]
   },
   {
@@ -331,9 +332,8 @@
   },
   {
    "s": 53,
-   "type": "photo",
-   "file": "kokomo-2.jpg",
-   "label": "Kokomo, Indiana",
+   "type": "illus",
+   "prompt": "A small Indiana town around 1894, a brick main street with a railway depot and a courthouse clock tower, horse wagons and a few pedestrians in long coats, bright daylight",
    "move": "in"
   },
   {
@@ -364,7 +364,7 @@
   {
    "s": 59,
    "type": "photo",
-   "file": "mushet-5.jpg",
+   "file": "mushet-2.jpg",
    "move": "right"
   },
   {
@@ -392,8 +392,9 @@
   {
    "s": 63,
    "type": "illus",
-   "prompt": "A brilliantly polished disc of silvery alloy on a velvet cloth mirroring a lamp flame, flawless shine, workshop background",
-   "move": "left"
+   "prompt": "A cobalt-chromium alloy goblet and a bright polished spoon on a wooden workbench, brilliant mirror shine reflecting an oil lamp, 1900s workshop, no text",
+   "move": "left",
+   "seed": 7
   },
   {
    "s": 64,
@@ -462,7 +463,7 @@
    "s": 75,
    "type": "words",
    "lines": [
-    "ABOUT A QUARTER TO HALF TUNGSTEN",
+    "A QUARTER TO HALF TUNGSTEN",
     "AROUND 15% CHROMIUM",
     "COBALT THE REST"
    ]
@@ -498,8 +499,9 @@
   {
    "s": 79,
    "type": "illus",
-   "prompt": "Two lathes side by side in a 1915 shop, one running a cast cobalt alloy tool with a long bright stream of chips at twice the speed, the other slower, machinists watching",
-   "move": "in"
+   "prompt": "Two cast metal lathe tools cutting steel bars side by side in a 1915 machine shop, one tool tip glowing dull red but cutting cleanly, workers watching",
+   "move": "in",
+   "seed": 11
   },
   {
    "s": 80,
@@ -525,8 +527,8 @@
   },
   {
    "s": 85,
-   "type": "photo",
-   "file": "lathe-4.jpg",
+   "type": "illus",
+   "prompt": "A machinist grinding a freshly cast alloy tool bit on a grinding wheel in a 1915 shop, finished tool bits laid on a bench, sparks",
    "move": "out"
   },
   {
@@ -595,8 +597,8 @@
   },
   {
    "s": 96,
-   "type": "photo",
-   "file": "carbide-3.png",
+   "type": "illus",
+   "prompt": "Microscopic view of hard angular grey grains held in a bright metallic cobalt-colored matrix, like stones set in cement, cross-section, dramatic light",
    "move": "right"
   },
   {
@@ -605,14 +607,17 @@
    "lines": [
     "HEAT DOES NOT",
     "UNDO THE STRUCTURE",
-    "900 °C: JUST A LITTLE SOFTER"
+    "900 °C: A BIT SOFTER"
    ]
   },
   {
    "s": 99,
-   "type": "photo",
-   "file": "carbide-5.png",
-   "move": "out"
+   "type": "words",
+   "lines": [
+    "HARD PARTICLES",
+    "HELD IN A",
+    "TOUGH BINDER"
+   ]
   },
   {
    "s": 100,
@@ -704,13 +709,13 @@
    "lines": [
     "INDEPENDENT DISCOVERER",
     "OF STAINLESS STEEL",
-    "ALONGSIDE HARRY BREARLEY"
+    "WITH HARRY BREARLEY"
    ]
   },
   {
    "s": 113,
-   "type": "photo",
-   "file": "pioneer-2.jpg",
+   "type": "illus",
+   "prompt": "A 1900s open horseless carriage with spoked wheels and a leather bench seat parked outside a small town workshop, two men in long coats and flat caps beside it, daylight",
    "move": "left"
   },
   {
@@ -735,8 +740,8 @@
   },
   {
    "s": 117,
-   "type": "photo",
-   "file": "valve-3.jpg",
+   "type": "illus",
+   "prompt": "Cutaway view of a 1900s engine cylinder head with a mushroom-shaped poppet valve seated in its port, brass and iron, glowing exhaust gas, no text",
    "move": "out"
   },
   {
@@ -751,14 +756,13 @@
    "lines": [
     "A STELLITE FACE",
     "ON VALVE AND SEAT",
-    "MADE THEM LAST FAR LONGER"
+    "LASTED FAR LONGER"
    ]
   },
   {
    "s": 120,
-   "type": "photo",
-   "file": "spirit-2.jpg",
-   "label": "Charles Lindbergh, 1927",
+   "type": "illus",
+   "prompt": "A silver single-engine monoplane with a round radial engine on a grass airfield at dawn, 1927, small crowd of men in hats watching, no text on the aircraft",
    "move": "in"
   },
   {
@@ -796,8 +800,8 @@
   },
   {
    "s": 126,
-   "type": "photo",
-   "file": "carbide-3.png",
+   "type": "illus",
+   "prompt": "Macro view of a hard crystalline metal carbide lattice, dark grey-blue crystals with warm light glints, laboratory feel, no text",
    "move": "right"
   },
   {
@@ -887,7 +891,7 @@
   {
    "s": 140,
    "type": "photo",
-   "file": "carbide-1.jpg",
+   "file": "carbide-2.jpg",
    "move": "out"
   },
   {
@@ -929,7 +933,7 @@
    ],
    "right": [
     "VS HIGH-SPEED STEEL",
-    "BETTER AT HIGH TEMPERATURE"
+    "HOTTER"
    ]
   },
   {
@@ -944,7 +948,8 @@
    "s": 148,
    "type": "illus",
    "prompt": "A heavy roughing cut on a rough cast iron casting in a lathe, scale and sparks flying, a thick cast tool bit holding firm, heavy industrial workshop",
-   "move": "right"
+   "move": "right",
+   "seed": 11
   },
   {
    "s": 149,
@@ -966,7 +971,7 @@
   {
    "s": 152,
    "type": "photo",
-   "file": "insert-4.jpg",
+   "file": "insert-1.jpg",
    "move": "out"
   },
   {
@@ -974,7 +979,7 @@
    "type": "words",
    "lines": [
     "EVERY CENT PER PART",
-    "THE CHOICE BECAME OBVIOUS"
+    "CHOICE BECAME OBVIOUS"
    ]
   },
   {
@@ -987,8 +992,9 @@
    "s": 155,
    "type": "words",
    "lines": [
-    "AS CUTTING TOOLS, A FOOTNOTE",
-    "AND YET STELLITE DID NOT DISAPPEAR"
+    "AS CUTTING TOOLS",
+    "A FOOTNOTE",
+    "YET STELLITE LIVED ON"
    ]
   },
   {
@@ -1005,8 +1011,8 @@
   },
   {
    "s": 159,
-   "type": "photo",
-   "file": "valve-3.jpg",
+   "type": "illus",
+   "prompt": "A large steam turbine power plant interior with a cutaway valve and valve seat on a workbench, brass and iron, 1920s, no text",
    "move": "out"
   },
   {
@@ -1019,7 +1025,8 @@
    "s": 161,
    "type": "illus",
    "prompt": "A heavy machine gun firing from the side, hot propellant gas and muzzle flash, the first section of the barrel glowing, wartime field, dusk",
-   "move": "in"
+   "move": "in",
+   "seed": 23
   },
   {
    "s": 162,
@@ -1046,21 +1053,21 @@
    "s": 165,
    "type": "words",
    "lines": [
-    "THE BUSINESS CHANGED HANDS",
+    "THE BUSINESS",
+    "CHANGED HANDS",
     "1970: CABOT CORPORATION"
    ]
   },
   {
    "s": 167,
-   "type": "photo",
-   "file": "kokomo-1.jpg",
-   "label": "Kokomo, Indiana",
+   "type": "illus",
+   "prompt": "A modern-era alloy foundry in Indiana at night, workers in hard hats beside a furnace pouring molten metal, industrial glow, no text",
    "move": "left"
   },
   {
    "s": 168,
    "type": "photo",
-   "file": "insert-2.jpg",
+   "file": "toolbit-2.jpg",
    "move": "in"
   },
   {
@@ -1088,14 +1095,14 @@
   },
   {
    "s": 174,
-   "type": "photo",
-   "file": "saw-4.jpg",
+   "type": "illus",
+   "prompt": "Inside a rough sawmill, a large band saw cutting a thick log, sawdust in sunbeams, a hard bright welded tooth edge in close view, no text",
    "move": "out"
   },
   {
    "s": 175,
    "type": "photo",
-   "file": "lathe-3.jpg",
+   "file": "mushet-3.jpg",
    "move": "left"
   },
   {
@@ -1113,7 +1120,7 @@
   {
    "s": 178,
    "type": "photo",
-   "file": "insert-5.jpg",
+   "file": "insert-3.jpg",
    "move": "out"
   },
   {
@@ -1139,7 +1146,7 @@
   {
    "s": 182,
    "type": "photo",
-   "file": "spirit-4.jpg",
+   "file": "spirit-3.jpg",
    "move": "right"
   },
   {
