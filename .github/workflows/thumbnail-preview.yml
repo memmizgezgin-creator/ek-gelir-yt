@@ -47,5 +47,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add $d/thumbnail.jpg $d/thumb-variants $d/costs.json
           git commit -m "thumbnail ${{ github.event.inputs.id }}" || true
-          git pull --rebase -q origin main
+          git pull --rebase --autostash -q origin main
           git push

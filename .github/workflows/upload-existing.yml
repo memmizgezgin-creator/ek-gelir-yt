@@ -69,7 +69,7 @@ jobs:
             [ -e "$f" ] && git add "$f"
           done
           git commit -m "video ${{ github.event.inputs.id }}: existing render ${{ github.event.inputs.upload == 'true' && 'uploaded' || 'fetched' }}" || true
-          git pull --rebase -q origin main
+          git pull --rebase --autostash -q origin main
           git push
       - name: Report failure
         if: failure()

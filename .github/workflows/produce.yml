@@ -94,7 +94,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add scripts
           git commit -m "script ${{ steps.topic.outputs.id }} ${{ steps.topic.outputs.slug }}: written and fact-checked" || true
-          git pull --rebase -q origin main
+          git pull --rebase --autostash -q origin main
           git push
 
       - name: Images (Wikimedia Commons, licensed only)
@@ -140,7 +140,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add scripts/${{ steps.topic.outputs.id }}.shots.json
           git commit -m "shots ${{ steps.topic.outputs.id }}: shot list" || true
-          git pull --rebase -q origin main
+          git pull --rebase --autostash -q origin main
           git push
 
       - name: Music bed
@@ -188,7 +188,7 @@ jobs:
           git add scripts/$id.shots.json out/$id/qa.json out/$id/shots-report.json out/$id/shots-preview.jpg 2>/dev/null || true
           [ -f docs/learnings.md ] && git add docs/learnings.md
           git commit -m "shots $id: shot list and visual check" || true
-          git pull --rebase -q origin main
+          git pull --rebase --autostash -q origin main
           git push
 
       - name: Render (v2 shots, music, captions)
@@ -250,7 +250,7 @@ jobs:
             [ -e "$f" ] && git add "$f"
           done
           git commit -m "video ${{ steps.topic.outputs.id }} ${{ steps.topic.outputs.slug }}: produced" || echo "nothing to commit"
-          git pull --rebase -q origin main
+          git pull --rebase --autostash -q origin main
           git push
 
       - name: Report failure (issue + email)
