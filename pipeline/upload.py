@@ -15,7 +15,7 @@ import time
 
 import requests
 
-from common import OUT, find_script, load_json, log, parse_script, save_json, fail
+from common import OUT, ROOT, find_script, load_json, log, parse_script, save_json, fail
 
 TOKEN_URL = "https://oauth2.googleapis.com/token"
 UPLOAD_URL = "https://www.googleapis.com/upload/youtube/v3/videos"
@@ -36,9 +36,28 @@ def access_token() -> str:
     return r.json()["access_token"]
 
 
+def resources(script) -> list[str]:
+    """Shop and affiliate links from config/links.json; empty values are left out."""
+    cfg = load_json(ROOT / "config" / "links.json", {})
+    out = []
+    if cfg.get("guide_url"):
+        out.append(f"Field guide, From Stellite to PCD (every cutting tool material, history and use): {cfg['guide_url']}")
+    if cfg.get("cheat_sheet_url"):
+        out.append(f"Free one-page cheat sheet: {cfg['cheat_sheet_url']}")
+    if cfg.get("posters_url"):
+        out.append(f"Patent drawing posters: {cfg['posters_url']}")
+    tag = cfg.get("amazon_tag")
+    books = [b.split("=", 1) for b in script.meta.get("books", "").split("|") if "=" in b]
+    if tag and books:
+        out.append("Further reading (affiliate links, the channel earns a small commission):")
+        out += [f"- {t.strip()}: https://www.amazon.{cfg.get('amazon_domain', 'com')}/dp/{a.strip()}?tag={tag}" for t, a in books]
+    return ([""] + out) if out else []
+
+
 def description(script, credits: list[dict]) -> str:
     srcs = [s.strip() for s in script.meta.get("sources", "").split("|") if s.strip()]
     lines = [script.meta.get("summary", "")]
+    lines += resources(script)
     tl = load_json(OUT / script.vid / "timeline.json", {"sections": []})
     if tl["sections"]:
         lines += ["", "Chapters"]

@@ -1,0 +1,8 @@
+{
+  "guide_url": "",
+  "cheat_sheet_url": "",
+  "posters_url": "",
+  "amazon_tag": "",
+  "amazon_domain": "com",
+  "note": "Fill a value and every new upload (and set_title.py for old ones) adds the link to the description. Per episode books go in the script front matter: books: Title=ASIN | Title=ASIN"
+}
