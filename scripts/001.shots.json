@@ -9,11 +9,9 @@
   },
   {
    "s": 1,
-   "type": "words",
-   "lines": [
-    "HARDER STEEL",
-    "STRONGER MACHINES"
-   ]
+   "type": "photo",
+   "file": "shop-5.jpg",
+   "move": "left"
   },
   {
    "s": 3,
@@ -41,12 +39,9 @@
   },
   {
    "s": 8,
-   "type": "words",
-   "lines": [
-    "ALMOST NO IRON",
-    "NO RUST",
-    "NO TARNISH"
-   ]
+   "type": "photo",
+   "file": "dental-1.jpg",
+   "move": "right"
   },
   {
    "s": 11,
@@ -91,8 +86,8 @@
   {
    "s": 16,
    "type": "photo",
-   "file": "carbide-2.jpg",
-   "move": "in"
+   "file": "insert-2.jpg",
+   "move": "out"
   },
   {
    "s": 17,
@@ -139,12 +134,10 @@
   },
   {
    "s": 25,
-   "type": "words",
-   "lines": [
-    "FRICTION",
-    "BECOME HEAT",
-    "AT THE CUTTING EDGE"
-   ]
+   "type": "illus",
+   "prompt": "Macro cutaway of the tiny hot zone where a lathe tool tip meets a steel bar, orange heat glow fading to blue at the edges, a curled chip, dark background",
+   "move": "out",
+   "seed": 31
   },
   {
    "s": 26,
@@ -160,11 +153,9 @@
   },
   {
    "s": 28,
-   "type": "words",
-   "lines": [
-    "THAT HARDNESS",
-    "IS BORROWED"
-   ]
+   "type": "photo",
+   "file": "saw-2.jpg",
+   "move": "in"
   },
   {
    "s": 29,
@@ -189,20 +180,15 @@
   },
   {
    "s": 32,
-   "type": "words",
-   "lines": [
-    "THAT RULE SET THE SPEED",
-    "OF THE INDUSTRIAL WORLD"
-   ]
+   "type": "photo",
+   "file": "krupp-2.jpg",
+   "move": "in"
   },
   {
    "s": 33,
-   "type": "words",
-   "lines": [
-    "CRANKSHAFTS",
-    "GUN BARRELS",
-    "PARTS PER DAY"
-   ]
+   "type": "photo",
+   "file": "munitions-5.jpg",
+   "move": "out"
   },
   {
    "s": 34,
@@ -228,12 +214,9 @@
   },
   {
    "s": 37,
-   "type": "words",
-   "lines": [
-    "EXPENSIVE",
-    "BRITTLE",
-    "HARDEST JOBS ONLY"
-   ]
+   "type": "photo",
+   "file": "mushet-4.jpg",
+   "move": "out"
   },
   {
    "s": 38,
@@ -264,9 +247,9 @@
   },
   {
    "s": 42,
-   "type": "illus",
-   "prompt": "Inside the 1900 Paris Exposition machinery hall, a lathe cutting steel at tremendous speed with a red-hot tool edge, a crowd of men in top hats and bowler hats watching from behind a rail",
-   "move": "right"
+   "type": "photo",
+   "file": "paris-3.jpg",
+   "move": "left"
   },
   {
    "s": 43,
@@ -277,11 +260,9 @@
   },
   {
    "s": 44,
-   "type": "words",
-   "lines": [
-    "THE BIRTH OF",
-    "HIGH-SPEED STEEL"
-   ]
+   "type": "photo",
+   "file": "taylor-5.jpg",
+   "move": "in"
   },
   {
    "s": 45,
@@ -305,11 +286,10 @@
   },
   {
    "s": 49,
-   "type": "words",
-   "lines": [
-    "THE DOOR WAS OPEN",
-    "FOR SOMETHING DIFFERENT"
-   ]
+   "type": "illus",
+   "prompt": "A heavy workshop door swinging open onto a bright corridor of light, a silhouetted inventor in a coat standing in the doorway, glass chemical bottles on shelves around him, 1890s",
+   "move": "in",
+   "seed": 32
   },
   {
    "s": 50,
@@ -369,11 +349,9 @@
   },
   {
    "s": 60,
-   "type": "words",
-   "lines": [
-    "HAYNES WENT",
-    "IN ANOTHER DIRECTION"
-   ]
+   "type": "photo",
+   "file": "mushet-1.jpg",
+   "move": "left"
   },
   {
    "s": 61,
@@ -383,11 +361,9 @@
   },
   {
    "s": 62,
-   "type": "words",
-   "lines": [
-    "WHAT HE FOUND",
-    "WAS REMARKABLE"
-   ]
+   "type": "photo",
+   "file": "dental-2.jpg",
+   "move": "in"
   },
   {
    "s": 63,
@@ -398,11 +374,9 @@
   },
   {
    "s": 64,
-   "type": "words",
-   "lines": [
-    "IT DID NOT STAIN",
-    "IT DID NOT TARNISH"
-   ]
+   "type": "photo",
+   "file": "dental-4.jpg",
+   "move": "left"
   },
   {
    "s": 66,
@@ -519,11 +493,9 @@
   },
   {
    "s": 84,
-   "type": "words",
-   "lines": [
-    "THERE WAS NO TEMPER",
-    "TO LOSE"
-   ]
+   "type": "photo",
+   "file": "lathe-4.jpg",
+   "move": "out"
   },
   {
    "s": 85,
@@ -533,12 +505,10 @@
   },
   {
    "s": 86,
-   "type": "words",
-   "lines": [
-    "RED HARDNESS",
-    "THE WHOLE STORY",
-    "IN TWO WORDS"
-   ]
+   "type": "illus",
+   "prompt": "A lathe tool tip glowing dull cherry red yet still cutting a steel bar cleanly, a smooth bright chip, close-up, dark background",
+   "move": "right",
+   "seed": 33
   },
   {
    "s": 87,
@@ -561,11 +531,9 @@
   },
   {
    "s": 91,
-   "type": "words",
-   "lines": [
-    "HARD ON THE BENCH",
-    "SOFT IN THE CUT"
-   ]
+   "type": "photo",
+   "file": "lathe-1.png",
+   "move": "left"
   },
   {
    "s": 92,
@@ -606,8 +574,7 @@
    "type": "words",
    "lines": [
     "HEAT DOES NOT",
-    "UNDO THE STRUCTURE",
-    "900 °C: A BIT SOFTER"
+    "UNDO THE STRUCTURE"
    ]
   },
   {
@@ -621,11 +588,9 @@
   },
   {
    "s": 100,
-   "type": "words",
-   "lines": [
-    "KEEP THAT IN MIND",
-    "IT IS ABOUT TO COME BACK"
-   ]
+   "type": "photo",
+   "file": "shop-2.jpg",
+   "move": "out"
   },
   {
    "s": 101,
@@ -644,11 +609,9 @@
   },
   {
    "s": 103,
-   "type": "words",
-   "lines": [
-    "THE TIMING COULD NOT",
-    "HAVE BEEN BETTER"
-   ]
+   "type": "photo",
+   "file": "munitions-5.jpg",
+   "move": "in"
   },
   {
    "s": 104,
@@ -682,12 +645,9 @@
   },
   {
    "s": 109,
-   "type": "words",
-   "lines": [
-    "BY 1916",
-    "ELWOOD HAYNES",
-    "WAS A MILLIONAIRE"
-   ]
+   "type": "photo",
+   "file": "haynes-2.jpg",
+   "move": "left"
   },
   {
    "s": 110,
@@ -714,8 +674,8 @@
   },
   {
    "s": 113,
-   "type": "illus",
-   "prompt": "A 1900s open horseless carriage with spoked wheels and a leather bench seat parked outside a small town workshop, two men in long coats and flat caps beside it, daylight",
+   "type": "photo",
+   "file": "pioneer-5.jpg",
    "move": "left"
   },
   {
@@ -752,18 +712,16 @@
   },
   {
    "s": 119,
-   "type": "words",
-   "lines": [
-    "A STELLITE FACE",
-    "ON VALVE AND SEAT",
-    "LASTED FAR LONGER"
-   ]
+   "type": "photo",
+   "file": "valve-1.jpg",
+   "move": "in"
   },
   {
    "s": 120,
    "type": "illus",
-   "prompt": "A silver single-engine monoplane with a round radial engine on a grass airfield at dawn, 1927, small crowd of men in hats watching, no text on the aircraft",
-   "move": "in"
+   "prompt": "A silver single-engine high-wing monoplane with a round radial engine and one propeller, no second wing, no struts doubling, parked on a grass field at dawn, a small crowd of men in hats watching, 1927",
+   "move": "out",
+   "seed": 41
   },
   {
    "s": 121,
@@ -780,17 +738,16 @@
   },
   {
    "s": 123,
-   "type": "photo",
-   "file": "spirit-5.jpg",
-   "move": "left"
+   "type": "illus",
+   "prompt": "Cutaway of a 1920s nine-cylinder aircraft radial engine, one cylinder opened to show an exhaust valve glowing hot, warm light, workshop bench",
+   "move": "in",
+   "seed": 42
   },
   {
    "s": 124,
-   "type": "words",
-   "lines": [
-    "A NEW MATERIAL",
-    "WAS COMING"
-   ]
+   "type": "photo",
+   "file": "shop-4.jpg",
+   "move": "out"
   },
   {
    "s": 125,
@@ -821,9 +778,10 @@
   },
   {
    "s": 129,
-   "type": "photo",
-   "file": "carbide-5.png",
-   "move": "left"
+   "type": "illus",
+   "prompt": "Macro view of dark angular hard grains being wrapped by flowing molten silvery cobalt metal, like cement flowing between stones, glowing edges, no text",
+   "move": "left",
+   "seed": 43
   },
   {
    "s": 130,
@@ -834,12 +792,9 @@
   },
   {
    "s": 131,
-   "type": "words",
-   "lines": [
-    "1926: WIDIA",
-    "WIE DIAMANT",
-    "LIKE DIAMOND"
-   ]
+   "type": "photo",
+   "file": "krupp-3.jpg",
+   "move": "in"
   },
   {
    "s": 132,
@@ -885,7 +840,7 @@
    "type": "words",
    "lines": [
     "CARBIDE TOOK OVER",
-    "NOW NOTICE THE IRONY"
+    "THE CUTTING EDGE"
    ]
   },
   {
@@ -896,12 +851,9 @@
   },
   {
    "s": 141,
-   "type": "words",
-   "lines": [
-    "COBALT",
-    "THE BINDER IN CARBIDE",
-    "THE HEART OF STELLITE"
-   ]
+   "type": "photo",
+   "file": "dental-2.jpg",
+   "move": "out"
   },
   {
    "s": 142,
@@ -938,11 +890,9 @@
   },
   {
    "s": 147,
-   "type": "words",
-   "lines": [
-    "FOR A WHILE",
-    "THAT WAS VALUABLE"
-   ]
+   "type": "photo",
+   "file": "shop-5.jpg",
+   "move": "left"
   },
   {
    "s": 148,
@@ -953,26 +903,21 @@
   },
   {
    "s": 149,
-   "type": "words",
-   "lines": [
-    "TOUGHER GRADES",
-    "BETTER GEOMETRY",
-    "BETTER MACHINES"
-   ]
+   "type": "photo",
+   "file": "shop-3.jpg",
+   "move": "in"
   },
   {
    "s": 150,
-   "type": "words",
-   "lines": [
-    "THE QUESTION OF COST",
-    "COBALT IS EXPENSIVE"
-   ]
+   "type": "photo",
+   "file": "dental-4.jpg",
+   "move": "out"
   },
   {
    "s": 152,
    "type": "photo",
-   "file": "insert-1.jpg",
-   "move": "out"
+   "file": "insert-4.jpg",
+   "move": "left"
   },
   {
    "s": 153,
@@ -990,18 +935,16 @@
   },
   {
    "s": 155,
-   "type": "words",
-   "lines": [
-    "AS CUTTING TOOLS",
-    "A FOOTNOTE",
-    "YET STELLITE LIVED ON"
-   ]
+   "type": "photo",
+   "file": "krupp-2.jpg",
+   "move": "out"
   },
   {
    "s": 157,
    "type": "illus",
-   "prompt": "An industrial plant where wear, heat and corrosion attack at once: a steaming valve and gritty slurry pipes in a dim power plant, orange glow",
-   "move": "in"
+   "prompt": "Interior of a huge power plant boiler hall with large pipes, valves and gauges, steam and heat haze, warm orange light through grimy windows, workers tiny in the distance",
+   "move": "left",
+   "seed": 44
   },
   {
    "s": 158,
@@ -1030,11 +973,9 @@
   },
   {
    "s": 162,
-   "type": "words",
-   "lines": [
-    "IT EVEN FOUND ITS WAY",
-    "INTO MEDICINE"
-   ]
+   "type": "photo",
+   "file": "dental-5.jpg",
+   "move": "right"
   },
   {
    "s": 163,
@@ -1067,7 +1008,7 @@
   {
    "s": 168,
    "type": "photo",
-   "file": "toolbit-2.jpg",
+   "file": "insert-2.jpg",
    "move": "in"
   },
   {
@@ -1086,18 +1027,15 @@
   },
   {
    "s": 171,
-   "type": "words",
-   "lines": [
-    "A BREAKTHROUGH",
-    "A GOLDEN ERA",
-    "A FASTER RIVAL"
-   ]
+   "type": "photo",
+   "file": "paris-2.jpg",
+   "move": "in"
   },
   {
    "s": 174,
-   "type": "illus",
-   "prompt": "Inside a rough sawmill, a large band saw cutting a thick log, sawdust in sunbeams, a hard bright welded tooth edge in close view, no text",
-   "move": "out"
+   "type": "photo",
+   "file": "saw-1.jpg",
+   "move": "in"
   },
   {
    "s": 175,
@@ -1120,16 +1058,14 @@
   {
    "s": 178,
    "type": "photo",
-   "file": "insert-3.jpg",
-   "move": "out"
+   "file": "insert-1.jpg",
+   "move": "in"
   },
   {
    "s": 179,
-   "type": "words",
-   "lines": [
-    "WHAT STAYS THE SAME",
-    "IS THE PROBLEM"
-   ]
+   "type": "photo",
+   "file": "saw-4.jpg",
+   "move": "out"
   },
   {
    "s": 180,

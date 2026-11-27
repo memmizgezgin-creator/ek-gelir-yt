@@ -7,3 +7,11 @@
 - Do not use stereo pairs or doubled scans, or the same photo more than twice in an episode.
 - Use a words card instead of a microscope or crystal-diagram photo; the viewer cannot read them.
 - Check illustrations for stray signatures in the corner; retry with a new seed.
+- Fetch more relevant photos per topic (cars, dentures, valves, sawmills, factories); too few photos forces generic filler or too many cards.
+- State aircraft type (monoplane/biplane) and era in illustration prompts; the model drifts to the wrong machine.
+- Count words cards while writing the shot list; keep them to about 1 in 5 from the start.
+- Do not put the same product photo (e.g. inserts) in shots within 30 of each other; give each section its own photo set.
+- Re-check any shot whose prompt changed in the previous pass; the QA sheet may show the stale picture.
+- Do not use product photos with hand-scratched letters or stamps visible (e.g. "AS" on carbide tips).
+- A words card must only repeat what its narration sentence says.
+- Generic HAER shed exteriors carry no meaning; prefer interiors or illustrations for "machine shop" lines.
