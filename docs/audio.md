@@ -13,3 +13,6 @@ Set in pipeline/shots.py, never adjusted per video.
 Music: calm CC BY 4.0 tracks by Kevin MacLeod (music/tracks.json), credit line added to every description.
 
 References: YouTube loudness target and voice/music balance guidance from Descript, Sweetwater, Soundstripe and Storyblocks articles on audio levels for video.
+
+## Voice
+Blind test 2026-11-27 (samples/voice-test): Murat picked Kokoro bm_george over Chatterbox Turbo. Kokoro stays, free.
