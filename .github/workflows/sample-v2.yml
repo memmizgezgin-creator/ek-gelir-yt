@@ -47,6 +47,10 @@ jobs:
           head -5 scripts/901-sample.md; grep -c "" scripts/901-sample.md
       - run: python pipeline/images.py 901
       - run: python pipeline/tts.py 901
+      - name: Music
+        run: |
+          python pipeline/music.py fetch
+          python pipeline/music.py pick 901
       - name: After (v2 shots)
         env:
           DEEPINFRA_API_KEY: ${{ secrets.DEEPINFRA_API_KEY }}

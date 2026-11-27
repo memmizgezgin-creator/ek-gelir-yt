@@ -51,6 +51,9 @@ def description(script, credits: list[dict]) -> str:
     txt = OUT / script.vid / "credits.txt"
     if not credits and txt.exists():
         lines += [txt.read_text(encoding="utf-8").strip()]
+    music = load_json(OUT / script.vid / "music.json", {})
+    if music.get("credit"):
+        lines += ["", music["credit"]]
     lines += ["", "Narration is synthetic (text-to-speech). Script researched and fact-checked by the channel."]
     text = "\n".join(x for x in lines if x is not None).strip()
     return text[:4900]

@@ -18,3 +18,6 @@ Rule: no paid service beyond the Claude Max subscription. Remaining prepaid cred
 | Anthropic Console API credit | Not used | Removed from the plan: Console credit is separate pay-as-you-go API billing, not part of Max | Off |
 
 Auto top-up and paid plans: none enabled anywhere. Do not enable.
+
+## Müzik
+Kevin MacLeod (incompetech.com) parçaları, CC BY 4.0, ücretsiz. Kredi satırı her video açıklamasına otomatik eklenir. Liste: music/tracks.json.

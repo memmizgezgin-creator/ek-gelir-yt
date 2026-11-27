@@ -30,6 +30,7 @@ XF = 0.5
 BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 SERIF_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
 COST_PER_IMAGE = 0.009
+MUSIC_VOLUME = 0.12   # about -18 dB under the narration before ducking
 
 
 def run(cmd: list[str]) -> None:
@@ -249,8 +250,22 @@ def main() -> None:
              "BackColour=&H80000000,BorderStyle=4,Outline=1,Shadow=0,MarginV=38")
     filt.append(f"[{last}]subtitles={srt}:force_style='{style}',scale=-2:{args.height}[vout]")
     out = Path(args.out) if args.out else OUT / f"{vid}-v2.mp4"
-    run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-i", str(OUT / vid / "narration.wav"),
-         "-filter_complex", ";".join(filt), "-map", "[vout]", "-map", f"{len(clips)}:a",
+    n = len(clips)
+    audio_in = ["-i", str(OUT / vid / "narration.wav")]
+    amap = f"{n}:a"
+    music = load_json(OUT / vid / "music.json", {})
+    if music and Path(music["file"]).exists():
+        # quiet bed under the voice: loops, fades, ducks further while someone is speaking
+        audio_in += ["-stream_loop", "-1", "-i", music["file"]]
+        filt.append(f"[{n + 1}:a]atrim=0:{duration:.2f},afade=t=in:d=4,afade=t=out:st={max(0, duration - 6):.2f}:d=6,"
+                    f"volume={MUSIC_VOLUME},aresample=48000,aformat=channel_layouts=mono[m]")
+        filt.append(f"[{n}:a]aresample=48000,aformat=channel_layouts=mono,asplit[n1][n2]")
+        filt.append("[m][n2]sidechaincompress=threshold=0.02:ratio=6:attack=30:release=600[md]")
+        filt.append("[n1][md]amix=inputs=2:duration=first:normalize=0[aout]")
+        amap = "[aout]"
+        log(f"music bed: {music['title']}")
+    run(["ffmpeg", "-y", "-loglevel", "error", *inputs, *audio_in,
+         "-filter_complex", ";".join(filt), "-map", "[vout]", "-map", amap,
          "-c:v", "libx264", "-preset", "medium", "-crf", "23", "-c:a", "aac", "-b:a", "160k",
          "-shortest", "-movflags", "+faststart", str(out)])
     costs["total_usd_estimate"] = round(sum(c["usd_estimate"] for c in costs["items"]), 3)
