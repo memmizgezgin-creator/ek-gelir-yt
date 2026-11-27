@@ -22,7 +22,7 @@ def main():
         if not up:
             log(f"{vid}: no upload.json")
             continue
-        r = requests.get(f"{API}/videos", params={"part": "snippet,status,contentDetails,processingDetails",
+        r = requests.get(f"{API}/videos", params={"part": "snippet,status,contentDetails",
                                                    "id": up["video_id"]}, headers=h, timeout=30).json()
         if not r.get("items"):
             log(f"{vid}: {up['video_id']} NOT FOUND on YouTube: {str(r)[:300]}")
