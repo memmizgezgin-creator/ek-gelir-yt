@@ -1,0 +1,1166 @@
+{
+ "style": "Detailed graphic novel illustration, cinematic lighting, muted warm palette of rust, brass and deep teal, fine ink linework, painterly texture, period accurate early 20th century details, 16:9 wide shot. No text, letters, numbers or logos.",
+ "shots": [
+  {
+   "s": 0,
+   "type": "illus",
+   "prompt": "A busy 1905 machine shop, rows of belt-driven lathes under overhead line shafts and leather belts, machinists in flat caps and aprons, dusty sunbeams through tall factory windows",
+   "move": "in"
+  },
+  {
+   "s": 1,
+   "type": "words",
+   "lines": [
+    "STEEL WAS GETTING HARDER",
+    "MACHINES WERE GETTING STRONGER"
+   ]
+  },
+  {
+   "s": 3,
+   "type": "photo",
+   "file": "lathe-2.jpg",
+   "move": "right"
+  },
+  {
+   "s": 4,
+   "type": "illus",
+   "prompt": "Extreme close-up of a lathe cutting tool pressed against a spinning steel bar, the tip of the tool glowing dull red, a curling blue chip and tiny sparks, dark background",
+   "move": "out"
+  },
+  {
+   "s": 6,
+   "type": "illus",
+   "prompt": "A tired machinist in a flat cap and leather apron sharpening a worn tool bit on a large grinding wheel, sparks flying, 1905 workshop, seen from the side, frustrated posture",
+   "move": "left"
+  },
+  {
+   "s": 7,
+   "type": "illus",
+   "prompt": "A small Indiana town street around 1905 at dusk, brick storefronts and horse-drawn wagons, one workshop window glowing warm where an inventor works late",
+   "move": "in"
+  },
+  {
+   "s": 8,
+   "type": "words",
+   "lines": [
+    "ALMOST NO IRON",
+    "NO RUST",
+    "NO TARNISH"
+   ]
+  },
+  {
+   "s": 11,
+   "type": "compare",
+   "title": "AT A DULL RED HEAT",
+   "left": [
+    "TOOL STEEL",
+    "SOFT AS BUTTER"
+   ],
+   "right": [
+    "THE NEW ALLOY",
+    "STILL HARD"
+   ]
+  },
+  {
+   "s": 12,
+   "type": "words",
+   "lines": [
+    "HE NAMED IT",
+    "AFTER THE STARS"
+   ]
+  },
+  {
+   "s": 13,
+   "type": "photo",
+   "file": "lathe-1.png",
+   "move": "right"
+  },
+  {
+   "s": 14,
+   "type": "photo",
+   "file": "munitions-1.jpg",
+   "label": "First World War",
+   "move": "out"
+  },
+  {
+   "s": 15,
+   "type": "photo",
+   "file": "spirit-1.jpg",
+   "move": "left"
+  },
+  {
+   "s": 16,
+   "type": "photo",
+   "file": "carbide-1.jpg",
+   "move": "in"
+  },
+  {
+   "s": 17,
+   "type": "photo",
+   "file": "hardfacing-1.jpg",
+   "move": "right"
+  },
+  {
+   "s": 18,
+   "type": "photo",
+   "file": "saw-3.jpg",
+   "move": "out"
+  },
+  {
+   "s": 19,
+   "type": "title",
+   "text": "WHAT HAPPENED TO STELLITE?",
+   "prompt": "A glowing star-shaped spark above an old belt-driven lathe in a dark workshop, dramatic rim light, mysterious mood",
+   "move": "left"
+  },
+  {
+   "s": 20,
+   "type": "photo",
+   "file": "lathe-4.jpg",
+   "move": "in"
+  },
+  {
+   "s": 21,
+   "type": "photo",
+   "file": "lathe-1.png",
+   "move": "right"
+  },
+  {
+   "s": 23,
+   "type": "photo",
+   "file": "toolbit-1.png",
+   "move": "out"
+  },
+  {
+   "s": 24,
+   "type": "illus",
+   "prompt": "Extreme close-up cutaway of a chip sliding across the top face of a lathe cutting tool, a small glowing orange zone at the cutting edge, heat shimmer, dark background",
+   "move": "left"
+  },
+  {
+   "s": 25,
+   "type": "words",
+   "lines": [
+    "FRICTION AND DEFORMATION",
+    "BECOME HEAT",
+    "RIGHT AT THE CUTTING EDGE"
+   ]
+  },
+  {
+   "s": 26,
+   "type": "photo",
+   "file": "lathe-3.jpg",
+   "move": "in"
+  },
+  {
+   "s": 27,
+   "type": "illus",
+   "prompt": "A blacksmith's hand holding tongs lowering a red-hot steel tool bit into a barrel of water, billowing steam, forge glow in a nineteenth century workshop",
+   "move": "right"
+  },
+  {
+   "s": 28,
+   "type": "words",
+   "lines": [
+    "THAT HARDNESS",
+    "IS BORROWED"
+   ]
+  },
+  {
+   "s": 29,
+   "type": "illus",
+   "prompt": "Close-up of a steel tool bit on an anvil whose edge turns straw-yellow then blue as it heats, faint heat haze, warm light",
+   "move": "out"
+  },
+  {
+   "s": 30,
+   "type": "words",
+   "lines": [
+    "THE STEEL TEMPERS ITSELF",
+    "WHILE IT WORKS"
+   ]
+  },
+  {
+   "s": 31,
+   "type": "illus",
+   "prompt": "A cautious machinist in apron watching a slowly turning lathe with a gentle cool cut, one hand on the handwheel, eyes on the edge of the tool, nineteenth century factory",
+   "move": "left"
+  },
+  {
+   "s": 32,
+   "type": "words",
+   "lines": [
+    "THAT RULE SET THE SPEED",
+    "OF THE INDUSTRIAL WORLD"
+   ]
+  },
+  {
+   "s": 33,
+   "type": "words",
+   "lines": [
+    "CRANKSHAFTS",
+    "GUN BARRELS",
+    "PARTS PER DAY"
+   ]
+  },
+  {
+   "s": 34,
+   "type": "photo",
+   "file": "mushet-5.jpg",
+   "label": "England",
+   "move": "in"
+  },
+  {
+   "s": 35,
+   "type": "words",
+   "lines": [
+    "1868",
+    "ROBERT FORESTER MUSHET",
+    "TUNGSTEN AND MANGANESE"
+   ]
+  },
+  {
+   "s": 36,
+   "type": "illus",
+   "prompt": "A Victorian steelworks interior, a glowing steel bar cooling in open air on a rack while a worker in a cap watches, orange glow and smoke, 1868",
+   "move": "right"
+  },
+  {
+   "s": 37,
+   "type": "words",
+   "lines": [
+    "EXPENSIVE",
+    "BRITTLE",
+    "ONLY FOR THE HARDEST JOBS"
+   ]
+  },
+  {
+   "s": 38,
+   "type": "illus",
+   "prompt": "The Bethlehem Pennsylvania steelworks in 1899 at dusk, blast furnaces and chimneys glowing against a smoky sky, workers' silhouettes in the foreground",
+   "move": "out"
+  },
+  {
+   "s": 39,
+   "type": "photo",
+   "file": "taylor-1.jpg",
+   "label": "Frederick Winslow Taylor",
+   "move": "left"
+  },
+  {
+   "s": 40,
+   "type": "illus",
+   "prompt": "Close-up of a lathe tool cutting a steel bar at high speed, the tool edge glowing cherry red yet still cutting, a long blue chip streaming off, sparks",
+   "move": "in"
+  },
+  {
+   "s": 41,
+   "type": "words",
+   "lines": [
+    "CUTTING SPEEDS",
+    "ROUGHLY TRIPLED"
+   ]
+  },
+  {
+   "s": 42,
+   "type": "illus",
+   "prompt": "Inside the 1900 Paris Exposition machinery hall, a lathe cutting steel at tremendous speed with a red-hot tool edge, a crowd of men in top hats and bowler hats watching from behind a rail",
+   "move": "right"
+  },
+  {
+   "s": 43,
+   "type": "photo",
+   "file": "paris-1.jpg",
+   "label": "Paris, 1900",
+   "move": "out"
+  },
+  {
+   "s": 44,
+   "type": "words",
+   "lines": [
+    "THE BIRTH OF",
+    "HIGH-SPEED STEEL"
+   ]
+  },
+  {
+   "s": 45,
+   "type": "photo",
+   "file": "lathe-5.jpg",
+   "move": "left"
+  },
+  {
+   "s": 46,
+   "type": "words",
+   "lines": [
+    "BUT IT WAS",
+    "STILL STEEL"
+   ]
+  },
+  {
+   "s": 47,
+   "type": "illus",
+   "prompt": "A steel cutting tool tip softening and rounding off under heat, glowing dull red against a spinning bar, giving up, dark workshop",
+   "move": "in"
+  },
+  {
+   "s": 49,
+   "type": "words",
+   "lines": [
+    "THE DOOR WAS OPEN",
+    "FOR SOMETHING DIFFERENT"
+   ]
+  },
+  {
+   "s": 50,
+   "type": "photo",
+   "file": "haynes-1.png",
+   "move": "right"
+  },
+  {
+   "s": 51,
+   "type": "photo",
+   "file": "haynes-3.jpg",
+   "label": "Born 1857, Portland, Indiana",
+   "move": "out"
+  },
+  {
+   "s": 52,
+   "type": "illus",
+   "prompt": "Indiana in the 1880s natural gas boom, wooden derricks and tall flaring gas torches across flat farmland at dusk, men in work clothes at a wellhead",
+   "move": "left"
+  },
+  {
+   "s": 53,
+   "type": "photo",
+   "file": "kokomo-2.jpg",
+   "label": "Kokomo, Indiana",
+   "move": "in"
+  },
+  {
+   "s": 54,
+   "type": "illus",
+   "prompt": "July 1894, an early gasoline automobile with a tiller steering and spoked wheels rolling along a dirt road, seen from behind, a few spectators in straw hats and a horse and buggy pulled aside",
+   "move": "right"
+  },
+  {
+   "s": 55,
+   "type": "photo",
+   "file": "haynes-5.jpg",
+   "label": "The Pioneer",
+   "move": "out"
+  },
+  {
+   "s": 56,
+   "type": "photo",
+   "file": "haynes-4.jpg",
+   "move": "left"
+  },
+  {
+   "s": 58,
+   "type": "illus",
+   "prompt": "A 1890s chemist's workshop, a man seen from behind at a bench lined with small shiny metal samples, forks, knives and engine parts, a gas flame and crucibles, warm lamplight",
+   "move": "in"
+  },
+  {
+   "s": 59,
+   "type": "photo",
+   "file": "mushet-5.jpg",
+   "move": "right"
+  },
+  {
+   "s": 60,
+   "type": "words",
+   "lines": [
+    "HAYNES WENT",
+    "IN ANOTHER DIRECTION"
+   ]
+  },
+  {
+   "s": 61,
+   "type": "illus",
+   "prompt": "Lumps of silvery cobalt and chromium metal beside a small crucible in a furnace, glowing heat, an inventor's silhouette in the background, early 1900s laboratory",
+   "move": "out"
+  },
+  {
+   "s": 62,
+   "type": "words",
+   "lines": [
+    "WHAT HE FOUND",
+    "WAS REMARKABLE"
+   ]
+  },
+  {
+   "s": 63,
+   "type": "illus",
+   "prompt": "A brilliantly polished disc of silvery alloy on a velvet cloth mirroring a lamp flame, flawless shine, workshop background",
+   "move": "left"
+  },
+  {
+   "s": 64,
+   "type": "words",
+   "lines": [
+    "IT DID NOT STAIN",
+    "IT DID NOT TARNISH"
+   ]
+  },
+  {
+   "s": 66,
+   "type": "words",
+   "lines": [
+    "1907",
+    "TWO PATENTS",
+    "NICKEL-CHROMIUM",
+    "COBALT-CHROMIUM"
+   ]
+  },
+  {
+   "s": 67,
+   "type": "words",
+   "lines": [
+    "FROM THE LATIN STELLA",
+    "MEANING STAR",
+    "HE CALLED IT STELLITE"
+   ]
+  },
+  {
+   "s": 69,
+   "type": "illus",
+   "prompt": "A table laid with polished table knives, surgical and dental instruments and spark plug parts on a white cloth, all gleaming silver, soft window light, 1910",
+   "move": "in"
+  },
+  {
+   "s": 70,
+   "type": "photo",
+   "file": "pioneer-1.jpg",
+   "move": "right"
+  },
+  {
+   "s": 72,
+   "type": "illus",
+   "prompt": "A cast metal cutting tool bit on a lathe cutting steel cleanly, bright sharp edge, curling chip, close view",
+   "move": "out"
+  },
+  {
+   "s": 73,
+   "type": "words",
+   "lines": [
+    "1913 PATENT",
+    "COBALT",
+    "CHROMIUM",
+    "TUNGSTEN"
+   ]
+  },
+  {
+   "s": 74,
+   "type": "words",
+   "lines": [
+    "TUNGSTEN",
+    "FIVE TO SIXTY PERCENT"
+   ]
+  },
+  {
+   "s": 75,
+   "type": "words",
+   "lines": [
+    "ABOUT A QUARTER TO HALF TUNGSTEN",
+    "AROUND 15% CHROMIUM",
+    "COBALT THE REST"
+   ]
+  },
+  {
+   "s": 76,
+   "type": "illus",
+   "prompt": "A 1910s courtroom, a judge on the bench seen from afar, lawyers and expert witnesses examining a small metal sample and tool bit at a table, wood panelling",
+   "move": "left"
+  },
+  {
+   "s": 77,
+   "type": "words",
+   "lines": [
+    "ORDINARY TOOL STEEL",
+    "HOLDS ITS EDGE",
+    "UP TO ABOUT 600 °C"
+   ]
+  },
+  {
+   "s": 78,
+   "type": "compare",
+   "title": "HARDNESS KEPT",
+   "left": [
+    "TOOL STEEL",
+    "TO ABOUT 600 °C"
+   ],
+   "right": [
+    "HAYNES'S ALLOY",
+    "600 TO 1000 °C"
+   ]
+  },
+  {
+   "s": 79,
+   "type": "illus",
+   "prompt": "Two lathes side by side in a 1915 shop, one running a cast cobalt alloy tool with a long bright stream of chips at twice the speed, the other slower, machinists watching",
+   "move": "in"
+  },
+  {
+   "s": 80,
+   "type": "words",
+   "lines": [
+    "THE SECRET OF STELLITE",
+    "IT WAS NOT A STEEL AT ALL"
+   ]
+  },
+  {
+   "s": 82,
+   "type": "illus",
+   "prompt": "Molten metal being poured from a ladle into a sand mold in a foundry, glowing stream, workers in aprons, a finished cast tool bit on a bench beside",
+   "move": "right"
+  },
+  {
+   "s": 84,
+   "type": "words",
+   "lines": [
+    "THERE WAS NO TEMPER",
+    "TO LOSE"
+   ]
+  },
+  {
+   "s": 85,
+   "type": "photo",
+   "file": "lathe-4.jpg",
+   "move": "out"
+  },
+  {
+   "s": 86,
+   "type": "words",
+   "lines": [
+    "RED HARDNESS",
+    "THE WHOLE STORY",
+    "IN TWO WORDS"
+   ]
+  },
+  {
+   "s": 87,
+   "type": "compare",
+   "title": "EVERY TOOL IS A COMPROMISE",
+   "left": [
+    "HARDNESS",
+    "RESISTS WEAR"
+   ],
+   "right": [
+    "TOUGHNESS",
+    "SURVIVES SHOCKS"
+   ]
+  },
+  {
+   "s": 89,
+   "type": "illus",
+   "prompt": "A cutting tool corner chipping off during an interrupted cut on a rough steel part, small fragments flying, heat glow at the tip",
+   "move": "left"
+  },
+  {
+   "s": 91,
+   "type": "words",
+   "lines": [
+    "HARD ON THE BENCH",
+    "SOFT IN THE CUT"
+   ]
+  },
+  {
+   "s": 92,
+   "type": "words",
+   "lines": [
+    "CARBON STEEL",
+    "LOSES HARDNESS",
+    "AT A FEW HUNDRED °C"
+   ]
+  },
+  {
+   "s": 93,
+   "type": "compare",
+   "title": "HOW FAR EACH PUSHED THE LIMIT",
+   "left": [
+    "HIGH-SPEED STEEL",
+    "MUCH HIGHER"
+   ],
+   "right": [
+    "STELLITE",
+    "HIGHER STILL"
+   ]
+  },
+  {
+   "s": 95,
+   "type": "illus",
+   "prompt": "Artistic microscopic view of a rigid crystal structure locked by quenching, relaxing and loosening as orange heat waves pass through it",
+   "move": "in"
+  },
+  {
+   "s": 96,
+   "type": "photo",
+   "file": "carbide-3.png",
+   "move": "right"
+  },
+  {
+   "s": 97,
+   "type": "words",
+   "lines": [
+    "HEAT DOES NOT",
+    "UNDO THE STRUCTURE",
+    "900 °C: JUST A LITTLE SOFTER"
+   ]
+  },
+  {
+   "s": 99,
+   "type": "photo",
+   "file": "carbide-5.png",
+   "move": "out"
+  },
+  {
+   "s": 100,
+   "type": "words",
+   "lines": [
+    "KEEP THAT IN MIND",
+    "IT IS ABOUT TO COME BACK"
+   ]
+  },
+  {
+   "s": 101,
+   "type": "illus",
+   "prompt": "A small brick workshop building on a town street in Kokomo in 1912, smoke from a chimney, a horse wagon outside, workers in caps entering",
+   "move": "left"
+  },
+  {
+   "s": 102,
+   "type": "words",
+   "lines": [
+    "1915",
+    "INCORPORATED AS THE",
+    "HAYNES STELLITE COMPANY"
+   ]
+  },
+  {
+   "s": 103,
+   "type": "words",
+   "lines": [
+    "THE TIMING COULD NOT",
+    "HAVE BEEN BETTER"
+   ]
+  },
+  {
+   "s": 104,
+   "type": "photo",
+   "file": "munitions-4.jpg",
+   "move": "in"
+  },
+  {
+   "s": 105,
+   "type": "photo",
+   "file": "munitions-3.jpg",
+   "move": "right"
+  },
+  {
+   "s": 106,
+   "type": "photo",
+   "file": "munitions-2.jpg",
+   "move": "out"
+  },
+  {
+   "s": 107,
+   "type": "photo",
+   "file": "lathe-5.jpg",
+   "move": "left"
+  },
+  {
+   "s": 108,
+   "type": "photo",
+   "file": "munitions-1.jpg",
+   "move": "in"
+  },
+  {
+   "s": 109,
+   "type": "words",
+   "lines": [
+    "BY 1916",
+    "ELWOOD HAYNES",
+    "WAS A MILLIONAIRE"
+   ]
+  },
+  {
+   "s": 110,
+   "type": "photo",
+   "file": "pioneer-1.jpg",
+   "label": "Sold to Union Carbide, 1920",
+   "move": "right"
+  },
+  {
+   "s": 111,
+   "type": "photo",
+   "file": "haynes-5.jpg",
+   "label": "Died in Kokomo, 1925",
+   "move": "out"
+  },
+  {
+   "s": 112,
+   "type": "words",
+   "lines": [
+    "INDEPENDENT DISCOVERER",
+    "OF STAINLESS STEEL",
+    "ALONGSIDE HARRY BREARLEY"
+   ]
+  },
+  {
+   "s": 113,
+   "type": "photo",
+   "file": "pioneer-2.jpg",
+   "move": "left"
+  },
+  {
+   "s": 114,
+   "type": "words",
+   "lines": [
+    "UNDER UNION CARBIDE",
+    "A SECOND CAREER"
+   ]
+  },
+  {
+   "s": 115,
+   "type": "photo",
+   "file": "hardfacing-1.jpg",
+   "move": "in"
+  },
+  {
+   "s": 116,
+   "type": "illus",
+   "prompt": "Cross-section cutaway of a steel machine part with a thin bright hard layer welded onto the wearing surface, glowing weld bead, technical illustration style",
+   "move": "right"
+  },
+  {
+   "s": 117,
+   "type": "photo",
+   "file": "valve-3.jpg",
+   "move": "out"
+  },
+  {
+   "s": 118,
+   "type": "illus",
+   "prompt": "Cutaway of a hot engine cylinder, a poppet valve slamming shut against its seat, glowing exhaust gas and sparks, brass and steel, 1920s engine",
+   "move": "left"
+  },
+  {
+   "s": 119,
+   "type": "words",
+   "lines": [
+    "A STELLITE FACE",
+    "ON VALVE AND SEAT",
+    "MADE THEM LAST FAR LONGER"
+   ]
+  },
+  {
+   "s": 120,
+   "type": "photo",
+   "file": "spirit-2.jpg",
+   "label": "Charles Lindbergh, 1927",
+   "move": "in"
+  },
+  {
+   "s": 121,
+   "type": "photo",
+   "file": "spirit-1.jpg",
+   "label": "New York to Paris, nonstop",
+   "move": "right"
+  },
+  {
+   "s": 122,
+   "type": "photo",
+   "file": "spirit-3.jpg",
+   "move": "out"
+  },
+  {
+   "s": 123,
+   "type": "photo",
+   "file": "spirit-5.jpg",
+   "move": "left"
+  },
+  {
+   "s": 124,
+   "type": "words",
+   "lines": [
+    "A NEW MATERIAL",
+    "WAS COMING"
+   ]
+  },
+  {
+   "s": 125,
+   "type": "illus",
+   "prompt": "A 1920s German lamp factory, women at benches drawing fine tungsten filaments into glass light bulbs, rows of glowing bulbs, warm interior",
+   "move": "in"
+  },
+  {
+   "s": 126,
+   "type": "photo",
+   "file": "carbide-3.png",
+   "move": "right"
+  },
+  {
+   "s": 127,
+   "type": "words",
+   "lines": [
+    "1923",
+    "KARL SCHRÖTER, OSRAM",
+    "FILES A PATENT"
+   ]
+  },
+  {
+   "s": 128,
+   "type": "illus",
+   "prompt": "A worker in an apron loading fine grey tungsten carbide powder into a steel die under a press, a glowing sintering furnace behind, 1920s",
+   "move": "out"
+  },
+  {
+   "s": 129,
+   "type": "photo",
+   "file": "carbide-5.png",
+   "move": "left"
+  },
+  {
+   "s": 130,
+   "type": "photo",
+   "file": "krupp-1.jpg",
+   "label": "Krupp",
+   "move": "in"
+  },
+  {
+   "s": 131,
+   "type": "words",
+   "lines": [
+    "1926: WIDIA",
+    "WIE DIAMANT",
+    "LIKE DIAMOND"
+   ]
+  },
+  {
+   "s": 132,
+   "type": "illus",
+   "prompt": "The Leipzig trade fair in 1927, an exhibition hall with a stand showing small shiny carbide-tipped tools on velvet, visitors in hats and long coats looking on",
+   "move": "right"
+  },
+  {
+   "s": 133,
+   "type": "photo",
+   "file": "carbide-4.jpg",
+   "move": "out"
+  },
+  {
+   "s": 134,
+   "type": "illus",
+   "prompt": "A worker in goggles brazing a small carbide tip onto a steel tool shank with a gas torch, a bright flame, 1930s workshop",
+   "move": "left"
+  },
+  {
+   "s": 135,
+   "type": "photo",
+   "file": "lathe-2.jpg",
+   "move": "in"
+  },
+  {
+   "s": 136,
+   "type": "words",
+   "lines": [
+    "150 METERS A MINUTE",
+    "NEARLY FOUR TIMES",
+    "HIGH-SPEED STEEL"
+   ]
+  },
+  {
+   "s": 137,
+   "type": "photo",
+   "file": "insert-1.jpg",
+   "move": "right"
+  },
+  {
+   "s": 138,
+   "type": "words",
+   "lines": [
+    "CARBIDE TOOK OVER",
+    "NOW NOTICE THE IRONY"
+   ]
+  },
+  {
+   "s": 140,
+   "type": "photo",
+   "file": "carbide-1.jpg",
+   "move": "out"
+  },
+  {
+   "s": 141,
+   "type": "words",
+   "lines": [
+    "COBALT",
+    "THE BINDER IN CARBIDE",
+    "THE HEART OF STELLITE"
+   ]
+  },
+  {
+   "s": 142,
+   "type": "photo",
+   "file": "insert-5.jpg",
+   "move": "left"
+  },
+  {
+   "s": 143,
+   "type": "words",
+   "lines": [
+    "STELLITE DID NOT LOSE",
+    "BECAUSE IT WAS BAD"
+   ]
+  },
+  {
+   "s": 144,
+   "type": "photo",
+   "file": "insert-3.jpg",
+   "move": "in"
+  },
+  {
+   "s": 145,
+   "type": "compare",
+   "title": "THE AWKWARD MIDDLE",
+   "left": [
+    "VS CARBIDE",
+    "TOUGHER"
+   ],
+   "right": [
+    "VS HIGH-SPEED STEEL",
+    "BETTER AT HIGH TEMPERATURE"
+   ]
+  },
+  {
+   "s": 147,
+   "type": "words",
+   "lines": [
+    "FOR A WHILE",
+    "THAT WAS VALUABLE"
+   ]
+  },
+  {
+   "s": 148,
+   "type": "illus",
+   "prompt": "A heavy roughing cut on a rough cast iron casting in a lathe, scale and sparks flying, a thick cast tool bit holding firm, heavy industrial workshop",
+   "move": "right"
+  },
+  {
+   "s": 149,
+   "type": "words",
+   "lines": [
+    "TOUGHER GRADES",
+    "BETTER GEOMETRY",
+    "BETTER MACHINES"
+   ]
+  },
+  {
+   "s": 150,
+   "type": "words",
+   "lines": [
+    "THE QUESTION OF COST",
+    "COBALT IS EXPENSIVE"
+   ]
+  },
+  {
+   "s": 152,
+   "type": "photo",
+   "file": "insert-4.jpg",
+   "move": "out"
+  },
+  {
+   "s": 153,
+   "type": "words",
+   "lines": [
+    "EVERY CENT PER PART",
+    "THE CHOICE BECAME OBVIOUS"
+   ]
+  },
+  {
+   "s": 154,
+   "type": "photo",
+   "file": "toolbit-2.jpg",
+   "move": "left"
+  },
+  {
+   "s": 155,
+   "type": "words",
+   "lines": [
+    "AS CUTTING TOOLS, A FOOTNOTE",
+    "AND YET STELLITE DID NOT DISAPPEAR"
+   ]
+  },
+  {
+   "s": 157,
+   "type": "illus",
+   "prompt": "An industrial plant where wear, heat and corrosion attack at once: a steaming valve and gritty slurry pipes in a dim power plant, orange glow",
+   "move": "in"
+  },
+  {
+   "s": 158,
+   "type": "photo",
+   "file": "saw-3.jpg",
+   "move": "right"
+  },
+  {
+   "s": 159,
+   "type": "photo",
+   "file": "valve-3.jpg",
+   "move": "out"
+  },
+  {
+   "s": 160,
+   "type": "illus",
+   "prompt": "Cutaway of a large pump impeller and wear ring inside a housing, abrasive muddy fluid grinding against the hard bright metal surfaces",
+   "move": "left"
+  },
+  {
+   "s": 161,
+   "type": "illus",
+   "prompt": "A heavy machine gun firing from the side, hot propellant gas and muzzle flash, the first section of the barrel glowing, wartime field, dusk",
+   "move": "in"
+  },
+  {
+   "s": 162,
+   "type": "words",
+   "lines": [
+    "IT EVEN FOUND ITS WAY",
+    "INTO MEDICINE"
+   ]
+  },
+  {
+   "s": 163,
+   "type": "illus",
+   "prompt": "A surgical tray with a 1960 artificial heart valve: a small metal cage holding a round ball, bright steel, operating-room light, a surgeon's gloved hands seen only in soft focus",
+   "label": "First implanted in 1960",
+   "move": "right"
+  },
+  {
+   "s": 164,
+   "type": "photo",
+   "file": "dental-3.jpg",
+   "move": "out"
+  },
+  {
+   "s": 165,
+   "type": "words",
+   "lines": [
+    "THE BUSINESS CHANGED HANDS",
+    "1970: CABOT CORPORATION"
+   ]
+  },
+  {
+   "s": 167,
+   "type": "photo",
+   "file": "kokomo-1.jpg",
+   "label": "Kokomo, Indiana",
+   "move": "left"
+  },
+  {
+   "s": 168,
+   "type": "photo",
+   "file": "insert-2.jpg",
+   "move": "in"
+  },
+  {
+   "s": 169,
+   "type": "words",
+   "lines": [
+    "STELLITE LOST THE RACE",
+    "BUT NEVER LOST ITS EDGE"
+   ]
+  },
+  {
+   "s": 170,
+   "type": "illus",
+   "prompt": "A workbench with four cutting tools lined up in a row from oldest to newest: a plain steel bit, a tungsten steel bit, a cast alloy bit, a carbide insert holder, warm light",
+   "move": "right"
+  },
+  {
+   "s": 171,
+   "type": "words",
+   "lines": [
+    "A BREAKTHROUGH",
+    "A GOLDEN ERA",
+    "A FASTER RIVAL"
+   ]
+  },
+  {
+   "s": 174,
+   "type": "photo",
+   "file": "saw-4.jpg",
+   "move": "out"
+  },
+  {
+   "s": 175,
+   "type": "photo",
+   "file": "lathe-3.jpg",
+   "move": "left"
+  },
+  {
+   "s": 176,
+   "type": "photo",
+   "file": "taylor-4.jpg",
+   "move": "in"
+  },
+  {
+   "s": 177,
+   "type": "photo",
+   "file": "carbide-4.jpg",
+   "move": "right"
+  },
+  {
+   "s": 178,
+   "type": "photo",
+   "file": "insert-5.jpg",
+   "move": "out"
+  },
+  {
+   "s": 179,
+   "type": "words",
+   "lines": [
+    "WHAT STAYS THE SAME",
+    "IS THE PROBLEM"
+   ]
+  },
+  {
+   "s": 180,
+   "type": "illus",
+   "prompt": "Extreme macro close-up of the tiny hot zone at the tip of a cutting tool where metal meets metal, glowing orange chip curling away, dark background",
+   "move": "left"
+  },
+  {
+   "s": 181,
+   "type": "photo",
+   "file": "haynes-1.png",
+   "move": "in"
+  },
+  {
+   "s": 182,
+   "type": "photo",
+   "file": "spirit-4.jpg",
+   "move": "right"
+  },
+  {
+   "s": 183,
+   "type": "words",
+   "lines": [
+    "THAT IS WHAT",
+    "HAPPENED TO STELLITE"
+   ]
+  },
+  {
+   "s": 184,
+   "type": "illus",
+   "prompt": "A modern carbide insert cutting hardened steel on a CNC lathe, bright sparks and a curling chip, clean machine shop",
+   "move": "out"
+  },
+  {
+   "s": 185,
+   "type": "photo",
+   "file": "toolbit-5.jpg",
+   "move": "left"
+  }
+ ]
+}
