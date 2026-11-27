@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "what": "illustration illus-01.jpg",
+      "service": "deepinfra",
+      "usd_estimate": 0.009
+    },
+    {
+      "what": "illustration illus-04.jpg",
+      "service": "deepinfra",
+      "usd_estimate": 0.009
+    },
+    {
+      "what": "illustration illus-05.jpg",
+      "service": "deepinfra",
+      "usd_estimate": 0.009
+    },
+    {
+      "what": "illustration illus-06.jpg",
+      "service": "deepinfra",
+      "usd_estimate": 0.009
+    },
+    {
+      "what": "illustration illus-09.jpg",
+      "service": "deepinfra",
+      "usd_estimate": 0.009
+    },
+    {
+      "what": "illustration illus-16.jpg",
+      "service": "deepinfra",
+      "usd_estimate": 0.009
+    }
+  ],
+  "total_usd_estimate": 0.054
+}
