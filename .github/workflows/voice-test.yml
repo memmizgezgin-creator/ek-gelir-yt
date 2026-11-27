@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   voice:
@@ -35,3 +35,14 @@ jobs:
             out/voice-test/*.mp3
             out/voice-test/key.json
             out/voice-test/costs.json
+      - name: Commit clips for review
+        run: |
+          mkdir -p samples/voice-test
+          cp out/voice-test/*.mp3 out/voice-test/key.json out/voice-test/costs.json samples/voice-test/
+          for f in samples/voice-test/*.mp3; do echo "$f $(ffprobe -v error -show_entries format=duration -of csv=p=0 $f)"; done
+          git config user.name "ek-gelir-yt bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add samples/voice-test
+          git commit -m "voice test clips" || true
+          git pull --rebase --autostash -q origin main
+          git push
