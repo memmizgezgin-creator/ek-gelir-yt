@@ -21,6 +21,7 @@ import argparse
 import base64
 import io
 import json
+import math
 import os
 import subprocess
 from pathlib import Path
@@ -123,7 +124,11 @@ def centered(d: ImageDraw.ImageDraw, y: int, text: str, f, fill, x0: int = 0, x1
 
 
 def words_frames(lines: list[str]) -> list[Image.Image]:
-    f = ImageFont.truetype(BOLD, 120)
+    probe = ImageDraw.Draw(Image.new("RGB", (10, 10)))
+    size = 120
+    while size > 50 and max(probe.textlength(l, font=ImageFont.truetype(BOLD, size)) for l in lines) > W - 200:
+        size -= 6
+    f = ImageFont.truetype(BOLD, size)
     out = []
     for k in range(1, len(lines) + 1):
         img = card_bg()
@@ -161,6 +166,16 @@ def title_frame(bg: Image.Image, text: str) -> Image.Image:
         size -= 6
     centered(d, H // 2 - size // 2, text, ImageFont.truetype(SERIF_BOLD, size), (255, 255, 255))
     return img
+
+
+def reframe(src: Path, j: int, dst: Path) -> None:
+    """Punch-in on a different part of the same picture, so a long sentence still gets a new view."""
+    img = Image.open(src)
+    focus = [(0.5, 0.42), (0.3, 0.5), (0.7, 0.5), (0.5, 0.6)][j % 4]
+    cw, ch = int(W * 0.72), int(H * 0.72)
+    x = int(min(max(focus[0] * W - cw / 2, 0), W - cw))
+    y = int(min(max(focus[1] * H - ch / 2, 0), H - ch))
+    img.crop((x, y, x + cw, y + ch)).resize((W, H), Image.LANCZOS).save(dst, quality=92)
 
 
 MOVES = {
@@ -262,23 +277,26 @@ def review_sheets(vid: str, items: list[tuple[int, Path, str, str]]) -> None:
         sheet.save(qa / f"sheet-{n // per + 1:02d}.jpg", quality=80)
 
 
-def report(vid: str, spec: dict, starts: list[float], ends: list[float]) -> dict:
-    long_shots = [i + 1 for i, (s, a, b) in enumerate(zip(spec["shots"], starts, ends))
+def report(vid: str, plan: list) -> dict:
+    long_shots = [i + 1 for i, (s, a, b, _) in enumerate(plan)
                   if b - a > (MAX_CARD_SECONDS if s["type"] in ("words", "compare", "title") else MAX_SHOT_SECONDS)]
     files: dict[str, int] = {}
-    for s in spec["shots"]:
-        if s.get("_file"):
+    seen = set()
+    for s, _, _, _ in plan:
+        if s.get("_file") and id(s) not in seen:
+            seen.add(id(s))
             files[s["_file"]] = files.get(s["_file"], 0) + 1
     reused = {f: c for f, c in files.items() if c > MAX_FILE_REUSE}
     types: dict[str, int] = {}
-    for s in spec["shots"]:
+    for s in {id(s): s for s, _, _, _ in plan}.values():
         types[s["type"]] = types.get(s["type"], 0) + 1
-    rep = {"shots": len(starts), "average_seconds": round((ends[-1] - starts[0]) / len(starts), 2),
-           "longest_seconds": round(max(b - a for a, b in zip(starts, ends)), 2),
-           "too_long": long_shots, "reused_too_often": reused, "types": types}
+    rep = {"shots": len(plan), "average_seconds": round((plan[-1][2] - plan[0][1]) / len(plan), 2),
+           "longest_seconds": round(max(b - a for _, a, b, _ in plan), 2),
+           "too_long": long_shots, "reused_too_often": reused, "types": types,
+           "card_share": round((types.get("words", 0) + types.get("compare", 0)) / max(1, sum(types.values())), 2)}
     save_json(OUT / vid / "shots-report.json", rep)
-    log(f"shots: {rep['shots']}, average {rep['average_seconds']}s, longest {rep['longest_seconds']}s, "
-        f"too long {long_shots or 'none'}, overused {reused or 'none'}, types {types}")
+    log(f"visual changes: {rep['shots']}, average {rep['average_seconds']}s, longest {rep['longest_seconds']}s, "
+        f"too long {long_shots or 'none'}, overused {reused or 'none'}, types {types}, cards {rep['card_share']:.0%}")
     return rep
 
 
@@ -316,7 +334,22 @@ def build(vid: str, spec_path: Path, encode: bool, out: Path | None, height: int
     costs["total_usd_estimate"] = round(sum(c["usd_estimate"] for c in costs["items"]), 3)
     save_json(costs_file, costs)
     review_sheets(vid, review)
-    report(vid, spec, starts, ends)
+    # long photo or illustration shots get punch-in reframes so the picture changes every ~7 s
+    expanded = []
+    for i, (s, a, b, paths) in enumerate(plan):
+        if s["type"] in ("photo", "illus") and b - a > MAX_SHOT_SECONDS:
+            k = math.ceil((b - a) / 7.0)
+            step = (b - a) / k
+            for j in range(k):
+                p = paths[0]
+                if j:
+                    p = work / f"f{i + 1:03d}-r{j}.jpg"
+                    reframe(paths[0], j, p)
+                expanded.append((s, a + j * step, a + (j + 1) * step, [p]))
+        else:
+            expanded.append((s, a, b, paths))
+    plan = expanded
+    report(vid, plan)
     tw, th, cols = 320, 180, 8
     rows = (len(review) + cols - 1) // cols
     cs = Image.new("RGB", (cols * tw, rows * th))
@@ -394,7 +427,7 @@ def build(vid: str, spec_path: Path, encode: bool, out: Path | None, height: int
     extra, smap = [], []
     if height == H and srt.exists():          # also keep soft subtitles (YouTube gets the .srt separately too)
         extra = ["-i", str(srt)]
-        smap = ["-map", f"{1 + len(audio_in) // 2}:s", "-c:s", "mov_text", "-metadata:s:s:0", "language=eng"]
+        smap = ["-map", f"{1 + audio_in.count('-i')}:s", "-c:s", "mov_text", "-metadata:s:s:0", "language=eng"]
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(joined), *audio_in, *extra,
            "-filter_complex", ";".join(filt), "-map", "[vout]", "-map", amap, *smap,
            "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-c:a", "aac", "-b:a", "192k",

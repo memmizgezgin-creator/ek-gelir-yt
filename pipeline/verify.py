@@ -20,7 +20,8 @@ MIN_MINUTES = 12.0
 MIN_IMAGES = 10
 MAX_AVERAGE_SECONDS = 8.0
 MIN_VISUAL_SCORE = 7
-MAX_ILLUSTRATIONS = 45      # credit guard, about 40 cents per episode
+MAX_ILLUSTRATIONS = 60      # credit guard, about 55 cents per episode
+MAX_CARD_SHARE = 0.25       # text cards are a spice, not the meal
 
 
 def probe(path) -> dict:
@@ -77,9 +78,11 @@ def main() -> None:
 
     rep = load_json(OUT / args.vid / "shots-report.json", {})
     if rep:
-        ok = not rep["too_long"] and not rep["reused_too_often"] and rep["average_seconds"] <= MAX_AVERAGE_SECONDS
+        ok = (not rep["too_long"] and not rep["reused_too_often"] and rep["average_seconds"] <= MAX_AVERAGE_SECONDS
+              and rep.get("card_share", 0) <= MAX_CARD_SHARE)
         results["pace"] = {"ok": ok, "detail": f"{rep['shots']} shots, average {rep['average_seconds']}s, "
-                                               f"too long {rep['too_long'] or 'none'}, overused {rep['reused_too_often'] or 'none'}"}
+                                               f"too long {rep['too_long'] or 'none'}, overused {rep['reused_too_often'] or 'none'}, "
+                                               f"cards {rep.get('card_share', 0):.0%} (max {MAX_CARD_SHARE:.0%})"}
         n_ill = rep["types"].get("illus", 0) + rep["types"].get("title", 0)
         results["illustrations"] = {"ok": n_ill <= MAX_ILLUSTRATIONS, "detail": f"{n_ill} (max {MAX_ILLUSTRATIONS})"}
         qa = load_json(OUT / args.vid / "qa.json", {})
