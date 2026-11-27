@@ -4,9 +4,9 @@
       "index": 1,
       "title": "The tool that cut faster than steel",
       "images": [
-        "stellite",
         "lathe",
-        "shop"
+        "shop",
+        "toolbit"
       ],
       "start": 1.0,
       "end": 93.611
@@ -48,9 +48,9 @@
       "index": 5,
       "title": "Adding tungsten",
       "images": [
-        "patent",
-        "stellite",
-        "toolbit"
+        "toolbit",
+        "lathe",
+        "haynes"
       ],
       "start": 395.987,
       "end": 506.119
@@ -81,9 +81,9 @@
       "index": 8,
       "title": "Hardfacing and the Atlantic crossing",
       "images": [
+        "hardfacing",
         "valve",
-        "spirit",
-        "stellite"
+        "spirit"
       ],
       "start": 689.999,
       "end": 763.739
@@ -115,8 +115,8 @@
       "title": "Where Stellite survives today",
       "images": [
         "saw",
-        "valve",
-        "stellite"
+        "hardfacing",
+        "dental"
       ],
       "start": 983.088,
       "end": 1086.358
@@ -125,9 +125,9 @@
       "index": 12,
       "title": "What it teaches",
       "images": [
-        "stellite",
         "toolbit",
-        "shop"
+        "shop",
+        "lathe"
       ],
       "start": 1086.358,
       "end": 1175.433

@@ -7,7 +7,7 @@
     },
     "sync": {
       "ok": true,
-      "detail": "video 1173.36s, audio 1173.46s"
+      "detail": "video 1173.44s, audio 1173.46s"
     },
     "resolution": {
       "ok": true,
@@ -15,11 +15,11 @@
     },
     "images": {
       "ok": true,
-      "detail": "54 licensed images (minimum 10, text cards alone do not pass)"
+      "detail": "52 licensed images (minimum 10, text cards alone do not pass)"
     },
     "licenses": {
       "ok": true,
-      "detail": "54 images, missing records: none"
+      "detail": "52 images, missing records: none"
     },
     "fact_check": {
       "ok": true,
