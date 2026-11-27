@@ -8,6 +8,10 @@ on:
       id:
         description: "Topic id to (re)build, e.g. 001. Empty = next todo."
         required: false
+      replace:
+        description: "Delete the earlier YouTube upload of this id after the new one succeeds"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -131,6 +135,7 @@ jobs:
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           YT_PRIVACY: ${{ vars.YT_PRIVACY || 'private' }}
+          REPLACE_OLD: ${{ github.event.inputs.replace == 'true' && '1' || '' }}
         run: |
           if [ -z "$YT_REFRESH_TOKEN" ]; then
             echo "::warning::YouTube not connected yet (one-time OAuth step). Video kept as artifact, not uploaded."

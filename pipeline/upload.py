@@ -87,6 +87,7 @@ def main() -> None:
     if not gate.get("passed"):
         fail("quality gate not passed, refusing to upload")
     privacy = os.environ.get("YT_PRIVACY", "private")
+    old = load_json(OUT / args.vid / "upload.json", {})
     credits = load_json(OUT / args.vid / "credits.json", [])
     token = access_token()
     meta = {
@@ -120,6 +121,11 @@ def main() -> None:
         log(f"captions: {r.status_code}")
     save_json(OUT / args.vid / "upload.json", {"video_id": vid_id, "privacy": privacy,
                                               "url": f"https://youtu.be/{vid_id}"})
+    # replace mode: the new upload worked, now remove the older upload of the same episode
+    if os.environ.get("REPLACE_OLD") == "1" and old.get("video_id") and old["video_id"] != vid_id:
+        r = requests.delete("https://www.googleapis.com/youtube/v3/videos", params={"id": old["video_id"]},
+                            headers=auth, timeout=60)
+        log(f"replaced: deleted old upload {old['video_id']}: {r.status_code}")
 
 
 if __name__ == "__main__":

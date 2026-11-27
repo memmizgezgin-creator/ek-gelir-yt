@@ -1,0 +1,46 @@
+name: factcheck
+
+# Fact-check an existing script with Claude (Max subscription) and commit the check table and fixes.
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: "Episode id, e.g. 002"
+        required: true
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prompt
+        id: prompt
+        run: |
+          f=$(ls scripts/${{ github.event.inputs.id }}-*.md | grep -v -- '-check.md' | head -1)
+          slug=$(basename "$f" .md); slug=${slug#${{ github.event.inputs.id }}-}
+          {
+            echo 'text<<EOP'
+            sed -e "s/{{ID}}/${{ github.event.inputs.id }}/g" -e "s/{{SLUG}}/$slug/g" prompts/fact-check.md
+            echo 'EOP'
+          } >> "$GITHUB_OUTPUT"
+      - uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: ${{ steps.prompt.outputs.text }}
+          claude_args: >-
+            --model sonnet
+            --max-turns 60
+            --allowedTools "Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
+      - name: Commit
+        run: |
+          git config user.name "ek-gelir-yt bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts
+          git commit -m "script ${{ github.event.inputs.id }}: fact-checked" || true
+          git pull --rebase -q origin main
+          git push
