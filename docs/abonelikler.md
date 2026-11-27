@@ -1,6 +1,6 @@
 # Subscriptions and paid services
 
-Rule: no paid service beyond the Claude Max subscription. Remaining credits may be used. Every service that costs or could cost money is listed here.
+Rule: no paid service beyond the Claude Max subscription. Remaining prepaid credits may be used (no auto top-up, no new plans). Thumbnails are the only place credit is spent, because they decide the click. Every service that costs or could cost money is listed here.
 
 | Service | Used for | Cost to this project | Status |
 |---|---|---|---|
@@ -12,7 +12,8 @@ Rule: no paid service beyond the Claude Max subscription. Remaining credits may 
 | YouTube Data API v3 | Upload, thumbnail, captions | Free quota (10,000 units a day, one upload is about 1,600 + 50 + 400) | Needs one-time OAuth |
 | Google Cloud project | Only to hold the OAuth client for YouTube | Free. No billing account needed for the YouTube Data API | Needs creation |
 | Google Cloud TTS | Not used | Not used. Kokoro replaced it, so the 300 USD trial credit stays untouched | Off |
-| fal.ai (4.83 USD left) | Not used | Thumbnails are made with Pillow, free | Off |
+| DeepInfra (9.52 USD prepaid, no auto top-up) | Thumbnail illustration, FLUX-1-dev, 2 variants per video | About 0.01 USD per image, about 0.02 USD per video, roughly 450 videos from the balance. Every call is logged in out/<id>/costs.json | Needs DEEPINFRA_API_KEY secret |
+| fal.ai (4.83 USD left, prepaid) | Thumbnail fallback if DeepInfra fails | About 0.025 USD per image | Optional FAL_KEY secret |
 | Cloudflare Workers Paid (5 USD/month, existing) | Not used by this project (it runs the CuttingToolsAI workers) | Not charged to this project | n/a |
 | Anthropic Console API credit | Not used | Removed from the plan: Console credit is separate pay-as-you-go API billing, not part of Max | Off |
 

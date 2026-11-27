@@ -81,6 +81,16 @@ jobs:
             --max-turns 60
             --allowedTools "Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
 
+      - name: Save new script right away (so later failures do not waste it)
+        if: steps.has.outputs.script == 'no'
+        run: |
+          git config user.name "ek-gelir-yt bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts
+          git commit -m "script ${{ steps.topic.outputs.id }} ${{ steps.topic.outputs.slug }}: written and fact-checked" || true
+          git pull --rebase -q origin main
+          git push
+
       - name: Images (Wikimedia Commons, licensed only)
         run: python pipeline/images.py ${{ steps.topic.outputs.id }}
 
@@ -91,6 +101,9 @@ jobs:
         run: python pipeline/render.py ${{ steps.topic.outputs.id }}
 
       - name: Thumbnail
+        env:
+          DEEPINFRA_API_KEY: ${{ secrets.DEEPINFRA_API_KEY }}
+          FAL_KEY: ${{ secrets.FAL_KEY }}
         run: python pipeline/thumbnail.py ${{ steps.topic.outputs.id }}
 
       - name: Quality gate
@@ -133,10 +146,11 @@ jobs:
           git config user.name "ek-gelir-yt bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           d=out/${{ steps.topic.outputs.id }}
-          for f in topics.json scripts $d/credits.txt $d/credits.json $d/gate.json $d/*.srt $d/timeline.json $d/preview.jpg $d/thumbnail.jpg $d/upload.json; do
+          for f in topics.json scripts $d/credits.txt $d/credits.json $d/gate.json $d/*.srt $d/timeline.json $d/preview.jpg $d/thumbnail.jpg $d/thumb-variants $d/costs.json $d/upload.json; do
             [ -e "$f" ] && git add "$f"
           done
           git commit -m "video ${{ steps.topic.outputs.id }} ${{ steps.topic.outputs.slug }}: produced" || echo "nothing to commit"
+          git pull --rebase -q origin main
           git push
 
       - name: Report failure (issue + email)

@@ -7,7 +7,8 @@ speed: 0.92
 sources: en.wikipedia.org/wiki/Stellite | en.wikipedia.org/wiki/Elwood_Haynes | haynesintl.com company history | Haynes Stellite Co. v. Chesterfield, 22 F.2d 635 (6th Cir. 1927) | Google Patents US873746A | en.wikipedia.org/wiki/Cemented_carbide | en.wikipedia.org/wiki/High-speed_steel | Cutting Tool Engineering, "Celebrating a century of cemented carbide"
 summary: Stellite was a cobalt-chromium-tungsten alloy that stayed hard while red hot. Invented by Elwood Haynes in Kokomo, Indiana, it cut steel faster than high-speed steel, fed the factories of the First World War, and then lost the cutting edge to cemented carbide. This is the story of where it came from, why it lost, and where it still works today.
 thumb_key: lathe
-thumb_text: STELLITE
+thumb_text: RED HOT|STILL|CUTTING
+thumb_prompt: A shocked 1910s machinist with a big mustache, flat cap and leather apron stares wide-eyed at an old belt-driven lathe. The small cutting tool on the lathe glows bright red-hot like a coal while it keeps peeling a thick curling steel chip, sparks flying. On the workbench nearby a regular steel tool lies melted and drooping. Warm workshop with leather belts and pulleys, composition weighted to the right.
 tags: stellite, cutting tools, machining history, cobalt alloy, elwood haynes, carbide, high speed steel, metallurgy, industrial history
 ---
 

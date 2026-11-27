@@ -61,7 +61,7 @@ STEP=commit
 python3 pipeline/next.py done "$id" "$URL"
 for f in topics.json scripts out/$id/credits.txt out/$id/credits.json out/$id/gate.json out/$id/*.srt out/$id/timeline.json out/$id/preview.jpg out/$id/thumbnail.jpg out/$id/upload.json; do [ -e "$f" ] && git add "$f"; done
 git commit -qm "video $id $slug: produced" || true
-git push -q
+git pull --rebase -q && git push -q
 
 # keep disk small: drop render intermediates, keep the last 6 finished videos
 rm -rf out/$id/frames out/$id/clips out/$id/narration.wav
