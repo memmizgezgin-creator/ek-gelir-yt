@@ -15,3 +15,15 @@
 - Do not use product photos with hand-scratched letters or stamps visible (e.g. "AS" on carbide tips).
 - A words card must only repeat what its narration sentence says.
 - Generic HAER shed exteriors carry no meaning; prefer interiors or illustrations for "machine shop" lines.
+- Do not use stereo-pair or hand-lettered museum photos (e.g. Spirit of St. Louis) as full-screen pictures.
+- A museum-object photo may show the whole car, not the part named (valve); check what is visible.
+- Fetch period interiors and portraits, not building exteriors; exteriors always fail as generic.
+- Plan the 58-illustration cap while writing the shot list; use real photos wherever a good one exists.
+- Re-prompted illustrations are unseen: check them in the next pass before trusting the score.
+- Keep 3-4 distinct period interiors per topic so one file is never reused as generic filler.
+- Avoid long runs of consecutive words cards; break them up with photos or illustrations.
+- Postcards with printed text and museum clutter read as cheap; prefer engravings and shop interiors.
+- Keep 4-5 spare illustration slots (cap 58) when writing the shot list so failing photos can be replaced.
+- Check photo backgrounds for modern objects (plastic chairs, dry-suit valves), not only the subject.
+- Card share is counted over the shots list, not the segment count; keep cards at or below 20% of the list.
+- Never use a group portrait of unrelated people to illustrate a material or process line.

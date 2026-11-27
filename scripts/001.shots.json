@@ -10,7 +10,7 @@
   {
    "s": 1,
    "type": "photo",
-   "file": "shop-5.jpg",
+   "file": "mushet-3.jpg",
    "move": "left"
   },
   {
@@ -154,7 +154,7 @@
   {
    "s": 28,
    "type": "photo",
-   "file": "saw-2.jpg",
+   "file": "mushet-4.jpg",
    "move": "in"
   },
   {
@@ -181,13 +181,13 @@
   {
    "s": 32,
    "type": "photo",
-   "file": "krupp-2.jpg",
+   "file": "munitions-3.jpg",
    "move": "in"
   },
   {
    "s": 33,
    "type": "photo",
-   "file": "munitions-5.jpg",
+   "file": "munitions-4.jpg",
    "move": "out"
   },
   {
@@ -215,7 +215,7 @@
   {
    "s": 37,
    "type": "photo",
-   "file": "mushet-4.jpg",
+   "file": "mushet-1.jpg",
    "move": "out"
   },
   {
@@ -349,8 +349,8 @@
   },
   {
    "s": 60,
-   "type": "photo",
-   "file": "mushet-1.jpg",
+   "type": "illus",
+   "prompt": "A 1890s inventor in a long coat standing at a fork in a dusty Indiana road at dusk, one path leading toward a small workshop with a horseless carriage outside, the other toward a brick chemistry laboratory with a glowing window, seen from behind",
    "move": "left"
   },
   {
@@ -589,7 +589,7 @@
   {
    "s": 100,
    "type": "photo",
-   "file": "shop-2.jpg",
+   "file": "haynes-3.jpg",
    "move": "out"
   },
   {
@@ -646,7 +646,7 @@
   {
    "s": 109,
    "type": "photo",
-   "file": "haynes-2.jpg",
+   "file": "haynes-4.jpg",
    "move": "left"
   },
   {
@@ -712,16 +712,16 @@
   },
   {
    "s": 119,
-   "type": "photo",
-   "file": "valve-1.jpg",
+   "type": "illus",
+   "prompt": "Close-up cutaway of an engine poppet valve seated in a cylinder head, the valve face and seat rim shown as a bright silvery hard-facing layer, rest of the valve dark steel, warm light, 1920s engine workshop, no text",
    "move": "in"
   },
   {
    "s": 120,
    "type": "illus",
-   "prompt": "A silver single-engine high-wing monoplane with a round radial engine and one propeller, no second wing, no struts doubling, parked on a grass field at dawn, a small crowd of men in hats watching, 1927",
+   "prompt": "A single silver monoplane with ONE long high wing, a round radial engine and one propeller, parked on a grass airfield at dawn in 1927, a small crowd of men in hats and long coats watching from a distance, no biplane, no second wing, no struts doubling, no text or lettering on the aircraft",
    "move": "out",
-   "seed": 41
+   "seed": 305
   },
   {
    "s": 121,
@@ -739,14 +739,14 @@
   {
    "s": 123,
    "type": "illus",
-   "prompt": "Cutaway of a 1920s nine-cylinder aircraft radial engine, one cylinder opened to show an exhaust valve glowing hot, warm light, workshop bench",
+   "prompt": "A nine-cylinder air-cooled radial aircraft engine sitting on a workshop bench, one cylinder head opened to show an exhaust valve with a bright hard face, brass and steel, warm lamp light, no flames, no jet turbine, 1920s",
    "move": "in",
-   "seed": 42
+   "seed": 142
   },
   {
    "s": 124,
-   "type": "photo",
-   "file": "shop-4.jpg",
+   "type": "illus",
+   "prompt": "A 1920s machine shop with belt-driven lathes in the background, a machinist in a flat cap and apron holding a small dark grey carbide tool tip up to the window light and studying it with curiosity",
    "move": "out"
   },
   {
@@ -891,7 +891,7 @@
   {
    "s": 147,
    "type": "photo",
-   "file": "shop-5.jpg",
+   "file": "mushet-5.jpg",
    "move": "left"
   },
   {
@@ -903,14 +903,14 @@
   },
   {
    "s": 149,
-   "type": "photo",
-   "file": "shop-3.jpg",
+   "type": "illus",
+   "prompt": "A 1930s machine shop, a modern lathe cutting hardened steel with a small carbide tool tip, the operator watching, a rack of older cast alloy tools pushed to the side of the bench in the shadows, cinematic",
    "move": "in"
   },
   {
    "s": 150,
    "type": "photo",
-   "file": "dental-4.jpg",
+   "file": "shop-4.jpg",
    "move": "out"
   },
   {
@@ -935,21 +935,22 @@
   },
   {
    "s": 155,
-   "type": "photo",
-   "file": "krupp-2.jpg",
-   "move": "out"
+   "type": "words",
+   "lines": [
+    "AS CUTTING TOOLS",
+    "A FOOTNOTE"
+   ]
   },
   {
    "s": 157,
    "type": "illus",
-   "prompt": "Interior of a huge power plant boiler hall with large pipes, valves and gauges, steam and heat haze, warm orange light through grimy windows, workers tiny in the distance",
-   "move": "left",
-   "seed": 44
+   "prompt": "Close view of a heavy steel steam valve seat in a 1920s power plant, glowing hot, pitted and corroded metal beside a clean hard-faced ring of bright alloy, dark industrial background, no text",
+   "move": "left"
   },
   {
    "s": 158,
    "type": "photo",
-   "file": "saw-3.jpg",
+   "file": "saw-2.jpg",
    "move": "right"
   },
   {
@@ -1002,8 +1003,8 @@
   {
    "s": 167,
    "type": "illus",
-   "prompt": "A modern-era alloy foundry in Indiana at night, workers in hard hats beside a furnace pouring molten metal, industrial glow, no text",
-   "move": "left"
+   "move": "in",
+   "prompt": "A welder in a leather apron and dark welding helmet laying a bright bead of hard alloy onto the worn edge of a large industrial valve part in a mid-century workshop, blue-white arc light, sparks"
   },
   {
    "s": 168,
@@ -1034,7 +1035,7 @@
   {
    "s": 174,
    "type": "photo",
-   "file": "saw-1.jpg",
+   "file": "saw-3.jpg",
    "move": "in"
   },
   {
@@ -1087,16 +1088,14 @@
   },
   {
    "s": 183,
-   "type": "words",
-   "lines": [
-    "THAT IS WHAT",
-    "HAPPENED TO STELLITE"
-   ]
+   "type": "photo",
+   "file": "dental-4.jpg",
+   "move": "in"
   },
   {
    "s": 184,
-   "type": "illus",
-   "prompt": "A modern carbide insert cutting hardened steel on a CNC lathe, bright sparks and a curling chip, clean machine shop",
+   "type": "photo",
+   "file": "insert-5.jpg",
    "move": "out"
   },
   {
