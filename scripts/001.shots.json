@@ -39,8 +39,8 @@
   },
   {
    "s": 8,
-   "type": "photo",
-   "file": "dental-1.jpg",
+   "type": "illus",
+   "prompt": "A gleaming silvery-white bar of metal with a mirror polish lying on a wooden workbench in a 1905 laboratory, warm lamp light reflecting along it, no rust anywhere, a small crucible furnace behind",
    "move": "right"
   },
   {
@@ -79,14 +79,15 @@
   },
   {
    "s": 15,
-   "type": "photo",
-   "file": "spirit-1.jpg",
-   "move": "left"
+   "type": "illus",
+   "prompt": "Close nose-on view of a silver aircraft's round nine-cylinder radial engine and a two-blade propeller at dawn on a muddy Long Island field in 1927, mist, a small crowd of onlookers blurred far behind, no wings visible, no text",
+   "move": "left",
+   "seed": 5121
   },
   {
    "s": 16,
    "type": "photo",
-   "file": "insert-2.jpg",
+   "file": "insert-8.jpg",
    "move": "out"
   },
   {
@@ -153,8 +154,8 @@
   },
   {
    "s": 28,
-   "type": "photo",
-   "file": "mushet-4.jpg",
+   "type": "illus",
+   "prompt": "A 1890s steelworks laboratory bench with a small hardened steel tool bit being tested against a file, an anvil, quenching tank and a hand scale, dim warm light, thoughtful mood",
    "move": "in"
   },
   {
@@ -180,8 +181,8 @@
   },
   {
    "s": 32,
-   "type": "photo",
-   "file": "munitions-3.jpg",
+   "type": "illus",
+   "prompt": "A vast 1915 factory hall of belt-driven lathes and drilling machines running in long rows, overhead line shafts, workers in caps and aprons, hazy light from high windows, sense of relentless pace",
    "move": "in"
   },
   {
@@ -214,8 +215,8 @@
   },
   {
    "s": 37,
-   "type": "photo",
-   "file": "mushet-1.jpg",
+   "type": "illus",
+   "prompt": "A Sheffield steelmaker in 1870 holding a heavy bar of dark special steel next to a ledger and a small pile of coins, crucible furnace glowing behind, he looks pleased but cautious",
    "move": "out"
   },
   {
@@ -266,8 +267,8 @@
   },
   {
    "s": 45,
-   "type": "photo",
-   "file": "lathe-5.jpg",
+   "type": "illus",
+   "prompt": "Rows of lathes in a 1901 machine shop cutting steel at high speed, long glowing blue chips streaming off the tools, machinists watching in amazement, bright shop light",
    "move": "left"
   },
   {
@@ -318,8 +319,8 @@
   },
   {
    "s": 54,
-   "type": "illus",
-   "prompt": "July 1894, an early gasoline automobile with a tiller steering and spoked wheels rolling along a dirt road, seen from behind, a few spectators in straw hats and a horse and buggy pulled aside",
+   "type": "photo",
+   "file": "pioneer-7.jpg",
    "move": "right"
   },
   {
@@ -343,8 +344,8 @@
   },
   {
    "s": 59,
-   "type": "photo",
-   "file": "mushet-2.jpg",
+   "type": "illus",
+   "prompt": "A 1890s metallurgist in a waistcoat and rolled sleeves standing before a blazing iron and steel furnace, shelves of iron ore samples and ingots behind him, notebook in hand",
    "move": "right"
   },
   {
@@ -361,8 +362,8 @@
   },
   {
    "s": 62,
-   "type": "photo",
-   "file": "dental-2.jpg",
+   "type": "illus",
+   "prompt": "A man in a waistcoat lifts a brilliant silvery-white metal button with tongs out of a crucible tray, his face lit by furnace glow, amazed, 1900 laboratory bench, no text",
    "move": "in"
   },
   {
@@ -375,7 +376,7 @@
   {
    "s": 64,
    "type": "photo",
-   "file": "dental-4.jpg",
+   "file": "dental-5.jpg",
    "move": "left"
   },
   {
@@ -405,15 +406,16 @@
   },
   {
    "s": 70,
-   "type": "photo",
-   "file": "pioneer-1.jpg",
+   "type": "illus",
+   "prompt": "A young inventor in 1900s work clothes at a bench in a small Indiana workshop, melting metal samples in a crucible over a furnace, row of cast test bars beside him, late evening light",
    "move": "right"
   },
   {
    "s": 72,
    "type": "illus",
-   "prompt": "A cast metal cutting tool bit on a lathe cutting steel cleanly, bright sharp edge, curling chip, close view",
-   "move": "out"
+   "prompt": "A cast alloy cutting tool bit held in a lathe tool post turning a brass bar, a bright curl of chip flying off, close view, 1913 machine shop, no text",
+   "move": "out",
+   "seed": 6301
   },
   {
    "s": 73,
@@ -493,8 +495,8 @@
   },
   {
    "s": 84,
-   "type": "photo",
-   "file": "lathe-4.jpg",
+   "type": "illus",
+   "prompt": "Cutaway macro of a lathe tool tip glowing dull red against a steel bar while the hard grains inside the tool stay sharp and unchanged, orange heat and cool blue interior, no text",
    "move": "out"
   },
   {
@@ -588,8 +590,8 @@
   },
   {
    "s": 100,
-   "type": "photo",
-   "file": "haynes-3.jpg",
+   "type": "illus",
+   "prompt": "A pair of hands holding up a small chunk of hard grey grains set in bright metallic cobalt binder toward a lamp, as if showing a clue, dark workshop, no text",
    "move": "out"
   },
   {
@@ -627,14 +629,14 @@
   },
   {
    "s": 106,
-   "type": "photo",
-   "file": "munitions-2.jpg",
+   "type": "illus",
+   "prompt": "A cast alloy cutting tool bit with a bright edge turning a thick rough steel shaft on a heavy lathe in a 1915 shop, blue chips curling, the tool edge glowing faintly red but staying sharp",
    "move": "out"
   },
   {
    "s": 107,
-   "type": "photo",
-   "file": "lathe-5.jpg",
+   "type": "illus",
+   "prompt": "A 1915 shop floor full of lathes boring gun barrels and turning shells, glowing tools, steam, men in flat caps working long shifts, huge scale, warm amber light",
    "move": "left"
   },
   {
@@ -646,22 +648,21 @@
   {
    "s": 109,
    "type": "photo",
-   "file": "haynes-4.jpg",
+   "file": "haynes-7.jpg",
    "move": "left"
   },
   {
    "s": 110,
-   "type": "photo",
-   "file": "pioneer-1.jpg",
-   "label": "Sold to Union Carbide, 1920",
+   "type": "illus",
+   "prompt": "Two businessmen in 1920 suits and bowler hats shaking hands over a signed contract at a wooden desk in a corporate office, large window with smokestacks outside, stacks of papers",
    "move": "right"
   },
   {
    "s": 111,
    "type": "photo",
-   "file": "haynes-5.jpg",
-   "label": "Died in Kokomo, 1925",
-   "move": "out"
+   "file": "haynes-6.jpg",
+   "move": "out",
+   "label": "Died in Kokomo, 1925"
   },
   {
    "s": 112,
@@ -675,7 +676,7 @@
   {
    "s": 113,
    "type": "photo",
-   "file": "pioneer-5.jpg",
+   "file": "haynes-4.jpg",
    "move": "left"
   },
   {
@@ -688,8 +689,8 @@
   },
   {
    "s": 115,
-   "type": "photo",
-   "file": "hardfacing-1.jpg",
+   "type": "illus",
+   "prompt": "A 1920s welder in a leather apron and old-style dark goggles using an oxy-acetylene torch to lay a bright bead of hard metal onto a large steel engine valve, sparks, workshop",
    "move": "in"
   },
   {
@@ -719,21 +720,21 @@
   {
    "s": 120,
    "type": "illus",
-   "prompt": "A single silver monoplane with ONE long high wing, a round radial engine and one propeller, parked on a grass airfield at dawn in 1927, a small crowd of men in hats and long coats watching from a distance, no biplane, no second wing, no struts doubling, no text or lettering on the aircraft",
+   "prompt": "A pilot's gloved hand on the control stick inside a cramped 1927 cockpit, dawn light on a muddy airfield seen through the small window, a round radial engine cowling ahead, no wings visible, no text",
    "move": "out",
-   "seed": 305
+   "seed": 1051
   },
   {
    "s": 121,
-   "type": "photo",
-   "file": "spirit-1.jpg",
-   "label": "New York to Paris, nonstop",
-   "move": "right"
+   "type": "illus",
+   "prompt": "A lone cockpit view over the grey Atlantic at dawn in 1927, leather flying helmet and goggles resting on a dash, a round radial engine cowling and propeller blur ahead, rolling waves below, no wings visible, no text",
+   "move": "right",
+   "seed": 1061
   },
   {
    "s": 122,
-   "type": "photo",
-   "file": "spirit-3.jpg",
+   "type": "illus",
+   "prompt": "A cutaway view of a nine-cylinder radial aircraft engine from the 1920s with a bright hard-metal valve highlighted inside a cylinder head, brass and steel parts, workshop bench lit warmly",
    "move": "out"
   },
   {
@@ -785,15 +786,15 @@
   },
   {
    "s": 130,
-   "type": "photo",
-   "file": "krupp-1.jpg",
-   "label": "Krupp",
-   "move": "in"
+   "type": "illus",
+   "prompt": "A 1925 German boardroom, a licence document on a polished table beside a tungsten lamp filament and a small grey carbide sample, two men in suits reading, no text",
+   "move": "in",
+   "seed": 1151
   },
   {
    "s": 131,
-   "type": "photo",
-   "file": "krupp-3.jpg",
+   "type": "illus",
+   "prompt": "Essen steelworks in 1926, a wide view of tall chimneys and long brick halls with a cannon silhouette in the foreground and a laboratory window where a man examines a small tool tip, hazy smoke",
    "move": "in"
   },
   {
@@ -846,13 +847,13 @@
   {
    "s": 140,
    "type": "photo",
-   "file": "carbide-2.jpg",
+   "file": "carbide-9.jpg",
    "move": "out"
   },
   {
    "s": 141,
    "type": "photo",
-   "file": "dental-2.jpg",
+   "file": "carbide-5.jpg",
    "move": "out"
   },
   {
@@ -891,7 +892,7 @@
   {
    "s": 147,
    "type": "photo",
-   "file": "mushet-5.jpg",
+   "file": "mushet-4.jpg",
    "move": "left"
   },
   {
@@ -909,14 +910,14 @@
   },
   {
    "s": 150,
-   "type": "photo",
-   "file": "shop-4.jpg",
+   "type": "illus",
+   "prompt": "A factory manager at a desk in 1950 comparing two small cutting tools beside a ledger and a calculator-like adding machine, price tags and coins on the desk, window onto a machine shop",
    "move": "out"
   },
   {
    "s": 152,
    "type": "photo",
-   "file": "insert-4.jpg",
+   "file": "insert-7.jpg",
    "move": "left"
   },
   {
@@ -974,8 +975,8 @@
   },
   {
    "s": 162,
-   "type": "photo",
-   "file": "dental-5.jpg",
+   "type": "illus",
+   "prompt": "A polished metal hip joint implant of cobalt alloy resting on a green surgical cloth under a bright operating lamp in a mid-century hospital, gloved hand reaching for it",
    "move": "right"
   },
   {
@@ -1064,9 +1065,11 @@
   },
   {
    "s": 179,
-   "type": "photo",
-   "file": "saw-4.jpg",
-   "move": "out"
+   "type": "words",
+   "lines": [
+    "WHAT STAYS THE SAME",
+    "IS THE PROBLEM"
+   ]
   },
   {
    "s": 180,
@@ -1082,14 +1085,15 @@
   },
   {
    "s": 182,
-   "type": "photo",
-   "file": "spirit-3.jpg",
-   "move": "right"
+   "type": "illus",
+   "prompt": "Close nose-on view of a bright metal radial engine and propeller of a silver monoplane at dusk, the glowing lights of Paris and a crowd far below, no wings visible, no text",
+   "move": "right",
+   "seed": 1601
   },
   {
    "s": 183,
    "type": "photo",
-   "file": "dental-4.jpg",
+   "file": "hardfacing-1.jpg",
    "move": "in"
   },
   {
@@ -1100,8 +1104,8 @@
   },
   {
    "s": 185,
-   "type": "photo",
-   "file": "toolbit-5.jpg",
+   "type": "illus",
+   "prompt": "An old worn steel tool bit and a dull cast alloy tool bit resting on a dusty shop shelf under a single lamp, soft warm light, forgotten, no text",
    "move": "left"
   }
  ]

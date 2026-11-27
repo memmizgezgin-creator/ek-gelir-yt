@@ -27,3 +27,11 @@
 - Check photo backgrounds for modern objects (plastic chairs, dry-suit valves), not only the subject.
 - Card share is counted over the shots list, not the segment count; keep cards at or below 20% of the list.
 - Never use a group portrait of unrelated people to illustrate a material or process line.
+- State "high-wing monoplane" (never biplane) for Lindbergh-era aircraft, and avoid museum-lettered aircraft photos.
+- Cars photographed at veteran-car runs show modern roads and clothes; use illustrations for 1890s-1920s scenes.
+- Pencil sketches, printed postcards and captioned prints carry stray text; avoid them as full-screen shots.
+- Do not run several photos of the same set (e.g. shell factories) back to back; mix in illustrations.
+- Image models ignore "not a biplane"; show only the engine nose or cockpit for Lindbergh-era aircraft.
+- Dental or medical photos belong only on the medical line, never as a stand-in for the alloy's other properties.
+- Check a photo's label against the picture (a 1902 car is not a 1925 death).
+- Use real period photos first (e.g. the 1894 Haynes car) and keep the illustration budget for lines with no photo.
