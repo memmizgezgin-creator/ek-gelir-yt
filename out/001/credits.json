@@ -30,6 +30,66 @@
     "source": "https://commons.wikimedia.org/wiki/File:Image_from_page_442_of_%22Railway_and_locomotive_engineering_-_a_practical_journal_of_railway_motive_power_and_rolling_stock%22_(1901).jpg"
   },
   {
+    "key": "lathe",
+    "file": "lathe-4.jpg",
+    "title": "File:SOUTH TO CIRCA 1865 METAL-TURNING LATHE (POSSIBLY MADE BY AMES MFG. CO., CHICOPEE, MASS.) WITH PARTS-TOOL BINS ALONG EAST INTERIOR WALL OF FACTORY. BENEATH THE LATHE ON THE HAER NEB,66-NEBCI,6-26.tif",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "https://www.loc.gov/pictures/item/ne0071.photos.346110p",
+    "source": "https://commons.wikimedia.org/wiki/File:SOUTH_TO_CIRCA_1865_METAL-TURNING_LATHE_(POSSIBLY_MADE_BY_AMES_MFG._CO.,_CHICOPEE,_MASS.)_WITH_PARTS-TOOL_BINS_ALONG_EAST_INTERIOR_WALL_OF_FACTORY._BENEATH_THE_LATHE_ON_THE_HAER_NEB,66-NEBCI,6-26.tif"
+  },
+  {
+    "key": "lathe",
+    "file": "lathe-5.jpg",
+    "title": "File:INTERIOR VIEW OF THE MACHINE, METAL AND ELECTRIC SHOPS. LATHES MANUFACTURED BY POND MACHINE TOOL COMPANY AND BENNETT-RAFFIN MACHINE COMPANY ARE TO THE LEFT. VIEW FROM THE EAST - Kekaha HAER HI-83-27.tif",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Franzen, David, creator",
+    "credit": "https://www.loc.gov/pictures/item/hi0881.photos.365936p",
+    "source": "https://commons.wikimedia.org/wiki/File:INTERIOR_VIEW_OF_THE_MACHINE,_METAL_AND_ELECTRIC_SHOPS._LATHES_MANUFACTURED_BY_POND_MACHINE_TOOL_COMPANY_AND_BENNETT-RAFFIN_MACHINE_COMPANY_ARE_TO_THE_LEFT._VIEW_FROM_THE_EAST_-_Kekaha_HAER_HI-83-27.tif"
+  },
+  {
+    "key": "lathe",
+    "file": "lathe-6.jpg",
+    "title": "File:View from south, wheel lathe and turntable center of Machine Shop (William Sellers and Co. Inc. Philadelphia No. 1216) - East Broad Top Railroad and Coal Company, Machine Shop, HAER PA,31-ROCFN,1A-21.tif",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Jack Boucher",
+    "credit": "https://www.loc.gov/pictures/item/pa3370.photos.359568p",
+    "source": "https://commons.wikimedia.org/wiki/File:View_from_south,_wheel_lathe_and_turntable_center_of_Machine_Shop_(William_Sellers_and_Co._Inc._Philadelphia_No._1216)_-_East_Broad_Top_Railroad_and_Coal_Company,_Machine_Shop,_HAER_PA,31-ROCFN,1A-21.tif"
+  },
+  {
+    "key": "lathe",
+    "file": "lathe-7.jpg",
+    "title": "File:View from south, wheel lathe and turntable center of Machine Shop (William Sellers and Co. Inc. Philadelphia No. 1216) - East Broad Top Railroad and Coal Company, Machine Shop, HAER PA,31-ROCFN,1A-22.tif",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Jack Boucher",
+    "credit": "https://www.loc.gov/pictures/item/pa3370.photos.359569p",
+    "source": "https://commons.wikimedia.org/wiki/File:View_from_south,_wheel_lathe_and_turntable_center_of_Machine_Shop_(William_Sellers_and_Co._Inc._Philadelphia_No._1216)_-_East_Broad_Top_Railroad_and_Coal_Company,_Machine_Shop,_HAER_PA,31-ROCFN,1A-22.tif"
+  },
+  {
+    "key": "lathe",
+    "file": "lathe-8.jpg",
+    "title": "File:View from southeast of engine lathe (Lodge and Shippley Machine Tools, Cincinnati, Ohio) - East Broad Top Railroad and Coal Company, Machine Shop, State Route 994, West of U.S. HAER PA,31-ROCFN,1A-5.tif",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Jack Boucher",
+    "credit": "https://www.loc.gov/pictures/item/pa3370.photos.359552p",
+    "source": "https://commons.wikimedia.org/wiki/File:View_from_southeast_of_engine_lathe_(Lodge_and_Shippley_Machine_Tools,_Cincinnati,_Ohio)_-_East_Broad_Top_Railroad_and_Coal_Company,_Machine_Shop,_State_Route_994,_West_of_U.S._HAER_PA,31-ROCFN,1A-5.tif"
+  },
+  {
+    "key": "lathe",
+    "file": "lathe-9.png",
+    "title": "File:Copy Lathe- Top, Side View, End View, Section A-A, Section B-B, Section C-C, Section D-D - Ben Thresher's Mill, State Aid No. 1, Barnet, Caledonia County, VT HAER VT,3-BACEN,1- (sheet 11 of 11).png",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Anderson, Richard K. Jr., creator",
+    "credit": "https://www.loc.gov/pictures/item/vt0013.sheet.00011a",
+    "source": "https://commons.wikimedia.org/wiki/File:Copy_Lathe-_Top,_Side_View,_End_View,_Section_A-A,_Section_B-B,_Section_C-C,_Section_D-D_-_Ben_Thresher%27s_Mill,_State_Aid_No._1,_Barnet,_Caledonia_County,_VT_HAER_VT,3-BACEN,1-_(sheet_11_of_11).png"
+  },
+  {
     "key": "shop",
     "file": "shop-1.jpg",
     "title": "File:VIEW SHOWING WEST FRONT OF GARAGE-MACHINE SHOP - Clay Spur Bentonite Plant and Camp, Garage-Machine Shop, Clay Spur Siding on Burlington Northern Railroad, Osage, Weston HAER WYO,23-OSAG.V,1-L-1.tif",
@@ -42,6 +102,16 @@
   {
     "key": "shop",
     "file": "shop-2.jpg",
+    "title": "File:VIEW SHOWING NORTHEAST FRONT OF POWER PLANT-MACHINE SHOP - Clay Spur Bentonite Plant and Camp, Power Plant-Machine Shop, Clay Spur Siding on Burlington Northern Railroad, HAER WYO,23-OSAG.V,1-M-1.tif",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "https://www.loc.gov/pictures/item/wy0214.photos.174674p",
+    "source": "https://commons.wikimedia.org/wiki/File:VIEW_SHOWING_NORTHEAST_FRONT_OF_POWER_PLANT-MACHINE_SHOP_-_Clay_Spur_Bentonite_Plant_and_Camp,_Power_Plant-Machine_Shop,_Clay_Spur_Siding_on_Burlington_Northern_Railroad,_HAER_WYO,23-OSAG.V,1-M-1.tif"
+  },
+  {
+    "key": "shop",
+    "file": "shop-3.jpg",
     "title": "File:VIEW SHOWING SOUTHWEST REAR AND SOUTHEAST SIDE OF POWER PLANT-MACHINE SHOP - Clay Spur Bentonite Plant and Camp, Power Plant-Machine Shop, Clay Spur Siding on Burlington HAER WYO,23-OSAG.V,1-M-4.tif",
     "license": "Public domain",
     "license_url": "",
@@ -51,13 +121,63 @@
   },
   {
     "key": "shop",
-    "file": "shop-3.jpg",
-    "title": "File:VIEW SHOWING NORTHEAST FRONT OF POWER PLANT-MACHINE SHOP - Clay Spur Bentonite Plant and Camp, Power Plant-Machine Shop, Clay Spur Siding on Burlington Northern Railroad, HAER WYO,23-OSAG.V,1-M-1.tif",
+    "file": "shop-4.jpg",
+    "title": "File:VIEW SHOWING NORTHWEST SIDE AND SOUTHEAST REAR OF POWER PLANT-MACHINE SHOP - Clay Spur Bentonite Plant and Camp, Power Plant-Machine Shop, Clay Spur Siding on Burlington HAER WYO,23-OSAG.V,1-M-2.tif",
     "license": "Public domain",
     "license_url": "",
     "artist": "Unknown author",
-    "credit": "https://www.loc.gov/pictures/item/wy0214.photos.174674p",
-    "source": "https://commons.wikimedia.org/wiki/File:VIEW_SHOWING_NORTHEAST_FRONT_OF_POWER_PLANT-MACHINE_SHOP_-_Clay_Spur_Bentonite_Plant_and_Camp,_Power_Plant-Machine_Shop,_Clay_Spur_Siding_on_Burlington_Northern_Railroad,_HAER_WYO,23-OSAG.V,1-M-1.tif"
+    "credit": "https://www.loc.gov/pictures/item/wy0214.photos.174675p",
+    "source": "https://commons.wikimedia.org/wiki/File:VIEW_SHOWING_NORTHWEST_SIDE_AND_SOUTHEAST_REAR_OF_POWER_PLANT-MACHINE_SHOP_-_Clay_Spur_Bentonite_Plant_and_Camp,_Power_Plant-Machine_Shop,_Clay_Spur_Siding_on_Burlington_HAER_WYO,23-OSAG.V,1-M-2.tif"
+  },
+  {
+    "key": "shop",
+    "file": "shop-5.jpg",
+    "title": "File:(Credit JTL) Interior of machine shop at station, looking west. - McNeil Street Pumping Station, McNeil Street and Cross Bayou, Shreveport, Caddo Parish, LA HAER LA,9-SHREV,2-105.tif",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "https://www.loc.gov/pictures/item/la0164.photos.073718p",
+    "source": "https://commons.wikimedia.org/wiki/File:(Credit_JTL)_Interior_of_machine_shop_at_station,_looking_west._-_McNeil_Street_Pumping_Station,_McNeil_Street_and_Cross_Bayou,_Shreveport,_Caddo_Parish,_LA_HAER_LA,9-SHREV,2-105.tif"
+  },
+  {
+    "key": "shop",
+    "file": "shop-6.jpg",
+    "title": "File:VIEW SHOWING SOUTHWEST REAR OF POWER PLANT-MACHINE SHOP - Clay Spur Bentonite Plant and Camp, Power Plant-Machine Shop, Clay Spur Siding on Burlington Northern Railroad, Osage HAER WYO,23-OSAG.V,1-M-3.tif",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "https://www.loc.gov/pictures/item/wy0214.photos.174676p",
+    "source": "https://commons.wikimedia.org/wiki/File:VIEW_SHOWING_SOUTHWEST_REAR_OF_POWER_PLANT-MACHINE_SHOP_-_Clay_Spur_Bentonite_Plant_and_Camp,_Power_Plant-Machine_Shop,_Clay_Spur_Siding_on_Burlington_Northern_Railroad,_Osage_HAER_WYO,23-OSAG.V,1-M-3.tif"
+  },
+  {
+    "key": "shop",
+    "file": "shop-7.jpg",
+    "title": "File:VIEW SHOWING SOUTH SIDE AND EAST REAR OF GARAGE-MACHINE SHOP - Clay Spur Bentonite Plant and Camp, Garage-Machine Shop, Clay Spur Siding on Burlington Northern Railroad, Osage HAER WYO,23-OSAG.V,1-L-2.tif",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "https://www.loc.gov/pictures/item/wy0213.photos.174673p",
+    "source": "https://commons.wikimedia.org/wiki/File:VIEW_SHOWING_SOUTH_SIDE_AND_EAST_REAR_OF_GARAGE-MACHINE_SHOP_-_Clay_Spur_Bentonite_Plant_and_Camp,_Garage-Machine_Shop,_Clay_Spur_Siding_on_Burlington_Northern_Railroad,_Osage_HAER_WYO,23-OSAG.V,1-L-2.tif"
+  },
+  {
+    "key": "shop",
+    "file": "shop-8.jpg",
+    "title": "File:(Credit JTL) Interior of lime storage room (above storeroom in machine shop wing) at station, looking west. - McNeil Street Pumping Station, McNeil Street and Cross Bayou, HAER LA,9-SHREV,2-106.tif",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "https://www.loc.gov/pictures/item/la0164.photos.073719p",
+    "source": "https://commons.wikimedia.org/wiki/File:(Credit_JTL)_Interior_of_lime_storage_room_(above_storeroom_in_machine_shop_wing)_at_station,_looking_west._-_McNeil_Street_Pumping_Station,_McNeil_Street_and_Cross_Bayou,_HAER_LA,9-SHREV,2-106.tif"
+  },
+  {
+    "key": "shop",
+    "file": "shop-9.jpg",
+    "title": "File:February. INTERIOR COURTYARD- FRONT DOORS AND PART OF BALCONY - Whittier Theatre, 11602-11612 East Whittier Boulevard, Whittier, Los Angeles County, CA HABS CAL,19-WHIT,2-11.tif",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "https://www.loc.gov/pictures/item/ca1562.photos.012999p",
+    "source": "https://commons.wikimedia.org/wiki/File:February._INTERIOR_COURTYARD-_FRONT_DOORS_AND_PART_OF_BALCONY_-_Whittier_Theatre,_11602-11612_East_Whittier_Boulevard,_Whittier,_Los_Angeles_County,_CA_HABS_CAL,19-WHIT,2-11.tif"
   },
   {
     "key": "toolbit",
@@ -90,6 +210,66 @@
     "source": "https://commons.wikimedia.org/wiki/File:Spiral_Bit_for_Foot_Lathe_Used_by_William_Beattie_of_Beattie_Manufacturing_Company,_St._Louis_-_DPLA_-_dce3cad1f80112f1cdde93c66aebaa74_(page_1).jpg"
   },
   {
+    "key": "toolbit",
+    "file": "toolbit-4.jpg",
+    "title": "File:Spiral Bit for Foot Lathe Used by William Beattie of Beattie Manufacturing Company, St. Louis - DPLA - dce3cad1f80112f1cdde93c66aebaa74 (page 2).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America, via its partner Heartland Hub.\nRecord in source catalog\nDPLA identifier: dce3cad1f80112f1cdde93c66aebaa74\nMissouri Historical Society identifier: 2021-014-0019",
+    "source": "https://commons.wikimedia.org/wiki/File:Spiral_Bit_for_Foot_Lathe_Used_by_William_Beattie_of_Beattie_Manufacturing_Company,_St._Louis_-_DPLA_-_dce3cad1f80112f1cdde93c66aebaa74_(page_2).jpg"
+  },
+  {
+    "key": "toolbit",
+    "file": "toolbit-5.jpg",
+    "title": "File:FishTailGauges.jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "The original uploader was Graibeard at English Wikipedia.",
+    "credit": "Transferred from en.wikipedia to Commons by IngerAlHaosului using CommonsHelper.",
+    "source": "https://commons.wikimedia.org/wiki/File:FishTailGauges.jpg"
+  },
+  {
+    "key": "toolbit",
+    "file": "toolbit-6.jpg",
+    "title": "File:Plaqueta roscar pas 3.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Àncora",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Plaqueta_roscar_pas_3.jpg"
+  },
+  {
+    "key": "toolbit",
+    "file": "toolbit-7.jpg",
+    "title": "File:WerkzeughalterProfil.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Florian Schott",
+    "credit": "Self-photographed",
+    "source": "https://commons.wikimedia.org/wiki/File:WerkzeughalterProfil.jpg"
+  },
+  {
+    "key": "toolbit",
+    "file": "toolbit-8.jpg",
+    "title": "File:LatheCarbideTippedBoringThreadingBars.jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Unknown author",
+    "credit": "",
+    "source": "https://commons.wikimedia.org/wiki/File:LatheCarbideTippedBoringThreadingBars.jpg"
+  },
+  {
+    "key": "toolbit",
+    "file": "toolbit-9.jpg",
+    "title": "File:Fishtail Gauge for Foot Lathe Used by William Beattie of Beattie Manufacturing Company, St. Louis - DPLA - c88e9365415fdd441b968592725a6564 (page 1).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Darling, Brown & Sharpe (Firm)",
+    "credit": "This file was contributed to Wikimedia Commons by Missouri Historical Society as part of a cooperation project. The donation was facilitated by the Digital Public Library of America, via its partner Heartland Hub.\nRecord in source catalog\nDPLA identifier: c88e9365415fdd441b968592725a6564\nMissouri Historical Society identifier: 2021-014-0042",
+    "source": "https://commons.wikimedia.org/wiki/File:Fishtail_Gauge_for_Foot_Lathe_Used_by_William_Beattie_of_Beattie_Manufacturing_Company,_St._Louis_-_DPLA_-_c88e9365415fdd441b968592725a6564_(page_1).jpg"
+  },
+  {
     "key": "mushet",
     "file": "mushet-1.jpg",
     "title": "File:Crucible Steel near to Beauchief, Sheffield, Great Britain.jpg",
@@ -118,6 +298,66 @@
     "artist": "Unknown author",
     "credit": "https://wellcomeimages.org/indexplus/obf_images/bd/60/bc5f708246c93cbac2d6fa96915c.jpg\n\nGallery: https://wellcomeimages.org/indexplus/image/V0023647.html\nWellcome Collection gallery (2018-03-22): https://wellcomecollection.org/works/hg22pera CC-BY-4.0",
     "source": "https://commons.wikimedia.org/wiki/File:A_new_saw_used_in_the_cutting_of_steel;_interior_view._Wood_Wellcome_V0023647.jpg"
+  },
+  {
+    "key": "mushet",
+    "file": "mushet-4.jpg",
+    "title": "File:The Top Secret Room near to Beauchief, Sheffield, Great Britain.jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Ashley Dace",
+    "credit": "From www.geograph.org.uk",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Top_Secret_Room_near_to_Beauchief,_Sheffield,_Great_Britain.jpg"
+  },
+  {
+    "key": "mushet",
+    "file": "mushet-5.jpg",
+    "title": "File:Steel melting house Sheffield.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Walter Macfarlane",
+    "credit": "The principles and practice of iron and steel manufacture p. 43",
+    "source": "https://commons.wikimedia.org/wiki/File:Steel_melting_house_Sheffield.jpg"
+  },
+  {
+    "key": "mushet",
+    "file": "mushet-6.jpg",
+    "title": "File:53 Well Meadow Street Oct 2017.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Chemical Engineer",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:53_Well_Meadow_Street_Oct_2017.jpg"
+  },
+  {
+    "key": "mushet",
+    "file": "mushet-7.jpg",
+    "title": "File:Joel's Yard Oct 2017.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Chemical Engineer",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Joel%27s_Yard_Oct_2017.jpg"
+  },
+  {
+    "key": "mushet",
+    "file": "mushet-8.jpg",
+    "title": "File:Joel's Yard entrance Oct 2017.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Chemical Engineer",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Joel%27s_Yard_entrance_Oct_2017.jpg"
+  },
+  {
+    "key": "mushet",
+    "file": "mushet-9.jpg",
+    "title": "File:35 Well Meadow Street October 2017.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Chemical Engineer",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:35_Well_Meadow_Street_October_2017.jpg"
   },
   {
     "key": "taylor",
@@ -150,6 +390,66 @@
     "source": "https://commons.wikimedia.org/wiki/File:Fredrick_Winslow_Taylor_c1907_original.jpg"
   },
   {
+    "key": "taylor",
+    "file": "taylor-4.jpg",
+    "title": "File:F. Taylor 1856-1915.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Grap",
+    "credit": "Gaugler, Eduard (Hrsg.): Taylor, Frederick Winslow : The principles of scientific management ; Vademecum zu dem Klassiker der Wissenschaftlichen Betriebsführung. Düsseldorf: Verlag Wirtschaft und Finanzen, 1996.",
+    "source": "https://commons.wikimedia.org/wiki/File:F._Taylor_1856-1915.jpg"
+  },
+  {
+    "key": "taylor",
+    "file": "taylor-5.jpg",
+    "title": "File:Frederick Winslow Taylor (Philadelphia (Pennsylvania), 20 maart 1856 - aldaar, 21 maart 1915) een, SFA001013526.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "https://beeldbank.spaarnestadphoto.com/search.pp?flush=1&multikeyword=SFA001013526&searchtype=0#ctr-thumbnails",
+    "source": "https://commons.wikimedia.org/wiki/File:Frederick_Winslow_Taylor_(Philadelphia_(Pennsylvania),_20_maart_1856_-_aldaar,_21_maart_1915)_een,_SFA001013526.jpg"
+  },
+  {
+    "key": "taylor",
+    "file": "taylor-6.jpg",
+    "title": "File:F. Taylor at 1873.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Grap",
+    "credit": "Gaugler, Eduard (Hrsg.): Taylor, Frederick Winslow : The principles of scientific management ; Vademecum zu dem Klassiker der Wissenschaftlichen Betriebsführung. Düsseldorf: Verlag Wirtschaft und Finanzen, 1996.",
+    "source": "https://commons.wikimedia.org/wiki/File:F._Taylor_at_1873.jpg"
+  },
+  {
+    "key": "taylor",
+    "file": "taylor-7.jpg",
+    "title": "File:F. Taylor at 1886.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Grap",
+    "credit": "Gaugler, Eduard (Hrsg.): Taylor, Frederick Winslow : The principles of scientific management ; Vademecum zu dem Klassiker der Wissenschaftlichen Betriebsführung. Düsseldorf: Verlag Wirtschaft und Finanzen, 1996.",
+    "source": "https://commons.wikimedia.org/wiki/File:F._Taylor_at_1886.jpg"
+  },
+  {
+    "key": "taylor",
+    "file": "taylor-8.jpg",
+    "title": "File:Taylor fw.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Thomas.beringuer1",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Taylor_fw.jpg"
+  },
+  {
+    "key": "taylor",
+    "file": "taylor-9.jpg",
+    "title": "File:Bulletin of the Taylor Society masthead.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Desmonddelaney",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Bulletin_of_the_Taylor_Society_masthead.jpg"
+  },
+  {
     "key": "paris",
     "file": "paris-1.jpg",
     "title": "File:Exposition universelle de Paris, 1900.jpg",
@@ -178,6 +478,66 @@
     "artist": "Detroit Publishing Company",
     "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID ppmsc.05229.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
     "source": "https://commons.wikimedia.org/wiki/File:Grand_entrance,_Exposition_Universal,_1900,_Paris,_France.jpg"
+  },
+  {
+    "key": "paris",
+    "file": "paris-4.jpg",
+    "title": "File:The Trocadero, Exposition Universal, 1900, Paris, France.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID ppmsc.05214.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Trocadero,_Exposition_Universal,_1900,_Paris,_France.jpg"
+  },
+  {
+    "key": "paris",
+    "file": "paris-5.jpg",
+    "title": "File:The Grand Palace, Exposition Universal, 1900, Paris, France.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID ppmsc.05231.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Grand_Palace,_Exposition_Universal,_1900,_Paris,_France.jpg"
+  },
+  {
+    "key": "paris",
+    "file": "paris-6.jpg",
+    "title": "File:Eiffel Tower, full-view looking toward the Trocadero, Exposition Universal, 1900, Paris, France.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID ppmsc.05221.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+    "source": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower,_full-view_looking_toward_the_Trocadero,_Exposition_Universal,_1900,_Paris,_France.jpg"
+  },
+  {
+    "key": "paris",
+    "file": "paris-7.jpg",
+    "title": "File:The little Palace, Exposition Universal, 1900, Paris, France.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID ppmsc.05232.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+    "source": "https://commons.wikimedia.org/wiki/File:The_little_Palace,_Exposition_Universal,_1900,_Paris,_France.jpg"
+  },
+  {
+    "key": "paris",
+    "file": "paris-8.jpg",
+    "title": "File:L'Exposition universelle de Paris, 1889.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "GTC",
+    "credit": "https://www.raremaps.com/gallery/detail/79748/exposition-universelle-de-paris-1889-gtc",
+    "source": "https://commons.wikimedia.org/wiki/File:L%27Exposition_universelle_de_Paris,_1889.jpg"
+  },
+  {
+    "key": "paris",
+    "file": "paris-9.jpg",
+    "title": "File:Expo 1900 Paris - Plan Pratique.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Dessin de H. Lokay (Upload: Saippuakauppias)",
+    "credit": "Graphics from Expo 1900",
+    "source": "https://commons.wikimedia.org/wiki/File:Expo_1900_Paris_-_Plan_Pratique.jpg"
   },
   {
     "key": "haynes",
@@ -210,8 +570,38 @@
     "source": "https://commons.wikimedia.org/wiki/File:Young_Elwood_Haynes_c_1885.jpg"
   },
   {
-    "key": "pioneer",
-    "file": "pioneer-1.jpg",
+    "key": "haynes",
+    "file": "haynes-4.jpg",
+    "title": "File:Elwood Haynes with his car, Pioneer, at his monument dedication.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "https://digital.library.ucla.edu/catalog/ark:/21198/zz002df708",
+    "source": "https://commons.wikimedia.org/wiki/File:Elwood_Haynes_with_his_car,_Pioneer,_at_his_monument_dedication.jpg"
+  },
+  {
+    "key": "haynes",
+    "file": "haynes-5.jpg",
+    "title": "File:Elwood Haynes driving a Haynes-Apperson car in the Long Island non-stop contest in April 1902.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "Elwood Haynes Museum",
+    "source": "https://commons.wikimedia.org/wiki/File:Elwood_Haynes_driving_a_Haynes-Apperson_car_in_the_Long_Island_non-stop_contest_in_April_1902.jpg"
+  },
+  {
+    "key": "haynes",
+    "file": "haynes-6.jpg",
+    "title": "File:Elwood P. Haynes.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "Elwood Haynes Museum. This portrait shot was published in  (1907). \"The Story of the Haynes\". Scribner's Magazine XLI (January–June): p. 189. New York: Charles Scribner's Sons. Retrieved on 2009-05-11.",
+    "source": "https://commons.wikimedia.org/wiki/File:Elwood_P._Haynes.jpg"
+  },
+  {
+    "key": "haynes",
+    "file": "haynes-7.jpg",
     "title": "File:Elwood Hayne (Indiana automobile inventor).jpg",
     "license": "Public domain",
     "license_url": "",
@@ -220,8 +610,28 @@
     "source": "https://commons.wikimedia.org/wiki/File:Elwood_Hayne_(Indiana_automobile_inventor).jpg"
   },
   {
+    "key": "haynes",
+    "file": "haynes-8.jpg",
+    "title": "File:Bertha and March Haynes, children of Elwood Haynes, 1902.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "Elwood Haynes Muesem",
+    "source": "https://commons.wikimedia.org/wiki/File:Bertha_and_March_Haynes,_children_of_Elwood_Haynes,_1902.jpg"
+  },
+  {
+    "key": "haynes",
+    "file": "haynes-9.jpg",
+    "title": "File:Bernice Haynes driving a Haynes Company runabout-car in 1910.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "Elwood Haynes Muesem",
+    "source": "https://commons.wikimedia.org/wiki/File:Bernice_Haynes_driving_a_Haynes_Company_runabout-car_in_1910.jpg"
+  },
+  {
     "key": "pioneer",
-    "file": "pioneer-2.jpg",
+    "file": "pioneer-1.jpg",
     "title": "File:Haynes-Apperson, BS 8108, London to Brighton Veteran Car Run 2009, 1903 Surrey Auto.jpg",
     "license": "CC BY 2.0",
     "license_url": "https://creativecommons.org/licenses/by/2.0",
@@ -231,13 +641,83 @@
   },
   {
     "key": "pioneer",
-    "file": "pioneer-3.jpg",
+    "file": "pioneer-2.jpg",
     "title": "File:Haynes-Apperson Ad.jpg",
     "license": "Public domain",
     "license_url": "",
     "artist": "New-York Tribune",
     "credit": "New-York tribune. (New York [N.Y.]) 1866-1924, July 17, 1904, Image 46",
     "source": "https://commons.wikimedia.org/wiki/File:Haynes-Apperson_Ad.jpg"
+  },
+  {
+    "key": "pioneer",
+    "file": "pioneer-3.jpg",
+    "title": "File:Haynes-Apperson, BS 8108, London to Brighton Veteran Car Run 2024, 12 HP 1902 - 78.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "Jon Lavis",
+    "credit": "https://www.flickr.com/photos/41009208@N03/54113204977/",
+    "source": "https://commons.wikimedia.org/wiki/File:Haynes-Apperson,_BS_8108,_London_to_Brighton_Veteran_Car_Run_2024,_12_HP_1902_-_78.jpg"
+  },
+  {
+    "key": "pioneer",
+    "file": "pioneer-4.jpg",
+    "title": "File:Haynes-Apperson car in a 1903 catalog ad.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Haynes-Apperson",
+    "credit": "Elwood Haynes Muesem",
+    "source": "https://commons.wikimedia.org/wiki/File:Haynes-Apperson_car_in_a_1903_catalog_ad.jpg"
+  },
+  {
+    "key": "pioneer",
+    "file": "pioneer-5.jpg",
+    "title": "File:Haynes-Apperson factory c 1899.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "Elwood Haynes Museum, a photo taken of a 1908 Haynes Auto Company newspaper advertisement.",
+    "source": "https://commons.wikimedia.org/wiki/File:Haynes-Apperson_factory_c_1899.jpg"
+  },
+  {
+    "key": "pioneer",
+    "file": "pioneer-6.jpg",
+    "title": "File:Haynes-Apperson advertisement, 1904.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Haynes-Apperson",
+    "credit": "https://babel.hathitrust.org/cgi/pt?id=coo.31924071493286&seq=1122",
+    "source": "https://commons.wikimedia.org/wiki/File:Haynes-Apperson_advertisement,_1904.jpg"
+  },
+  {
+    "key": "pioneer",
+    "file": "pioneer-7.jpg",
+    "title": "File:Haynes-Apperson (1893-1894).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Catalogue of the mechanical engineering collection in the United States National museum; motors, locomotives, and self-p",
+    "credit": "https://babel.hathitrust.org/cgi/pt?id=osu.32435029593753&seq=68&view=1up",
+    "source": "https://commons.wikimedia.org/wiki/File:Haynes-Apperson_(1893-1894).jpg"
+  },
+  {
+    "key": "pioneer",
+    "file": "pioneer-8.jpg",
+    "title": "File:Haynes-Apperson (1897).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "The Motocycle v.1-3 1895-1897",
+    "credit": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015021076156&seq=556",
+    "source": "https://commons.wikimedia.org/wiki/File:Haynes-Apperson_(1897).jpg"
+  },
+  {
+    "key": "pioneer",
+    "file": "pioneer-9.jpg",
+    "title": "File:Haynes-Apperson 12HP Surrey (1902-1903).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "The Motor world v.7 1903/04",
+    "credit": "https://babel.hathitrust.org/cgi/pt?id=coo.31924071493286&seq=513",
+    "source": "https://commons.wikimedia.org/wiki/File:Haynes-Apperson_12HP_Surrey_(1902-1903).jpg"
   },
   {
     "key": "kokomo",
@@ -270,6 +750,66 @@
     "source": "https://commons.wikimedia.org/wiki/File:Howard_County_Courthouse,_104_North_Buckeye_Street,_2002_(Kokomo,_Ind.)_-_DPLA_-_b30579afaf78a05dc00e0513bbf40b17.jpg"
   },
   {
+    "key": "kokomo",
+    "file": "kokomo-4.jpg",
+    "title": "File:(View) Miami County Courthouse, Peru, Ind. (IA dr view-miami-county-courthouse-peru-ind-3740017).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Kingman Brothers.",
+    "credit": "Internet Archive identifier: dr_view-miami-county-courthouse-peru-ind-3740017\nhttps://archive.org/download/dr_view-miami-county-courthouse-peru-ind-3740017/3740017.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:(View)_Miami_County_Courthouse,_Peru,_Ind._(IA_dr_view-miami-county-courthouse-peru-ind-3740017).jpg"
+  },
+  {
+    "key": "kokomo",
+    "file": "kokomo-5.jpg",
+    "title": "File:Old Kokomo High School.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Nyttend",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_Kokomo_High_School.jpg"
+  },
+  {
+    "key": "kokomo",
+    "file": "kokomo-6.jpg",
+    "title": "File:Former Kokomo City Building.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Nyttend",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Former_Kokomo_City_Building.jpg"
+  },
+  {
+    "key": "kokomo",
+    "file": "kokomo-7.jpg",
+    "title": "File:10.24.20 Masonic Temple Kokomo IN.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "RebeccaKasey",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:10.24.20_Masonic_Temple_Kokomo_IN.jpg"
+  },
+  {
+    "key": "kokomo",
+    "file": "kokomo-8.jpg",
+    "title": "File:Snow at the Kokomo Country Club.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Nyttend",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Snow_at_the_Kokomo_Country_Club.jpg"
+  },
+  {
+    "key": "kokomo",
+    "file": "kokomo-9.jpg",
+    "title": "File:SeiberlingMansionKokomo.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Rapierce",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:SeiberlingMansionKokomo.jpg"
+  },
+  {
     "key": "munitions",
     "file": "munitions-1.jpg",
     "title": "File:Women with shells at Chilwell 1917 IWM Q 30017.jpg",
@@ -282,6 +822,16 @@
   {
     "key": "munitions",
     "file": "munitions-2.jpg",
+    "title": "File:Shell factory, no. 2 LCCN2003676315.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Pennell, Joseph, 1857-1926, artist",
+    "credit": "Library of Congress\n\nCatalog: https://lccn.loc.gov/2003676315\nImage download: https://cdn.loc.gov/service/pnp/cph/3b10000/3b17000/3b17000/3b17062r.jpg\nOriginal url: https://www.loc.gov/pictures/item/2003676315/",
+    "source": "https://commons.wikimedia.org/wiki/File:Shell_factory,_no._2_LCCN2003676315.jpg"
+  },
+  {
+    "key": "munitions",
+    "file": "munitions-3.jpg",
     "title": "File:Munition workers painting shells at the National Shell Filling Factory No.6, Chilwell, Nottinghamshire in 1917. This was one of the largest shell factories in the country. Q30016.jpg",
     "license": "Public domain",
     "license_url": "",
@@ -291,13 +841,63 @@
   },
   {
     "key": "munitions",
-    "file": "munitions-3.jpg",
-    "title": "File:Shell factory, no. 2 LCCN2003676315.jpg",
+    "file": "munitions-4.jpg",
+    "title": "File:Munition workers in a shell warehouse at National Shell Filling Factory No.6, Chilwell, Nottinghamshire in 1917. Q30018.jpg",
     "license": "Public domain",
     "license_url": "",
-    "artist": "Pennell, Joseph, 1857-1926, artist",
-    "credit": "Library of Congress\n\nCatalog: https://lccn.loc.gov/2003676315\nImage download: https://cdn.loc.gov/service/pnp/cph/3b10000/3b17000/3b17000/3b17062r.jpg\nOriginal url: https://www.loc.gov/pictures/item/2003676315/",
-    "source": "https://commons.wikimedia.org/wiki/File:Shell_factory,_no._2_LCCN2003676315.jpg"
+    "artist": "Horace Nicholls",
+    "credit": "http://media.iwm.org.uk/iwm/mediaLib//358/media-358366/large.jpg\n\n\n\n\n\nThis photograph Q 30018 comes from the collections of the Imperial War Museums.",
+    "source": "https://commons.wikimedia.org/wiki/File:Munition_workers_in_a_shell_warehouse_at_National_Shell_Filling_Factory_No.6,_Chilwell,_Nottinghamshire_in_1917._Q30018.jpg"
+  },
+  {
+    "key": "munitions",
+    "file": "munitions-5.jpg",
+    "title": "File:Industry during the First World War- Dublin Q33212.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "British official photographer",
+    "credit": "http://media.iwm.org.uk/iwm/mediaLib//301/media-301344/large.jpg\n\n\n\n\n\nThis photograph Q 33212 comes from the collections of the Imperial War Museums.",
+    "source": "https://commons.wikimedia.org/wiki/File:Industry_during_the_First_World_War-_Dublin_Q33212.jpg"
+  },
+  {
+    "key": "munitions",
+    "file": "munitions-6.png",
+    "title": "File:Pictures of War Work in America - 026 Shell Factory No Two From Shop to Shop.png",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Joseph Pennell",
+    "credit": "Joseph Pennell's Pictures of War Work in America (https://archive.org/details/pictures-of-war-work-in-america)",
+    "source": "https://commons.wikimedia.org/wiki/File:Pictures_of_War_Work_in_America_-_026_Shell_Factory_No_Two_From_Shop_to_Shop.png"
+  },
+  {
+    "key": "munitions",
+    "file": "munitions-7.jpg",
+    "title": "File:Women in shell factory, Eng. (i.e. England) LOC 23623572024.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "The Library of Congress",
+    "credit": "This image  is available from the United States Library of Congress's Prints and Photographs division under the digital ID ggbain.25841.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.",
+    "source": "https://commons.wikimedia.org/wiki/File:Women_in_shell_factory,_Eng._(i.e._England)_LOC_23623572024.jpg"
+  },
+  {
+    "key": "munitions",
+    "file": "munitions-8.jpg",
+    "title": "File:MUNITIONS PRODUCTION IN BRITAIN DURING THE FIRST WORLD WAR, NO. 14 NATIONAL FILLING FACTORY HEREFORD Q101835.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Unknown author",
+    "credit": "http://media.iwm.org.uk/ciim5/373/277/large_000000.jpg\n\n\n\n\n\nThis photograph Q 101835 comes from the collections of the Imperial War Museums.",
+    "source": "https://commons.wikimedia.org/wiki/File:MUNITIONS_PRODUCTION_IN_BRITAIN_DURING_THE_FIRST_WORLD_WAR,_NO._14_NATIONAL_FILLING_FACTORY_HEREFORD_Q101835.jpg"
+  },
+  {
+    "key": "munitions",
+    "file": "munitions-9.jpg",
+    "title": "File:Ministry of Information First World War Miscellaneous Collection Q33211.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "British official photographer",
+    "credit": "http://media.iwm.org.uk/iwm/mediaLib//303/media-303482/large.jpg\n\n\n\n\n\nThis photograph Q 33211 comes from the collections of the Imperial War Museums.",
+    "source": "https://commons.wikimedia.org/wiki/File:Ministry_of_Information_First_World_War_Miscellaneous_Collection_Q33211.jpg"
   },
   {
     "key": "valve",
@@ -330,6 +930,66 @@
     "source": "https://commons.wikimedia.org/wiki/File:Lantern_Slide_-_Tangyes_Ltd,_Intake_%26_Exhaust_System,_circa_1910.jpg"
   },
   {
+    "key": "valve",
+    "file": "valve-4.jpg",
+    "title": "File:Internal view of Apeks dry suit automatic dump valve showing underside of rubber mushroom valve P3250159.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Peter Southwood",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Internal_view_of_Apeks_dry_suit_automatic_dump_valve_showing_underside_of_rubber_mushroom_valve_P3250159.jpg"
+  },
+  {
+    "key": "valve",
+    "file": "valve-5.jpg",
+    "title": "File:42822 crab, lentz rotary poppet valve gear.jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Sludge G",
+    "credit": "https://www.flickr.com/photos/28179929@N08/4796562497/",
+    "source": "https://commons.wikimedia.org/wiki/File:42822_crab,_lentz_rotary_poppet_valve_gear.jpg"
+  },
+  {
+    "key": "valve",
+    "file": "valve-6.jpg",
+    "title": "File:Crossley Vertical Poppet Valve Anson 6176.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Photograph by Clem Rutter, Rochester, Kent. (www.clemrutter.net).",
+    "credit": "I, the copyright holder of this work, hereby publish it under the following license:",
+    "source": "https://commons.wikimedia.org/wiki/File:Crossley_Vertical_Poppet_Valve_Anson_6176.JPG"
+  },
+  {
+    "key": "valve",
+    "file": "valve-7.jpg",
+    "title": "File:Beam engine cylinder with double-beat valves (New Catechism of the Steam Engine, 1904).jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "Andy Dingley (scanner)",
+    "credit": "Scan from  Hawkins (b.1833), Nehemiah (1904 edition of 1897 book. Originally published in 1897, later expanded to cover internal combustion engines.)       New Catechism of the Steam Engine, Category:New York:  Theo Audel",
+    "source": "https://commons.wikimedia.org/wiki/File:Beam_engine_cylinder_with_double-beat_valves_(New_Catechism_of_the_Steam_Engine,_1904).jpg"
+  },
+  {
+    "key": "valve",
+    "file": "valve-8.jpg",
+    "title": "File:Interior of the UMMC Museum of automotive technology 028.jpg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "MBH",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Interior_of_the_UMMC_Museum_of_automotive_technology_028.jpg"
+  },
+  {
+    "key": "valve",
+    "file": "valve-9.jpg",
+    "title": "File:Interior of the UMMC Museum of automotive technology 033.jpg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "MBH",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Interior_of_the_UMMC_Museum_of_automotive_technology_033.jpg"
+  },
+  {
     "key": "spirit",
     "file": "spirit-1.jpg",
     "title": "File:Spirit of St. Louis1.jpg",
@@ -358,6 +1018,66 @@
     "artist": "Triple-green",
     "credit": "Spirit of St. Louis Modell",
     "source": "https://commons.wikimedia.org/wiki/File:Spirit_of_St._Louis_Modell_(38037449372).jpg"
+  },
+  {
+    "key": "spirit",
+    "file": "spirit-4.jpg",
+    "title": "File:Spirit of St. Louis Nose Cone 1.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artist": "Toytoy at English Wikipedia",
+    "credit": "Transferred from en.wikipedia to Commons by Liftarn using CommonsHelper.",
+    "source": "https://commons.wikimedia.org/wiki/File:Spirit_of_St._Louis_Nose_Cone_1.jpg"
+  },
+  {
+    "key": "spirit",
+    "file": "spirit-5.jpg",
+    "title": "File:Spirit of St Louis Smithsonian 01 2012 258.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Mariordo (Mario Roberto Durán Ortiz)",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Spirit_of_St_Louis_Smithsonian_01_2012_258.jpg"
+  },
+  {
+    "key": "spirit",
+    "file": "spirit-6.jpg",
+    "title": "File:Touching up the \"Spirit of St. Louis\" LCCN92520357.jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "artist": "National Photo Company Collection",
+    "credit": "Library of Congress\n\nCatalog: https://lccn.loc.gov/92520357\nImage download: https://cdn.loc.gov/service/pnp/cph/3c00000/3c06000/3c06800/3c06851v.jpg\nOriginal url: https://www.loc.gov/pictures/item/92520357/",
+    "source": "https://commons.wikimedia.org/wiki/File:Touching_up_the_%22Spirit_of_St._Louis%22_LCCN92520357.jpg"
+  },
+  {
+    "key": "spirit",
+    "file": "spirit-7.jpg",
+    "title": "File:Spirit of St Louis Smithsonian 01 2012 00257.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Mariordo (Mario Roberto Durán Ortiz)",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Spirit_of_St_Louis_Smithsonian_01_2012_00257.jpg"
+  },
+  {
+    "key": "spirit",
+    "file": "spirit-8.jpg",
+    "title": "File:Spirit of St Louis Smithsonian 03 2009 5399.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Mariordo (Mario Roberto Durán Ortiz)",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Spirit_of_St_Louis_Smithsonian_03_2009_5399.jpg"
+  },
+  {
+    "key": "spirit",
+    "file": "spirit-9.jpg",
+    "title": "File:Spirit of St Louis Smithsonian 03 2009 5400.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Mariordo (Mario Roberto Durán Ortiz)",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Spirit_of_St_Louis_Smithsonian_03_2009_5400.jpg"
   },
   {
     "key": "krupp",
@@ -390,6 +1110,66 @@
     "source": "https://commons.wikimedia.org/wiki/File:Krupp_Gussstahlfabrik_AK_um_1913.jpg"
   },
   {
+    "key": "krupp",
+    "file": "krupp-4.jpg",
+    "title": "File:Essen, Luftschutzanlage Krupp Haedenkampstraße.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Wiki05",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Essen,_Luftschutzanlage_Krupp_Haedenkampstra%C3%9Fe.jpg"
+  },
+  {
+    "key": "krupp",
+    "file": "krupp-5.jpg",
+    "title": "File:Essen, Luftschutzanlage Krupp Haedenkampstraße1.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Wiki05",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Essen,_Luftschutzanlage_Krupp_Haedenkampstra%C3%9Fe1.jpg"
+  },
+  {
+    "key": "krupp",
+    "file": "krupp-6.jpg",
+    "title": "File:Bundesarchiv B 145 Bild-F011595-0003, Essen, Krupp Werke.jpg",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artist": "Müller, Simon",
+    "credit": "This image was provided to Wikimedia Commons by the German Federal Archive (Deutsches Bundesarchiv) as part of a cooperation project. The German Federal Archive guarantees an authentic representation only using the originals (negative and/or positive), resp. the digitalization of the originals as provided by the Digital Image Archive.",
+    "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F011595-0003,_Essen,_Krupp_Werke.jpg"
+  },
+  {
+    "key": "krupp",
+    "file": "krupp-7.jpg",
+    "title": "File:Essen-Westviertel, ehem. Krupp LKW-Halle(3).jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Wiki05",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Essen-Westviertel,_ehem._Krupp_LKW-Halle(3).jpg"
+  },
+  {
+    "key": "krupp",
+    "file": "krupp-8.jpg",
+    "title": "File:Essen-Westviertel, ehem. Krupp LKW-Halle(2).jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Wiki05",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Essen-Westviertel,_ehem._Krupp_LKW-Halle(2).jpg"
+  },
+  {
+    "key": "krupp",
+    "file": "krupp-9.jpg",
+    "title": "File:Essen-Westviertel, ehem. Krupp LKW-Halle(1).jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Wiki05",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Essen-Westviertel,_ehem._Krupp_LKW-Halle(1).jpg"
+  },
+  {
     "key": "carbide",
     "file": "carbide-1.jpg",
     "title": "File:2023 Noże z węglika wolframu.jpg",
@@ -418,6 +1198,66 @@
     "artist": "Materialscientist",
     "credit": "Own work",
     "source": "https://commons.wikimedia.org/wiki/File:Alpha_tungsten_carbide_crystal_structure.png"
+  },
+  {
+    "key": "carbide",
+    "file": "carbide-4.jpg",
+    "title": "File:Tungsten carbide tool.jpg",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "artist": "Hi-Res Images of",
+    "credit": "http://images-of-elements.com/tungsten.php",
+    "source": "https://commons.wikimedia.org/wiki/File:Tungsten_carbide_tool.jpg"
+  },
+  {
+    "key": "carbide",
+    "file": "carbide-5.png",
+    "title": "File:Spherical Tungster Carbide under Scanning Electron Microscope.png",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "artist": "Gabriela P.",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Spherical_Tungster_Carbide_under_Scanning_Electron_Microscope.png"
+  },
+  {
+    "key": "carbide",
+    "file": "carbide-6.jpg",
+    "title": "File:Tungsten Carbide.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "LUCIUS CORNELIUS SULLA FELIX",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Tungsten_Carbide.jpg"
+  },
+  {
+    "key": "carbide",
+    "file": "carbide-7.jpg",
+    "title": "File:Carbide Wolfram.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "19Eugene88",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Carbide_Wolfram.jpg"
+  },
+  {
+    "key": "carbide",
+    "file": "carbide-8.jpg",
+    "title": "File:Carbide Wolfram 4.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "19Eugene88",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Carbide_Wolfram_4.jpg"
+  },
+  {
+    "key": "carbide",
+    "file": "carbide-9.jpg",
+    "title": "File:Carbide Wolfram 2.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "19Eugene88",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Carbide_Wolfram_2.jpg"
   },
   {
     "key": "insert",
@@ -450,6 +1290,66 @@
     "source": "https://commons.wikimedia.org/wiki/File:Cutting_inserts_(1).jpg"
   },
   {
+    "key": "insert",
+    "file": "insert-4.jpg",
+    "title": "File:Cutting inserts (3).jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "I would appreciate being notified if you use my work outside Wikimedia.",
+    "credit": "Own work This photograph was taken with a Panasonic Lumix DMC-TZ1 This   file was uploaded  with Commonist.",
+    "source": "https://commons.wikimedia.org/wiki/File:Cutting_inserts_(3).jpg"
+  },
+  {
+    "key": "insert",
+    "file": "insert-5.jpg",
+    "title": "File:Cutting inserts (4).jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "I would appreciate being notified if you use my work outside Wikimedia.",
+    "credit": "Own work This photograph was taken with a Panasonic Lumix DMC-TZ1 This   file was uploaded  with Commonist.",
+    "source": "https://commons.wikimedia.org/wiki/File:Cutting_inserts_(4).jpg"
+  },
+  {
+    "key": "insert",
+    "file": "insert-6.jpg",
+    "title": "File:Cutting inserts (2).jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "I would appreciate being notified if you use my work outside Wikimedia.",
+    "credit": "Own work This photograph was taken with a Panasonic Lumix DMC-TZ1 This   file was uploaded  with Commonist.",
+    "source": "https://commons.wikimedia.org/wiki/File:Cutting_inserts_(2).jpg"
+  },
+  {
+    "key": "insert",
+    "file": "insert-7.jpg",
+    "title": "File:Wendeschneidplatte.Wolframcarbid.P1149516.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artist": "Bautsch",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Wendeschneidplatte.Wolframcarbid.P1149516.jpg"
+  },
+  {
+    "key": "insert",
+    "file": "insert-8.jpg",
+    "title": "File:Makino Titanium-Cutting.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Andreas Walbert",
+    "credit": "Makino Europe GmbH",
+    "source": "https://commons.wikimedia.org/wiki/File:Makino_Titanium-Cutting.jpg"
+  },
+  {
+    "key": "insert",
+    "file": "insert-9.jpg",
+    "title": "File:Značení VBD.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Juniperbushman",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Zna%C4%8Den%C3%AD_VBD.jpg"
+  },
+  {
     "key": "hardfacing",
     "file": "hardfacing-1.jpg",
     "title": "File:Hardface Welding.jpg",
@@ -462,6 +1362,26 @@
   {
     "key": "dental",
     "file": "dental-1.jpg",
+    "title": "File:Oberkiefer Teilprothese 20100112 031.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Sterilgutassistentin",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Oberkiefer_Teilprothese_20100112_031.JPG"
+  },
+  {
+    "key": "dental",
+    "file": "dental-2.jpg",
+    "title": "File:Unterkiefer Teilprothese 20100112 009.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Sterilgutassistentin",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Unterkiefer_Teilprothese_20100112_009.JPG"
+  },
+  {
+    "key": "dental",
+    "file": "dental-3.jpg",
     "title": "File:Unterkiefer Teilprothese 20100112 006.JPG",
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -471,7 +1391,17 @@
   },
   {
     "key": "dental",
-    "file": "dental-2.jpg",
+    "file": "dental-4.jpg",
+    "title": "File:Oberkiefer Teilprothese 20100112 024.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Sterilgutassistentin",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Oberkiefer_Teilprothese_20100112_024.JPG"
+  },
+  {
+    "key": "dental",
+    "file": "dental-5.jpg",
     "title": "File:Oberkiefer Teilprothese 20100112 038.JPG",
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -481,13 +1411,43 @@
   },
   {
     "key": "dental",
-    "file": "dental-3.jpg",
-    "title": "File:Oberkiefer Teilprothese 20100112 007.JPG",
+    "file": "dental-6.jpg",
+    "title": "File:Oberkiefer Teilprothese 20100112 005.JPG",
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "artist": "Sterilgutassistentin",
     "credit": "Own work",
-    "source": "https://commons.wikimedia.org/wiki/File:Oberkiefer_Teilprothese_20100112_007.JPG"
+    "source": "https://commons.wikimedia.org/wiki/File:Oberkiefer_Teilprothese_20100112_005.JPG"
+  },
+  {
+    "key": "dental",
+    "file": "dental-7.jpg",
+    "title": "File:Oberkiefer Teilprothese 20100112 027.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Sterilgutassistentin",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Oberkiefer_Teilprothese_20100112_027.JPG"
+  },
+  {
+    "key": "dental",
+    "file": "dental-8.jpg",
+    "title": "File:Oberkiefer Teilprothese 20100112 034.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Sterilgutassistentin",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Oberkiefer_Teilprothese_20100112_034.JPG"
+  },
+  {
+    "key": "dental",
+    "file": "dental-9.jpg",
+    "title": "File:Oberkiefer Teilprothese 20100112 009.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artist": "Sterilgutassistentin",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Oberkiefer_Teilprothese_20100112_009.JPG"
   },
   {
     "key": "saw",
@@ -518,5 +1478,65 @@
     "artist": "Adoscam",
     "credit": "Own work",
     "source": "https://commons.wikimedia.org/wiki/File:Sawmill_cutting_blade_on_a_table.jpg"
+  },
+  {
+    "key": "saw",
+    "file": "saw-4.jpg",
+    "title": "File:Lame de coupe de scierie.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "Adoscam",
+    "credit": "Own work",
+    "source": "https://commons.wikimedia.org/wiki/File:Lame_de_coupe_de_scierie.jpg"
+  },
+  {
+    "key": "saw",
+    "file": "saw-5.jpg",
+    "title": "File:Japanese Farm Girls - Detail (1914 by Elstner Hilton).jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "A.Davey from Portland, Oregon, EE UU",
+    "credit": "Detail - Japanese Farm Girls",
+    "source": "https://commons.wikimedia.org/wiki/File:Japanese_Farm_Girls_-_Detail_(1914_by_Elstner_Hilton).jpg"
+  },
+  {
+    "key": "saw",
+    "file": "saw-6.jpg",
+    "title": "File:Rice Harvesting in Japan (1914 by Elstner Hilton).jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "A.Davey from Portland, Oregon, EE UU",
+    "credit": "Rice Harvest",
+    "source": "https://commons.wikimedia.org/wiki/File:Rice_Harvesting_in_Japan_(1914_by_Elstner_Hilton).jpg"
+  },
+  {
+    "key": "saw",
+    "file": "saw-7.jpg",
+    "title": "File:Kimono women on the Shore of Japan - Sharing a Laugh (1915 by Elstner Hilton).jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "A.Davey from Portland, Oregon, EE UU",
+    "credit": "Sharing a Laugh",
+    "source": "https://commons.wikimedia.org/wiki/File:Kimono_women_on_the_Shore_of_Japan_-_Sharing_a_Laugh_(1915_by_Elstner_Hilton).jpg"
+  },
+  {
+    "key": "saw",
+    "file": "saw-8.jpg",
+    "title": "File:Kimono women on the Shore of Japan - Sharing a Laugh (1914 by Elstner Hilton).jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "A.Davey from Portland, Oregon, EE UU",
+    "credit": "Sharing a Laugh",
+    "source": "https://commons.wikimedia.org/wiki/File:Kimono_women_on_the_Shore_of_Japan_-_Sharing_a_Laugh_(1914_by_Elstner_Hilton).jpg"
+  },
+  {
+    "key": "saw",
+    "file": "saw-9.jpg",
+    "title": "File:Man with karakasa in the Snow, in Japan (1914 by Elstner Hilton).jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "A.Davey from Portland, Oregon, EE UU",
+    "credit": "In the Snow",
+    "source": "https://commons.wikimedia.org/wiki/File:Man_with_karakasa_in_the_Snow,_in_Japan_(1914_by_Elstner_Hilton).jpg"
   }
 ]

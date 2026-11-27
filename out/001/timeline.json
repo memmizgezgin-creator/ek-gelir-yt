@@ -133,6 +133,1124 @@
       "end": 1175.433
     }
   ],
+  "sentences": [
+    {
+      "section": 1,
+      "start": 1.0,
+      "end": 6.952,
+      "text": "At the start of the twentieth century, every machine shop in the world had the same problem."
+    },
+    {
+      "section": 1,
+      "start": 7.302,
+      "end": 9.137,
+      "text": "Steel was getting harder."
+    },
+    {
+      "section": 1,
+      "start": 9.487,
+      "end": 11.855,
+      "text": "Machines were getting stronger."
+    },
+    {
+      "section": 1,
+      "start": 12.205,
+      "end": 18.306,
+      "text": "Electric motors and heavier lathes could push a cutting tool faster than ever before."
+    },
+    {
+      "section": 1,
+      "start": 18.656,
+      "end": 21.067,
+      "text": "But the tool itself kept failing."
+    },
+    {
+      "section": 1,
+      "start": 21.417,
+      "end": 27.902,
+      "text": "Push it too fast and the edge began to glow, then it softened, and within minutes it was gone."
+    },
+    {
+      "section": 1,
+      "start": 28.252,
+      "end": 32.689,
+      "text": "The machinist stopped the lathe, walked to the grinder, and started again."
+    },
+    {
+      "section": 1,
+      "start": 33.839,
+      "end": 38.831,
+      "text": "Then an inventor in a small town in Indiana made something strange."
+    },
+    {
+      "section": 1,
+      "start": 39.181,
+      "end": 42.573,
+      "text": "It was a metal with almost no iron in it at all."
+    },
+    {
+      "section": 1,
+      "start": 42.923,
+      "end": 44.353,
+      "text": "It did not rust."
+    },
+    {
+      "section": 1,
+      "start": 44.703,
+      "end": 46.26,
+      "text": "It did not tarnish."
+    },
+    {
+      "section": 1,
+      "start": 46.61,
+      "end": 54.674,
+      "text": "And when it was heated to a dull red, the temperature at which ordinary tool steel turns soft as butter, it stayed hard."
+    },
+    {
+      "section": 1,
+      "start": 55.824,
+      "end": 58.149,
+      "text": "He named it after the stars."
+    },
+    {
+      "section": 1,
+      "start": 59.299,
+      "end": 65.657,
+      "text": "For a few decades this alloy was one of the most important cutting materials in industry."
+    },
+    {
+      "section": 1,
+      "start": 66.007,
+      "end": 69.569,
+      "text": "It helped feed the factories of the First World War."
+    },
+    {
+      "section": 1,
+      "start": 69.919,
+      "end": 73.226,
+      "text": "It went into the engines that crossed the Atlantic."
+    },
+    {
+      "section": 1,
+      "start": 73.576,
+      "end": 79.08,
+      "text": "And then, almost as quickly as it arrived, it was pushed aside by something harder."
+    },
+    {
+      "section": 1,
+      "start": 80.23,
+      "end": 86.331,
+      "text": "Today almost nobody outside a machine shop or a welding supply store has heard of it."
+    },
+    {
+      "section": 1,
+      "start": 86.681,
+      "end": 89.049,
+      "text": "But it never really went away."
+    },
+    {
+      "section": 1,
+      "start": 89.399,
+      "end": 91.661,
+      "text": "So what happened to Stellite?"
+    },
+    {
+      "section": 2,
+      "start": 93.611,
+      "end": 99.733,
+      "text": "To understand why Stellite mattered, we have to start with the oldest problem in machining."
+    },
+    {
+      "section": 2,
+      "start": 100.883,
+      "end": 103.486,
+      "text": "Cutting metal is a strange act."
+    },
+    {
+      "section": 2,
+      "start": 103.836,
+      "end": 108.38,
+      "text": "A lathe tool does not slice through steel the way a knife cuts bread."
+    },
+    {
+      "section": 2,
+      "start": 108.73,
+      "end": 114.149,
+      "text": "It pushes into the material and forces a layer of it to shear away as a chip."
+    },
+    {
+      "section": 2,
+      "start": 114.499,
+      "end": 119.0,
+      "text": "That chip slides across the top of the tool under enormous pressure."
+    },
+    {
+      "section": 2,
+      "start": 119.35,
+      "end": 129.121,
+      "text": "The friction and the deformation turn almost all of that work into heat, and most of that heat gathers in a tiny zone right at the cutting edge."
+    },
+    {
+      "section": 2,
+      "start": 130.271,
+      "end": 134.708,
+      "text": "For most of the nineteenth century, tools were made of carbon steel."
+    },
+    {
+      "section": 2,
+      "start": 135.058,
+      "end": 141.181,
+      "text": "Carbon steel can be made very hard by heating it and quenching it in water or oil."
+    },
+    {
+      "section": 2,
+      "start": 141.531,
+      "end": 143.813,
+      "text": "But that hardness is borrowed."
+    },
+    {
+      "section": 2,
+      "start": 144.163,
+      "end": 150.115,
+      "text": "Heat the tool again, even to a few hundred degrees, and the hardness starts to drain away."
+    },
+    {
+      "section": 2,
+      "start": 150.465,
+      "end": 153.388,
+      "text": "The steel tempers itself while it works."
+    },
+    {
+      "section": 2,
+      "start": 153.738,
+      "end": 160.351,
+      "text": "So the machinist had a simple rule: go slow, keep it cool, and never let the edge change color."
+    },
+    {
+      "section": 2,
+      "start": 161.501,
+      "end": 165.597,
+      "text": "That rule set the speed of the entire industrial world."
+    },
+    {
+      "section": 2,
+      "start": 165.947,
+      "end": 175.099,
+      "text": "It limited how fast a crankshaft could be turned, how fast a gun barrel could be bored, and how many parts a factory could make in a day."
+    },
+    {
+      "section": 3,
+      "start": 177.049,
+      "end": 179.673,
+      "text": "The first escape came from England."
+    },
+    {
+      "section": 3,
+      "start": 180.023,
+      "end": 189.794,
+      "text": "In 1868 a metallurgist named Robert Forester Mushet developed a steel with tungsten and manganese in it."
+    },
+    {
+      "section": 3,
+      "start": 190.144,
+      "end": 196.736,
+      "text": "Mushet steel hardened simply by cooling in air, and it held its edge longer than carbon steel."
+    },
+    {
+      "section": 3,
+      "start": 197.086,
+      "end": 204.617,
+      "text": "It was a real step forward, though it was expensive and brittle, and most shops used it only for the hardest jobs."
+    },
+    {
+      "section": 3,
+      "start": 205.767,
+      "end": 209.756,
+      "text": "The bigger leap came at the end of the century, in Pennsylvania."
+    },
+    {
+      "section": 3,
+      "start": 210.106,
+      "end": 226.981,
+      "text": "In 1899 and 1900, Frederick Winslow Taylor and Maunsel White, working at the Bethlehem Steel Company, experimented with heating tungsten tool steels to temperatures that everyone else considered ruinous."
+    },
+    {
+      "section": 3,
+      "start": 227.331,
+      "end": 232.387,
+      "text": "The result was a steel that kept cutting even when its edge ran hot."
+    },
+    {
+      "section": 3,
+      "start": 232.737,
+      "end": 235.19,
+      "text": "Cutting speeds roughly tripled."
+    },
+    {
+      "section": 3,
+      "start": 236.34,
+      "end": 247.753,
+      "text": "At the Paris Exposition of 1900, tools made from the new steel were shown cutting at speeds that seemed impossible, with the edge running hot and still cutting."
+    },
+    {
+      "section": 3,
+      "start": 248.103,
+      "end": 251.154,
+      "text": "The demonstration caused a sensation."
+    },
+    {
+      "section": 3,
+      "start": 251.504,
+      "end": 255.28,
+      "text": "This was the birth of what we now call high-speed steel."
+    },
+    {
+      "section": 3,
+      "start": 256.43,
+      "end": 260.185,
+      "text": "High-speed steel changed machining almost overnight."
+    },
+    {
+      "section": 3,
+      "start": 260.535,
+      "end": 262.156,
+      "text": "But it was still steel."
+    },
+    {
+      "section": 3,
+      "start": 262.506,
+      "end": 267.733,
+      "text": "It still depended on heat treatment for its hardness, and it still had a limit."
+    },
+    {
+      "section": 3,
+      "start": 268.083,
+      "end": 271.048,
+      "text": "Push it hard enough and it, too, would give up."
+    },
+    {
+      "section": 3,
+      "start": 271.398,
+      "end": 274.257,
+      "text": "The door was open for something different."
+    },
+    {
+      "section": 4,
+      "start": 276.207,
+      "end": 280.175,
+      "text": "The man who walked through that door was not a steelmaker at all."
+    },
+    {
+      "section": 4,
+      "start": 281.325,
+      "end": 287.917,
+      "text": "Elwood Haynes was born in Portland, Indiana, in 1857."
+    },
+    {
+      "section": 4,
+      "start": 288.267,
+      "end": 299.424,
+      "text": "He trained as a teacher and studied chemistry, then worked in the natural gas industry that boomed across Indiana in the 1880s."
+    },
+    {
+      "section": 4,
+      "start": 299.774,
+      "end": 305.939,
+      "text": "He settled in the town of Kokomo, and there he became famous for something else entirely."
+    },
+    {
+      "section": 4,
+      "start": 306.289,
+      "end": 316.721,
+      "text": "On July the fourth, 1894, Haynes test drove one of the first gasoline automobiles built in the United States."
+    },
+    {
+      "section": 4,
+      "start": 317.071,
+      "end": 319.162,
+      "text": "He called it the Pioneer."
+    },
+    {
+      "section": 4,
+      "start": 320.312,
+      "end": 323.0,
+      "text": "But cars were only part of his story."
+    },
+    {
+      "section": 4,
+      "start": 323.35,
+      "end": 325.953,
+      "text": "Haynes was obsessed with metals."
+    },
+    {
+      "section": 4,
+      "start": 326.303,
+      "end": 339.999,
+      "text": "Around 1895 he began searching for a new hard alloy that would resist rusting, something he could use for engine parts and, later, for cutlery and instruments."
+    },
+    {
+      "section": 4,
+      "start": 340.349,
+      "end": 345.639,
+      "text": "Iron was the obvious starting point for almost every metallurgist of the time."
+    },
+    {
+      "section": 4,
+      "start": 345.989,
+      "end": 348.656,
+      "text": "Haynes went in another direction."
+    },
+    {
+      "section": 4,
+      "start": 349.006,
+      "end": 356.601,
+      "text": "He began experimenting with cobalt and chromium, two metals that most of the steel industry barely used."
+    },
+    {
+      "section": 4,
+      "start": 357.751,
+      "end": 360.055,
+      "text": "What he found was remarkable."
+    },
+    {
+      "section": 4,
+      "start": 360.405,
+      "end": 367.21,
+      "text": "An alloy of cobalt and chromium, with no iron to speak of, took a brilliant polish and kept it."
+    },
+    {
+      "section": 4,
+      "start": 367.56,
+      "end": 369.075,
+      "text": "It did not stain."
+    },
+    {
+      "section": 4,
+      "start": 369.425,
+      "end": 372.987,
+      "text": "It did not tarnish in air or in many acids."
+    },
+    {
+      "section": 4,
+      "start": 373.337,
+      "end": 382.937,
+      "text": "In 1907 Haynes received patents on two binary alloys: one of nickel and chromium, and one of cobalt and chromium."
+    },
+    {
+      "section": 4,
+      "start": 384.087,
+      "end": 392.087,
+      "text": "He chose a name from the Latin word stella, meaning star, because of the bright, lasting shine of the metal's surface."
+    },
+    {
+      "section": 4,
+      "start": 392.437,
+      "end": 394.037,
+      "text": "He called it Stellite."
+    },
+    {
+      "section": 5,
+      "start": 395.987,
+      "end": 404.457,
+      "text": "At first Haynes thought of Stellite as a material for table knives, surgical and dental instruments and spark plug parts."
+    },
+    {
+      "section": 5,
+      "start": 404.807,
+      "end": 406.556,
+      "text": "But he kept experimenting."
+    },
+    {
+      "section": 5,
+      "start": 406.906,
+      "end": 412.282,
+      "text": "He added tungsten to the cobalt and chromium, and the alloy changed character."
+    },
+    {
+      "section": 5,
+      "start": 412.632,
+      "end": 416.216,
+      "text": "It became much harder, hard enough to cut other metals."
+    },
+    {
+      "section": 5,
+      "start": 417.366,
+      "end": 425.771,
+      "text": "In 1913 Haynes was granted a patent on this three-part alloy of cobalt, chromium and tungsten."
+    },
+    {
+      "section": 5,
+      "start": 426.121,
+      "end": 432.969,
+      "text": "The patent described a range of compositions, with tungsten anywhere from five to sixty percent."
+    },
+    {
+      "section": 5,
+      "start": 433.319,
+      "end": 442.599,
+      "text": "Haynes recommended a mix with roughly a quarter to a half tungsten and around fifteen percent chromium, with cobalt making up the rest."
+    },
+    {
+      "section": 5,
+      "start": 443.749,
+      "end": 450.448,
+      "text": "The courts later examined this alloy in a patent dispute, and their description is worth repeating."
+    },
+    {
+      "section": 5,
+      "start": 450.798,
+      "end": 457.945,
+      "text": "They noted that ordinary tool steel held its edge fairly well up to about six hundred degrees Celsius."
+    },
+    {
+      "section": 5,
+      "start": 458.295,
+      "end": 465.548,
+      "text": "Haynes's alloy kept its hardness from around six hundred all the way up to about one thousand degrees."
+    },
+    {
+      "section": 5,
+      "start": 465.898,
+      "end": 477.973,
+      "text": "The court called this red hardness entirely novel among commercial alloys, and stated that in suitable work it allowed double the cutting speed of the best high-speed steel."
+    },
+    {
+      "section": 5,
+      "start": 479.123,
+      "end": 481.512,
+      "text": "That was the secret of Stellite."
+    },
+    {
+      "section": 5,
+      "start": 481.862,
+      "end": 483.889,
+      "text": "It was not a steel at all."
+    },
+    {
+      "section": 5,
+      "start": 484.239,
+      "end": 486.692,
+      "text": "It was not hardened by quenching."
+    },
+    {
+      "section": 5,
+      "start": 487.042,
+      "end": 489.709,
+      "text": "It was hard as it came out of the mold."
+    },
+    {
+      "section": 5,
+      "start": 490.059,
+      "end": 495.755,
+      "text": "There was no temper to lose, so when the edge glowed, nothing inside the metal changed."
+    },
+    {
+      "section": 5,
+      "start": 496.105,
+      "end": 504.169,
+      "text": "Stellite tools could be cast directly to shape and ground to a cutting edge, and they kept on cutting where steel would fail."
+    },
+    {
+      "section": 6,
+      "start": 506.119,
+      "end": 514.14,
+      "text": "Red hardness is worth a moment of its own, because it is the whole story of cutting tool materials in two words."
+    },
+    {
+      "section": 6,
+      "start": 515.29,
+      "end": 520.581,
+      "text": "Every cutting tool material is a compromise between hardness and toughness."
+    },
+    {
+      "section": 6,
+      "start": 520.931,
+      "end": 523.896,
+      "text": "Hardness lets the edge resist wear."
+    },
+    {
+      "section": 6,
+      "start": 524.246,
+      "end": 527.51,
+      "text": "Toughness lets it survive shocks without chipping."
+    },
+    {
+      "section": 6,
+      "start": 527.86,
+      "end": 532.468,
+      "text": "But at the cutting edge there is a third enemy, and that is temperature."
+    },
+    {
+      "section": 6,
+      "start": 532.818,
+      "end": 536.509,
+      "text": "A tool can be hard on the bench and soft in the cut."
+    },
+    {
+      "section": 6,
+      "start": 537.659,
+      "end": 541.968,
+      "text": "Carbon steel loses its hardness at a few hundred degrees."
+    },
+    {
+      "section": 6,
+      "start": 542.318,
+      "end": 545.454,
+      "text": "High-speed steel pushed that limit much higher."
+    },
+    {
+      "section": 6,
+      "start": 545.804,
+      "end": 550.625,
+      "text": "Stellite pushed it higher still, and it did so in a completely different way."
+    },
+    {
+      "section": 6,
+      "start": 550.975,
+      "end": 557.525,
+      "text": "In steel, hardness comes from a structure trapped by quenching, and heat lets that structure relax."
+    },
+    {
+      "section": 6,
+      "start": 557.875,
+      "end": 565.619,
+      "text": "In Stellite, hardness comes from hard carbides of chromium and tungsten locked inside a tough cobalt matrix."
+    },
+    {
+      "section": 6,
+      "start": 565.969,
+      "end": 568.379,
+      "text": "Heat does not undo that structure."
+    },
+    {
+      "section": 6,
+      "start": 568.729,
+      "end": 575.449,
+      "text": "The alloy is the same at nine hundred degrees as it was at room temperature, just a little softer."
+    },
+    {
+      "section": 6,
+      "start": 576.599,
+      "end": 585.175,
+      "text": "Every cutting material that came after Stellite would follow the same idea: hard particles held together by a tougher metal."
+    },
+    {
+      "section": 6,
+      "start": 585.525,
+      "end": 588.939,
+      "text": "Keep that in mind, because it is about to come back."
+    },
+    {
+      "section": 7,
+      "start": 590.889,
+      "end": 597.737,
+      "text": "In 1912 Haynes formed the Haynes Stellite Works on Union Street in Kokomo."
+    },
+    {
+      "section": 7,
+      "start": 598.087,
+      "end": 606.023,
+      "text": "In 1915, together with two local businessmen, he incorporated it as the Haynes Stellite Company."
+    },
+    {
+      "section": 7,
+      "start": 607.173,
+      "end": 609.818,
+      "text": "The timing could not have been better."
+    },
+    {
+      "section": 7,
+      "start": 610.168,
+      "end": 616.931,
+      "text": "The First World War created a demand for machined metal on a scale that no one had planned for."
+    },
+    {
+      "section": 7,
+      "start": 617.281,
+      "end": 625.195,
+      "text": "Shells, gun barrels, engine parts and aircraft components all had to be turned, bored and faced, by the million."
+    },
+    {
+      "section": 7,
+      "start": 625.545,
+      "end": 631.113,
+      "text": "Every minute a tool spent cutting instead of being reground meant more output."
+    },
+    {
+      "section": 7,
+      "start": 631.463,
+      "end": 638.589,
+      "text": "Stellite tools, able to run hot and fast on tough material, became a serious industrial product."
+    },
+    {
+      "section": 7,
+      "start": 639.739,
+      "end": 643.472,
+      "text": "The company received lucrative wartime contracts."
+    },
+    {
+      "section": 7,
+      "start": 643.822,
+      "end": 648.323,
+      "text": "By 1916, Elwood Haynes was a millionaire."
+    },
+    {
+      "section": 7,
+      "start": 649.473,
+      "end": 659.351,
+      "text": "In 1920 Haynes sold the company to Union Carbide, which was building a large business in alloys and industrial gases."
+    },
+    {
+      "section": 7,
+      "start": 659.701,
+      "end": 666.57,
+      "text": "Haynes himself died in Kokomo in 1925, at the age of sixty-seven."
+    },
+    {
+      "section": 7,
+      "start": 666.92,
+      "end": 678.355,
+      "text": "He is also remembered as one of the independent discoverers of stainless steel, an alloy he worked out around the same time as the English metallurgist Harry Brearley."
+    },
+    {
+      "section": 7,
+      "start": 678.705,
+      "end": 688.049,
+      "text": "It is a striking record for one man in one small town: an early car, a family of cobalt alloys, and a share in stainless steel."
+    },
+    {
+      "section": 8,
+      "start": 689.999,
+      "end": 695.481,
+      "text": "Under Union Carbide, Stellite found a second career that would outlast the first."
+    },
+    {
+      "section": 8,
+      "start": 696.631,
+      "end": 708.13,
+      "text": "In the early 1920s the company developed a hardfacing process: welding a layer of Stellite onto the surface of a part made of ordinary steel."
+    },
+    {
+      "section": 8,
+      "start": 708.48,
+      "end": 716.523,
+      "text": "Instead of making the whole part from expensive cobalt alloy, you could put a thin, hard skin exactly where wear happened."
+    },
+    {
+      "section": 8,
+      "start": 717.673,
+      "end": 721.363,
+      "text": "One of the first great uses was in engine valves."
+    },
+    {
+      "section": 8,
+      "start": 721.713,
+      "end": 730.055,
+      "text": "A poppet valve in an engine slams shut against its seat thousands of times a minute, in hot, corrosive exhaust gas."
+    },
+    {
+      "section": 8,
+      "start": 730.405,
+      "end": 735.077,
+      "text": "A Stellite face on the valve and the seat made them last far longer."
+    },
+    {
+      "section": 8,
+      "start": 736.227,
+      "end": 741.389,
+      "text": "In 1927 Charles Lindbergh flew the Spirit of St."
+    },
+    {
+      "section": 8,
+      "start": 741.739,
+      "end": 746.774,
+      "text": "Louis from New York to Paris, alone, nonstop, across the Atlantic."
+    },
+    {
+      "section": 8,
+      "start": 747.124,
+      "end": 752.244,
+      "text": "The engine that carried him included hard surfaced valves made by Haynes."
+    },
+    {
+      "section": 8,
+      "start": 752.594,
+      "end": 761.789,
+      "text": "The cobalt alloy invented for cutlery in a small Indiana town was now inside one of the most famous flights in history."
+    },
+    {
+      "section": 9,
+      "start": 763.739,
+      "end": 767.493,
+      "text": "Back in the machine shop, though, a new material was coming."
+    },
+    {
+      "section": 9,
+      "start": 768.643,
+      "end": 775.577,
+      "text": "In Germany, researchers at the lamp maker Osram had been working with tungsten for light bulb filaments."
+    },
+    {
+      "section": 9,
+      "start": 775.927,
+      "end": 785.612,
+      "text": "Tungsten carbide, a compound of tungsten and carbon, was known to be extraordinarily hard, but on its own it was far too brittle to use."
+    },
+    {
+      "section": 9,
+      "start": 785.962,
+      "end": 794.367,
+      "text": "In 1923 Karl Schröter, head of research at Osram, filed a patent on a way around the problem."
+    },
+    {
+      "section": 9,
+      "start": 794.717,
+      "end": 802.717,
+      "text": "He pressed fine tungsten carbide powder together with a small amount of cobalt and sintered it into a solid body."
+    },
+    {
+      "section": 9,
+      "start": 803.067,
+      "end": 808.358,
+      "text": "The cobalt melted around the carbide grains and held them together like cement."
+    },
+    {
+      "section": 9,
+      "start": 809.508,
+      "end": 815.311,
+      "text": "At the end of 1925 Osram sold the license to Krupp."
+    },
+    {
+      "section": 9,
+      "start": 815.661,
+      "end": 824.642,
+      "text": "In 1926 Krupp brought the material to market under the name Widia, from the German wie Diamant, like diamond."
+    },
+    {
+      "section": 9,
+      "start": 824.992,
+      "end": 836.896,
+      "text": "It was shown at the Leipzig fair in 1927, and by the late 1920s cemented carbide was reaching shops in America as well."
+    },
+    {
+      "section": 9,
+      "start": 838.046,
+      "end": 841.971,
+      "text": "The early carbide tips were brittle and tricky to use."
+    },
+    {
+      "section": 9,
+      "start": 842.321,
+      "end": 848.273,
+      "text": "They chipped if the machine vibrated, and they had to be brazed onto steel shanks by hand."
+    },
+    {
+      "section": 9,
+      "start": 848.623,
+      "end": 856.773,
+      "text": "But they were far harder than Stellite, and as machines grew more rigid they could run at speeds no cast alloy could match."
+    },
+    {
+      "section": 9,
+      "start": 857.123,
+      "end": 866.915,
+      "text": "Reports from the time describe steel being cut at up to one hundred and fifty meters per minute, nearly four times faster than high-speed steel."
+    },
+    {
+      "section": 9,
+      "start": 868.065,
+      "end": 876.619,
+      "text": "Over the following decades, brazed carbide tips gave way to indexable carbide inserts, and then to coated inserts."
+    },
+    {
+      "section": 9,
+      "start": 876.969,
+      "end": 879.423,
+      "text": "Carbide took over the cutting edge."
+    },
+    {
+      "section": 9,
+      "start": 880.573,
+      "end": 882.706,
+      "text": "Now notice the irony."
+    },
+    {
+      "section": 9,
+      "start": 883.056,
+      "end": 891.675,
+      "text": "Cemented carbide is made of hard particles held in a tough metal binder, exactly the idea that made Stellite work."
+    },
+    {
+      "section": 9,
+      "start": 892.025,
+      "end": 898.062,
+      "text": "And the binder that holds most carbide together is cobalt, the metal at the heart of Stellite."
+    },
+    {
+      "section": 9,
+      "start": 898.412,
+      "end": 903.34,
+      "text": "The material that replaced Stellite was built from its own core ingredient."
+    },
+    {
+      "section": 10,
+      "start": 905.29,
+      "end": 908.362,
+      "text": "Stellite did not lose because it was bad."
+    },
+    {
+      "section": 10,
+      "start": 908.712,
+      "end": 915.837,
+      "text": "It lost because carbide was better at the one thing that mattered most in metal cutting: hardness at speed."
+    },
+    {
+      "section": 10,
+      "start": 916.987,
+      "end": 920.913,
+      "text": "A cast cobalt alloy sits in an awkward middle position."
+    },
+    {
+      "section": 10,
+      "start": 921.263,
+      "end": 926.575,
+      "text": "It is tougher than carbide and better at high temperature than high-speed steel."
+    },
+    {
+      "section": 10,
+      "start": 926.925,
+      "end": 930.125,
+      "text": "For a while, that middle position was valuable."
+    },
+    {
+      "section": 10,
+      "start": 930.475,
+      "end": 937.621,
+      "text": "Cast alloy tools were used for heavy cuts on rough castings and for jobs where carbide would chip."
+    },
+    {
+      "section": 10,
+      "start": 937.971,
+      "end": 946.078,
+      "text": "But every improvement in carbide, tougher grades, better geometry, better machines, squeezed that middle space smaller."
+    },
+    {
+      "section": 10,
+      "start": 947.228,
+      "end": 949.703,
+      "text": "There was also the question of cost."
+    },
+    {
+      "section": 10,
+      "start": 950.053,
+      "end": 954.618,
+      "text": "Cobalt is expensive, and a solid cast tool uses a lot of it."
+    },
+    {
+      "section": 10,
+      "start": 954.968,
+      "end": 964.333,
+      "text": "A carbide insert uses only a small amount of cobalt as a binder, and when one edge wears out, you simply rotate it to a fresh one."
+    },
+    {
+      "section": 10,
+      "start": 964.683,
+      "end": 969.675,
+      "text": "For a factory counting every cent per part, the choice became obvious."
+    },
+    {
+      "section": 10,
+      "start": 970.825,
+      "end": 977.652,
+      "text": "By the second half of the twentieth century, cast cobalt alloys had largely disappeared from the lathe."
+    },
+    {
+      "section": 10,
+      "start": 978.002,
+      "end": 981.138,
+      "text": "As cutting tools, they had become a footnote."
+    },
+    {
+      "section": 11,
+      "start": 983.088,
+      "end": 985.755,
+      "text": "And yet Stellite did not disappear."
+    },
+    {
+      "section": 11,
+      "start": 986.105,
+      "end": 994.339,
+      "text": "It moved to places where wear, heat and corrosion all attack at once, and where toughness matters as much as hardness."
+    },
+    {
+      "section": 11,
+      "start": 995.489,
+      "end": 1004.492,
+      "text": "It is welded onto the teeth of sawmill blades, where it lets a saw cut through wood full of grit and sap for far longer before sharpening."
+    },
+    {
+      "section": 11,
+      "start": 1004.842,
+      "end": 1009.834,
+      "text": "It still protects valve seats and valves in engines and in power plants."
+    },
+    {
+      "section": 11,
+      "start": 1010.184,
+      "end": 1016.541,
+      "text": "It is used on pump impellers, wear rings and shafts that grind against abrasive fluids."
+    },
+    {
+      "section": 11,
+      "start": 1016.891,
+      "end": 1026.427,
+      "text": "The first section of the barrel in some heavy machine guns is lined with a Stellite alloy to resist the erosion of hot propellant gas."
+    },
+    {
+      "section": 11,
+      "start": 1027.577,
+      "end": 1030.18,
+      "text": "It even found its way into medicine."
+    },
+    {
+      "section": 11,
+      "start": 1030.53,
+      "end": 1042.946,
+      "text": "The cage of the Starr-Edwards heart valve, one of the first commercially available artificial heart valves, first implanted in 1960, was made from a Stellite alloy."
+    },
+    {
+      "section": 11,
+      "start": 1043.296,
+      "end": 1048.181,
+      "text": "Cobalt chromium alloys are still used for dental prostheses today."
+    },
+    {
+      "section": 11,
+      "start": 1049.331,
+      "end": 1052.275,
+      "text": "The business changed hands many times."
+    },
+    {
+      "section": 11,
+      "start": 1052.625,
+      "end": 1058.983,
+      "text": "Union Carbide sold the company to the Cabot Corporation in 1970."
+    },
+    {
+      "section": 11,
+      "start": 1059.333,
+      "end": 1073.221,
+      "text": "In 1985 Cabot sold the Stellite hardfacing business, and the rest of the Kokomo operation became Haynes International, a maker of high-performance nickel and cobalt alloys."
+    },
+    {
+      "section": 11,
+      "start": 1073.571,
+      "end": 1084.408,
+      "text": "The Stellite trademark itself was acquired by Kennametal in 2012, a company that grew up making, of all things, carbide cutting tools."
+    },
+    {
+      "section": 12,
+      "start": 1086.358,
+      "end": 1091.371,
+      "text": "Stellite lost the race it became famous for, but it never lost its edge."
+    },
+    {
+      "section": 12,
+      "start": 1092.521,
+      "end": 1096.66,
+      "text": "Its story is the story of almost every cutting material."
+    },
+    {
+      "section": 12,
+      "start": 1097.01,
+      "end": 1098.247,
+      "text": "A breakthrough."
+    },
+    {
+      "section": 12,
+      "start": 1098.597,
+      "end": 1100.069,
+      "text": "A golden era."
+    },
+    {
+      "section": 12,
+      "start": 1100.419,
+      "end": 1101.934,
+      "text": "A faster rival."
+    },
+    {
+      "section": 12,
+      "start": 1102.284,
+      "end": 1105.847,
+      "text": "And then a second life somewhere nobody expected."
+    },
+    {
+      "section": 12,
+      "start": 1106.197,
+      "end": 1109.503,
+      "text": "Carbon steel gave way to tungsten steel."
+    },
+    {
+      "section": 12,
+      "start": 1109.853,
+      "end": 1113.352,
+      "text": "Tungsten steel gave way to high-speed steel."
+    },
+    {
+      "section": 12,
+      "start": 1113.702,
+      "end": 1117.35,
+      "text": "High-speed steel and Stellite gave way to carbide."
+    },
+    {
+      "section": 12,
+      "start": 1117.7,
+      "end": 1124.335,
+      "text": "And carbide itself now shares the edge with ceramics, cubic boron nitride and diamond."
+    },
+    {
+      "section": 12,
+      "start": 1125.485,
+      "end": 1128.045,
+      "text": "What stays the same is the problem."
+    },
+    {
+      "section": 12,
+      "start": 1128.395,
+      "end": 1136.629,
+      "text": "A small, hot, punishing zone at the tip of a tool, where metal meets metal and the material that survives the heat wins."
+    },
+    {
+      "section": 12,
+      "start": 1137.779,
+      "end": 1142.665,
+      "text": "Elwood Haynes went looking for a metal that would not tarnish on a dinner table."
+    },
+    {
+      "section": 12,
+      "start": 1143.015,
+      "end": 1154.727,
+      "text": "He found one that changed how the world cut steel, flew across the Atlantic inside a famous engine, and still guards saw teeth and valve seats more than a century later."
+    },
+    {
+      "section": 12,
+      "start": 1155.877,
+      "end": 1158.309,
+      "text": "That is what happened to Stellite."
+    },
+    {
+      "section": 12,
+      "start": 1159.459,
+      "end": 1168.248,
+      "text": "If you want to see what came after it, why carbide really works, and how a modern insert can cut hardened steel, stay with this channel."
+    },
+    {
+      "section": 12,
+      "start": 1168.598,
+      "end": 1173.483,
+      "text": "And tell us in the comments which forgotten tool we should open up next."
+    }
+  ],
   "sample_rate": 24000,
   "duration": 1175.433
 }

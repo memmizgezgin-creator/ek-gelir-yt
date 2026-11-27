@@ -3,11 +3,11 @@
   "checks": {
     "duration": {
       "ok": true,
-      "detail": "19.56 min"
+      "detail": "19.59 min"
     },
     "sync": {
       "ok": true,
-      "detail": "video 1173.44s, audio 1173.46s"
+      "detail": "video 1175.44s, audio 1175.43s"
     },
     "resolution": {
       "ok": true,
@@ -15,15 +15,27 @@
     },
     "images": {
       "ok": true,
-      "detail": "52 licensed images (minimum 10, text cards alone do not pass)"
+      "detail": "154 licensed images (minimum 10, text cards alone do not pass)"
     },
     "licenses": {
       "ok": true,
-      "detail": "52 images, missing records: none"
+      "detail": "154 images, missing records: none"
     },
     "fact_check": {
       "ok": true,
       "detail": "0 unverified claims"
+    },
+    "pace": {
+      "ok": true,
+      "detail": "188 shots, average 6.25s, too long none, overused none, cards 20% (max 25%)"
+    },
+    "illustrations": {
+      "ok": true,
+      "detail": "81 (max 82)"
+    },
+    "visual_qa": {
+      "ok": true,
+      "detail": "score 7.0 (minimum 7)"
     }
   }
 }
