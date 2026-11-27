@@ -1,0 +1,22 @@
+{
+  "_note": "Shot list for 001 section 1. Each shot starts at the sentence that begins with 'at' and runs until the next shot. Later Claude writes this file per episode.",
+  "style": "Detailed graphic novel illustration, cinematic lighting, muted warm palette of rust, brass and deep teal, fine ink linework, painterly texture, historically accurate early 20th century details, 16:9 wide shot. No text, letters, numbers or logos.",
+  "shots": [
+    {"at": "At the start of the twentieth century", "type": "illus", "prompt": "A busy 1905 machine shop, rows of belt-driven lathes under overhead line shafts and leather belts, machinists in flat caps and aprons, dusty sunbeams through tall factory windows", "move": "in"},
+    {"at": "Steel was getting harder", "type": "photo", "key": "shop", "move": "right"},
+    {"at": "Electric motors and heavier lathes", "type": "photo", "key": "lathe", "move": "in"},
+    {"at": "But the tool itself kept failing", "type": "illus", "prompt": "Extreme close-up of a lathe cutting tool pressed against a spinning steel bar, the tip of the tool glowing dull red from heat, a blue curling chip and tiny sparks, dark background", "move": "in"},
+    {"at": "The machinist stopped the lathe", "type": "illus", "prompt": "A tired machinist in a flat cap and leather apron sharpening a worn tool bit on a large grinding wheel, sparks flying, 1905 workshop, frustrated expression", "move": "left"},
+    {"at": "Then an inventor in a small town in Indiana", "type": "illus", "prompt": "A small Indiana town street around 1905 at dusk, brick storefronts, a lit workshop window glowing warm where an inventor works late", "move": "right"},
+    {"at": "It was a metal with almost no iron", "type": "words", "lines": ["ALMOST NO IRON", "NO RUST", "NO TARNISH"]},
+    {"at": "And when it was heated to a dull red", "type": "compare", "title": "AT A DULL RED HEAT", "left": ["TOOL STEEL", "SOFT"], "right": ["THE NEW ALLOY", "STILL HARD"]},
+    {"at": "He named it after the stars", "type": "illus", "prompt": "A polished silvery metal bar on a wooden workbench reflecting a clear night sky full of bright stars seen through an open workshop window, quiet and magical", "move": "in"},
+    {"at": "For a few decades", "type": "photo", "key": "toolbit", "move": "in"},
+    {"at": "It helped feed the factories", "type": "photo", "key": "munitions", "move": "right", "label": "First World War"},
+    {"at": "It went into the engines", "type": "photo", "key": "spirit", "move": "left", "label": "Across the Atlantic, 1927"},
+    {"at": "And then, almost as quickly", "type": "photo", "key": "carbide", "move": "in"},
+    {"at": "Today almost nobody", "type": "photo", "key": "hardfacing", "move": "right"},
+    {"at": "But it never really went away", "type": "photo", "key": "valve", "move": "in"},
+    {"at": "So what happened to Stellite", "type": "title", "text": "WHAT HAPPENED TO STELLITE?", "prompt": "A glowing star-shaped spark above an old belt-driven lathe in a dark workshop, dramatic rim light, mysterious mood", "move": "in"}
+  ]
+}

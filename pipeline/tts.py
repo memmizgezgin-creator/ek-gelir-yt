@@ -62,7 +62,7 @@ def main() -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     chunks: list[np.ndarray] = [np.zeros(int(LEAD_IN * SR), dtype=np.float32)]
     t = LEAD_IN
-    timeline = {"sections": [], "sample_rate": SR}
+    timeline = {"sections": [], "sentences": [], "sample_rate": SR}
     cues: list[tuple[float, float, str]] = []
 
     for sec in script.sections:
@@ -81,6 +81,8 @@ def main() -> None:
                     pd = dur * len(p) / total_chars
                     cues.append((ct, ct + pd, p))
                     ct += pd
+                timeline["sentences"].append({"section": sec.index, "start": round(t, 3),
+                                              "end": round(t + dur, 3), "text": sent})
                 chunks.append(audio)
                 t += dur
                 chunks.append(np.zeros(int(PAUSE_SENT * SR), dtype=np.float32))

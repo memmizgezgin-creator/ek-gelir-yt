@@ -1,0 +1,77 @@
+name: sample-v2
+
+# Before/after sample: section 1 of 001 rendered the old way (cut from the existing render)
+# and the new shot-based way (pipeline/shots.py). Commits both clips to samples/ for review.
+on:
+  workflow_dispatch:
+    inputs:
+      before_run_id:
+        description: "produce run id holding the video-001 artifact"
+        default: "46014558318"
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - run: pip install -r requirements.txt
+      - uses: actions/cache@v4
+        with:
+          path: models
+          key: kokoro-v1.0
+      - run: pipeline/get_models.sh
+      - name: One-section script
+        run: |
+          python - <<'PY'
+          import json, re
+          raw = open("scripts/001-stellite.md").read()
+          fm, body = raw.split("---\n", 2)[1], raw.split("---\n", 2)[2]
+          sec1 = body.split("\n## ")[0] if body.startswith("## ") else body
+          sec1 = "## " + body.split("## ", 2)[1]
+          keys = ["shop", "lathe", "toolbit", "munitions", "spirit", "carbide", "hardfacing", "valve"]
+          sec1 = re.sub(r"images:.*", "images: " + ", ".join(keys), sec1, count=1)
+          open("scripts/901-sample.md", "w").write("---\n" + fm.replace('id: "001"', 'id: "901"').replace("id: 001", "id: 901") + "---\n\n" + sec1)
+          q = json.load(open("scripts/001-stellite.images.json"))
+          json.dump({k: v for k, v in q.items() if k.startswith("_") or k in keys}, open("scripts/901-sample.images.json", "w"))
+          PY
+          head -5 scripts/901-sample.md; grep -c "" scripts/901-sample.md
+      - run: python pipeline/images.py 901
+      - run: python pipeline/tts.py 901
+      - name: After (v2 shots)
+        env:
+          DEEPINFRA_API_KEY: ${{ secrets.DEEPINFRA_API_KEY }}
+        run: |
+          mkdir -p samples
+          cd pipeline && python shots.py 901 ../samples/001-s1.shots.json --out ../samples/001-s1-after.mp4 --height 720
+      - uses: actions/download-artifact@v4
+        with:
+          name: video-001
+          run-id: ${{ github.event.inputs.before_run_id }}
+          github-token: ${{ github.token }}
+          path: /tmp/before
+      - name: Before (current render, same section)
+        run: |
+          len=$(python -c "import json;print(json.load(open('out/901/timeline.json'))['duration'])")
+          src=$(find /tmp/before -name '*.mp4' | head -1)
+          ffmpeg -y -loglevel error -i "$src" -t "$len" -vf scale=-2:720 -c:v libx264 -crf 23 -preset medium -c:a aac -b:a 160k -movflags +faststart samples/001-s1-before.mp4
+          cp out/901/shots-preview.jpg samples/001-s1-shots.jpg
+          cp out/901/costs.json samples/001-s1-costs.json
+          ls -la samples
+      - name: Commit
+        run: |
+          git config user.name "ek-gelir-yt bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add samples
+          git commit -m "sample v2: 001 section 1 before/after" || true
+          git pull --rebase -q origin main
+          git push
