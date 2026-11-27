@@ -1,0 +1,138 @@
+{
+  "sections": [
+    {
+      "index": 1,
+      "title": "The tool that cut faster than steel",
+      "images": [
+        "stellite",
+        "lathe",
+        "shop"
+      ],
+      "start": 1.0,
+      "end": 93.611
+    },
+    {
+      "index": 2,
+      "title": "A machinist's problem",
+      "images": [
+        "lathe",
+        "shop",
+        "toolbit"
+      ],
+      "start": 93.611,
+      "end": 177.049
+    },
+    {
+      "index": 3,
+      "title": "The first escape: tungsten steel",
+      "images": [
+        "mushet",
+        "taylor",
+        "paris"
+      ],
+      "start": 177.049,
+      "end": 276.207
+    },
+    {
+      "index": 4,
+      "title": "Elwood Haynes of Kokomo",
+      "images": [
+        "haynes",
+        "pioneer",
+        "kokomo"
+      ],
+      "start": 276.207,
+      "end": 395.987
+    },
+    {
+      "index": 5,
+      "title": "Adding tungsten",
+      "images": [
+        "patent",
+        "stellite",
+        "toolbit"
+      ],
+      "start": 395.987,
+      "end": 506.119
+    },
+    {
+      "index": 6,
+      "title": "Red hardness, explained",
+      "images": [
+        "lathe",
+        "toolbit",
+        "shop"
+      ],
+      "start": 506.119,
+      "end": 590.889
+    },
+    {
+      "index": 7,
+      "title": "The factory and the war",
+      "images": [
+        "haynes",
+        "kokomo",
+        "munitions"
+      ],
+      "start": 590.889,
+      "end": 689.999
+    },
+    {
+      "index": 8,
+      "title": "Hardfacing and the Atlantic crossing",
+      "images": [
+        "valve",
+        "spirit",
+        "stellite"
+      ],
+      "start": 689.999,
+      "end": 763.739
+    },
+    {
+      "index": 9,
+      "title": "The material that replaced it",
+      "images": [
+        "krupp",
+        "carbide",
+        "insert"
+      ],
+      "start": 763.739,
+      "end": 905.29
+    },
+    {
+      "index": 10,
+      "title": "Why Stellite lost the cutting race",
+      "images": [
+        "insert",
+        "lathe",
+        "toolbit"
+      ],
+      "start": 905.29,
+      "end": 983.088
+    },
+    {
+      "index": 11,
+      "title": "Where Stellite survives today",
+      "images": [
+        "saw",
+        "valve",
+        "stellite"
+      ],
+      "start": 983.088,
+      "end": 1086.358
+    },
+    {
+      "index": 12,
+      "title": "What it teaches",
+      "images": [
+        "stellite",
+        "toolbit",
+        "shop"
+      ],
+      "start": 1086.358,
+      "end": 1175.433
+    }
+  ],
+  "sample_rate": 24000,
+  "duration": 1175.433
+}
