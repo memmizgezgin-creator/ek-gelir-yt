@@ -42,16 +42,24 @@ def public_domain(meta: dict) -> bool:
 
 
 def clean(img: Image.Image) -> Image.Image:
+    """Scanned sheet -> line art: the paper tone becomes transparent, the lines become ink."""
     g = ImageOps.grayscale(img)
-    g = ImageOps.autocontrast(g, cutoff=1)
-    bg = Image.new("L", g.size, 255)
-    box = ImageChops.difference(g, bg).point(lambda p: 255 if p > 40 else 0).getbbox()
+    hist = g.histogram()
+    total, acc, lo, hi = sum(hist), 0, 0, 255
+    for v, n in enumerate(hist):
+        acc += n
+        if acc <= total * 0.03:
+            lo = v
+        if acc <= total * 0.55:
+            hi = v
+    hi = max(hi - 18, lo + 30)          # paper sits around the median; everything lighter is paper
+    alpha = g.point(lambda v: 255 if v <= lo else 0 if v >= hi else int(255 * (hi - v) / (hi - lo)))
+    box = alpha.point(lambda a: 255 if a > 90 else 0).getbbox()
     if box:
-        pad = 40
-        g = g.crop((max(0, box[0] - pad), max(0, box[1] - pad), min(g.width, box[2] + pad), min(g.height, box[3] + pad)))
-    # ink on paper: dark lines become INK, white becomes transparent so the paper shows through
-    alpha = ImageOps.invert(g)
-    layer = Image.new("RGBA", g.size, INK + (0,))
+        pad = 60
+        box = (max(0, box[0] - pad), max(0, box[1] - pad), min(g.width, box[2] + pad), min(g.height, box[3] + pad))
+        alpha = alpha.crop(box)
+    layer = Image.new("RGBA", alpha.size, INK + (0,))
     layer.putalpha(alpha)
     return layer
 
